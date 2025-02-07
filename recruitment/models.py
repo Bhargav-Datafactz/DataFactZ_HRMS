@@ -22,12 +22,12 @@ from django.db.models.signals import m2m_changed, post_save
 from django.dispatch import receiver
 from django.utils.translation import gettext_lazy as _
 
-from base.horilla_company_manager import HorillaCompanyManager
+from base.datafactz_company_manager import DatafactzCompanyManager
 from base.models import Company, JobPosition
 from employee.models import Employee
-from horilla.models import HorillaModel
-from horilla_audit.methods import get_diff
-from horilla_audit.models import HorillaAuditInfo, HorillaAuditLog
+from datafactz.models import DatafactzModel
+from datafactz_audit.methods import get_diff
+from datafactz_audit.models import DatafactzAuditInfo, DatafactzAuditLog
 
 # Create your models here.
 
@@ -71,7 +71,7 @@ def candidate_photo_upload_path(instance, filename):
     return os.path.join("recruitment/profile/", filename)
 
 
-class SurveyTemplate(HorillaModel):
+class SurveyTemplate(DatafactzModel):
     """
     SurveyTemplate Model
     """
@@ -86,13 +86,13 @@ class SurveyTemplate(HorillaModel):
         blank=True,
         verbose_name=_("Company"),
     )
-    objects = HorillaCompanyManager("company_id")
+    objects = DatafactzCompanyManager("company_id")
 
     def __str__(self) -> str:
         return self.title
 
 
-class Skill(HorillaModel):
+class Skill(DatafactzModel):
     title = models.CharField(max_length=100)
 
     def __str__(self):
@@ -104,7 +104,7 @@ class Skill(HorillaModel):
         super().save(*args, **kwargs)
 
 
-class Recruitment(HorillaModel):
+class Recruitment(DatafactzModel):
     """
     Recruitment model
     """
@@ -161,7 +161,7 @@ class Recruitment(HorillaModel):
     start_date = models.DateField(default=django.utils.timezone.now)
     end_date = models.DateField(blank=True, null=True)
     skills = models.ManyToManyField(Skill, blank=True)
-    objects = HorillaCompanyManager()
+    objects = DatafactzCompanyManager()
     default = models.manager.Manager()
     optional_profile_image = models.BooleanField(
         default=False, help_text=_("Profile image not mandatory for candidate creation")
@@ -267,7 +267,7 @@ def create_initial_stage(sender, instance, created, **kwargs):
         initial_stage.save()
 
 
-class Stage(HorillaModel):
+class Stage(DatafactzModel):
     """
     Stage model
     """
@@ -292,7 +292,7 @@ class Stage(HorillaModel):
         max_length=20, choices=stage_types, default="interview"
     )
     sequence = models.IntegerField(null=True, default=0)
-    objects = HorillaCompanyManager(related_company_field="recruitment_id__company_id")
+    objects = DatafactzCompanyManager(related_company_field="recruitment_id__company_id")
 
     def __str__(self):
         return f"{self.stage}"
@@ -317,7 +317,7 @@ class Stage(HorillaModel):
         }
 
 
-class Candidate(HorillaModel):
+class Candidate(DatafactzModel):
     """
     Candidate model
     """
@@ -429,10 +429,10 @@ class Candidate(HorillaModel):
     joining_date = models.DateField(
         blank=True, null=True, verbose_name=_("Joining Date")
     )
-    history = HorillaAuditLog(
+    history = DatafactzAuditLog(
         related_name="history_set",
         bases=[
-            HorillaAuditInfo,
+            DatafactzAuditInfo,
         ],
     )
     sequence = models.IntegerField(null=True, default=0)
@@ -444,7 +444,7 @@ class Candidate(HorillaModel):
         default="not_sent",
         editable=False,
     )
-    objects = HorillaCompanyManager(related_company_field="recruitment_id__company_id")
+    objects = DatafactzCompanyManager(related_company_field="recruitment_id__company_id")
     last_updated = models.DateField(null=True, auto_now=True)
 
     converted_employee_id.exclude_from_automation = True
@@ -614,10 +614,10 @@ class Candidate(HorillaModel):
         ordering = ["sequence"]
 
 
-from horilla.signals import pre_bulk_update
+from datafactz.signals import pre_bulk_update
 
 
-class RejectReason(HorillaModel):
+class RejectReason(DatafactzModel):
     """
     RejectReason
     """
@@ -633,13 +633,13 @@ class RejectReason(HorillaModel):
         blank=True,
         verbose_name=_("Company"),
     )
-    objects = HorillaCompanyManager()
+    objects = DatafactzCompanyManager()
 
     def __str__(self) -> str:
         return self.title
 
 
-class RejectedCandidate(HorillaModel):
+class RejectedCandidate(DatafactzModel):
     """
     RejectedCandidate
     """
@@ -654,13 +654,13 @@ class RejectedCandidate(HorillaModel):
         RejectReason, verbose_name="Reject reason", blank=True
     )
     description = models.TextField(max_length=255)
-    objects = HorillaCompanyManager(
+    objects = DatafactzCompanyManager(
         related_company_field="candidate_id__recruitment_id__company_id"
     )
-    history = HorillaAuditLog(
+    history = DatafactzAuditLog(
         related_name="history_set",
         bases=[
-            HorillaAuditInfo,
+            DatafactzAuditInfo,
         ],
     )
 
@@ -668,14 +668,14 @@ class RejectedCandidate(HorillaModel):
         return super().__str__()
 
 
-class StageFiles(HorillaModel):
+class StageFiles(DatafactzModel):
     files = models.FileField(upload_to="recruitment/stageFiles", blank=True, null=True)
 
     def __str__(self):
         return self.files.name.split("/")[-1]
 
 
-class StageNote(HorillaModel):
+class StageNote(DatafactzModel):
     """
     StageNote model
     """
@@ -688,7 +688,7 @@ class StageNote(HorillaModel):
         Employee, on_delete=models.CASCADE, null=True, blank=True
     )
     candidate_can_view = models.BooleanField(default=False)
-    objects = HorillaCompanyManager(
+    objects = DatafactzCompanyManager(
         related_company_field="candidate_id__recruitment_id__company_id"
     )
 
@@ -702,7 +702,7 @@ class StageNote(HorillaModel):
             return self.candidate_id
 
 
-class RecruitmentSurvey(HorillaModel):
+class RecruitmentSurvey(DatafactzModel):
     """
     RecruitmentSurvey model
     """
@@ -740,7 +740,7 @@ class RecruitmentSurvey(HorillaModel):
     options = models.TextField(
         null=True, default="", help_text=_("Separate choices by ',  '"), max_length=255
     )
-    objects = HorillaCompanyManager(related_company_field="recruitment_ids__company_id")
+    objects = DatafactzCompanyManager(related_company_field="recruitment_ids__company_id")
 
     def __str__(self) -> str:
         return str(self.question)
@@ -767,7 +767,7 @@ class RecruitmentSurvey(HorillaModel):
         ]
 
 
-class QuestionOrdering(HorillaModel):
+class QuestionOrdering(DatafactzModel):
     """
     Survey Template model
     """
@@ -775,10 +775,10 @@ class QuestionOrdering(HorillaModel):
     question_id = models.ForeignKey(RecruitmentSurvey, on_delete=models.CASCADE)
     recruitment_id = models.ForeignKey(Recruitment, on_delete=models.CASCADE)
     sequence = models.IntegerField(default=0)
-    objects = HorillaCompanyManager(related_company_field="recruitment_ids__company_id")
+    objects = DatafactzCompanyManager(related_company_field="recruitment_ids__company_id")
 
 
-class RecruitmentSurveyAnswer(HorillaModel):
+class RecruitmentSurveyAnswer(DatafactzModel):
     """
     RecruitmentSurveyAnswer
     """
@@ -800,7 +800,7 @@ class RecruitmentSurveyAnswer(HorillaModel):
     attachment = models.FileField(
         upload_to="recruitment_attachment", null=True, blank=True
     )
-    objects = HorillaCompanyManager(related_company_field="recruitment_id__company_id")
+    objects = DatafactzCompanyManager(related_company_field="recruitment_id__company_id")
 
     @property
     def answer(self):
@@ -817,7 +817,7 @@ class RecruitmentSurveyAnswer(HorillaModel):
         return f"{self.candidate_id.name}-{self.recruitment_id}"
 
 
-class RecruitmentMailTemplate(HorillaModel):
+class RecruitmentMailTemplate(DatafactzModel):
     title = models.CharField(max_length=25, unique=True)
     body = models.TextField()
     company_id = models.ForeignKey(
@@ -832,7 +832,7 @@ class RecruitmentMailTemplate(HorillaModel):
         return f"{self.title}"
 
 
-class SkillZone(HorillaModel):
+class SkillZone(DatafactzModel):
     """ "
     Model for talent pool
     """
@@ -846,7 +846,7 @@ class SkillZone(HorillaModel):
         on_delete=models.CASCADE,
         verbose_name=_("Company"),
     )
-    objects = HorillaCompanyManager()
+    objects = DatafactzCompanyManager()
 
     def get_active(self):
         return SkillZoneCandidate.objects.filter(is_active=True, skill_zone_id=self)
@@ -855,7 +855,7 @@ class SkillZone(HorillaModel):
         return self.title
 
 
-class SkillZoneCandidate(HorillaModel):
+class SkillZoneCandidate(DatafactzModel):
     """
     Model for saving candidate data's for future recruitment
     """
@@ -884,7 +884,7 @@ class SkillZoneCandidate(HorillaModel):
 
     reason = models.CharField(max_length=200, verbose_name=_("Reason"))
     added_on = models.DateField(auto_now_add=True)
-    objects = HorillaCompanyManager(
+    objects = DatafactzCompanyManager(
         related_company_field="candidate_id__recruitment_id__company_id"
     )
 
@@ -911,7 +911,7 @@ class SkillZoneCandidate(HorillaModel):
         return str(self.candidate_id.get_full_name())
 
 
-class CandidateRating(HorillaModel):
+class CandidateRating(DatafactzModel):
     employee_id = models.ForeignKey(
         Employee, on_delete=models.PROTECT, related_name="candidate_rating"
     )
@@ -929,7 +929,7 @@ class CandidateRating(HorillaModel):
         return f"{self.employee_id} - {self.candidate_id} rating {self.rating}"
 
 
-class RecruitmentGeneralSetting(HorillaModel):
+class RecruitmentGeneralSetting(DatafactzModel):
     """
     RecruitmentGeneralSettings model
     """
@@ -939,7 +939,7 @@ class RecruitmentGeneralSetting(HorillaModel):
     company_id = models.ForeignKey(Company, on_delete=models.CASCADE, null=True)
 
 
-class InterviewSchedule(HorillaModel):
+class InterviewSchedule(DatafactzModel):
     """
     Interview Scheduling Model
     """
@@ -959,7 +959,7 @@ class InterviewSchedule(HorillaModel):
     completed = models.BooleanField(
         default=False, verbose_name=_("Is Interview Completed")
     )
-    objects = HorillaCompanyManager("candidate_id__recruitment_id__company_id")
+    objects = DatafactzCompanyManager("candidate_id__recruitment_id__company_id")
 
     def __str__(self) -> str:
         return f"{self.candidate_id} -Interview."
@@ -999,13 +999,13 @@ FORMATS = [
 ]
 
 
-class CandidateDocumentRequest(HorillaModel):
+class CandidateDocumentRequest(DatafactzModel):
     title = models.CharField(max_length=100)
     candidate_id = models.ManyToManyField(Candidate)
     format = models.CharField(choices=FORMATS, max_length=10)
     max_size = models.IntegerField(blank=True, null=True)
     description = models.TextField(blank=True, null=True, max_length=255)
-    objects = HorillaCompanyManager(
+    objects = DatafactzCompanyManager(
         related_company_field="employee_id__employee_work_info__company_id"
     )
 
@@ -1013,7 +1013,7 @@ class CandidateDocumentRequest(HorillaModel):
         return self.title
 
 
-class CandidateDocument(HorillaModel):
+class CandidateDocument(DatafactzModel):
     title = models.CharField(max_length=250)
     candidate_id = models.ForeignKey(
         Candidate, on_delete=models.PROTECT, verbose_name="Candidate"

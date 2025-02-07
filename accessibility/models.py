@@ -5,10 +5,10 @@ accessibility/models.py
 from django.db import models
 
 from accessibility.accessibility import ACCESSBILITY_FEATURE
-from horilla.models import HorillaModel
+from datafactz.models import DatafactzModel
 
 
-class DefaultAccessibility(HorillaModel):
+class DefaultAccessibility(DatafactzModel):
     """
     DefaultAccessibilityModel
     """

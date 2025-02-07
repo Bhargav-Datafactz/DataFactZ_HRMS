@@ -2,7 +2,7 @@
 {% load i18n %}
 {% load static %}
 {% load basefilters %}
-{% load horillafilters %}
+{% load datafactzfilters %}
 
 <script>
 	var showSearch = false
@@ -426,7 +426,7 @@
 								</li>
 							{% endif %}
 
-							{% if perms.horilla_documents.view_document or request.user == employee.employee_user_id %}
+							{% if perms.datafactz_documents.view_document or request.user == employee.employee_user_id %}
 								<li data-cell-index="20" data-cell-title="{% trans 'Documents' %}" class="oh-general__tab">
 									<a hx-get="{% url 'document-tab' employee.id %}?employee_view=true"
 										hx-target="#document_target" data-action="general-tab"

@@ -1,4 +1,4 @@
-{% extends 'index.html' %} {% block content %} {% load static %} {% load i18n %} {% load horillafilters %}
+{% extends 'index.html' %} {% block content %} {% load static %} {% load i18n %} {% load datafactzfilters %}
 <style>
 	.settings-label {
 		font-weight: bold;
@@ -101,7 +101,7 @@
 												{% endif %}
 											</div>
 											<div class="oh-input-group">
-												{% if perms.base.view_tags or perms.employee.view_emplyeetag or perms.horilla_audit.view_audittag %}
+												{% if perms.base.view_tags or perms.employee.view_emplyeetag or perms.datafactz_audit.view_audittag %}
 													<a
 														id="ticket_type"
 														href="{% url 'tag-view' %}"
@@ -121,7 +121,7 @@
 												{% endif %}
 											</div>
 											<div class="oh-input-group">
-												{% if perms.horilla_backup.view_googledrivebackup %}
+												{% if perms.datafactz_backup.view_googledrivebackup %}
 													<a
 														id="date"
 														{% comment %} href="{% url 'gdrive' %}" {% endcomment %}

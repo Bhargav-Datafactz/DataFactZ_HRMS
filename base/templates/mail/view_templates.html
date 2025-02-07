@@ -27,7 +27,7 @@
     <div class="oh-main__titlebar oh-main__titlebar--left oh-d-flex-column--resp oh-mb-3--small">
       <h1 class="oh-main__titlebar-title fw-bold">{% trans "Mail Templates" %}</h1>
     </div>
-    {% if perms.base.add_horillamailtemplate %}
+    {% if perms.base.add_datafactzmailtemplate %}
       <div class="oh-main__titlebar oh-main__titlebar--right oh-d-flex-column--resp oh-mb-3--small">
         <a href="#" data-toggle="oh-modal-toggle" data-target="#addTemplateModal" class="oh-btn oh-btn--secondary ml-2"><ion-icon name="add" class="mr-1 md hydrated" role="img" aria-label="add"></ion-icon>{% trans "Create" %}</a>
       </div>
@@ -37,7 +37,7 @@
   <div class="oh-wrapper oh-faq-cards">
     {% for template in templates %}
       <div class="oh-faq-card">
-        {% if perms.base.delete_horillamailtemplate %}
+        {% if perms.base.delete_datafactzmailtemplate %}
           <h3 class="oh-faq-card__title d-flex justify-content-between "><span>{{ template.title }}</span>
             <div>
             <a hx-get="{% url 'duplicate-mail-template' template.id %}" hx-target="#duplicateTemplateFormModal" data-toggle="oh-modal-toggle"
@@ -51,13 +51,13 @@
           </div>
           </h3>
         {% endif %}
-        {% if perms.base.change_horillamailtemplate %}
+        {% if perms.base.change_datafactzmailtemplate %}
 
             {% endif %}
           <div class="oh-faq-card__desc" style="max-height: 500px; padding-top: 10px;">
           <div style="max-height: 350px;overflow: hidden;" class="truncated-text">{{ template.body|safe }}</div>
           </div>
-        {% if perms.base.change_horillamailtemplate %}
+        {% if perms.base.change_datafactzmailtemplate %}
           <a hx-get="{% url 'view-mail-template' template.id %}" hx-target="#viewTemplateModalBody" data-toggle="oh-modal-toggle" data-target="#viewTemplateModal" class="oh-btn oh-btn--secondary oh-btn--block">{% trans "View Template" %}</a>
         {% endif %}
         </div>

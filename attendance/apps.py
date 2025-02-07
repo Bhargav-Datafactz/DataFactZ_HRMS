@@ -1,10 +1,10 @@
 """
-This module defines the configuration for the 'attendance' app within the Horilla HRMS project.
+This module defines the configuration for the 'attendance' app within the datafactz HRMS project.
 """
 
 from django.apps import AppConfig
 
-from horilla.horilla_settings import APP_URLS
+from datafactz.datafactz_settings import APP_URLS
 
 
 class AttendanceConfig(AppConfig):
@@ -21,8 +21,8 @@ class AttendanceConfig(AppConfig):
     def ready(self):
         from django.urls import include, path
 
-        from horilla.settings import MIDDLEWARE
-        from horilla.urls import urlpatterns
+        from datafactz.settings import MIDDLEWARE
+        from datafactz.urls import urlpatterns
 
         urlpatterns.append(
             path("attendance/", include("attendance.urls")),

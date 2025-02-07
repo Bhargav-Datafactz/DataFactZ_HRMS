@@ -19,12 +19,12 @@ from django.db.models.signals import post_save
 from django.dispatch import receiver
 from django.utils.translation import gettext_lazy as _
 
-from base.horilla_company_manager import HorillaCompanyManager
-from horilla import horilla_middlewares
-from horilla.horilla_middlewares import _thread_locals
-from horilla.methods import get_horilla_model_class
-from horilla.models import HorillaModel
-from horilla_audit.models import HorillaAuditInfo, HorillaAuditLog
+from base.datafactz_company_manager import DatafactzCompanyManager
+from datafactz import datafactz_middlewares
+from datafactz.datafactz_middlewares import _thread_locals
+from datafactz.methods import get_datafactz_model_class
+from datafactz.models import DatafactzModel
+from datafactz_audit.models import DatafactzAuditInfo, DatafactzAuditLog
 
 # Create your models here.
 WEEKS = [
@@ -69,7 +69,7 @@ def clear_messages(request):
         pass
 
 
-class Company(HorillaModel):
+class Company(DatafactzModel):
     """
     Company model
     """
@@ -103,7 +103,7 @@ class Company(HorillaModel):
         return str(self.company)
 
 
-class Department(HorillaModel):
+class Department(DatafactzModel):
     """
     Department model
     """
@@ -111,7 +111,7 @@ class Department(HorillaModel):
     department = models.CharField(max_length=50, blank=False)
     company_id = models.ManyToManyField(Company, blank=True, verbose_name=_("Company"))
 
-    objects = HorillaCompanyManager()
+    objects = DatafactzCompanyManager()
 
     class Meta:
         verbose_name = _("Department")
@@ -142,7 +142,7 @@ class Department(HorillaModel):
         return str(self.department)
 
 
-class JobPosition(HorillaModel):
+class JobPosition(DatafactzModel):
     """
     JobPosition model
     """
@@ -156,7 +156,7 @@ class JobPosition(HorillaModel):
     )
     company_id = models.ManyToManyField(Company, blank=True, verbose_name=_("Company"))
 
-    objects = HorillaCompanyManager("department_id__company_id")
+    objects = DatafactzCompanyManager("department_id__company_id")
 
     class Meta:
         """
@@ -170,7 +170,7 @@ class JobPosition(HorillaModel):
         return str(self.job_position + " - (" + self.department_id.department) + ")"
 
 
-class JobRole(HorillaModel):
+class JobRole(DatafactzModel):
     """JobRole model"""
 
     job_position_id = models.ForeignKey(
@@ -179,7 +179,7 @@ class JobRole(HorillaModel):
     job_role = models.CharField(max_length=50, blank=False, null=True)
     company_id = models.ManyToManyField(Company, blank=True, verbose_name=_("Company"))
 
-    objects = HorillaCompanyManager("job_position_id__department_id__company_id")
+    objects = DatafactzCompanyManager("job_position_id__department_id__company_id")
 
     class Meta:
         """
@@ -194,7 +194,7 @@ class JobRole(HorillaModel):
         return f"{self.job_role} - {self.job_position_id.job_position}"
 
 
-class WorkType(HorillaModel):
+class WorkType(DatafactzModel):
     """
     WorkType model
     """
@@ -202,7 +202,7 @@ class WorkType(HorillaModel):
     work_type = models.CharField(max_length=50)
     company_id = models.ManyToManyField(Company, blank=True, verbose_name=_("Company"))
 
-    objects = HorillaCompanyManager()
+    objects = DatafactzCompanyManager()
 
     class Meta:
         """
@@ -235,7 +235,7 @@ class WorkType(HorillaModel):
         return self
 
 
-class RotatingWorkType(HorillaModel):
+class RotatingWorkType(DatafactzModel):
     """
     RotatingWorkType model
     """
@@ -263,7 +263,7 @@ class RotatingWorkType(HorillaModel):
         blank=True,
         null=True,
     )
-    objects = HorillaCompanyManager("employee_id__employee_work_info__company_id")
+    objects = DatafactzCompanyManager("employee_id__employee_work_info__company_id")
 
     class Meta:
         """
@@ -337,7 +337,7 @@ BASED_ON = [
 ]
 
 
-class RotatingWorkTypeAssign(HorillaModel):
+class RotatingWorkTypeAssign(DatafactzModel):
     """
     RotatingWorkTypeAssign model
     """
@@ -398,13 +398,13 @@ class RotatingWorkTypeAssign(HorillaModel):
         blank=True,
         null=True,
     )
-    history = HorillaAuditLog(
+    history = DatafactzAuditLog(
         related_name="history_set",
         bases=[
-            HorillaAuditInfo,
+            DatafactzAuditInfo,
         ],
     )
-    objects = HorillaCompanyManager("employee_id__employee_work_info__company_id")
+    objects = DatafactzCompanyManager("employee_id__employee_work_info__company_id")
 
     class Meta:
         """
@@ -427,7 +427,7 @@ class RotatingWorkTypeAssign(HorillaModel):
             raise ValidationError(_("Date must be greater than or equal to today"))
 
 
-class EmployeeType(HorillaModel):
+class EmployeeType(DatafactzModel):
     """
     EmployeeType model
     """
@@ -435,7 +435,7 @@ class EmployeeType(HorillaModel):
     employee_type = models.CharField(max_length=50)
     company_id = models.ManyToManyField(Company, blank=True, verbose_name=_("Company"))
 
-    objects = HorillaCompanyManager("employee_id__employee_work_info__company_id")
+    objects = DatafactzCompanyManager("employee_id__employee_work_info__company_id")
 
     class Meta:
         """
@@ -480,7 +480,7 @@ class EmployeeShiftDay(models.Model):
     day = models.CharField(max_length=20, choices=DAY)
     company_id = models.ManyToManyField(Company, blank=True, verbose_name=_("Company"))
 
-    objects = HorillaCompanyManager()
+    objects = DatafactzCompanyManager()
 
     class Meta:
         """
@@ -494,7 +494,7 @@ class EmployeeShiftDay(models.Model):
         return str(_(self.day).capitalize())
 
 
-class EmployeeShift(HorillaModel):
+class EmployeeShift(DatafactzModel):
     """
     EmployeeShift model
     """
@@ -526,7 +526,7 @@ class EmployeeShift(HorillaModel):
             verbose_name=_("Grace Time"),
         )
 
-    objects = HorillaCompanyManager("employee_shift__company_id")
+    objects = DatafactzCompanyManager("employee_shift__company_id")
 
     class Meta:
         """
@@ -566,7 +566,7 @@ class EmployeeShift(HorillaModel):
 from django.db.models import Case, When
 
 
-class EmployeeShiftSchedule(HorillaModel):
+class EmployeeShiftSchedule(DatafactzModel):
     """
     EmployeeShiftSchedule model
     """
@@ -599,12 +599,12 @@ class EmployeeShiftSchedule(HorillaModel):
         blank=True,
         verbose_name=_("Automatic Check Out Time"),
         help_text=_(
-            "Time at which the horilla will automatically check out the employee attendance if they forget."
+            "Time at which the DataFactZ will automatically check out the employee attendance if they forget."
         ),
     )
     company_id = models.ManyToManyField(Company, blank=True, verbose_name=_("Company"))
 
-    objects = HorillaCompanyManager("shift_id__employee_shift__company_id")
+    objects = DatafactzCompanyManager("shift_id__employee_shift__company_id")
 
     class Meta:
         """
@@ -636,7 +636,7 @@ class EmployeeShiftSchedule(HorillaModel):
         super().save(*args, **kwargs)
 
 
-class RotatingShift(HorillaModel):
+class RotatingShift(DatafactzModel):
     """
     RotatingShift model
     """
@@ -662,7 +662,7 @@ class RotatingShift(HorillaModel):
         blank=True,
         null=True,
     )
-    objects = HorillaCompanyManager("employee_id__employee_work_info__company_id")
+    objects = DatafactzCompanyManager("employee_id__employee_work_info__company_id")
 
     class Meta:
         """
@@ -712,7 +712,7 @@ class RotatingShift(HorillaModel):
         return additional_shifts
 
 
-class RotatingShiftAssign(HorillaModel):
+class RotatingShiftAssign(DatafactzModel):
     """
     RotatingShiftAssign model
     """
@@ -772,13 +772,13 @@ class RotatingShiftAssign(HorillaModel):
         blank=True,
         null=True,
     )
-    history = HorillaAuditLog(
+    history = DatafactzAuditLog(
         related_name="history_set",
         bases=[
-            HorillaAuditInfo,
+            DatafactzAuditInfo,
         ],
     )
-    objects = HorillaCompanyManager("employee_id__employee_work_info__company_id")
+    objects = DatafactzCompanyManager("employee_id__employee_work_info__company_id")
 
     class Meta:
         """
@@ -806,7 +806,7 @@ class BaserequestFile(models.Model):
     objects = models.Manager()
 
 
-class WorkTypeRequest(HorillaModel):
+class WorkTypeRequest(DatafactzModel):
     """
     WorkTypeRequest model
     """
@@ -845,13 +845,13 @@ class WorkTypeRequest(HorillaModel):
     approved = models.BooleanField(default=False, verbose_name=_("Approved"))
     canceled = models.BooleanField(default=False, verbose_name=_("Canceled"))
     work_type_changed = models.BooleanField(default=False)
-    history = HorillaAuditLog(
+    history = DatafactzAuditLog(
         related_name="history_set",
         bases=[
-            HorillaAuditInfo,
+            DatafactzAuditInfo,
         ],
     )
-    objects = HorillaCompanyManager("employee_id__employee_work_info__company_id")
+    objects = DatafactzCompanyManager("employee_id__employee_work_info__company_id")
 
     class Meta:
         """
@@ -917,7 +917,7 @@ class WorkTypeRequest(HorillaModel):
         return False
 
     def clean(self):
-        request = getattr(horilla_middlewares._thread_locals, "request", None)
+        request = getattr(datafactz_middlewares._thread_locals, "request", None)
         if not request.user.is_superuser:
             if self.requested_date < django.utils.timezone.now().date():
                 raise ValidationError(_("Date must be greater than or equal to today"))
@@ -945,7 +945,7 @@ class WorkTypeRequest(HorillaModel):
             {self.employee_id.employee_last_name} - {self.requested_date}"
 
 
-class WorkTypeRequestComment(HorillaModel):
+class WorkTypeRequestComment(DatafactzModel):
     """
     WorkTypeRequestComment Model
     """
@@ -962,7 +962,7 @@ class WorkTypeRequestComment(HorillaModel):
         return f"{self.comment}"
 
 
-class ShiftRequest(HorillaModel):
+class ShiftRequest(DatafactzModel):
     """
     ShiftRequest model
     """
@@ -1011,13 +1011,13 @@ class ShiftRequest(HorillaModel):
     approved = models.BooleanField(default=False, verbose_name=_("Approved"))
     canceled = models.BooleanField(default=False, verbose_name=_("Canceled"))
     shift_changed = models.BooleanField(default=False)
-    history = HorillaAuditLog(
+    history = DatafactzAuditLog(
         related_name="history_set",
         bases=[
-            HorillaAuditInfo,
+            DatafactzAuditInfo,
         ],
     )
-    objects = HorillaCompanyManager("employee_id__employee_work_info__company_id")
+    objects = DatafactzCompanyManager("employee_id__employee_work_info__company_id")
 
     class Meta:
         """
@@ -1036,7 +1036,7 @@ class ShiftRequest(HorillaModel):
 
     def clean(self):
 
-        request = getattr(horilla_middlewares._thread_locals, "request", None)
+        request = getattr(datafactz_middlewares._thread_locals, "request", None)
         if not request.user.is_superuser:
             if not self.pk and self.requested_date < django.utils.timezone.now().date():
                 raise ValidationError(_("Date must be greater than or equal to today"))
@@ -1108,7 +1108,7 @@ class ShiftRequest(HorillaModel):
             {self.employee_id.employee_last_name} - {self.requested_date}"
 
 
-class ShiftRequestComment(HorillaModel):
+class ShiftRequestComment(DatafactzModel):
     """
     ShiftRequestComment Model
     """
@@ -1125,19 +1125,19 @@ class ShiftRequestComment(HorillaModel):
         return f"{self.comment}"
 
 
-class Tags(HorillaModel):
+class Tags(DatafactzModel):
     title = models.CharField(max_length=30)
     color = models.CharField(max_length=30)
     company_id = models.ForeignKey(
         Company, null=True, editable=False, on_delete=models.PROTECT
     )
-    objects = HorillaCompanyManager(related_company_field="company_id")
+    objects = DatafactzCompanyManager(related_company_field="company_id")
 
     def __str__(self):
         return self.title
 
 
-class HorillaMailTemplate(HorillaModel):
+class DatafactzMailTemplate(DatafactzModel):
     title = models.CharField(max_length=25, unique=True)
     body = models.TextField()
     company_id = models.ForeignKey(
@@ -1147,13 +1147,13 @@ class HorillaMailTemplate(HorillaModel):
         on_delete=models.CASCADE,
         verbose_name=_("Company"),
     )
-    objects = HorillaCompanyManager(related_company_field="company_id")
+    objects = DatafactzCompanyManager(related_company_field="company_id")
 
     def __str__(self) -> str:
         return f"{self.title}"
 
 
-class DynamicEmailConfiguration(HorillaModel):
+class DynamicEmailConfiguration(DatafactzModel):
     """
     SingletonModel to keep the mail server configurations
     """
@@ -1251,7 +1251,7 @@ CONDITION_CHOICE = [
 ]
 
 
-class MultipleApprovalCondition(HorillaModel):
+class MultipleApprovalCondition(DatafactzModel):
     department = models.ForeignKey(Department, on_delete=models.CASCADE)
     condition_field = models.CharField(
         max_length=255,
@@ -1451,7 +1451,7 @@ class AnnouncementExpire(models.Model):
     objects = models.Manager()
 
 
-class Announcement(HorillaModel):
+class Announcement(DatafactzModel):
     """
     Announcement Model for storing all announcements.
     """
@@ -1491,7 +1491,7 @@ class Announcement(HorillaModel):
         return self.title
 
 
-class AnnouncementComment(HorillaModel):
+class AnnouncementComment(DatafactzModel):
     """
     AnnouncementComment Model
     """
@@ -1554,7 +1554,7 @@ class DriverViewed(models.Model):
         return self.user.driverviewed_set.values_list("viewed", flat=True)
 
 
-class DashboardEmployeeCharts(HorillaModel):
+class DashboardEmployeeCharts(DatafactzModel):
     from employee.models import Employee
 
     employee = models.ForeignKey(Employee, on_delete=models.CASCADE)
@@ -1613,7 +1613,7 @@ class AttendanceAllowedIP(models.Model):
         return f"AttendanceAllowedIP - {self.is_enabled}"
 
 
-class TrackLateComeEarlyOut(HorillaModel):
+class TrackLateComeEarlyOut(DatafactzModel):
     is_enable = models.BooleanField(
         default=True,
         verbose_name=_("Enable"),
@@ -1631,7 +1631,7 @@ class TrackLateComeEarlyOut(HorillaModel):
         return f"Tracking late come early out {tracking}"
 
 
-class Holidays(HorillaModel):
+class Holidays(DatafactzModel):
     name = models.CharField(max_length=30, null=False, verbose_name=_("Name"))
     start_date = models.DateField(verbose_name=_("Start Date"))
     end_date = models.DateField(null=True, blank=True, verbose_name=_("End Date"))
@@ -1643,7 +1643,7 @@ class Holidays(HorillaModel):
         on_delete=models.PROTECT,
         verbose_name=_("Company"),
     )
-    objects = HorillaCompanyManager(related_company_field="company_id")
+    objects = DatafactzCompanyManager(related_company_field="company_id")
 
     def __str__(self):
         return self.name
@@ -1663,7 +1663,7 @@ class Holidays(HorillaModel):
         return Holidays.objects.filter(start_date__lte=today, end_date__gte=today)
 
 
-class CompanyLeaves(HorillaModel):
+class CompanyLeaves(DatafactzModel):
     based_on_week = models.CharField(
         max_length=100, choices=WEEKS, blank=True, null=True
     )
@@ -1671,7 +1671,7 @@ class CompanyLeaves(HorillaModel):
     company_id = models.ForeignKey(
         Company, null=True, editable=False, on_delete=models.PROTECT
     )
-    objects = HorillaCompanyManager(related_company_field="company_id")
+    objects = DatafactzCompanyManager(related_company_field="company_id")
 
     class Meta:
         unique_together = ("based_on_week", "based_on_week_day")
@@ -1680,7 +1680,7 @@ class CompanyLeaves(HorillaModel):
         return f"{dict(WEEK_DAYS).get(self.based_on_week_day)} | {dict(WEEKS).get(self.based_on_week)}"
 
 
-class PenaltyAccounts(HorillaModel):
+class PenaltyAccounts(DatafactzModel):
     """
     LateComeEarlyOutPenaltyAccount
     """
@@ -1756,7 +1756,7 @@ def create_deduction_cutleave_from_penalty(sender, instance, created, **kwargs):
     if created:
         penalty_amount = instance.penalty_amount
         if apps.is_installed("payroll") and penalty_amount:
-            Deduction = get_horilla_model_class(app_label="payroll", model="deduction")
+            Deduction = get_datafactz_model_class(app_label="payroll", model="deduction")
             penalty = Deduction()
             if instance.late_early_id:
                 penalty.title = f"{instance.late_early_id.get_type_display()} penalty"

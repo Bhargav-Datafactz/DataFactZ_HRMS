@@ -22,7 +22,7 @@ def notify_expiring_assets():
 
     today = date.today()
     assets = Asset.objects.all()
-    bot = User.objects.filter(username="Horilla Bot").first()
+    bot = User.objects.filter(username="DataFactZ Bot").first()
     for asset in assets:
         if asset.expiry_date:
             expiry_date = asset.expiry_date
@@ -51,11 +51,11 @@ def notify_expiring_documents():
     """
     from django.contrib.auth.models import User
 
-    from horilla_documents.models import Document
+    from datafactz_documents.models import Document
 
     today = date.today()
     documents = Document.objects.all()
-    bot = User.objects.filter(username="Horilla Bot").first()
+    bot = User.objects.filter(username="DataFactZ Bot").first()
     for document in documents:
         if document.expiry_date:
             expiry_date = document.expiry_date

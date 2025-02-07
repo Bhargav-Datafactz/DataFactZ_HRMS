@@ -1,4 +1,4 @@
-{% extends 'settings.html' %} {% block settings %}{% load i18n %} {% load horillafilters %}
+{% extends 'settings.html' %} {% block settings %}{% load i18n %} {% load datafactzfilters %}
 
 {% if perms.base.change_announcementexpire %}
 {% include "announcement/expiry_day.html" %}
@@ -8,7 +8,7 @@
     {% include "base/dynamic_pagination/pagination_settings.html" %}
 {% endif %}
 
-{% if perms.horilla_audit.view_accountblockunblock %}
+{% if perms.datafactz_audit.view_accountblockunblock %}
     {% include "base/audit_tag/employee_account_block_unblock.html" %}
 {% endif %}
 

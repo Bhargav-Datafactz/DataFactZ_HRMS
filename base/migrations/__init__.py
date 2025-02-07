@@ -2,22 +2,22 @@ from django.apps import apps
 
 try:
     RecruitmentMailTemplate = apps.get_model("recruitment", "RecruitmentMailTemplate")
-    HorillaMailTemplate = apps.get_model("base", "HorillaMailTemplate")
+    DataFactZMailTemplate = apps.get_model("base", "DataFactZMailTemplate")
 
     recruitment_mail_templates = RecruitmentMailTemplate.objects.all()
     for recruitment_mail in recruitment_mail_templates:
-        if not HorillaMailTemplate.objects.filter(
+        if not DataFactZMailTemplate.objects.filter(
             title=recruitment_mail.title
         ).exists():
-            horilla_mail = HorillaMailTemplate(
+            datafactz_mail = DataFactZMailTemplate(
                 id=recruitment_mail.id,
                 title=recruitment_mail.title,
                 body=recruitment_mail.body,
                 company_id=recruitment_mail.company_id,
             )
-            horilla_mail.save()
+            datafactz_mail.save()
 
-    horilla_mail_templates = HorillaMailTemplate.objects.all()
+    datafactz_mail_templates = DataFactZMailTemplate.objects.all()
     RecruitmentMailTemplate.objects.all().delete()
 except Exception as e:
     pass
@@ -33,13 +33,13 @@ try:
             start_date=holiday.start_date,
             end_date=holiday.end_date,
         ).exists():
-            horilla = BaseHoliday(
+            datafactz = BaseHoliday(
                 id=holiday.id,
                 name=holiday.name,
                 start_date=holiday.start_date,
                 end_date=holiday.end_date,
             )
-            horilla.save()
+            datafactz.save()
 
     base_leaves = BaseHoliday.objects.all()
     LeaveHoliday.objects.all().delete()
@@ -73,19 +73,19 @@ try:
             )
 
         if not PenaltyAccounts.objects.filter(**filter_conditions).exists():
-            horilla = PenaltyAccounts(
+            datafactz = PenaltyAccounts(
                 id=penalty.id,
                 employee_id=penalty.employee_id,
                 penalty_amount=penalty.penalty_amount,
             )
             if apps.is_installed("attendance"):
-                horilla.late_early_id = penalty.late_early_id
+                datafactz.late_early_id = penalty.late_early_id
             if apps.is_installed("leave"):
-                horilla.leave_request_id = penalty.leave_request_id
-                horilla.leave_type_id = penalty.leave_type_id
-                horilla.minus_leaves = penalty.minus_leaves
-                horilla.deduct_from_carry_forward = penalty.deduct_from_carry_forward
-            horilla.save()
+                datafactz.leave_request_id = penalty.leave_request_id
+                datafactz.leave_type_id = penalty.leave_type_id
+                datafactz.minus_leaves = penalty.minus_leaves
+                datafactz.deduct_from_carry_forward = penalty.deduct_from_carry_forward
+            datafactz.save()
     penalty_accounts = PenaltyAccounts.objects.all()
     PenaltyAccount.objects.all().delete()
 except Exception as e:
@@ -101,12 +101,12 @@ try:
             based_on_week=leave.based_on_week,
             based_on_week_day=leave.based_on_week_day,
         ).exists():
-            horilla = BaseCompanyLeave(
+            datafactz = BaseCompanyLeave(
                 id=leave.id,
                 based_on_week=leave.based_on_week,
                 based_on_week_day=leave.based_on_week_day,
             )
-            horilla.save()
+            datafactz.save()
 
     base_leaves = BaseCompanyLeave.objects.all()
     CompanyLeave.objects.all().delete()

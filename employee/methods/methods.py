@@ -2,6 +2,7 @@
 employee/methods.py
 """
 
+import logging
 import threading
 from datetime import datetime
 from itertools import groupby
@@ -22,6 +23,8 @@ from base.models import (
     WorkType,
 )
 from employee.models import Employee, EmployeeWorkInformation
+
+logger = logging.getLogger(__name__)
 
 
 def convert_nan(field, dicts):
@@ -139,9 +142,10 @@ def bulk_create_user_import(success_lists):
             is_superuser=False,
         )
         user_obj_list.append(user_obj)
-
+    result = []
     if user_obj_list:
-        User.objects.bulk_create(user_obj_list)
+        result = User.objects.bulk_create(user_obj_list)
+    return result
 
 
 def bulk_create_employee_import(success_lists):
@@ -149,40 +153,195 @@ def bulk_create_employee_import(success_lists):
     Bulk creation of employee instances based on the excel import of employees
     """
     employee_obj_list = []
+    work_info_list = []
+
+    # Pre-fetch all required data in bulk
+    emails = [row["Email"] for row in success_lists]
+    
+    # Fetch existing users and employees in one query each
     existing_users = {
         user.username: user
-        for user in User.objects.filter(
-            username__in=[row["Email"] for row in success_lists]
-        )
+        for user in User.objects.filter(username__in=emails).select_related()
+    }
+    
+    existing_employees = {
+        emp.email.lower(): emp
+        for emp in Employee.objects.filter(email__in=emails).select_related('employee_user_id')
     }
 
+    # Pre-fetch all related objects in bulk
+    departments = {
+        dep.department: dep
+        for dep in Department.objects.all()
+    }
+    job_positions = {
+        jp.job_position: jp
+        for jp in JobPosition.objects.select_related('department_id').all()
+    }
+    job_roles = {
+        jr.job_role: jr
+        for jr in JobRole.objects.select_related('job_position_id').all()
+    }
+    work_types = {
+        wt.work_type: wt
+        for wt in WorkType.objects.all()
+    }
+    shifts = {
+        shift.employee_shift: shift
+        for shift in EmployeeShift.objects.all()
+    }
+    employee_types = {
+        et.employee_type: et
+        for et in EmployeeType.objects.all()
+    }
+    companies = {
+        comp.company: comp
+        for comp in Company.objects.all()
+    }
+
+    # Batch process users
+    users_to_create = []
     for work_info in success_lists:
         email = work_info["Email"]
+        if email not in existing_users:
+            users_to_create.append(
+                User(
+                    username=email,
+                    email=email,
+                    password=str(work_info["Phone"]).strip(),
+                    is_superuser=False,
+                )
+            )
+    
+    # Bulk create users
+    if users_to_create:
+        created_users = User.objects.bulk_create(users_to_create)
+        for user in created_users:
+            existing_users[user.username] = user
+
+    # Store work info data for later
+    work_info_data = []
+
+    # Process employees
+    for work_info in success_lists:
+        email = work_info["Email"]
+        if email.lower() in existing_employees:
+            continue
+
         user = existing_users.get(email)
         if not user:
             continue
 
-        badge_id = work_info["Badge id"]
-        first_name = convert_nan("First Name", work_info)
-        last_name = convert_nan("Last Name", work_info)
-        phone = work_info["Phone"]
-        gender = work_info.get("Gender", "").lower()
-
+        # Create Employee object
         employee_obj = Employee(
             employee_user_id=user,
-            badge_id=badge_id,
-            employee_first_name=first_name,
-            employee_last_name=last_name,
+            badge_id=work_info["Badge id"],
+            employee_first_name=convert_nan("First Name", work_info),
+            employee_last_name=convert_nan("Last Name", work_info),
             email=email,
-            phone=phone,
-            gender=gender,
+            phone=work_info["Phone"],
+            gender=work_info.get("Gender", "").lower(),
+            dob=parse_date(work_info.get("Date of Birth")),
         )
         employee_obj_list.append(employee_obj)
+        
+        # Store work info data
+        work_info_data.append({
+            'email': email,
+            'department': work_info.get("Department"),
+            'job_position': work_info.get("Job Position"),
+            'job_role': work_info.get("Job Role"),
+            'work_type': work_info.get("Work Type"),
+            'shift': work_info.get("Shift"),
+            'employee_type': work_info.get("Employee Type"),
+            'reporting_manager': work_info.get("Reporting Manager"),
+            'company': work_info.get("Company"),
+            'location': work_info.get("Location"),
+            'date_joining': work_info.get("Date joining"),
+            'contract_end_date': work_info.get("Contract End Date"),
+            'basic_salary': convert_nan("Basic Salary", work_info) or 0,
+            'salary_hour': convert_nan("Salary Hour", work_info) or 0,
+        })
 
+    # Bulk create employees
     if employee_obj_list:
-        Employee.objects.bulk_create(employee_obj_list)
+        Employee.objects.bulk_create(employee_obj_list, ignore_conflicts=True)
+        
+        # Now create work information after employees are created
+        created_employees = {
+            emp.email: emp
+            for emp in Employee.objects.filter(email__in=[e.email for e in employee_obj_list])
+        }
+        
+        # Create work information objects
+        for work_data in work_info_data:
+            employee = created_employees.get(work_data['email'])
+            if employee:
+                work_info_obj = EmployeeWorkInformation(
+                    employee_id=employee,
+                    department_id=departments.get(work_data['department']),
+                    job_position_id=job_positions.get(work_data['job_position']),
+                    job_role_id=job_roles.get(work_data['job_role']),
+                    work_type_id=work_types.get(work_data['work_type']),
+                    shift_id=shifts.get(work_data['shift']),
+                    employee_type_id=employee_types.get(work_data['employee_type']),
+                    reporting_manager_id=get_reporting_manager(work_data['reporting_manager']),
+                    company_id=companies.get(work_data['company']),
+                    location=work_data['location'],
+                    date_joining=parse_date(work_data['date_joining']) or datetime.now().date(),
+                    contract_end_date=parse_date(work_data['contract_end_date']),
+                    basic_salary=work_data['basic_salary'],
+                    salary_hour=work_data['salary_hour'],
+                )
+                work_info_list.append(work_info_obj)
+        
+        # Bulk create work information
+        if work_info_list:
+            EmployeeWorkInformation.objects.bulk_create(work_info_list, ignore_conflicts=True)
 
     return len(employee_obj_list)
+
+
+def parse_date(date_value):
+    """Helper function to parse dates"""
+    if pd.isna(date_value):
+        return None
+    
+    if isinstance(date_value, datetime):
+        return date_value.date()
+    
+    if isinstance(date_value, str):
+        for date_format in ["%Y-%m-%d", "%d-%m-%Y", "%d/%m/%Y", "%Y/%m/%d"]:
+            try:
+                return datetime.strptime(date_value, date_format).date()
+            except ValueError:
+                continue
+    return None
+
+
+def get_reporting_manager(email):
+    """Helper function to get reporting manager"""
+    if not email:
+        return None
+    try:
+        return Employee.objects.get(email=email)
+    except Employee.DoesNotExist:
+        return None
+
+
+def set_initial_password(employees):
+    """
+    method to set initial password
+    """
+
+    logger.info("started to set initial password")
+    for employee in employees:
+        try:
+            employee.employee_user_id.set_password(str(employee.phone))
+            employee.employee_user_id.save()
+        except Exception as e:
+            logger.error(f"falied to set initial password for {employee}")
+    logger.info("initial password configured")
 
 
 def optimize_reporting_manager_lookup(success_lists):
@@ -599,3 +758,23 @@ def bulk_create_work_info_import(success_lists):
             args=(new_work_info_list, update_work_info_list),
         )
         contract_creation_thread.start()
+
+
+def validate_row(row_data):
+    """
+    Validates if a row from Excel has all required fields
+    """
+    required_fields = ['Email', 'Phone', 'Badge id', 'First Name']
+    return all(field in row_data and pd.notna(row_data[field]) for field in required_fields)
+
+
+def get_template_fields():
+    """
+    Returns the fields required for the Excel import template
+    """
+    return [
+        'Badge id', 'First Name', 'Last Name', 'Phone', 'Email', 'Gender', 
+        'Date of Birth', 'Department', 'Job Position', 'Job Role', 'Work Type',
+        'Shift', 'Employee Type', 'Reporting Manager','Company', 'Location', 'Date joining', 
+        'Contract End Date', 'Salary', 'Salary Hour',
+    ]

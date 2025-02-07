@@ -18,7 +18,7 @@ from django.utils.translation import gettext_lazy as _
 from base.methods import get_pagination
 from base.models import WEEK_DAYS, CompanyLeaves, Holidays
 from employee.models import Employee
-from horilla.horilla_settings import HORILLA_DATE_FORMATS, HORILLA_TIME_FORMATS
+from datafactz.datafactz_settings import DATAFACTZ_DATE_FORMATS, DATAFACTZ_TIME_FORMATS
 
 MONTH_MAPPING = {
     "january": 1,
@@ -538,7 +538,7 @@ def parse_time(time_str):
         return time_str
 
     if isinstance(time_str, str):
-        for format_str in HORILLA_TIME_FORMATS.values():
+        for format_str in DATAFACTZ_TIME_FORMATS.values():
             try:
                 return datetime.strptime(time_str, format_str).time()
             except ValueError:
@@ -566,7 +566,7 @@ def get_date(date):
     if isinstance(date, datetime):
         return date
     elif isinstance(date, str):
-        for format_name, format_str in HORILLA_DATE_FORMATS.items():
+        for format_name, format_str in DATAFACTZ_DATE_FORMATS.items():
             try:
                 return datetime.strptime(date, format_str)
             except ValueError:

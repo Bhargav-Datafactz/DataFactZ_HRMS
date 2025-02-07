@@ -18,7 +18,7 @@ from django.http import QueryDict
 from django.utils import timezone
 from django.utils.translation import gettext_lazy as _
 
-from base.horilla_company_manager import HorillaCompanyManager
+from base.datafactz_company_manager import DatafactzCompanyManager
 from base.methods import get_next_month_same_date
 from base.models import (
     Company,
@@ -31,9 +31,9 @@ from base.models import (
 )
 from employee.methods.duration_methods import strtime_seconds
 from employee.models import BonusPoint, Employee, EmployeeWorkInformation
-from horilla import horilla_middlewares
-from horilla.models import HorillaModel
-from horilla_audit.models import HorillaAuditInfo, HorillaAuditLog
+from datafactz import datafactz_middlewares
+from datafactz.models import DatafactzModel
+from datafactz_audit.models import DatafactzAuditInfo, DatafactzAuditLog
 
 logger = logging.getLogger(__name__)
 
@@ -75,7 +75,7 @@ def get_date_range(start_date, end_date):
     return date_list
 
 
-class FilingStatus(HorillaModel):
+class FilingStatus(DatafactzModel):
     """
     FilingStatus model
     """
@@ -108,7 +108,7 @@ class FilingStatus(HorillaModel):
     company_id = models.ForeignKey(
         Company, null=True, editable=False, on_delete=models.PROTECT
     )
-    objects = HorillaCompanyManager()
+    objects = DatafactzCompanyManager()
 
     def __str__(self) -> str:
         return str(self.filing_status)
@@ -117,7 +117,7 @@ class FilingStatus(HorillaModel):
         ordering = ["-id"]
 
 
-class Contract(HorillaModel):
+class Contract(DatafactzModel):
     """
     Contract Model
     """
@@ -263,14 +263,14 @@ class Contract(HorillaModel):
     )
 
     note = models.TextField(null=True, blank=True, max_length=255)
-    history = HorillaAuditLog(
+    history = DatafactzAuditLog(
         related_name="history_set",
         bases=[
-            HorillaAuditInfo,
+            DatafactzAuditInfo,
         ],
     )
 
-    objects = HorillaCompanyManager("employee_id__employee_work_info__company_id")
+    objects = DatafactzCompanyManager("employee_id__employee_work_info__company_id")
 
     def __str__(self) -> str:
         return f"{self.contract_name} -{self.contract_start_date} - {self.contract_end_date}"
@@ -425,7 +425,7 @@ class WorkRecord(models.Model):
     is_leave_record = models.BooleanField(default=False)
     day_percentage = models.FloatField(default=0)
     last_update = models.DateTimeField(null=True, blank=True)
-    objects = HorillaCompanyManager("employee_id__employee_work_info__company_id")
+    objects = DatafactzCompanyManager("employee_id__employee_work_info__company_id")
 
     def save(self, *args, **kwargs):
         self.last_update = timezone.now()
@@ -704,7 +704,7 @@ class MultipleCondition(models.Model):
     )
 
 
-class Allowance(HorillaModel):
+class Allowance(DatafactzModel):
     """
     Allowance model
     """
@@ -929,7 +929,7 @@ class Allowance(HorillaModel):
     )
     only_show_under_employee = models.BooleanField(default=False, editable=False)
     is_loan = models.BooleanField(default=False, editable=False)
-    objects = HorillaCompanyManager()
+    objects = DatafactzCompanyManager()
     other_conditions = models.ManyToManyField(
         MultipleCondition, blank=True, editable=False
     )
@@ -1051,7 +1051,7 @@ class Allowance(HorillaModel):
             super().save()
 
 
-class Deduction(HorillaModel):
+class Deduction(DatafactzModel):
     """
     Deduction model
     """
@@ -1243,7 +1243,7 @@ class Deduction(HorillaModel):
         Company, null=True, editable=False, on_delete=models.PROTECT
     )
     only_show_under_employee = models.BooleanField(default=False, editable=False)
-    objects = HorillaCompanyManager()
+    objects = DatafactzCompanyManager()
 
     is_installment = models.BooleanField(default=False, editable=False)
     other_conditions = models.ManyToManyField(
@@ -1340,7 +1340,7 @@ class Deduction(HorillaModel):
             super().save()
 
 
-class Payslip(HorillaModel):
+class Payslip(DatafactzModel):
     """
     Payslip model
     """
@@ -1370,12 +1370,12 @@ class Payslip(HorillaModel):
         max_length=20, null=True, default="draft", choices=status_choices
     )
     sent_to_employee = models.BooleanField(null=True, default=False)
-    objects = HorillaCompanyManager("employee_id__employee_work_info__company_id")
+    objects = DatafactzCompanyManager("employee_id__employee_work_info__company_id")
     installment_ids = models.ManyToManyField(Deduction, editable=False)
-    history = HorillaAuditLog(
+    history = DatafactzAuditLog(
         related_name="history_set",
         bases=[
-            HorillaAuditInfo,
+            DatafactzAuditInfo,
         ],
     )
 
@@ -1463,7 +1463,7 @@ class Payslip(HorillaModel):
         ]
 
 
-class LoanAccount(HorillaModel):
+class LoanAccount(DatafactzModel):
     """
     This modal is used to store the loan Account details
     """
@@ -1506,7 +1506,7 @@ class LoanAccount(HorillaModel):
             null=True,
             editable=False,
         )
-    objects = HorillaCompanyManager("employee_id__employee_work_info__company_id")
+    objects = DatafactzCompanyManager("employee_id__employee_work_info__company_id")
 
     def __str__(self):
         return f"{self.title} - {self.employee_id}"
@@ -1674,7 +1674,7 @@ class ReimbursementMultipleAttachment(models.Model):
     objects = models.Manager()
 
 
-class Reimbursement(HorillaModel):
+class Reimbursement(DatafactzModel):
     """
     Reimbursement Model
     """
@@ -1742,13 +1742,13 @@ class Reimbursement(HorillaModel):
     allowance_id = models.ForeignKey(
         Allowance, on_delete=models.SET_NULL, null=True, editable=False
     )
-    objects = HorillaCompanyManager("employee_id__employee_work_info__company_id")
+    objects = DatafactzCompanyManager("employee_id__employee_work_info__company_id")
 
     class Meta:
         ordering = ["-id"]
 
     def save(self, *args, **kwargs) -> None:
-        request = getattr(horilla_middlewares._thread_locals, "request", None)
+        request = getattr(datafactz_middlewares._thread_locals, "request", None)
         amount_for_leave = (
             EncashmentGeneralSettings.objects.first().leave_amount
             if EncashmentGeneralSettings.objects.first()
@@ -1788,7 +1788,7 @@ class Reimbursement(HorillaModel):
                         bonus_points.save()
                     else:
                         request = getattr(
-                            horilla_middlewares._thread_locals, "request", None
+                            datafactz_middlewares._thread_locals, "request", None
                         )
                         if request:
                             messages.info(
@@ -1814,7 +1814,7 @@ class Reimbursement(HorillaModel):
                             assigned_leave.save()
                         else:
                             request = getattr(
-                                horilla_middlewares._thread_locals, "request", None
+                                datafactz_middlewares._thread_locals, "request", None
                             )
                             if request:
                                 messages.info(
@@ -1857,7 +1857,7 @@ class Reimbursement(HorillaModel):
                     self.allowance_id.delete()
 
     def delete(self, *args, **kwargs):
-        request = getattr(horilla_middlewares._thread_locals, "request", None)
+        request = getattr(datafactz_middlewares._thread_locals, "request", None)
         if self.status == "approved":
             message = messages.info(
                 request,
@@ -1891,7 +1891,7 @@ class ReimbursementFile(models.Model):
     objects = models.Manager()
 
 
-class ReimbursementrequestComment(HorillaModel):
+class ReimbursementrequestComment(DatafactzModel):
     """
     ReimbursementRequestComment Model
     """

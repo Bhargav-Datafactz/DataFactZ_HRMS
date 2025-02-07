@@ -15,7 +15,7 @@ from attendance.models import (
     WorkRecords,
 )
 from base.context_processors import AllCompany
-from base.horilla_company_manager import HorillaCompanyManager
+from base.datafactz_company_manager import DatafactzCompanyManager
 from base.models import Company, ShiftRequest, WorkTypeRequest
 from employee.models import (
     DisciplinaryAction,
@@ -24,7 +24,7 @@ from employee.models import (
     EmployeeWorkInformation,
 )
 from helpdesk.models import Ticket
-from horilla_documents.models import DocumentRequest
+from datafactz_documents.models import DocumentRequest
 from leave.models import (
     AvailableLeave,
     CompensatoryLeaveRequest,
@@ -101,7 +101,7 @@ class CompanyMiddleware:
                 "base",
                 "helpdesk",
                 "offboarding",
-                "horilla_documents",
+                "datafactz_documents",
             ]
             app_models = [
                 model
@@ -152,7 +152,7 @@ class CompanyMiddleware:
                                 "company_filter", Q(company_id=company_id)
                             )
                         elif (
-                            isinstance(model.objects, HorillaCompanyManager)
+                            isinstance(model.objects, DatafactzCompanyManager)
                             and model.objects.related_company_field
                         ):
                             model.add_to_class(
@@ -166,7 +166,7 @@ class CompanyMiddleware:
                                 Q(company_id=company_id) | Q(company_id__isnull=True),
                             )
                         elif (
-                            isinstance(model.objects, HorillaCompanyManager)
+                            isinstance(model.objects, DatafactzCompanyManager)
                             and model.objects.related_company_field
                         ):
                             model.add_to_class(

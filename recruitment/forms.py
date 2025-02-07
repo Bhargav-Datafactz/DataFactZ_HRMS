@@ -37,10 +37,10 @@ from base.forms import Form
 from base.methods import reload_queryset
 from employee.filters import EmployeeFilter
 from employee.models import Employee
-from horilla import horilla_middlewares
-from horilla.horilla_middlewares import _thread_locals
-from horilla_widgets.widgets.horilla_multi_select_field import HorillaMultiSelectField
-from horilla_widgets.widgets.select_widgets import HorillaMultiSelectWidget
+from datafactz import datafactz_middlewares
+from datafactz.datafactz_middlewares import _thread_locals
+from datafactz_widgets.widgets.datafactz_multi_select_field import DatafactzMultiSelectField
+from datafactz_widgets.widgets.select_widgets import DatafactzMultiSelectWidget
 from recruitment import widgets
 from recruitment.models import (
     Candidate,
@@ -72,7 +72,7 @@ class ModelForm(forms.ModelForm):
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
-        request = getattr(horilla_middlewares._thread_locals, "request", None)
+        request = getattr(datafactz_middlewares._thread_locals, "request", None)
         reload_queryset(self.fields)
         for field_name, field in self.fields.items():
             widget = field.widget
@@ -264,9 +264,9 @@ class RecruitmentCreationForm(ModelForm):
 
         reload_queryset(self.fields)
         if not self.instance.pk:
-            self.fields["recruitment_managers"] = HorillaMultiSelectField(
+            self.fields["recruitment_managers"] = DatafactzMultiSelectField(
                 queryset=Employee.objects.filter(is_active=True),
-                widget=HorillaMultiSelectWidget(
+                widget=DatafactzMultiSelectWidget(
                     filter_route_name="employee-widget-filter",
                     filter_class=EmployeeFilter,
                     filter_instance_contex_name="f",
@@ -291,7 +291,7 @@ class RecruitmentCreationForm(ModelForm):
     #     return option
 
     def clean(self):
-        if isinstance(self.fields["recruitment_managers"], HorillaMultiSelectField):
+        if isinstance(self.fields["recruitment_managers"], DatafactzMultiSelectField):
             ids = self.data.getlist("recruitment_managers")
             if ids:
                 self.errors.pop("recruitment_managers", None)
@@ -325,9 +325,9 @@ class StageCreationForm(ModelForm):
         super().__init__(*args, **kwargs)
         reload_queryset(self.fields)
         if not self.instance.pk:
-            self.fields["stage_managers"] = HorillaMultiSelectField(
+            self.fields["stage_managers"] = DatafactzMultiSelectField(
                 queryset=Employee.objects.filter(is_active=True),
-                widget=HorillaMultiSelectWidget(
+                widget=DatafactzMultiSelectWidget(
                     filter_route_name="employee-widget-filter",
                     filter_class=EmployeeFilter,
                     filter_instance_contex_name="f",
@@ -338,7 +338,7 @@ class StageCreationForm(ModelForm):
             )
 
     def clean(self):
-        if isinstance(self.fields["stage_managers"], HorillaMultiSelectField):
+        if isinstance(self.fields["stage_managers"], DatafactzMultiSelectField):
             ids = self.data.getlist("stage_managers")
             if ids:
                 self.errors.pop("stage_managers", None)
@@ -944,7 +944,7 @@ exclude_fields = [
     "modified_by",
     "is_active",
     "last_updated",
-    "horilla_history",
+    "datafactz_history",
 ]
 
 

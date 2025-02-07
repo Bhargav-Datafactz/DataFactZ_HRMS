@@ -1,7 +1,7 @@
 """
 employee/sidebar.py
 
-To set Horilla sidebar for employee
+To set Datafactz sidebar for employee
 """
 
 from django.urls import reverse
@@ -74,7 +74,7 @@ def profile_accessibility(request, submenu, user_perms, *args, **kwargs):
 
 def document_accessibility(request, submenu, user_perms, *args, **kwargs):
     return request.user.has_perm(
-        "horilla_documents.view_documentrequest"
+        "datafactz_documents.view_documentrequest"
     ) or is_reportingmanager(request.user)
 
 

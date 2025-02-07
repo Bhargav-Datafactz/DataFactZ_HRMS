@@ -13,7 +13,7 @@ from django.utils.translation import gettext_lazy as _
 
 from base.models import Company
 from employee.models import Employee
-from horilla.models import HorillaModel
+from datafactz.models import DatafactzModel
 
 
 def validate_schedule_time_format(value):
@@ -34,7 +34,7 @@ def validate_schedule_time_format(value):
         raise ValidationError(_("Invalid format, it should be HH:MM format")) from error
 
 
-class BiometricDevices(HorillaModel):
+class BiometricDevices(DatafactzModel):
     """
     Model: BiometricDevices
 

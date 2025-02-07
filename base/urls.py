@@ -20,7 +20,7 @@ from base.models import (
     EmployeeShiftSchedule,
     EmployeeType,
     Holidays,
-    HorillaMailTemplate,
+    DatafactzMailTemplate,
     JobPosition,
     JobRole,
     RotatingShift,
@@ -32,7 +32,7 @@ from base.models import (
     WorkType,
     WorkTypeRequest,
 )
-from horilla_audit.models import AuditTag
+from datafactz_audit.models import AuditTag
 
 urlpatterns = [
     path("", views.home, name="home-page"),
@@ -83,7 +83,7 @@ urlpatterns = [
     path("login/", views.login_user, name="login"),
     path(
         "forgot-password",
-        views.HorillaPasswordResetView.as_view(),
+        views.DatafactzPasswordResetView.as_view(),
         name="forgot-password",
     ),
     path(
@@ -183,7 +183,7 @@ urlpatterns = [
         views.object_duplicate,
         name="duplicate-mail-template",
         kwargs={
-            "model": HorillaMailTemplate,
+            "model": DatafactzMailTemplate,
             "form": MailTemplateForm,
             "template": "mail/htmx/form.html",
         },
@@ -984,9 +984,9 @@ urlpatterns = [
         name="emp-workinfo-complete",
     ),
     path(
-        "get-horilla-installed-apps/",
-        views.get_horilla_installed_apps,
-        name="get-horilla-installed-apps",
+        "get-datafactz-installed-apps/",
+        views.get_datafactz_installed_apps,
+        name="get-datafactz-installed-apps",
     ),
     path("configuration/holiday-view", views.holiday_view, name="holiday-view"),
     path(

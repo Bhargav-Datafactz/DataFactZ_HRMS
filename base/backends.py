@@ -11,13 +11,13 @@ from django.core.mail import EmailMessage
 from django.core.mail.backends.smtp import EmailBackend
 
 from base.models import DynamicEmailConfiguration, EmailLog
-from horilla import settings
-from horilla.horilla_middlewares import _thread_locals
+from datafactz import settings
+from datafactz.datafactz_middlewares import _thread_locals
 
 logger = logging.getLogger(__name__)
 
 
-class DefaultHorillaMailBackend(EmailBackend):
+class DefaultDatafactzMailBackend(EmailBackend):
     def __init__(
         self,
         host=None,
@@ -161,10 +161,10 @@ class DefaultHorillaMailBackend(EmailBackend):
 EMAIL_BACKEND = getattr(settings, "EMAIL_BACKEND", "")
 
 
-BACKEND_CLASS: EmailBackend = DefaultHorillaMailBackend
+BACKEND_CLASS: EmailBackend = DefaultDatafactzMailBackend
 default = "base.backends.ConfiguredEmailBackend"
 
-setattr(BACKEND_CLASS, "send_messages", DefaultHorillaMailBackend.send_messages)
+setattr(BACKEND_CLASS, "send_messages", DefaultDatafactzMailBackend.send_messages)
 
 if EMAIL_BACKEND and EMAIL_BACKEND != default:
     module_path, class_name = EMAIL_BACKEND.rsplit(".", 1)

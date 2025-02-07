@@ -10,7 +10,7 @@ actions to handle the request, process data, and generate a response.
 This module is part of the recruitment project and is intended to
 provide the main entry points for interacting with the application's functionality.
 """
-
+import unicodedata
 import ast
 import calendar
 import json
@@ -90,6 +90,8 @@ from employee.methods.methods import (
     bulk_create_work_types,
     convert_nan,
     get_ordered_badge_ids,
+    validate_row,  # Add this import
+    get_template_fields,
 )
 from employee.models import (
     BonusPoint,
@@ -101,7 +103,7 @@ from employee.models import (
     EmployeeWorkInformation,
     NoteFiles,
 )
-from horilla.decorators import (
+from datafactz.decorators import (
     hx_request_required,
     logger,
     login_required,
@@ -109,18 +111,18 @@ from horilla.decorators import (
     owner_can_enter,
     permission_required,
 )
-from horilla.filters import HorillaPaginator
-from horilla.group_by import group_by_queryset
-from horilla.horilla_settings import HORILLA_DATE_FORMATS
-from horilla.methods import get_horilla_model_class
-from horilla_audit.models import AccountBlockUnblock, HistoryTrackingFields
-from horilla_documents.forms import (
+from datafactz.filters import DatafactzPaginator
+from datafactz.group_by import group_by_queryset
+from datafactz.datafactz_settings import DATAFACTZ_DATE_FORMATS
+from datafactz.methods import get_datafactz_model_class
+from datafactz_audit.models import AccountBlockUnblock, HistoryTrackingFields
+from datafactz_documents.forms import (
     DocumentForm,
     DocumentRejectForm,
     DocumentRequestForm,
     DocumentUpdateForm,
 )
-from horilla_documents.models import Document, DocumentRequest
+from datafactz_documents.models import Document, DocumentRequest
 from notifications.signals import notify
 
 
@@ -384,7 +386,7 @@ def shift_tab(request, emp_id):
 
 
 @login_required
-@manager_can_enter("horilla_documents.view_documentrequests")
+@manager_can_enter("datafactz_documents.view_documentrequests")
 def document_request_view(request):
     """
     This function is used to view documents requests of employees.
@@ -400,7 +402,7 @@ def document_request_view(request):
     documents = Document.objects.filter(document_request_id__isnull=False)
     documents = filtersubordinates(
         request=request,
-        perm="horilla_documents.view_documentrequests",
+        perm="datafactz_documents.view_documentrequests",
         queryset=documents,
     )
     documents = group_by_queryset(
@@ -420,7 +422,7 @@ def document_request_view(request):
 
 @login_required
 @hx_request_required
-@manager_can_enter("horilla_documents.view_documentrequests")
+@manager_can_enter("datafactz_documents.view_documentrequests")
 def document_filter_view(request):
     """
     This method is used to filter employee.
@@ -453,7 +455,7 @@ def document_filter_view(request):
 
 @login_required
 @hx_request_required
-@manager_can_enter("horilla_documents.add_documentrequests")
+@manager_can_enter("datafactz_documents.add_documentrequests")
 def document_request_create(request):
     """
     This function is used to create document requests of an employee in employee requests view.
@@ -464,11 +466,11 @@ def document_request_create(request):
     Returns: return document_request_create_form template
     """
     form = DocumentRequestForm()
-    form = choosesubordinates(request, form, "horilla_documents.add_documentrequest")
+    form = choosesubordinates(request, form, "datafactz_documents.add_documentrequest")
     if request.method == "POST":
         form = DocumentRequestForm(request.POST)
         form = choosesubordinates(
-            request, form, "horilla_documents.add_documentrequest"
+            request, form, "datafactz_documents.add_documentrequest"
         )
         if form.is_valid():
             form = form.save()
@@ -498,7 +500,7 @@ def document_request_create(request):
 
 @login_required
 @hx_request_required
-@manager_can_enter("horilla_documents.change_documentrequests")
+@manager_can_enter("datafactz_documents.change_documentrequests")
 def document_request_update(request, id):
     """
     This function is used to update document requests of an employee in employee requests view.
@@ -532,7 +534,7 @@ def document_request_update(request, id):
 
 @login_required
 @hx_request_required
-@owner_can_enter("horilla_documents.view_document", Employee)
+@owner_can_enter("datafactz_documents.view_document", Employee)
 def document_tab(request, emp_id):
     """
     This function is used to view documents tab of an employee in employee individual
@@ -558,7 +560,7 @@ def document_tab(request, emp_id):
 
 @login_required
 @hx_request_required
-@owner_can_enter("horilla_documents.add_document", Employee)
+@owner_can_enter("datafactz_documents.add_document", Employee)
 def document_create(request, emp_id):
     """
     This function is used to create documents from employee individual & profile view.
@@ -625,7 +627,7 @@ def document_delete(request, id):
     try:
         document = Document.objects.filter(id=id)
         # users can delete own documents
-        if not request.user.has_perm("horilla_documents.delete_document"):
+        if not request.user.has_perm("datafactz_documents.delete_document"):
             document = document.filter(employee_id__employee_user_id=request.user)
         if document:
             document.delete()
@@ -755,7 +757,7 @@ def get_content_type(file_extension):
 
 @login_required
 @hx_request_required
-@manager_can_enter("horilla_documents.add_document")
+@manager_can_enter("datafactz_documents.add_document")
 def document_approve(request, id):
     """
     This function used to view the approve uploaded document.
@@ -780,7 +782,7 @@ def document_approve(request, id):
 
 @login_required
 @hx_request_required
-@manager_can_enter("horilla_documents.add_document")
+@manager_can_enter("datafactz_documents.add_document")
 def document_reject(request, id):
     """
     This function used to view the reject uploaded document.
@@ -815,7 +817,7 @@ def document_reject(request, id):
 
 
 @login_required
-@manager_can_enter("horilla_documents.add_document")
+@manager_can_enter("datafactz_documents.add_document")
 def document_bulk_approve(request):
     """
     This function used to view the approve uploaded document.
@@ -836,7 +838,7 @@ def document_bulk_approve(request):
 
 
 @login_required
-@manager_can_enter("horilla_documents.add_document")
+@manager_can_enter("datafactz_documents.add_document")
 def document_bulk_reject(request):
     """
     This function used to view the reject uploaded document.
@@ -905,7 +907,7 @@ def paginator_qry(qryset, page_number):
     """
     This method is used to paginate query set
     """
-    paginator = HorillaPaginator(qryset, get_pagination())
+    paginator = DatafactzPaginator(qryset, get_pagination())
     qryset = paginator.get_page(page_number)
     return qryset
 
@@ -1982,7 +1984,7 @@ def replace_employee(request, emp_id):
                     and field_name == "recruitment_managers"
                     and str(emp_id) != replace_emp_id
                 ):
-                    Recruitment = get_horilla_model_class(
+                    Recruitment = get_datafactz_model_class(
                         app_label="recruitment", model="recruitment"
                     )
                     recruitment_query = Recruitment.objects.filter(
@@ -1997,7 +1999,7 @@ def replace_employee(request, emp_id):
                     and field_name == "recruitment_stage_managers"
                     and str(emp_id) != replace_emp_id
                 ):
-                    Stage = get_horilla_model_class(
+                    Stage = get_datafactz_model_class(
                         app_label="recruitment", model="stage"
                     )
                     recruitment_stage_query = Stage.objects.filter(
@@ -2012,7 +2014,7 @@ def replace_employee(request, emp_id):
                     and field_name == "onboarding_stage_manager"
                     and str(emp_id) != replace_emp_id
                 ):
-                    OnboardingStage = get_horilla_model_class(
+                    OnboardingStage = get_datafactz_model_class(
                         app_label="onboarding", model="onboardingstage"
                     )
                     onboarding_stage_query = OnboardingStage.objects.filter(
@@ -2027,7 +2029,7 @@ def replace_employee(request, emp_id):
                     and field_name == "onboarding_task_manager"
                     and str(emp_id) != replace_emp_id
                 ):
-                    OnboardingTask = get_horilla_model_class(
+                    OnboardingTask = get_datafactz_model_class(
                         app_label="onboarding", model="onboardingtask"
                     )
                     onboarding_task_query = OnboardingTask.objects.filter(
@@ -2374,6 +2376,16 @@ def convert_nan(field, dicts):
     except ValueError:
         return field_value
 
+def parse_date(date_str):
+    """Converts a date string to a datetime object. Handles multiple formats."""
+    if pd.isna(date_str) or not date_str:
+        return None
+    for fmt in ("%Y-%m-%d", "%d/%m/%Y", "%m/%d/%Y", "%d-%m-%Y"):
+        try:
+            return datetime.strptime(str(date_str), fmt).date()
+        except ValueError:
+            continue
+    return None
 
 @login_required
 @permission_required("employee.add_employee")
@@ -2383,57 +2395,60 @@ def work_info_import(request):
     """
     data_frame = pd.DataFrame(
         columns=[
-            "Badge id",
-            "First Name",
-            "Last Name",
-            "Phone",
-            "Email",
-            "Gender",
-            "Department",
-            "Job Position",
-            "Job Role",
-            "Work Type",
-            "Shift",
-            "Employee Type",
-            "Reporting Manager",
-            "Company",
-            "Location",
-            "Date joining",
-            "Contract End Date",
-            "Basic Salary",
-            "Salary Hour",
+            # Employee Personal Information
+            "Badge ID",  "Email",
+            "Marital Status", "Children", "Emergency Contact",
+            "Emergency Contact Name", "Emergency Contact Relation",
+
+            # Work Information
+            "Work Email", "Work Phone", "Department", "Job Position", "Job Role",
+            "Work Type", "Shift", "Reporting Manager", "Employee Type",
+            "Company", "Work Location", 
+            "Date Joining",
+            "Basic Salary", "Salary Hour",
+
+            # Bank Information
+            "Bank Name", "Branch", "Account Number", "Bank Code #1", "Bank Code #2",
+            "Bank Country", "Bank State", "Bank City", "Bank Address"
         ]
     )
+
+
     error_data = {
-        "Badge id": [],
-        "First Name": [],
-        "Last Name": [],
-        "Phone": [],
-        "Email": [],
-        "Gender": [],
-        "Department": [],
-        "Job Position": [],
-        "Job Role": [],
-        "Work Type": [],
-        "Shift": [],
-        "Employee Type": [],
-        "Reporting Manager": [],
-        "Company": [],
-        "Location": [],
-        "Date joining": [],
-        "Contract End Date": [],
-        "Basic Salary": [],
-        "Salary Hour": [],
-        "Email Error": [],
-        "First Name error": [],
-        "Name and Email Error": [],
-        "Phone error": [],
-        "Joining Date Error": [],
-        "Contract Error": [],
-        "Badge ID Error": [],
-        "Basic Salary Error": [],
-        "Salary Hour Error": [],
-        "User ID Error": [],
+        "Badge ID":[], 
+        "Email":[], 
+        
+        "Marital Status":[], 
+        "Children":[], 
+        "Emergency Contact":[],
+        "Emergency Contact Name":[],
+        "Emergency Contact Relation":[],
+         # Work Information
+        "Work Email":[], 
+        "Work Phone":[], 
+        "Department":[], 
+        "Job Position":[], 
+        "Job Role":[],
+        "Work Type":[], 
+        "Shift":[], 
+        "Reporting Manager":[], 
+        "Employee Type":[],
+        "Company":[], 
+        "Work Location":[], 
+        "Date Joining":[], 
+      
+        "Basic Salary":[], 
+        "Salary Hour":[],
+        # Bank Information
+        "Bank Name":[], 
+        "Branch":[], 
+        "Account Number":[], 
+        "Bank Code #1":[], 
+        "Bank Code #2":[],
+        "Bank Country":[], 
+        "Bank State":[], 
+        "Bank City":[], 
+        "Bank Address":[],
     }
 
     # Export the DataFrame to an Excel file
@@ -2451,170 +2466,161 @@ def work_info_import(request):
         error_occured = False
         file = request.FILES["file"]
         file_extension = file.name.split(".")[-1].lower()
-        data_frame = (
-            pd.read_csv(file) if file_extension == "csv" else pd.read_excel(file)
-        )
+        data_frame = pd.read_csv(file, encoding="utf-8") if file_extension == "csv" else pd.read_excel(file,dtype=str)
+        data_frame["Email"] = data_frame["Email"].astype(str).apply(normalize_email)
         work_info_dicts = data_frame.to_dict("records")
         existing_badge_ids = set(Employee.objects.values_list("badge_id", flat=True))
         existing_usernames = set(User.objects.values_list("username", flat=True))
         existing_name_emails = set(
             Employee.objects.values_list(
-                "employee_first_name", "employee_last_name", "email"
+                "employee_first_name", "employee_last_name", "email",
             )
         )
+        users = []
         for work_info in work_info_dicts:
-            error = False
             try:
-                email = work_info["Email"]
-                phone = work_info["Phone"]
-                first_name = convert_nan("First Name", work_info)
-                last_name = convert_nan("Last Name", work_info)
-                badge_id = work_info["Badge id"]
-                date_joining = work_info["Date joining"]
-                contract_end_date = work_info["Contract End Date"]
-                basic_salary = convert_nan("Basic Salary", work_info)
-                salary_hour = convert_nan("Salary Hour", work_info)
-                pattern = r"^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$"
+                email = work_info.get("Email", "").strip().lower()
+                email = re.sub(r'\s+', '', email)  # Removes hidden spaces
+                employee = Employee.objects.filter(email__iexact=email).first()
+              
+              
+                if not employee:
+                    error_lists.append({"Email": email, "Error": "Employee not found. Ensure the employee exists before importing work info."})
+                    continue  
 
+                
+
+                # **Work Information Fields**
+                work_email = work_info.get("Work Email", "")
+                work_phone = work_info.get("Work Phone", "")
+
+                department = Department.objects.filter(id=work_info.get("Department", "")).first()               
+                job_position = JobPosition.objects.filter(id=work_info.get("Job Position", "")).first()
+                job_role = JobRole.objects.filter(id=work_info.get("Job Role", "")).first()
+                work_type = WorkType.objects.filter(id=work_info.get("Work Type", "")).first()
+                shift = EmployeeShift.objects.filter(id=work_info.get("Shift", "")).first()
+                employee_type = EmployeeType.objects.filter(id=work_info.get("Employee Type", "")).first()
+                reporting_manager = Employee.objects.filter(id=work_info.get("Reporting Manager", "")).first()
+                company = Company.objects.filter(id=work_info.get("Company", "")).first()
+
+                location = work_info.get("Work Location", "")
+               
+                #contract_end_date = work_info.get("End Date", "")
+              
+                # **Update Employee Work Information**
+                EmployeeWorkInformation.objects.update_or_create(
+                    employee_id=employee,
+                    defaults={
+                        "email": work_email,
+                        "mobile": work_phone,
+                        "job_position_id": job_position,
+                        "department_id": department,
+                        "work_type_id": work_type,
+                        "shift_id": shift,
+                        "employee_type_id": employee_type,
+                        "job_role_id": job_role,
+                        "reporting_manager_id": reporting_manager,
+                        "company_id": company,
+                        "location": location,
+                        
+                       # "contract_end_date": contract_end_date,
+                        
+                    },
+                )
+
+                # **Bank Information Fields**
+                bank_name = work_info.get("Bank Name", "")
+                account_number = work_info.get("Account Number", "")
+                branch = work_info.get("Branch", "")
+                bank_code1 = work_info.get("Bank Code #1", "")
+                bank_code2 = work_info.get("Bank Code #2", "")
+                bank_country = work_info.get("Bank Country", "")
+                bank_state = work_info.get("Bank State", "")
+                city = work_info.get("City", "")
+
+                # **Update Employee Bank Details**
+                EmployeeBankDetails.objects.update_or_create(
+                    employee_id=employee,
+                    defaults={
+                        "bank_name": bank_name,
+                        "account_number": account_number,
+                        "branch": branch,
+                        "any_other_code1": bank_code1,
+                        "any_other_code2": bank_code2,
+                        "country": bank_country,
+                        "state": bank_state,
+                        "city": city,
+                    },
+                )
+                
+                    
+                marital_status = work_info.get("Marital Status", "")
+                children = work_info.get("Children", 0)
+                emergency_contact = work_info.get("Emergency Contact", "")
+                emergency_contact_name = work_info.get("Emergency Contact Name", "")
+                emergency_contact_relation = work_info.get("Emergency Contact Relation", "")
+                dob = work_info["dob"]
                 try:
-                    if pd.isna(email) or not re.match(pattern, email):
-                        work_info["Email Error"] = f"Invalid Email address"
-                        error = True
+                    dob = pd.to_datetime(dob).date()
                 except:
-                    error = True
-                    work_info["Email Error"] = f"Invalid Email address"
-
-                try:
-                    pd.to_numeric(basic_salary)
-                except ValueError:
-                    work_info["Basic Salary Error"] = f"Basic Salary must be a number"
-                    error = True
-
-                try:
-                    pd.to_numeric(salary_hour)
-                except ValueError:
-                    work_info["Salary Hour Error"] = f"Salary Hour must be a number"
-                    error = True
-
-                if pd.isna(first_name):
-                    work_info["First Name error"] = f"First Name can't be empty"
-                    error = True
-
-                if pd.isna(phone):
-                    work_info["Phone error"] = f"Phone Number can't be empty"
-                    error = True
-
-                name_email_tuple = (first_name, last_name, email)
-                if name_email_tuple in existing_name_emails:
-                    work_info["Name and Email Error"] = (
-                        "An employee with this first name, last name, and email already exists."
+                    work_info["dob Error"] = (
+                        f"Invalid Date format. Please use the format YYYY-MM-DD"
                     )
                     error = True
-                else:
-                    existing_name_emails.add(name_email_tuple)
+                    return
+                # Update Employee Personal Details
+                Employee.objects.update_or_create(
+                    id=employee.id,
+                    defaults={
+                        "marital_status": marital_status.lower(),
+                        "children": children,
+                        "emergency_contact": emergency_contact,
+                        "emergency_contact_name": emergency_contact_name,
+                        "emergency_contact_relation": emergency_contact_relation,
+                        "dob":dob,
+                        
+                    },
+                )
+                 # Get values directly from work_info
+                basic_salary_str = str(work_info.get("Basic Salary", "0"))
+                salary_hour_str = str(work_info.get("Salary Hour", "0"))
 
+                # Remove any commas and spaces
+                basic_salary_str = basic_salary_str.replace(",", "").strip()
+                salary_hour_str = salary_hour_str.replace(",", "").strip()
+                
+                date_joining = work_info["Date Joining"]
                 try:
-                    pd.to_datetime(date_joining).date()
+                    date_joining = pd.to_datetime(date_joining).date()
                 except:
                     work_info["Joining Date Error"] = (
                         f"Invalid Date format. Please use the format YYYY-MM-DD"
                     )
                     error = True
+                    return
+                EmployeeWorkInformation.objects.update_or_create(
+                    employee_id=employee,
+                    defaults={
+                        "basic_salary":basic_salary_str,
+                        "salary_hour":salary_hour_str,
+                        "date_joining": date_joining,
+                    },
+                )
 
-                try:
-                    pd.to_datetime(contract_end_date).date()
-                except:
-                    work_info["Contract Error"] = (
-                        f"Invalid Date format. Please use the format YYYY-MM-DD"
-                    )
-                    error = True
-
-                if badge_id in existing_badge_ids:
-                    work_info["Badge ID Error"] = (
-                        f"An Employee with the badge ID already exists"
-                    )
-                    error = True
-                else:
-                    existing_badge_ids.add(badge_id)
-
-                if email in existing_usernames:
-                    work_info["User ID Error"] = (
-                        f"User with the email ID already exists"
-                    )
-                    error = True
-                else:
-                    existing_usernames.add(email)
-
-                if error:
-                    error_lists.append(work_info)
-                else:
-                    success_lists.append(work_info)
+                success_lists.append(work_info)
 
             except Exception as e:
-                error_occured = True
-                logger.error(e)
+                error_lists.append({"Email": email, "Error": str(e)})
 
-        if create_work_info or not error_lists:
-            try:
-                bulk_create_user_import(success_lists)
-                total_count = bulk_create_employee_import(success_lists)
-                bulk_create_department_import(success_lists)
-                bulk_create_job_position_import(success_lists)
-                bulk_create_job_role_import(success_lists)
-                bulk_create_work_types(success_lists)
-                bulk_create_shifts(success_lists)
-                bulk_create_employee_types(success_lists)
-                bulk_create_work_info_import(success_lists)
-
-            except Exception as e:
-                error_occured = True
-                logger.error(e)
-
-        if error_occured:
-            messages.error(request, "something went wrong....")
-            data_frame = pd.DataFrame(
-                ["The provided titles don't match the default titles."],
-                columns=["Title Error"],
-            )
-
-            error_count = len(error_lists)
-            # Create an HTTP response object with the Excel file
-            response = HttpResponse(content_type="application/ms-excel")
-            response["Content-Disposition"] = 'attachment; filename="ImportError.xlsx"'
-            data_frame.to_excel(response, index=False)
-            response["X-Error-Count"] = error_count
-            return response
-
+        # **Handle Errors and Return Response**
         if error_lists:
-            for item in error_lists:
-                for key, value in error_data.items():
-                    if key in item:
-                        value.append(item[key])
-                    else:
-                        value.append(None)
+            error_df = pd.DataFrame(error_lists)
+            response = HttpResponse(content_type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet")
+            response["Content-Disposition"] = 'attachment; filename="ImportErrors.xlsx"'
+            error_df.to_excel(response, index=False)
+            return response   
 
-            keys_to_remove = [
-                key
-                for key, value in error_data.items()
-                if all(v is None for v in value)
-            ]
-
-            for key in keys_to_remove:
-                del error_data[key]
-            data_frame = pd.DataFrame(error_data, columns=error_data.keys())
-            error_count = len(error_lists)
-            # Create an HTTP response object with the Excel file
-            response = HttpResponse(content_type="application/ms-excel")
-            response["Content-Disposition"] = 'attachment; filename="ImportError.xlsx"'
-            data_frame.to_excel(response, index=False)
-            response["X-Error-Count"] = error_count
-            return response
-        return JsonResponse(
-            {
-                "Success": "Employees Imported Succefully",
-                "success_count": total_count,
-            }
-        )
+        return JsonResponse({"Success": "Employees Imported Successfully", "success_count": len(success_lists)})       
 
     return response
 
@@ -2682,7 +2688,7 @@ def work_info_export(request):
                 start_date = datetime.strptime(str(value), "%Y-%m-%d").date()
 
                 # Print the formatted date for each format
-                for format_name, format_string in HORILLA_DATE_FORMATS.items():
+                for format_name, format_string in DATAFACTZ_DATE_FORMATS.items():
                     if format_name == date_format:
                         data = start_date.strftime(format_string)
 
@@ -2796,7 +2802,7 @@ def total_employees_count(request):
 def joining_today_count(request):
     newbies_today = 0
     if apps.is_installed("recruitment"):
-        Candidate = get_horilla_model_class(app_label="recruitment", model="candidate")
+        Candidate = get_datafactz_model_class(app_label="recruitment", model="candidate")
         newbies_today = Candidate.objects.filter(
             joining_date__range=[date.today(), date.today() + timedelta(days=1)],
             is_active=True,
@@ -2808,7 +2814,7 @@ def joining_today_count(request):
 def joining_week_count(request):
     newbies_week = 0
     if apps.is_installed("recruitment"):
-        Candidate = get_horilla_model_class(app_label="recruitment", model="candidate")
+        Candidate = get_datafactz_model_class(app_label="recruitment", model="candidate")
         newbies_week = Candidate.objects.filter(
             joining_date__range=[
                 date.today() - timedelta(days=date.today().weekday()),
@@ -3116,7 +3122,7 @@ def bonus_points_tab(request, emp_id):
     employee_obj = Employee.objects.get(id=emp_id)
     points = BonusPoint.objects.get(employee_id=emp_id)
     if apps.is_installed("payroll"):
-        Reimbursement = get_horilla_model_class(
+        Reimbursement = get_datafactz_model_class(
             app_label="payroll", model="reimbursement"
         )
         requested_bonus_points = Reimbursement.objects.filter(
@@ -3229,7 +3235,7 @@ def redeem_points(request, emp_id):
 
     amount_for_bonus_point = 0
     if apps.is_installed("payroll"):
-        EncashmentGeneralSettings = get_horilla_model_class(
+        EncashmentGeneralSettings = get_datafactz_model_class(
             app_label="payroll", model="encashmentgeneralsettings"
         )
         amount_for_bonus_point = (
@@ -3245,7 +3251,7 @@ def redeem_points(request, emp_id):
             points = form.cleaned_data["points"]
             amount = amount_for_bonus_point * points
             if apps.is_installed("payroll"):
-                Reimbursement = get_horilla_model_class(
+                Reimbursement = get_datafactz_model_class(
                     app_label="payroll", model="reimbursement"
                 )
                 Reimbursement.objects.create(
@@ -3393,7 +3399,7 @@ def encashment_condition_create(request):
     if apps.is_installed("payroll"):
         from payroll.forms.forms import EncashmentGeneralSettingsForm
 
-        EncashmentGeneralSettings = get_horilla_model_class(
+        EncashmentGeneralSettings = get_datafactz_model_class(
             app_label="payroll", model="encashmentgeneralsettings"
         )
         instance = (
@@ -3568,3 +3574,15 @@ def employee_tag_update(request, tag_id):
         "base/employee_tag/employee_tag_form.html",
         {"form": form, "tag_id": tag_id},
     )
+
+
+def normalize_email(email):
+    """Cleans and normalizes emails to remove encoding issues."""
+    email = email.strip().lower()  # Trim spaces & lowercase
+    email = unicodedata.normalize("NFKC", email)  # Normalize Unicode
+    email = re.sub(r'\s+', '', email)  # Remove extra spaces within
+    email = email.replace("\xa0", "")  # Remove non-breaking spaces
+    email = email.replace("\r", "").replace("\n", "")  # Remove newlines
+    return email
+
+# Apply when reading from CSV/Excel

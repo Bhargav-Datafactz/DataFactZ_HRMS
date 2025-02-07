@@ -61,17 +61,17 @@ from base.methods import (
 )
 from base.models import Company
 from employee.models import Employee, EmployeeWorkInformation
-from horilla import settings
-from horilla.decorators import (
+from datafactz import settings
+from datafactz.decorators import (
     hx_request_required,
     login_required,
     manager_can_enter,
     owner_can_enter,
     permission_required,
 )
-from horilla.group_by import group_by_queryset
-from horilla.horilla_settings import HORILLA_DATE_FORMATS
-from horilla.methods import horilla_users_with_perms
+from datafactz.group_by import group_by_queryset
+from datafactz.datafactz_settings import DATAFACTZ_DATE_FORMATS
+from datafactz.methods import datafactz_users_with_perms
 from notifications.signals import notify
 
 
@@ -755,7 +755,7 @@ def asset_allocate_return_request(request, asset_id):
     asset_assign.save()
     message = _("Return request for {} initiated.").format(asset_assign.asset_id)
     messages.success(request, message)
-    permed_users = horilla_users_with_perms("asset.change_assetassignment")
+    permed_users = datafactz_users_with_perms("asset.change_assetassignment")
     notify.send(
         request.user.employee_get,
         recipient=permed_users,
@@ -1328,7 +1328,7 @@ def asset_export_excel(request):
                     start_date = datetime.strptime(str(value), "%Y-%m-%d").date()
 
                     # The formatted date for each format
-                    for format_name, format_string in HORILLA_DATE_FORMATS.items():
+                    for format_name, format_string in DATAFACTZ_DATE_FORMATS.items():
                         if format_name == date_format:
                             value = start_date.strftime(format_string)
 

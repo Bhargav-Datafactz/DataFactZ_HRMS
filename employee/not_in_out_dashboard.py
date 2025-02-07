@@ -17,11 +17,11 @@ from django.shortcuts import render
 
 from base.backends import ConfiguredEmailBackend
 from base.methods import export_data, generate_pdf
-from base.models import HorillaMailTemplate
+from base.models import DatafactzMailTemplate
 from employee.filters import EmployeeFilter
 from employee.models import Employee
-from horilla import settings
-from horilla.decorators import login_required, manager_can_enter
+from datafactz import settings
+from datafactz.decorators import login_required, manager_can_enter
 
 
 def paginator_qry(qryset, page_number):
@@ -84,7 +84,7 @@ def send_mail(request, emp_id=None):
         employee = Employee.objects.get(id=emp_id)
     employees = Employee.objects.all()
 
-    templates = HorillaMailTemplate.objects.all()
+    templates = DatafactzMailTemplate.objects.all()
     return render(
         request,
         "employee/send_mail.html",
@@ -167,7 +167,7 @@ def get_template(request, emp_id):
     """
     This method is used to return the mail template
     """
-    body = HorillaMailTemplate.objects.get(id=emp_id).body
+    body = DatafactzMailTemplate.objects.get(id=emp_id).body
     instance_id = request.GET.get("instance_id")
     if instance_id:
         instance = Employee.objects.get(id=instance_id)
@@ -207,7 +207,7 @@ def send_mail_to_employee(request):
     template_attachment_ids = request.POST.getlist("template_attachments")
     for employee in employees:
         bodys = list(
-            HorillaMailTemplate.objects.filter(
+            DatafactzMailTemplate.objects.filter(
                 id__in=template_attachment_ids
             ).values_list("body", flat=True)
         )

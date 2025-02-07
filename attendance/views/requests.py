@@ -47,7 +47,7 @@ from base.methods import (
 )
 from base.models import EmployeeShift, EmployeeShiftDay
 from employee.models import Employee
-from horilla.decorators import (
+from datafactz.decorators import (
     hx_request_required,
     login_required,
     manager_can_enter,

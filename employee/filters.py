@@ -14,13 +14,13 @@ from django_filters import CharFilter
 # from attendance.models import Attendance
 from accessibility.models import DefaultAccessibility
 from employee.models import DisciplinaryAction, Employee, Policy
-from horilla.filters import FilterSet, HorillaFilterSet, filter_by_name
-from horilla.horilla_middlewares import _thread_locals
-from horilla_documents.models import Document
-from horilla_views.templatetags.generic_template_filters import getattribute
+from datafactz.filters import FilterSet, DatafactzFilterSet, filter_by_name
+from datafactz.datafactz_middlewares import _thread_locals
+from datafactz_documents.models import Document
+from datafactz_views.templatetags.generic_template_filters import getattribute
 
 
-class EmployeeFilter(HorillaFilterSet):
+class EmployeeFilter(DatafactzFilterSet):
     """
     Filter set class for Candidate model
 

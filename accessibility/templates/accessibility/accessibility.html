@@ -124,7 +124,7 @@
                                 for (let key in response) {
                                     if (response.hasOwnProperty(key)) {
                                         let values = response[key];
-                                        let field = document.querySelector(`#{{accessibility}}_body [name="${key}"]`);
+                                        let field = document.querySelector('{{accessibility}}_body [name="${key}"]');
                                         if (field) {
                                           if (field.tagName === 'SELECT') {
                                             if (field.multiple) {
@@ -137,7 +137,7 @@
                                           }else if(key=="exclude_all" && values[0] == "on"){
                                             $(field).attr("checked",true)
                                             accessibility = $(field).attr('data-accessibility')
-                                            $(`#${accessibility}formcontainer`).hide();
+                                            $('${accessibility}formcontainer').hide();
                                           }
                                         }
                                       }
@@ -174,8 +174,7 @@
   <script>
     const items = document.querySelectorAll("#accessibilityContainer select");
     items.forEach((item, index) => {
-        item.id = `select-${index + 1}`;
-    });
-
-</script>
+      item.id = select-${index + 1};
+    });</script>
 {% endblock settings %}
+</div>
