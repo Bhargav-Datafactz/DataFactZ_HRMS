@@ -6,7 +6,7 @@ from django.core.management.base import BaseCommand
 from datetime import datetime
 
 # Set up Django environment
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "horilla.settings")  # Adjust as necessary
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "datafactz.settings")  # Adjust as necessary
 django.setup()
 
 from employee.models import Employee, EmployeeWorkInformation
@@ -41,7 +41,7 @@ def parse_date(date_str):
 def read_file(file_path):
     """Reads CSV or XLSX file and returns data as a list of dictionaries."""
     if file_path.endswith(".csv"):
-        df = pd.read_csv(file_path, dtype=str)
+        df = pd.read_csv(file_path, encoding="ISO-8859-1")
     elif file_path.endswith(".xlsx"):
         df = pd.read_excel(file_path, dtype=str)
     else:
@@ -72,7 +72,7 @@ def import_employees(employee_file):
             employee, created = Employee.objects.update_or_create(
                 email=normalize_email(row["email"]),
                 defaults={
-                    "badge_id": row.get("badge_id", "").strip(),
+                    "badge_id": row.get("badge_id", ""),
                     "phone": str(row.get("phone", "")).strip(),
                     "dob": parse_date(row.get("dob")),
                     "gender": row.get("gender", "male"),
