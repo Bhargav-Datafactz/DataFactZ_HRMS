@@ -14,7 +14,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 RUN mkdir -p /data
 
 # Set the environment variable to tell Django where to store the database
-ENV DATABASE_PATH=/data/db.sqlite3
+ENV DATABASE_PATH=/data/db.sqlite4
 
 # Collect static files
 RUN python manage.py collectstatic --noinput
