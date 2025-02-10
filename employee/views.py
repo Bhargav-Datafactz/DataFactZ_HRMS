@@ -2559,6 +2559,9 @@ def work_info_import(request):
                 emergency_contact = work_info.get("Emergency Contact", "")
                 emergency_contact_name = work_info.get("Emergency Contact Name", "")
                 emergency_contact_relation = work_info.get("Emergency Contact Relation", "")
+                employee_first_name = work_info.get("first name","")
+                employee_last_name = work_info.get("last name","")
+                '''
                 dob = work_info["dob"]
                 try:
                     dob = pd.to_datetime(dob).date()
@@ -2567,7 +2570,7 @@ def work_info_import(request):
                         f"Invalid Date format. Please use the format YYYY-MM-DD"
                     )
                     error = True
-                    return
+                    return '''
                 # Update Employee Personal Details
                 Employee.objects.update_or_create(
                     id=employee.id,
@@ -2577,7 +2580,9 @@ def work_info_import(request):
                         "emergency_contact": emergency_contact,
                         "emergency_contact_name": emergency_contact_name,
                         "emergency_contact_relation": emergency_contact_relation,
-                        "dob":dob,
+                        "employee_first_name": employee_first_name,
+                        "employee_last_name": employee_last_name,
+                        #"dob":dob,
                         
                     },
                 )
