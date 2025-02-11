@@ -135,7 +135,7 @@ dmypy.json
 !**/migrations/__init__.py
 
 # media file
-media/
+#media/
 
 #collected static files
 staticfiles/
