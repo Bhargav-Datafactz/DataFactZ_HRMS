@@ -106,13 +106,29 @@ def import_leave_history(leave_file):
                 continue
 
             leave_type, _ = LeaveType.objects.get_or_create(name=row["leave_type"].strip())
+
+            # Custom date parsing
+            try:
+                start_date = datetime.strptime(row["start_date"], '%d-%b-%y').date()
+                end_date = datetime.strptime(row["end_date"], '%d-%b-%y').date()
+            except ValueError as e:
+                print(f"Date parsing error for {employee.email}: {e}")
+                continue
+
+            status = row.get("status")  # Use get to avoid KeyError
+
+            # Check for None values and log the entire row for debugging
+            if start_date is None or end_date is None or status is None:
+                print(f"Skipping leave record for {employee.email}: start_date, end_date, or status is None. Row data: {row}")
+                continue
+
             leave_request, created = LeaveRequest.objects.update_or_create(
                 employee_id=employee,
                 leave_type_id=leave_type,
-                start_date=parse_date(row["start_date"]),
-                end_date=parse_date(row["end_date"]),
+                start_date=start_date,
+                end_date=end_date,
                 defaults={
-                    "status": row["status"],
+                    "status": status,
                 },
             )
             print(f"{'Created' if created else 'Updated'} LeaveRequest for {employee.email}")
@@ -122,11 +138,11 @@ def import_leave_history(leave_file):
 
 if __name__ == "__main__":
     import sys
-    if len(sys.argv) < 3:
+    if len(sys.argv) < 2:
         print("Usage: python script.py <employee_file> <leave_file>")
         sys.exit(1)
 
-    employee_file = sys.argv[1]
-    leave_file = sys.argv[2]
-    import_employees(employee_file)
+    #employee_file = sys.argv[1]
+    leave_file = sys.argv[1]
+    #import_employees(employee_file)
     import_leave_history(leave_file)

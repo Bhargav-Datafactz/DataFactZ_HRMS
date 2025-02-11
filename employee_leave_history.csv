@@ -1,33 +1,33 @@
 employee_email,leave_type,start_date,end_date,status
-anantha.chintalapati@datafactz.com,WFH,03-Jan-23,03-Jan-23,approved
-anvesh.chintakunta@datafactz.com,WFH,03-Jan-23,03-Jan-23,approved
-deepthi.pabba@datafactz.com,Leave,03-Jan-23,03-Jan-23,approved
-Gayathri.Dasari@datafactz.com,Leave,03-Jan-23,03-Jan-23,approved
-priyanka.srungavrukshapu@datafactz.com,Leave,03-Jan-23,03-Jan-23,approved
-sharath.bhoomireddygari@datafactz.com,Leave,03-Jan-23,03-Jan-23,approved
-srinivas.potharam@datafactz.com,WFH,03-Jan-23,03-Jan-23,approved
-Gayathri.Dasari@datafactz.com,Leave,04-Jan-23,04-Jan-23,approved
-vignesh.kolla@datafactz.com,Leave,04-Jan-23,04-Jan-23,approved
-srinivas.potharam@datafactz.com,WFH,04-Jan-23,04-Jan-23,approved
-baskar.darukumalli@datafactz.com,WFH,05-Jan-23,05-Jan-23,approved
-vignesh.kolla@datafactz.com,Leave,05-Jan-23,05-Jan-23,approved
-naren.nimmalabandari@datafactz.com,Leave,05-Jan-23,05-Jan-23,approved
-srinivas.potharam@datafactz.com,WFH,05-Jan-23,05-Jan-23,approved
-swetha.dutpala@datafactz.com,Leave,05-Jan-23,05-Jan-23,approved
-srinivas.potharam@datafactz.com,WFH,06-Jan-23,06-Jan-23,approved
-varaprasad.devarakonda@datafactz.com,Leave,06-Jan-23,06-Jan-23,approved
-AnkithaPadmaPriya.Thirakala@datafactz.com,WFH,09-Jan-23,09-Jan-23,approved
-anvesh.chintakunta@datafactz.com,WFH,09-Jan-23,09-Jan-23,approved
-baskar.darukumalli@datafactz.com,WFH,09-Jan-23,09-Jan-23,approved
-deepthi.pabba@datafactz.com,Leave,09-Jan-23,09-Jan-23,approved
-Gayathri.Dasari@datafactz.com,WFH,09-Jan-23,09-Jan-23,approved
-geeta.devabakthuni@datafactz.com,WFH,09-Jan-23,09-Jan-23,approved
-karthik.kayala@datafactz.com,WFH,09-Jan-23,09-Jan-23,approved
-RajeshKumar.Potharaju@datafactz.com,Leave,09-Jan-23,09-Jan-23,approved
-sharath.bhoomireddygari@datafactz.com,Leave,09-Jan-23,09-Jan-23,approved
-swetha.dutpala@datafactz.com,Leave,09-Jan-23,09-Jan-23,approved
-syed.tahir@datafactz.com,Leave,09-Jan-23,09-Jan-23,approved
-vaishali.kumari@datafactz.com,Leave,09-Jan-23,09-Jan-23,approved
+anantha.chintalapati@datafactz.com,WFH,3-Jan-23,3-Jan-23,approved
+anvesh.chintakunta@datafactz.com,WFH,3-Jan-23,3-Jan-23,approved
+deepthi.pabba@datafactz.com,Leave,3-Jan-23,3-Jan-23,approved
+Gayathri.Dasari@datafactz.com,Leave,3-Jan-23,3-Jan-23,approved
+priyanka.srungavrukshapu@datafactz.com,Leave,3-Jan-23,3-Jan-23,approved
+sharath.bhoomireddygari@datafactz.com,Leave,3-Jan-23,3-Jan-23,approved
+srinivas.potharam@datafactz.com,WFH,3-Jan-23,3-Jan-23,approved
+Gayathri.Dasari@datafactz.com,Leave,4-Jan-23,4-Jan-23,approved
+vignesh.kolla@datafactz.com,Leave,4-Jan-23,4-Jan-23,approved
+srinivas.potharam@datafactz.com,WFH,4-Jan-23,4-Jan-23,approved
+baskar.darukumalli@datafactz.com,WFH,5-Jan-23,5-Jan-23,approved
+vignesh.kolla@datafactz.com,Leave,5-Jan-23,5-Jan-23,approved
+naren.nimmalabandari@datafactz.com,Leave,5-Jan-23,5-Jan-23,approved
+srinivas.potharam@datafactz.com,WFH,5-Jan-23,5-Jan-23,approved
+swetha.dutpala@datafactz.com,Leave,5-Jan-23,5-Jan-23,approved
+srinivas.potharam@datafactz.com,WFH,6-Jan-23,6-Jan-23,approved
+varaprasad.devarakonda@datafactz.com,Leave,6-Jan-23,6-Jan-23,approved
+AnkithaPadmaPriya.Thirakala@datafactz.com,WFH,9-Jan-23,9-Jan-23,approved
+anvesh.chintakunta@datafactz.com,WFH,9-Jan-23,9-Jan-23,approved
+baskar.darukumalli@datafactz.com,WFH,9-Jan-23,9-Jan-23,approved
+deepthi.pabba@datafactz.com,Leave,9-Jan-23,9-Jan-23,approved
+Gayathri.Dasari@datafactz.com,WFH,9-Jan-23,9-Jan-23,approved
+geeta.devabakthuni@datafactz.com,WFH,9-Jan-23,9-Jan-23,approved
+karthik.kayala@datafactz.com,WFH,9-Jan-23,9-Jan-23,approved
+RajeshKumar.Potharaju@datafactz.com,Leave,9-Jan-23,9-Jan-23,approved
+sharath.bhoomireddygari@datafactz.com,Leave,9-Jan-23,9-Jan-23,approved
+swetha.dutpala@datafactz.com,Leave,9-Jan-23,9-Jan-23,approved
+syed.tahir@datafactz.com,Leave,9-Jan-23,9-Jan-23,approved
+vaishali.kumari@datafactz.com,Leave,9-Jan-23,9-Jan-23,approved
 AnkithaPadmaPriya.Thirakala@datafactz.com,WFH,10-Jan-23,10-Jan-23,approved
 karthik.kayala@datafactz.com,Leave,10-Jan-23,10-Jan-23,approved
 lakshmi.devarapalli@datafactz.com,Leave,10-Jan-23,10-Jan-23,approved
@@ -155,50 +155,50 @@ sharath.bhoomireddygari@datafactz.com,LOP,31-Jan-23,31-Jan-23,approved
 sharath.bhoomireddygari@datafactz.com,LOP,31-Jan-23,31-Jan-23,approved
 sharath.bhoomireddygari@datafactz.com,LOP,31-Jan-23,31-Jan-23,approved
 sharath.bhoomireddygari@datafactz.com,Half Day LOP,31-Jan-23,31-Jan-23,approved
-anand.karnati@datafactz.com,Leave,01-Feb-23,01-Feb-23,approved
-Sahithi.Madduluri@datafactz.com,Leave,01-Feb-23,01-Feb-23,approved
-SaiKrishna.Arram@datafactz.com,Leave,01-Feb-23,01-Feb-23,approved
-sharath.bhoomireddygari@datafactz.com,Leave,01-Feb-23,01-Feb-23,approved
-anand.karnati@datafactz.com,WFH,02-Feb-23,02-Feb-23,approved
-vignesh.kolla@datafactz.com,Leave,02-Feb-23,02-Feb-23,approved
-Sahithi.Madduluri@datafactz.com,WFH,02-Feb-23,02-Feb-23,approved
-sharath.bhoomireddygari@datafactz.com,Leave,02-Feb-23,02-Feb-23,approved
-shashi.parvathaneni@datafactz.com,WFH,02-Feb-23,02-Feb-23,approved
-kiran.aluru@datafactz.com,Leave,03-Feb-23,03-Feb-23,approved
-anand.karnati@datafactz.com,WFH,03-Feb-23,03-Feb-23,approved
-deepthi.pabba@datafactz.com,WFH,03-Feb-23,03-Feb-23,approved
-Gayathri.Dasari@datafactz.com,WFH,03-Feb-23,03-Feb-23,approved
-geeta.devabakthuni@datafactz.com,WFH,03-Feb-23,03-Feb-23,approved
-raghava.raparthi@datafactz.com,WFH,03-Feb-23,03-Feb-23,approved
-RajeshKumar.Potharaju@datafactz.com,WFH,03-Feb-23,03-Feb-23,approved
-sharath.bhoomireddygari@datafactz.com,Leave,03-Feb-23,03-Feb-23,approved
-anand.karnati@datafactz.com,WFH,06-Feb-23,06-Feb-23,approved
-Ashok.Devalla@datafactz.com,WFH,06-Feb-23,06-Feb-23,approved
-nikhilesh.narra@datafactz.com,WFH,06-Feb-23,06-Feb-23,approved
-prabhakar.konakala@datafactz.com,Leave,06-Feb-23,06-Feb-23,approved
-sharath.bhoomireddygari@datafactz.com,Leave,06-Feb-23,06-Feb-23,approved
-shashi.parvathaneni@datafactz.com,WFH,06-Feb-23,06-Feb-23,approved
-srinivas.potharam@datafactz.com,WFH,06-Feb-23,06-Feb-23,approved
-VinayKumar.Gayini@datafactz.com,Leave,06-Feb-23,06-Feb-23,approved
-anand.karnati@datafactz.com,WFH,07-Feb-23,07-Feb-23,approved
-Ashok.Devalla@datafactz.com,Leave,07-Feb-23,07-Feb-23,approved
-sharath.bhoomireddygari@datafactz.com,Leave,07-Feb-23,07-Feb-23,approved
-srinivas.potharam@datafactz.com,WFH,07-Feb-23,07-Feb-23,approved
-anand.karnati@datafactz.com,Leave,08-Feb-23,08-Feb-23,approved
-Arunsai.sadu@datafactz.com,WFH,08-Feb-23,08-Feb-23,approved
-Ashok.Devalla@datafactz.com,WFH,08-Feb-23,08-Feb-23,approved
-baskar.darukumalli@datafactz.com,Leave,08-Feb-23,08-Feb-23,approved
-sharath.bhoomireddygari@datafactz.com,Leave,08-Feb-23,08-Feb-23,approved
-srinivas.potharam@datafactz.com,Leave,08-Feb-23,08-Feb-23,approved
-anand.karnati@datafactz.com,Leave,09-Feb-23,09-Feb-23,approved
-Arunsai.sadu@datafactz.com,Leave,09-Feb-23,09-Feb-23,approved
-Ashok.Devalla@datafactz.com,Leave,09-Feb-23,09-Feb-23,approved
-Sahithi.Madduluri@datafactz.com,Leave,09-Feb-23,09-Feb-23,approved
-SaiKrishna.Arram@datafactz.com,Leave,09-Feb-23,09-Feb-23,approved
-sharath.bhoomireddygari@datafactz.com,Leave,09-Feb-23,09-Feb-23,approved
-shashi.parvathaneni@datafactz.com,WFH,09-Feb-23,09-Feb-23,approved
-sireesha.medaramitla@datafactz.com,Leave,09-Feb-23,09-Feb-23,approved
-srinivas.potharam@datafactz.com,WFH,09-Feb-23,09-Feb-23,approved
+anand.karnati@datafactz.com,Leave,1-Feb-23,1-Feb-23,approved
+Sahithi.Madduluri@datafactz.com,Leave,1-Feb-23,1-Feb-23,approved
+SaiKrishna.Arram@datafactz.com,Leave,1-Feb-23,1-Feb-23,approved
+sharath.bhoomireddygari@datafactz.com,Leave,1-Feb-23,1-Feb-23,approved
+anand.karnati@datafactz.com,WFH,2-Feb-23,2-Feb-23,approved
+vignesh.kolla@datafactz.com,Leave,2-Feb-23,2-Feb-23,approved
+Sahithi.Madduluri@datafactz.com,WFH,2-Feb-23,2-Feb-23,approved
+sharath.bhoomireddygari@datafactz.com,Leave,2-Feb-23,2-Feb-23,approved
+shashi.parvathaneni@datafactz.com,WFH,2-Feb-23,2-Feb-23,approved
+kiran.aluru@datafactz.com,Leave,3-Feb-23,3-Feb-23,approved
+anand.karnati@datafactz.com,WFH,3-Feb-23,3-Feb-23,approved
+deepthi.pabba@datafactz.com,WFH,3-Feb-23,3-Feb-23,approved
+Gayathri.Dasari@datafactz.com,WFH,3-Feb-23,3-Feb-23,approved
+geeta.devabakthuni@datafactz.com,WFH,3-Feb-23,3-Feb-23,approved
+raghava.raparthi@datafactz.com,WFH,3-Feb-23,3-Feb-23,approved
+RajeshKumar.Potharaju@datafactz.com,WFH,3-Feb-23,3-Feb-23,approved
+sharath.bhoomireddygari@datafactz.com,Leave,3-Feb-23,3-Feb-23,approved
+anand.karnati@datafactz.com,WFH,6-Feb-23,6-Feb-23,approved
+Ashok.Devalla@datafactz.com,WFH,6-Feb-23,6-Feb-23,approved
+nikhilesh.narra@datafactz.com,WFH,6-Feb-23,6-Feb-23,approved
+prabhakar.konakala@datafactz.com,Leave,6-Feb-23,6-Feb-23,approved
+sharath.bhoomireddygari@datafactz.com,Leave,6-Feb-23,6-Feb-23,approved
+shashi.parvathaneni@datafactz.com,WFH,6-Feb-23,6-Feb-23,approved
+srinivas.potharam@datafactz.com,WFH,6-Feb-23,6-Feb-23,approved
+VinayKumar.Gayini@datafactz.com,Leave,6-Feb-23,6-Feb-23,approved
+anand.karnati@datafactz.com,WFH,7-Feb-23,7-Feb-23,approved
+Ashok.Devalla@datafactz.com,Leave,7-Feb-23,7-Feb-23,approved
+sharath.bhoomireddygari@datafactz.com,Leave,7-Feb-23,7-Feb-23,approved
+srinivas.potharam@datafactz.com,WFH,7-Feb-23,7-Feb-23,approved
+anand.karnati@datafactz.com,Leave,8-Feb-23,8-Feb-23,approved
+Arunsai.sadu@datafactz.com,WFH,8-Feb-23,8-Feb-23,approved
+Ashok.Devalla@datafactz.com,WFH,8-Feb-23,8-Feb-23,approved
+baskar.darukumalli@datafactz.com,Leave,8-Feb-23,8-Feb-23,approved
+sharath.bhoomireddygari@datafactz.com,Leave,8-Feb-23,8-Feb-23,approved
+srinivas.potharam@datafactz.com,Leave,8-Feb-23,8-Feb-23,approved
+anand.karnati@datafactz.com,Leave,9-Feb-23,9-Feb-23,approved
+Arunsai.sadu@datafactz.com,Leave,9-Feb-23,9-Feb-23,approved
+Ashok.Devalla@datafactz.com,Leave,9-Feb-23,9-Feb-23,approved
+Sahithi.Madduluri@datafactz.com,Leave,9-Feb-23,9-Feb-23,approved
+SaiKrishna.Arram@datafactz.com,Leave,9-Feb-23,9-Feb-23,approved
+sharath.bhoomireddygari@datafactz.com,Leave,9-Feb-23,9-Feb-23,approved
+shashi.parvathaneni@datafactz.com,WFH,9-Feb-23,9-Feb-23,approved
+sireesha.medaramitla@datafactz.com,Leave,9-Feb-23,9-Feb-23,approved
+srinivas.potharam@datafactz.com,WFH,9-Feb-23,9-Feb-23,approved
 anand.karnati@datafactz.com,WFH,10-Feb-23,10-Feb-23,approved
 anurag.mishra@datafactz.com,Leave,10-Feb-23,10-Feb-23,approved
 anvesh.chintakunta@datafactz.com,WFH,10-Feb-23,10-Feb-23,approved
@@ -312,72 +312,72 @@ srinivas.potharam@datafactz.com,Leave,28-Feb-23,28-Feb-23,approved
 Swayang.Mohapatra@datafactz.com,Leave,28-Feb-23,28-Feb-23,approved
 syed.tahir@datafactz.com,Leave,28-Feb-23,28-Feb-23,approved
 VinayKumar.Gayini@datafactz.com,Leave,28-Feb-23,28-Feb-23,approved
-mamatha.battu@datafactz.com,Leave,01-Mar-23,01-Mar-23,approved
-Ashok.Devalla@datafactz.com,Leave,01-Mar-23,01-Mar-23,approved
-naren.nimmalabandari@datafactz.com,WFH,01-Mar-23,01-Mar-23,approved
-saisreepath.garrepelli@datafactz.com,WFH,01-Mar-23,01-Mar-23,approved
-srinivas.potharam@datafactz.com,WFH,01-Mar-23,01-Mar-23,approved
-VinayKumar.Gayini@datafactz.com,Leave,01-Mar-23,01-Mar-23,approved
-saisreepath.garrepelli@datafactz.com,WFH,02-Mar-23,02-Mar-23,approved
-Santhoshkumar.Konduru@datafactz.com,WFH,02-Mar-23,02-Mar-23,approved
-shashi.parvathaneni@datafactz.com,WFH,02-Mar-23,02-Mar-23,approved
-srinivas.potharam@datafactz.com,WFH,02-Mar-23,02-Mar-23,approved
-VinayKumar.Gayini@datafactz.com,Leave,02-Mar-23,02-Mar-23,approved
-kiran.aluru@datafactz.com,Leave,03-Mar-23,03-Mar-23,approved
-anantha.chintalapati@datafactz.com,WFH,03-Mar-23,03-Mar-23,approved
-Ashok.Devalla@datafactz.com,WFH,03-Mar-23,03-Mar-23,approved
-SaiVineel.Kolla@datafactz.com,Leave,03-Mar-23,03-Mar-23,approved
-SaiVineel.Kolla@datafactz.com,Half Day Comp Off,03-Mar-23,03-Mar-23,approved
-saisreepath.garrepelli@datafactz.com,WFH,03-Mar-23,03-Mar-23,approved
-sharath.bhoomireddygari@datafactz.com,WFH,03-Mar-23,03-Mar-23,approved
-srinivas.potharam@datafactz.com,WFH,03-Mar-23,03-Mar-23,approved
-swetha.dutpala@datafactz.com,Leave,03-Mar-23,03-Mar-23,approved
-VinayKumar.Gayini@datafactz.com,Leave,03-Mar-23,03-Mar-23,approved
-akash.galipelli@datafactz.com,Leave,06-Mar-23,06-Mar-23,approved
-anand.karnati@datafactz.com,Leave,06-Mar-23,06-Mar-23,approved
-anvesh.chintakunta@datafactz.com,WFH,06-Mar-23,06-Mar-23,approved
-baskar.darukumalli@datafactz.com,WFH,06-Mar-23,06-Mar-23,approved
-deepthi.pabba@datafactz.com,WFH,06-Mar-23,06-Mar-23,approved
-SaiVineel.Kolla@datafactz.com,WFH,06-Mar-23,06-Mar-23,approved
-lakshmi.devarapalli@datafactz.com,Leave,06-Mar-23,06-Mar-23,approved
-nagadurga.reddy@datafactz.com,Leave,06-Mar-23,06-Mar-23,approved
-praveen.vadde@datafactz.com,Leave,06-Mar-23,06-Mar-23,approved
-raghava.raparthi@datafactz.com,Leave,06-Mar-23,06-Mar-23,approved
-saisreepath.garrepelli@datafactz.com,WFH,06-Mar-23,06-Mar-23,approved
-syed.tahir@datafactz.com,WFH,06-Mar-23,06-Mar-23,approved
-varaprasad.devarakonda@datafactz.com,Leave,06-Mar-23,06-Mar-23,approved
-VinayKumar.Gayini@datafactz.com,Leave,06-Mar-23,06-Mar-23,approved
-anand.karnati@datafactz.com,Leave,07-Mar-23,07-Mar-23,approved
-anvesh.chintakunta@datafactz.com,WFH,07-Mar-23,07-Mar-23,approved
-deepthi.pabba@datafactz.com,Leave,07-Mar-23,07-Mar-23,approved
-geeta.devabakthuni@datafactz.com,WFH,07-Mar-23,07-Mar-23,approved
-SaiVineel.Kolla@datafactz.com,WFH,07-Mar-23,07-Mar-23,approved
-lakshmi.devarapalli@datafactz.com,Leave,07-Mar-23,07-Mar-23,approved
-naren.nimmalabandari@datafactz.com,Leave,07-Mar-23,07-Mar-23,approved
-praveen.vadde@datafactz.com,WFH,07-Mar-23,07-Mar-23,approved
-raghava.raparthi@datafactz.com,Leave,07-Mar-23,07-Mar-23,approved
-RajeshKumar.Potharaju@datafactz.com,WFH,07-Mar-23,07-Mar-23,approved
-Sahithi.Madduluri@datafactz.com,WFH,07-Mar-23,07-Mar-23,approved
-saisreepath.garrepelli@datafactz.com,WFH,07-Mar-23,07-Mar-23,approved
-VinayKumar.Gayini@datafactz.com,Leave,07-Mar-23,07-Mar-23,approved
-anand.karnati@datafactz.com,Leave,08-Mar-23,08-Mar-23,approved
-lakshmi.devarapalli@datafactz.com,Leave,08-Mar-23,08-Mar-23,approved
-Rayala.Nandini@datafactz.com,Leave,08-Mar-23,08-Mar-23,approved
-raghava.raparthi@datafactz.com,Leave,08-Mar-23,08-Mar-23,approved
-Rosana.Clay@datafactz.com,Leave,08-Mar-23,08-Mar-23,approved
-saisreepath.garrepelli@datafactz.com,WFH,08-Mar-23,08-Mar-23,approved
-VinayKumar.Gayini@datafactz.com,Leave,08-Mar-23,08-Mar-23,approved
-anand.karnati@datafactz.com,Leave,09-Mar-23,09-Mar-23,approved
-anvesh.chintakunta@datafactz.com,WFH,09-Mar-23,09-Mar-23,approved
-Arunsai.sadu@datafactz.com,Leave,09-Mar-23,09-Mar-23,approved
-Ashok.Devalla@datafactz.com,Leave,09-Mar-23,09-Mar-23,approved
-vignesh.kolla@datafactz.com,Leave,09-Mar-23,09-Mar-23,approved
-Rayala.Nandini@datafactz.com,Leave,09-Mar-23,09-Mar-23,approved
-raghava.raparthi@datafactz.com,Leave,09-Mar-23,09-Mar-23,approved
-Rosana.Clay@datafactz.com,Leave,09-Mar-23,09-Mar-23,approved
-saisreepath.garrepelli@datafactz.com,WFH,09-Mar-23,09-Mar-23,approved
-shashi.parvathaneni@datafactz.com,WFH,09-Mar-23,09-Mar-23,approved
-VinayKumar.Gayini@datafactz.com,Leave,09-Mar-23,09-Mar-23,approved
+mamatha.battu@datafactz.com,Leave,1-Mar-23,1-Mar-23,approved
+Ashok.Devalla@datafactz.com,Leave,1-Mar-23,1-Mar-23,approved
+naren.nimmalabandari@datafactz.com,WFH,1-Mar-23,1-Mar-23,approved
+saisreepath.garrepelli@datafactz.com,WFH,1-Mar-23,1-Mar-23,approved
+srinivas.potharam@datafactz.com,WFH,1-Mar-23,1-Mar-23,approved
+VinayKumar.Gayini@datafactz.com,Leave,1-Mar-23,1-Mar-23,approved
+saisreepath.garrepelli@datafactz.com,WFH,2-Mar-23,2-Mar-23,approved
+Santhoshkumar.Konduru@datafactz.com,WFH,2-Mar-23,2-Mar-23,approved
+shashi.parvathaneni@datafactz.com,WFH,2-Mar-23,2-Mar-23,approved
+srinivas.potharam@datafactz.com,WFH,2-Mar-23,2-Mar-23,approved
+VinayKumar.Gayini@datafactz.com,Leave,2-Mar-23,2-Mar-23,approved
+kiran.aluru@datafactz.com,Leave,3-Mar-23,3-Mar-23,approved
+anantha.chintalapati@datafactz.com,WFH,3-Mar-23,3-Mar-23,approved
+Ashok.Devalla@datafactz.com,WFH,3-Mar-23,3-Mar-23,approved
+SaiVineel.Kolla@datafactz.com,Leave,3-Mar-23,3-Mar-23,approved
+SaiVineel.Kolla@datafactz.com,Half Day Comp Off,3-Mar-23,3-Mar-23,approved
+saisreepath.garrepelli@datafactz.com,WFH,3-Mar-23,3-Mar-23,approved
+sharath.bhoomireddygari@datafactz.com,WFH,3-Mar-23,3-Mar-23,approved
+srinivas.potharam@datafactz.com,WFH,3-Mar-23,3-Mar-23,approved
+swetha.dutpala@datafactz.com,Leave,3-Mar-23,3-Mar-23,approved
+VinayKumar.Gayini@datafactz.com,Leave,3-Mar-23,3-Mar-23,approved
+akash.galipelli@datafactz.com,Leave,6-Mar-23,6-Mar-23,approved
+anand.karnati@datafactz.com,Leave,6-Mar-23,6-Mar-23,approved
+anvesh.chintakunta@datafactz.com,WFH,6-Mar-23,6-Mar-23,approved
+baskar.darukumalli@datafactz.com,WFH,6-Mar-23,6-Mar-23,approved
+deepthi.pabba@datafactz.com,WFH,6-Mar-23,6-Mar-23,approved
+SaiVineel.Kolla@datafactz.com,WFH,6-Mar-23,6-Mar-23,approved
+lakshmi.devarapalli@datafactz.com,Leave,6-Mar-23,6-Mar-23,approved
+nagadurga.reddy@datafactz.com,Leave,6-Mar-23,6-Mar-23,approved
+praveen.vadde@datafactz.com,Leave,6-Mar-23,6-Mar-23,approved
+raghava.raparthi@datafactz.com,Leave,6-Mar-23,6-Mar-23,approved
+saisreepath.garrepelli@datafactz.com,WFH,6-Mar-23,6-Mar-23,approved
+syed.tahir@datafactz.com,WFH,6-Mar-23,6-Mar-23,approved
+varaprasad.devarakonda@datafactz.com,Leave,6-Mar-23,6-Mar-23,approved
+VinayKumar.Gayini@datafactz.com,Leave,6-Mar-23,6-Mar-23,approved
+anand.karnati@datafactz.com,Leave,7-Mar-23,7-Mar-23,approved
+anvesh.chintakunta@datafactz.com,WFH,7-Mar-23,7-Mar-23,approved
+deepthi.pabba@datafactz.com,Leave,7-Mar-23,7-Mar-23,approved
+geeta.devabakthuni@datafactz.com,WFH,7-Mar-23,7-Mar-23,approved
+SaiVineel.Kolla@datafactz.com,WFH,7-Mar-23,7-Mar-23,approved
+lakshmi.devarapalli@datafactz.com,Leave,7-Mar-23,7-Mar-23,approved
+naren.nimmalabandari@datafactz.com,Leave,7-Mar-23,7-Mar-23,approved
+praveen.vadde@datafactz.com,WFH,7-Mar-23,7-Mar-23,approved
+raghava.raparthi@datafactz.com,Leave,7-Mar-23,7-Mar-23,approved
+RajeshKumar.Potharaju@datafactz.com,WFH,7-Mar-23,7-Mar-23,approved
+Sahithi.Madduluri@datafactz.com,WFH,7-Mar-23,7-Mar-23,approved
+saisreepath.garrepelli@datafactz.com,WFH,7-Mar-23,7-Mar-23,approved
+VinayKumar.Gayini@datafactz.com,Leave,7-Mar-23,7-Mar-23,approved
+anand.karnati@datafactz.com,Leave,8-Mar-23,8-Mar-23,approved
+lakshmi.devarapalli@datafactz.com,Leave,8-Mar-23,8-Mar-23,approved
+Rayala.Nandini@datafactz.com,Leave,8-Mar-23,8-Mar-23,approved
+raghava.raparthi@datafactz.com,Leave,8-Mar-23,8-Mar-23,approved
+Rosana.Clay@datafactz.com,Leave,8-Mar-23,8-Mar-23,approved
+saisreepath.garrepelli@datafactz.com,WFH,8-Mar-23,8-Mar-23,approved
+VinayKumar.Gayini@datafactz.com,Leave,8-Mar-23,8-Mar-23,approved
+anand.karnati@datafactz.com,Leave,9-Mar-23,9-Mar-23,approved
+anvesh.chintakunta@datafactz.com,WFH,9-Mar-23,9-Mar-23,approved
+Arunsai.sadu@datafactz.com,Leave,9-Mar-23,9-Mar-23,approved
+Ashok.Devalla@datafactz.com,Leave,9-Mar-23,9-Mar-23,approved
+vignesh.kolla@datafactz.com,Leave,9-Mar-23,9-Mar-23,approved
+Rayala.Nandini@datafactz.com,Leave,9-Mar-23,9-Mar-23,approved
+raghava.raparthi@datafactz.com,Leave,9-Mar-23,9-Mar-23,approved
+Rosana.Clay@datafactz.com,Leave,9-Mar-23,9-Mar-23,approved
+saisreepath.garrepelli@datafactz.com,WFH,9-Mar-23,9-Mar-23,approved
+shashi.parvathaneni@datafactz.com,WFH,9-Mar-23,9-Mar-23,approved
+VinayKumar.Gayini@datafactz.com,Leave,9-Mar-23,9-Mar-23,approved
 mamatha.battu@datafactz.com,Leave,10-Mar-23,10-Mar-23,approved
 anand.karnati@datafactz.com,Leave,10-Mar-23,10-Mar-23,approved
 Arunsai.sadu@datafactz.com,Leave,10-Mar-23,10-Mar-23,approved
@@ -467,29 +467,29 @@ srinivas.potharam@datafactz.com,WFH,30-Mar-23,30-Mar-23,approved
 anand.karnati@datafactz.com,WFH,31-Mar-23,31-Mar-23,approved
 SaiKrishna.Arram@datafactz.com,Leave,31-Mar-23,31-Mar-23,approved
 srinivas.potharam@datafactz.com,WFH,31-Mar-23,31-Mar-23,approved
-Rayala.Nandini@datafactz.com,WFH,03-Apr-23,03-Apr-23,approved
-swetha.dutpala@datafactz.com,WFH,03-Apr-23,03-Apr-23,approved
-geeta.devabakthuni@datafactz.com,Leave,04-Apr-23,04-Apr-23,approved
-praveen.vadde@datafactz.com,Leave,04-Apr-23,04-Apr-23,approved
-deepthi.pabba@datafactz.com,WFH,05-Apr-23,05-Apr-23,approved
-geeta.devabakthuni@datafactz.com,Leave,05-Apr-23,05-Apr-23,approved
-praveen.vadde@datafactz.com,WFH,05-Apr-23,05-Apr-23,approved
-satyasrinivas.matha@datafactz.com,Leave,05-Apr-23,05-Apr-23,approved
-shashi.parvathaneni@datafactz.com,WFH,05-Apr-23,05-Apr-23,approved
-geeta.devabakthuni@datafactz.com,WFH,06-Apr-23,06-Apr-23,approved
-Madhuri.Vadde@datafactz.com,Leave,06-Apr-23,06-Apr-23,approved
-naren.nimmalabandari@datafactz.com,Leave,06-Apr-23,06-Apr-23,approved
-praveen.vadde@datafactz.com,WFH,06-Apr-23,06-Apr-23,approved
-sharath.bhoomireddygari@datafactz.com,Leave,06-Apr-23,06-Apr-23,approved
-anand.karnati@datafactz.com,WFH,07-Apr-23,07-Apr-23,approved
-geeta.devabakthuni@datafactz.com,Leave,07-Apr-23,07-Apr-23,approved
-karthik.kayala@datafactz.com,Leave,07-Apr-23,07-Apr-23,approved
-praveen.vadde@datafactz.com,Leave,07-Apr-23,07-Apr-23,approved
-raghava.raparthi@datafactz.com,Leave,07-Apr-23,07-Apr-23,approved
-sharath.bhoomireddygari@datafactz.com,Leave,07-Apr-23,07-Apr-23,approved
-shashi.parvathaneni@datafactz.com,WFH,07-Apr-23,07-Apr-23,approved
-varaprasad.devarakonda@datafactz.com,Leave,07-Apr-23,07-Apr-23,approved
-VinayKumar.Gayini@datafactz.com,Leave,07-Apr-23,07-Apr-23,approved
+Rayala.Nandini@datafactz.com,WFH,3-Apr-23,3-Apr-23,approved
+swetha.dutpala@datafactz.com,WFH,3-Apr-23,3-Apr-23,approved
+geeta.devabakthuni@datafactz.com,Leave,4-Apr-23,4-Apr-23,approved
+praveen.vadde@datafactz.com,Leave,4-Apr-23,4-Apr-23,approved
+deepthi.pabba@datafactz.com,WFH,5-Apr-23,5-Apr-23,approved
+geeta.devabakthuni@datafactz.com,Leave,5-Apr-23,5-Apr-23,approved
+praveen.vadde@datafactz.com,WFH,5-Apr-23,5-Apr-23,approved
+satyasrinivas.matha@datafactz.com,Leave,5-Apr-23,5-Apr-23,approved
+shashi.parvathaneni@datafactz.com,WFH,5-Apr-23,5-Apr-23,approved
+geeta.devabakthuni@datafactz.com,WFH,6-Apr-23,6-Apr-23,approved
+Madhuri.Vadde@datafactz.com,Leave,6-Apr-23,6-Apr-23,approved
+naren.nimmalabandari@datafactz.com,Leave,6-Apr-23,6-Apr-23,approved
+praveen.vadde@datafactz.com,WFH,6-Apr-23,6-Apr-23,approved
+sharath.bhoomireddygari@datafactz.com,Leave,6-Apr-23,6-Apr-23,approved
+anand.karnati@datafactz.com,WFH,7-Apr-23,7-Apr-23,approved
+geeta.devabakthuni@datafactz.com,Leave,7-Apr-23,7-Apr-23,approved
+karthik.kayala@datafactz.com,Leave,7-Apr-23,7-Apr-23,approved
+praveen.vadde@datafactz.com,Leave,7-Apr-23,7-Apr-23,approved
+raghava.raparthi@datafactz.com,Leave,7-Apr-23,7-Apr-23,approved
+sharath.bhoomireddygari@datafactz.com,Leave,7-Apr-23,7-Apr-23,approved
+shashi.parvathaneni@datafactz.com,WFH,7-Apr-23,7-Apr-23,approved
+varaprasad.devarakonda@datafactz.com,Leave,7-Apr-23,7-Apr-23,approved
+VinayKumar.Gayini@datafactz.com,Leave,7-Apr-23,7-Apr-23,approved
 karthik.kayala@datafactz.com,Leave,10-Apr-23,10-Apr-23,approved
 nagadurga.reddy@datafactz.com,Leave,10-Apr-23,10-Apr-23,approved
 sireesha.medaramitla@datafactz.com,Leave,10-Apr-23,10-Apr-23,approved
@@ -565,63 +565,63 @@ priyanka.srungavrukshapu@datafactz.com,WFH,28-Apr-23,28-Apr-23,approved
 Rosana.Clay@datafactz.com,Leave,28-Apr-23,28-Apr-23,approved
 shashi.parvathaneni@datafactz.com,WFH,28-Apr-23,28-Apr-23,approved
 srinivas.potharam@datafactz.com,WFH,28-Apr-23,28-Apr-23,approved
-anantha.chintalapati@datafactz.com,Leave,01-May-23,01-May-23,approved
-deepthi.pabba@datafactz.com,Leave,01-May-23,01-May-23,approved
-satyasrinivas.matha@datafactz.com,WFH,01-May-23,01-May-23,approved
-prabhakar.konakala@datafactz.com,Leave,01-May-23,01-May-23,approved
-praveen.vadde@datafactz.com,WFH,01-May-23,01-May-23,approved
-raveendra.kakani@datafactz.com,Leave,01-May-23,01-May-23,approved
-Rosana.Clay@datafactz.com,Leave,01-May-23,01-May-23,approved
-sharath.bhoomireddygari@datafactz.com,WFH,01-May-23,01-May-23,approved
-sireesha.medaramitla@datafactz.com,WFH,01-May-23,01-May-23,approved
-vaishali.kumari@datafactz.com,Leave,01-May-23,01-May-23,approved
-deepthi.pabba@datafactz.com,Leave,02-May-23,02-May-23,approved
-satyasrinivas.matha@datafactz.com,WFH,02-May-23,02-May-23,approved
-prabhakar.konakala@datafactz.com,Leave,02-May-23,02-May-23,approved
-Rosana.Clay@datafactz.com,Leave,02-May-23,02-May-23,approved
-sireesha.medaramitla@datafactz.com,Leave,02-May-23,02-May-23,approved
-anand.karnati@datafactz.com,Leave,03-May-23,03-May-23,approved
-deepthi.pabba@datafactz.com,Leave,03-May-23,03-May-23,approved
-geeta.devabakthuni@datafactz.com,Leave,03-May-23,03-May-23,approved
-Madhuri.Vadde@datafactz.com,Leave,03-May-23,03-May-23,approved
-naren.nimmalabandari@datafactz.com,Leave,03-May-23,03-May-23,approved
-satyasrinivas.matha@datafactz.com,Leave,03-May-23,03-May-23,approved
-prabhakar.konakala@datafactz.com,Leave,03-May-23,03-May-23,approved
-Rosana.Clay@datafactz.com,Leave,03-May-23,03-May-23,approved
-deepthi.pabba@datafactz.com,Leave,04-May-23,04-May-23,approved
-geeta.devabakthuni@datafactz.com,Leave,04-May-23,04-May-23,approved
-vignesh.kolla@datafactz.com,WFH,04-May-23,04-May-23,approved
-satyasrinivas.matha@datafactz.com,Leave,04-May-23,04-May-23,approved
-praveen.vadde@datafactz.com,Leave,04-May-23,04-May-23,approved
-ravikiran.garimella@datafactz.com,WFH,04-May-23,04-May-23,approved
-Rosana.Clay@datafactz.com,Leave,04-May-23,04-May-23,approved
-shashi.parvathaneni@datafactz.com,WFH,04-May-23,04-May-23,approved
-srikanth.rao@datafactz.com,Leave,04-May-23,04-May-23,approved
-deepthi.pabba@datafactz.com,Leave,05-May-23,05-May-23,approved
-vignesh.kolla@datafactz.com,WFH,05-May-23,05-May-23,approved
-prabhakar.konakala@datafactz.com,WFH,05-May-23,05-May-23,approved
-Rosana.Clay@datafactz.com,Leave,05-May-23,05-May-23,approved
-Sahithi.Madduluri@datafactz.com,Leave,05-May-23,05-May-23,approved
-naveen.tatavarthy@datafactz.com,WFH,05-May-23,05-May-23,approved
-shashi.parvathaneni@datafactz.com,Leave,05-May-23,05-May-23,approved
-anand.karnati@datafactz.com,WFH,08-May-23,08-May-23,approved
-Ashok.Devalla@datafactz.com,Leave,08-May-23,08-May-23,approved
-deepthi.pabba@datafactz.com,Leave,08-May-23,08-May-23,approved
-prabhakar.konakala@datafactz.com,WFH,08-May-23,08-May-23,approved
-praveen.vadde@datafactz.com,WFH,08-May-23,08-May-23,approved
-Rosana.Clay@datafactz.com,Leave,08-May-23,08-May-23,approved
-Sahithi.Madduluri@datafactz.com,Leave,08-May-23,08-May-23,approved
-Sirisha.shankar@datafactz.com,Leave,08-May-23,08-May-23,approved
-sharath.bhoomireddygari@datafactz.com,Leave,08-May-23,08-May-23,approved
-varaprasad.devarakonda@datafactz.com,WFH,08-May-23,08-May-23,approved
-anand.karnati@datafactz.com,WFH,09-May-23,09-May-23,approved
-Ashok.Devalla@datafactz.com,Leave,09-May-23,09-May-23,approved
-deepthi.pabba@datafactz.com,Leave,09-May-23,09-May-23,approved
-kiran.aluru@datafactz.com,Leave,09-May-23,09-May-23,approved
-prabhakar.konakala@datafactz.com,WFH,09-May-23,09-May-23,approved
-Rosana.Clay@datafactz.com,Leave,09-May-23,09-May-23,approved
-Sirisha.shankar@datafactz.com,Leave,09-May-23,09-May-23,approved
-varaprasad.devarakonda@datafactz.com,WFH,09-May-23,09-May-23,approved
+anantha.chintalapati@datafactz.com,Leave,1-May-23,1-May-23,approved
+deepthi.pabba@datafactz.com,Leave,1-May-23,1-May-23,approved
+satyasrinivas.matha@datafactz.com,WFH,1-May-23,1-May-23,approved
+prabhakar.konakala@datafactz.com,Leave,1-May-23,1-May-23,approved
+praveen.vadde@datafactz.com,WFH,1-May-23,1-May-23,approved
+raveendra.kakani@datafactz.com,Leave,1-May-23,1-May-23,approved
+Rosana.Clay@datafactz.com,Leave,1-May-23,1-May-23,approved
+sharath.bhoomireddygari@datafactz.com,WFH,1-May-23,1-May-23,approved
+sireesha.medaramitla@datafactz.com,WFH,1-May-23,1-May-23,approved
+vaishali.kumari@datafactz.com,Leave,1-May-23,1-May-23,approved
+deepthi.pabba@datafactz.com,Leave,2-May-23,2-May-23,approved
+satyasrinivas.matha@datafactz.com,WFH,2-May-23,2-May-23,approved
+prabhakar.konakala@datafactz.com,Leave,2-May-23,2-May-23,approved
+Rosana.Clay@datafactz.com,Leave,2-May-23,2-May-23,approved
+sireesha.medaramitla@datafactz.com,Leave,2-May-23,2-May-23,approved
+anand.karnati@datafactz.com,Leave,3-May-23,3-May-23,approved
+deepthi.pabba@datafactz.com,Leave,3-May-23,3-May-23,approved
+geeta.devabakthuni@datafactz.com,Leave,3-May-23,3-May-23,approved
+Madhuri.Vadde@datafactz.com,Leave,3-May-23,3-May-23,approved
+naren.nimmalabandari@datafactz.com,Leave,3-May-23,3-May-23,approved
+satyasrinivas.matha@datafactz.com,Leave,3-May-23,3-May-23,approved
+prabhakar.konakala@datafactz.com,Leave,3-May-23,3-May-23,approved
+Rosana.Clay@datafactz.com,Leave,3-May-23,3-May-23,approved
+deepthi.pabba@datafactz.com,Leave,4-May-23,4-May-23,approved
+geeta.devabakthuni@datafactz.com,Leave,4-May-23,4-May-23,approved
+vignesh.kolla@datafactz.com,WFH,4-May-23,4-May-23,approved
+satyasrinivas.matha@datafactz.com,Leave,4-May-23,4-May-23,approved
+praveen.vadde@datafactz.com,Leave,4-May-23,4-May-23,approved
+ravikiran.garimella@datafactz.com,WFH,4-May-23,4-May-23,approved
+Rosana.Clay@datafactz.com,Leave,4-May-23,4-May-23,approved
+shashi.parvathaneni@datafactz.com,WFH,4-May-23,4-May-23,approved
+srikanth.rao@datafactz.com,Leave,4-May-23,4-May-23,approved
+deepthi.pabba@datafactz.com,Leave,5-May-23,5-May-23,approved
+vignesh.kolla@datafactz.com,WFH,5-May-23,5-May-23,approved
+prabhakar.konakala@datafactz.com,WFH,5-May-23,5-May-23,approved
+Rosana.Clay@datafactz.com,Leave,5-May-23,5-May-23,approved
+Sahithi.Madduluri@datafactz.com,Leave,5-May-23,5-May-23,approved
+naveen.tatavarthy@datafactz.com,WFH,5-May-23,5-May-23,approved
+shashi.parvathaneni@datafactz.com,Leave,5-May-23,5-May-23,approved
+anand.karnati@datafactz.com,WFH,8-May-23,8-May-23,approved
+Ashok.Devalla@datafactz.com,Leave,8-May-23,8-May-23,approved
+deepthi.pabba@datafactz.com,Leave,8-May-23,8-May-23,approved
+prabhakar.konakala@datafactz.com,WFH,8-May-23,8-May-23,approved
+praveen.vadde@datafactz.com,WFH,8-May-23,8-May-23,approved
+Rosana.Clay@datafactz.com,Leave,8-May-23,8-May-23,approved
+Sahithi.Madduluri@datafactz.com,Leave,8-May-23,8-May-23,approved
+Sirisha.shankar@datafactz.com,Leave,8-May-23,8-May-23,approved
+sharath.bhoomireddygari@datafactz.com,Leave,8-May-23,8-May-23,approved
+varaprasad.devarakonda@datafactz.com,WFH,8-May-23,8-May-23,approved
+anand.karnati@datafactz.com,WFH,9-May-23,9-May-23,approved
+Ashok.Devalla@datafactz.com,Leave,9-May-23,9-May-23,approved
+deepthi.pabba@datafactz.com,Leave,9-May-23,9-May-23,approved
+kiran.aluru@datafactz.com,Leave,9-May-23,9-May-23,approved
+prabhakar.konakala@datafactz.com,WFH,9-May-23,9-May-23,approved
+Rosana.Clay@datafactz.com,Leave,9-May-23,9-May-23,approved
+Sirisha.shankar@datafactz.com,Leave,9-May-23,9-May-23,approved
+varaprasad.devarakonda@datafactz.com,WFH,9-May-23,9-May-23,approved
 Ashok.Devalla@datafactz.com,Leave,10-May-23,10-May-23,approved
 deepthi.pabba@datafactz.com,Leave,10-May-23,10-May-23,approved
 karthik.kayala@datafactz.com,Leave,10-May-23,10-May-23,approved
@@ -775,57 +775,57 @@ Sirisha.shankar@datafactz.com,Leave,31-May-23,31-May-23,approved
 sharath.bhoomireddygari@datafactz.com,LOP,31-May-23,31-May-23,approved
 sharath.bhoomireddygari@datafactz.com,Half Day LOP,31-May-23,31-May-23,approved
 sireesha.medaramitla@datafactz.com,WFH,31-May-23,31-May-23,approved
-AnkithaPadmaPriya.Thirakala@datafactz.com,Leave,01-Jun-23,01-Jun-23,approved
-anurag.mishra@datafactz.com,Leave,01-Jun-23,01-Jun-23,approved
-rashmi.gonuguntla@datafactz.com,WFH,01-Jun-23,01-Jun-23,approved
-Rosana.Clay@datafactz.com,Leave,01-Jun-23,01-Jun-23,approved
-Sirisha.shankar@datafactz.com,Leave,01-Jun-23,01-Jun-23,approved
-shashi.parvathaneni@datafactz.com,Leave,01-Jun-23,01-Jun-23,approved
-sireesha.medaramitla@datafactz.com,WFH,01-Jun-23,01-Jun-23,approved
-AnkithaPadmaPriya.Thirakala@datafactz.com,WFH,02-Jun-23,02-Jun-23,approved
-deepthi.pabba@datafactz.com,WFH,02-Jun-23,02-Jun-23,approved
-ravikiran.garimella@datafactz.com,Leave,02-Jun-23,02-Jun-23,approved
-Rosana.Clay@datafactz.com,Leave,02-Jun-23,02-Jun-23,approved
-SaiKrishna.Arram@datafactz.com,Leave,02-Jun-23,02-Jun-23,approved
-Sirisha.shankar@datafactz.com,Leave,02-Jun-23,02-Jun-23,approved
-sharath.bhoomireddygari@datafactz.com,Leave,02-Jun-23,02-Jun-23,approved
-shashi.parvathaneni@datafactz.com,Leave,02-Jun-23,02-Jun-23,approved
-sireesha.medaramitla@datafactz.com,WFH,02-Jun-23,02-Jun-23,approved
-vaishali.kumari@datafactz.com,Leave,02-Jun-23,02-Jun-23,approved
-varaprasad.devarakonda@datafactz.com,Leave,02-Jun-23,02-Jun-23,approved
-baskar.darukumalli@datafactz.com,WFH,05-Jun-23,05-Jun-23,approved
-vignesh.kolla@datafactz.com,WFH,05-Jun-23,05-Jun-23,approved
-praveen.vadde@datafactz.com,WFH,05-Jun-23,05-Jun-23,approved
-rashmi.gonuguntla@datafactz.com,WFH,05-Jun-23,05-Jun-23,approved
-ravikiran.garimella@datafactz.com,Leave,05-Jun-23,05-Jun-23,approved
-Rosana.Clay@datafactz.com,Leave,05-Jun-23,05-Jun-23,approved
-shashi.parvathaneni@datafactz.com,Leave,05-Jun-23,05-Jun-23,approved
-anantha.chintalapati@datafactz.com,WFH,06-Jun-23,06-Jun-23,approved
-ravikiran.garimella@datafactz.com,Leave,06-Jun-23,06-Jun-23,approved
-Rosana.Clay@datafactz.com,Leave,06-Jun-23,06-Jun-23,approved
-saikiran.goud@datafactz.com,Leave,06-Jun-23,06-Jun-23,approved
-naveen.tatavarthy@datafactz.com,WFH,06-Jun-23,06-Jun-23,approved
-sharath.bhoomireddygari@datafactz.com,Leave,06-Jun-23,06-Jun-23,approved
-shashi.parvathaneni@datafactz.com,WFH,06-Jun-23,06-Jun-23,approved
-karthik.kayala@datafactz.com,Leave,07-Jun-23,07-Jun-23,approved
-raghava.raparthi@datafactz.com,Leave,07-Jun-23,07-Jun-23,approved
-Rosana.Clay@datafactz.com,Leave,07-Jun-23,07-Jun-23,approved
-anantha.chintalapati@datafactz.com,Leave,08-Jun-23,08-Jun-23,approved
-Arunsai.sadu@datafactz.com,Leave,08-Jun-23,08-Jun-23,approved
-raghava.raparthi@datafactz.com,Leave,08-Jun-23,08-Jun-23,approved
-Rosana.Clay@datafactz.com,Leave,08-Jun-23,08-Jun-23,approved
-swetha.dutpala@datafactz.com,WFH,08-Jun-23,08-Jun-23,approved
-Arunsai.sadu@datafactz.com,Leave,09-Jun-23,09-Jun-23,approved
-baskar.darukumalli@datafactz.com,WFH,09-Jun-23,09-Jun-23,approved
-deepthi.pabba@datafactz.com,WFH,09-Jun-23,09-Jun-23,approved
-Gayathri.Dasari@datafactz.com,Leave,09-Jun-23,09-Jun-23,approved
-geeta.devabakthuni@datafactz.com,WFH,09-Jun-23,09-Jun-23,approved
-karthik.kayala@datafactz.com,WFH,09-Jun-23,09-Jun-23,approved
-laya.nomula@datafactz.com,Leave,09-Jun-23,09-Jun-23,approved
-praveen.vadde@datafactz.com,WFH,09-Jun-23,09-Jun-23,approved
-Rosana.Clay@datafactz.com,Leave,09-Jun-23,09-Jun-23,approved
-shashi.parvathaneni@datafactz.com,WFH,09-Jun-23,09-Jun-23,approved
-swetha.dutpala@datafactz.com,Leave,09-Jun-23,09-Jun-23,approved
+AnkithaPadmaPriya.Thirakala@datafactz.com,Leave,1-Jun-23,1-Jun-23,approved
+anurag.mishra@datafactz.com,Leave,1-Jun-23,1-Jun-23,approved
+rashmi.gonuguntla@datafactz.com,WFH,1-Jun-23,1-Jun-23,approved
+Rosana.Clay@datafactz.com,Leave,1-Jun-23,1-Jun-23,approved
+Sirisha.shankar@datafactz.com,Leave,1-Jun-23,1-Jun-23,approved
+shashi.parvathaneni@datafactz.com,Leave,1-Jun-23,1-Jun-23,approved
+sireesha.medaramitla@datafactz.com,WFH,1-Jun-23,1-Jun-23,approved
+AnkithaPadmaPriya.Thirakala@datafactz.com,WFH,2-Jun-23,2-Jun-23,approved
+deepthi.pabba@datafactz.com,WFH,2-Jun-23,2-Jun-23,approved
+ravikiran.garimella@datafactz.com,Leave,2-Jun-23,2-Jun-23,approved
+Rosana.Clay@datafactz.com,Leave,2-Jun-23,2-Jun-23,approved
+SaiKrishna.Arram@datafactz.com,Leave,2-Jun-23,2-Jun-23,approved
+Sirisha.shankar@datafactz.com,Leave,2-Jun-23,2-Jun-23,approved
+sharath.bhoomireddygari@datafactz.com,Leave,2-Jun-23,2-Jun-23,approved
+shashi.parvathaneni@datafactz.com,Leave,2-Jun-23,2-Jun-23,approved
+sireesha.medaramitla@datafactz.com,WFH,2-Jun-23,2-Jun-23,approved
+vaishali.kumari@datafactz.com,Leave,2-Jun-23,2-Jun-23,approved
+varaprasad.devarakonda@datafactz.com,Leave,2-Jun-23,2-Jun-23,approved
+baskar.darukumalli@datafactz.com,WFH,5-Jun-23,5-Jun-23,approved
+vignesh.kolla@datafactz.com,WFH,5-Jun-23,5-Jun-23,approved
+praveen.vadde@datafactz.com,WFH,5-Jun-23,5-Jun-23,approved
+rashmi.gonuguntla@datafactz.com,WFH,5-Jun-23,5-Jun-23,approved
+ravikiran.garimella@datafactz.com,Leave,5-Jun-23,5-Jun-23,approved
+Rosana.Clay@datafactz.com,Leave,5-Jun-23,5-Jun-23,approved
+shashi.parvathaneni@datafactz.com,Leave,5-Jun-23,5-Jun-23,approved
+anantha.chintalapati@datafactz.com,WFH,6-Jun-23,6-Jun-23,approved
+ravikiran.garimella@datafactz.com,Leave,6-Jun-23,6-Jun-23,approved
+Rosana.Clay@datafactz.com,Leave,6-Jun-23,6-Jun-23,approved
+saikiran.goud@datafactz.com,Leave,6-Jun-23,6-Jun-23,approved
+naveen.tatavarthy@datafactz.com,WFH,6-Jun-23,6-Jun-23,approved
+sharath.bhoomireddygari@datafactz.com,Leave,6-Jun-23,6-Jun-23,approved
+shashi.parvathaneni@datafactz.com,WFH,6-Jun-23,6-Jun-23,approved
+karthik.kayala@datafactz.com,Leave,7-Jun-23,7-Jun-23,approved
+raghava.raparthi@datafactz.com,Leave,7-Jun-23,7-Jun-23,approved
+Rosana.Clay@datafactz.com,Leave,7-Jun-23,7-Jun-23,approved
+anantha.chintalapati@datafactz.com,Leave,8-Jun-23,8-Jun-23,approved
+Arunsai.sadu@datafactz.com,Leave,8-Jun-23,8-Jun-23,approved
+raghava.raparthi@datafactz.com,Leave,8-Jun-23,8-Jun-23,approved
+Rosana.Clay@datafactz.com,Leave,8-Jun-23,8-Jun-23,approved
+swetha.dutpala@datafactz.com,WFH,8-Jun-23,8-Jun-23,approved
+Arunsai.sadu@datafactz.com,Leave,9-Jun-23,9-Jun-23,approved
+baskar.darukumalli@datafactz.com,WFH,9-Jun-23,9-Jun-23,approved
+deepthi.pabba@datafactz.com,WFH,9-Jun-23,9-Jun-23,approved
+Gayathri.Dasari@datafactz.com,Leave,9-Jun-23,9-Jun-23,approved
+geeta.devabakthuni@datafactz.com,WFH,9-Jun-23,9-Jun-23,approved
+karthik.kayala@datafactz.com,WFH,9-Jun-23,9-Jun-23,approved
+laya.nomula@datafactz.com,Leave,9-Jun-23,9-Jun-23,approved
+praveen.vadde@datafactz.com,WFH,9-Jun-23,9-Jun-23,approved
+Rosana.Clay@datafactz.com,Leave,9-Jun-23,9-Jun-23,approved
+shashi.parvathaneni@datafactz.com,WFH,9-Jun-23,9-Jun-23,approved
+swetha.dutpala@datafactz.com,Leave,9-Jun-23,9-Jun-23,approved
 Gayathri.Dasari@datafactz.com,Leave,12-Jun-23,12-Jun-23,approved
 karthik.kayala@datafactz.com,WFH,12-Jun-23,12-Jun-23,approved
 vignesh.kolla@datafactz.com,Leave,12-Jun-23,12-Jun-23,approved
@@ -931,50 +931,50 @@ sharath.bhoomireddygari@datafactz.com,LOP,30-Jun-23,30-Jun-23,approved
 srinivas.potharam@datafactz.com,Leave,30-Jun-23,30-Jun-23,approved
 syed.tahir@datafactz.com,Leave,30-Jun-23,30-Jun-23,approved
 VinayKumar.Gayini@datafactz.com,WFH,30-Jun-23,30-Jun-23,approved
-priyanka.srungavrukshapu@datafactz.com,Compoff,02-Jul-23,02-Jul-23,approved
-akash.galipelli@datafactz.com,Leave,03-Jul-23,03-Jul-23,approved
-anantha.chintalapati@datafactz.com,Leave,03-Jul-23,03-Jul-23,approved
-baskar.darukumalli@datafactz.com,WFH,03-Jul-23,03-Jul-23,approved
-deepthi.pabba@datafactz.com,WFH,03-Jul-23,03-Jul-23,approved
-geeta.devabakthuni@datafactz.com,WFH,03-Jul-23,03-Jul-23,approved
-vignesh.kolla@datafactz.com,Leave,03-Jul-23,03-Jul-23,approved
-SaiVineel.Kolla@datafactz.com,Leave,03-Jul-23,03-Jul-23,approved
-lakshmi.devarapalli@datafactz.com,Leave,03-Jul-23,03-Jul-23,approved
-satyasrinivas.matha@datafactz.com,WFH,03-Jul-23,03-Jul-23,approved
-prabhakar.konakala@datafactz.com,Leave,03-Jul-23,03-Jul-23,approved
-priyanka.srungavrukshapu@datafactz.com,WFH,03-Jul-23,03-Jul-23,approved
-SaiKrishna.Arram@datafactz.com,Leave,03-Jul-23,03-Jul-23,approved
-naveen.tatavarthy@datafactz.com,WFH,03-Jul-23,03-Jul-23,approved
-saisreepath.garrepelli@datafactz.com,WFH,03-Jul-23,03-Jul-23,approved
-Santhoshkumar.Konduru@datafactz.com,Leave,03-Jul-23,03-Jul-23,approved
-sharath.bhoomireddygari@datafactz.com,Leave,03-Jul-23,03-Jul-23,approved
-shashi.parvathaneni@datafactz.com,WFH,03-Jul-23,03-Jul-23,approved
-sireesha.medaramitla@datafactz.com,WFH,03-Jul-23,03-Jul-23,approved
-srinivas.potharam@datafactz.com,Leave,03-Jul-23,03-Jul-23,approved
-syed.tahir@datafactz.com,Leave,03-Jul-23,03-Jul-23,approved
-VinayKumar.Gayini@datafactz.com,Leave,03-Jul-23,03-Jul-23,approved
-anand.karnati@datafactz.com,WFH,05-Jul-23,05-Jul-23,approved
-anurag.mishra@datafactz.com,Leave,05-Jul-23,05-Jul-23,approved
-deepthi.pabba@datafactz.com,WFH,05-Jul-23,05-Jul-23,approved
-karthik.kayala@datafactz.com,WFH,05-Jul-23,05-Jul-23,approved
-srinivas.potharam@datafactz.com,WFH,05-Jul-23,05-Jul-23,approved
-anurag.mishra@datafactz.com,WFH,06-Jul-23,06-Jul-23,approved
-deepthi.pabba@datafactz.com,WFH,06-Jul-23,06-Jul-23,approved
-rashmi.gonuguntla@datafactz.com,WFH,06-Jul-23,06-Jul-23,approved
-saikiran.goud@datafactz.com,Leave,06-Jul-23,06-Jul-23,approved
-sharath.bhoomireddygari@datafactz.com,WFH,06-Jul-23,06-Jul-23,approved
-srinivas.potharam@datafactz.com,WFH,06-Jul-23,06-Jul-23,approved
-anurag.mishra@datafactz.com,WFH,07-Jul-23,07-Jul-23,approved
-deepthi.pabba@datafactz.com,WFH,07-Jul-23,07-Jul-23,approved
-Gayathri.Dasari@datafactz.com,Leave,07-Jul-23,07-Jul-23,approved
-geeta.devabakthuni@datafactz.com,Leave,07-Jul-23,07-Jul-23,approved
-saikiran.goud@datafactz.com,Leave,07-Jul-23,07-Jul-23,approved
-naveen.tatavarthy@datafactz.com,WFH,07-Jul-23,07-Jul-23,approved
-sharath.bhoomireddygari@datafactz.com,WFH,07-Jul-23,07-Jul-23,approved
-srinivas.potharam@datafactz.com,WFH,07-Jul-23,07-Jul-23,approved
-priyanka.srungavrukshapu@datafactz.com,Compoff,08-Jul-23,08-Jul-23,approved
-raghava.raparthi@datafactz.com,Compoff,08-Jul-23,08-Jul-23,approved
-raghava.raparthi@datafactz.com,Compoff,09-Jul-23,09-Jul-23,approved
+priyanka.srungavrukshapu@datafactz.com,Compoff,2-Jul-23,2-Jul-23,approved
+akash.galipelli@datafactz.com,Leave,3-Jul-23,3-Jul-23,approved
+anantha.chintalapati@datafactz.com,Leave,3-Jul-23,3-Jul-23,approved
+baskar.darukumalli@datafactz.com,WFH,3-Jul-23,3-Jul-23,approved
+deepthi.pabba@datafactz.com,WFH,3-Jul-23,3-Jul-23,approved
+geeta.devabakthuni@datafactz.com,WFH,3-Jul-23,3-Jul-23,approved
+vignesh.kolla@datafactz.com,Leave,3-Jul-23,3-Jul-23,approved
+SaiVineel.Kolla@datafactz.com,Leave,3-Jul-23,3-Jul-23,approved
+lakshmi.devarapalli@datafactz.com,Leave,3-Jul-23,3-Jul-23,approved
+satyasrinivas.matha@datafactz.com,WFH,3-Jul-23,3-Jul-23,approved
+prabhakar.konakala@datafactz.com,Leave,3-Jul-23,3-Jul-23,approved
+priyanka.srungavrukshapu@datafactz.com,WFH,3-Jul-23,3-Jul-23,approved
+SaiKrishna.Arram@datafactz.com,Leave,3-Jul-23,3-Jul-23,approved
+naveen.tatavarthy@datafactz.com,WFH,3-Jul-23,3-Jul-23,approved
+saisreepath.garrepelli@datafactz.com,WFH,3-Jul-23,3-Jul-23,approved
+Santhoshkumar.Konduru@datafactz.com,Leave,3-Jul-23,3-Jul-23,approved
+sharath.bhoomireddygari@datafactz.com,Leave,3-Jul-23,3-Jul-23,approved
+shashi.parvathaneni@datafactz.com,WFH,3-Jul-23,3-Jul-23,approved
+sireesha.medaramitla@datafactz.com,WFH,3-Jul-23,3-Jul-23,approved
+srinivas.potharam@datafactz.com,Leave,3-Jul-23,3-Jul-23,approved
+syed.tahir@datafactz.com,Leave,3-Jul-23,3-Jul-23,approved
+VinayKumar.Gayini@datafactz.com,Leave,3-Jul-23,3-Jul-23,approved
+anand.karnati@datafactz.com,WFH,5-Jul-23,5-Jul-23,approved
+anurag.mishra@datafactz.com,Leave,5-Jul-23,5-Jul-23,approved
+deepthi.pabba@datafactz.com,WFH,5-Jul-23,5-Jul-23,approved
+karthik.kayala@datafactz.com,WFH,5-Jul-23,5-Jul-23,approved
+srinivas.potharam@datafactz.com,WFH,5-Jul-23,5-Jul-23,approved
+anurag.mishra@datafactz.com,WFH,6-Jul-23,6-Jul-23,approved
+deepthi.pabba@datafactz.com,WFH,6-Jul-23,6-Jul-23,approved
+rashmi.gonuguntla@datafactz.com,WFH,6-Jul-23,6-Jul-23,approved
+saikiran.goud@datafactz.com,Leave,6-Jul-23,6-Jul-23,approved
+sharath.bhoomireddygari@datafactz.com,WFH,6-Jul-23,6-Jul-23,approved
+srinivas.potharam@datafactz.com,WFH,6-Jul-23,6-Jul-23,approved
+anurag.mishra@datafactz.com,WFH,7-Jul-23,7-Jul-23,approved
+deepthi.pabba@datafactz.com,WFH,7-Jul-23,7-Jul-23,approved
+Gayathri.Dasari@datafactz.com,Leave,7-Jul-23,7-Jul-23,approved
+geeta.devabakthuni@datafactz.com,Leave,7-Jul-23,7-Jul-23,approved
+saikiran.goud@datafactz.com,Leave,7-Jul-23,7-Jul-23,approved
+naveen.tatavarthy@datafactz.com,WFH,7-Jul-23,7-Jul-23,approved
+sharath.bhoomireddygari@datafactz.com,WFH,7-Jul-23,7-Jul-23,approved
+srinivas.potharam@datafactz.com,WFH,7-Jul-23,7-Jul-23,approved
+priyanka.srungavrukshapu@datafactz.com,Compoff,8-Jul-23,8-Jul-23,approved
+raghava.raparthi@datafactz.com,Compoff,8-Jul-23,8-Jul-23,approved
+raghava.raparthi@datafactz.com,Compoff,9-Jul-23,9-Jul-23,approved
 anurag.mishra@datafactz.com,Leave,10-Jul-23,10-Jul-23,approved
 anvesh.chintakunta@datafactz.com,WFH,10-Jul-23,10-Jul-23,approved
 Arunsai.sadu@datafactz.com,Leave,10-Jul-23,10-Jul-23,approved
@@ -1105,47 +1105,47 @@ anurag.mishra@datafactz.com,LOP,31-Jul-23,31-Jul-23,approved
 deepthi.pabba@datafactz.com,Leave,31-Jul-23,31-Jul-23,approved
 Madhuri.Vadde@datafactz.com,Leave,31-Jul-23,31-Jul-23,approved
 naren.nimmalabandari@datafactz.com,Leave,31-Jul-23,31-Jul-23,approved
-AnkithaPadmaPriya.Thirakala@datafactz.com,Leave,01-Aug-23,01-Aug-23,approved
-anantha.chintalapati@datafactz.com,WFH,01-Aug-23,01-Aug-23,approved
-deepthi.pabba@datafactz.com,Leave,01-Aug-23,01-Aug-23,approved
-anand.karnati@datafactz.com,WFH,02-Aug-23,02-Aug-23,approved
-anantha.chintalapati@datafactz.com,WFH,02-Aug-23,02-Aug-23,approved
-deepthi.pabba@datafactz.com,Leave,02-Aug-23,02-Aug-23,approved
-SaiVineel.Kolla@datafactz.com,WFH,02-Aug-23,02-Aug-23,approved
-anantha.chintalapati@datafactz.com,WFH,03-Aug-23,03-Aug-23,approved
-anantha.chintalapati@datafactz.com,WFH,03-Aug-23,03-Aug-23,approved
-deepthi.pabba@datafactz.com,Leave,03-Aug-23,03-Aug-23,approved
-deepthi.pabba@datafactz.com,Leave,03-Aug-23,03-Aug-23,approved
-Karthik.Gundu@datafactz.com,WFH,03-Aug-23,03-Aug-23,approved
-laya.nomula@datafactz.com,Leave,03-Aug-23,03-Aug-23,approved
-Rayala.Nandini@datafactz.com,Leave,03-Aug-23,03-Aug-23,approved
-Rayala.Nandini@datafactz.com,Leave,03-Aug-23,03-Aug-23,approved
-Santhoshkumar.Konduru@datafactz.com,Leave,03-Aug-23,03-Aug-23,approved
-shashi.parvathaneni@datafactz.com,WFH,03-Aug-23,03-Aug-23,approved
-varaprasad.devarakonda@datafactz.com,Leave,03-Aug-23,03-Aug-23,approved
-anantha.chintalapati@datafactz.com,WFH,04-Aug-23,04-Aug-23,approved
-deepthi.pabba@datafactz.com,Leave,04-Aug-23,04-Aug-23,approved
-Karthik.Gundu@datafactz.com,WFH,04-Aug-23,04-Aug-23,approved
-laya.nomula@datafactz.com,Leave,04-Aug-23,04-Aug-23,approved
-Rayala.Nandini@datafactz.com,Leave,04-Aug-23,04-Aug-23,approved
-shashi.parvathaneni@datafactz.com,WFH,04-Aug-23,04-Aug-23,approved
-srikanth.rao@datafactz.com,Leave,04-Aug-23,04-Aug-23,approved
-varaprasad.devarakonda@datafactz.com,Leave,04-Aug-23,04-Aug-23,approved
-baskar.darukumalli@datafactz.com,Compoff,05-Aug-23,05-Aug-23,approved
-baskar.darukumalli@datafactz.com,Compoff,06-Aug-23,06-Aug-23,approved
-akash.galipelli@datafactz.com,Leave,07-Aug-23,07-Aug-23,approved
-deepthi.pabba@datafactz.com,Leave,07-Aug-23,07-Aug-23,approved
-satyasrinivas.matha@datafactz.com,Leave,07-Aug-23,07-Aug-23,approved
-ramakrishna.gurunadham@datafactz.com,Leave,07-Aug-23,07-Aug-23,approved
-saikiran.goud@datafactz.com,Leave,07-Aug-23,07-Aug-23,approved
-Swayang.Mohapatra@datafactz.com,Leave,07-Aug-23,07-Aug-23,approved
-deepthi.pabba@datafactz.com,Leave,08-Aug-23,08-Aug-23,approved
-Sahithi.Madduluri@datafactz.com,WFH,08-Aug-23,08-Aug-23,approved
-sharath.bhoomireddygari@datafactz.com,WFH,08-Aug-23,08-Aug-23,approved
-shashi.parvathaneni@datafactz.com,Half Day Leave,08-Aug-23,08-Aug-23,approved
-Swayang.Mohapatra@datafactz.com,WFH,08-Aug-23,08-Aug-23,approved
-deepthi.pabba@datafactz.com,Leave,09-Aug-23,09-Aug-23,approved
-Swayang.Mohapatra@datafactz.com,WFH,09-Aug-23,09-Aug-23,approved
+AnkithaPadmaPriya.Thirakala@datafactz.com,Leave,1-Aug-23,1-Aug-23,approved
+anantha.chintalapati@datafactz.com,WFH,1-Aug-23,1-Aug-23,approved
+deepthi.pabba@datafactz.com,Leave,1-Aug-23,1-Aug-23,approved
+anand.karnati@datafactz.com,WFH,2-Aug-23,2-Aug-23,approved
+anantha.chintalapati@datafactz.com,WFH,2-Aug-23,2-Aug-23,approved
+deepthi.pabba@datafactz.com,Leave,2-Aug-23,2-Aug-23,approved
+SaiVineel.Kolla@datafactz.com,WFH,2-Aug-23,2-Aug-23,approved
+anantha.chintalapati@datafactz.com,WFH,3-Aug-23,3-Aug-23,approved
+anantha.chintalapati@datafactz.com,WFH,3-Aug-23,3-Aug-23,approved
+deepthi.pabba@datafactz.com,Leave,3-Aug-23,3-Aug-23,approved
+deepthi.pabba@datafactz.com,Leave,3-Aug-23,3-Aug-23,approved
+Karthik.Gundu@datafactz.com,WFH,3-Aug-23,3-Aug-23,approved
+laya.nomula@datafactz.com,Leave,3-Aug-23,3-Aug-23,approved
+Rayala.Nandini@datafactz.com,Leave,3-Aug-23,3-Aug-23,approved
+Rayala.Nandini@datafactz.com,Leave,3-Aug-23,3-Aug-23,approved
+Santhoshkumar.Konduru@datafactz.com,Leave,3-Aug-23,3-Aug-23,approved
+shashi.parvathaneni@datafactz.com,WFH,3-Aug-23,3-Aug-23,approved
+varaprasad.devarakonda@datafactz.com,Leave,3-Aug-23,3-Aug-23,approved
+anantha.chintalapati@datafactz.com,WFH,4-Aug-23,4-Aug-23,approved
+deepthi.pabba@datafactz.com,Leave,4-Aug-23,4-Aug-23,approved
+Karthik.Gundu@datafactz.com,WFH,4-Aug-23,4-Aug-23,approved
+laya.nomula@datafactz.com,Leave,4-Aug-23,4-Aug-23,approved
+Rayala.Nandini@datafactz.com,Leave,4-Aug-23,4-Aug-23,approved
+shashi.parvathaneni@datafactz.com,WFH,4-Aug-23,4-Aug-23,approved
+srikanth.rao@datafactz.com,Leave,4-Aug-23,4-Aug-23,approved
+varaprasad.devarakonda@datafactz.com,Leave,4-Aug-23,4-Aug-23,approved
+baskar.darukumalli@datafactz.com,Compoff,5-Aug-23,5-Aug-23,approved
+baskar.darukumalli@datafactz.com,Compoff,6-Aug-23,6-Aug-23,approved
+akash.galipelli@datafactz.com,Leave,7-Aug-23,7-Aug-23,approved
+deepthi.pabba@datafactz.com,Leave,7-Aug-23,7-Aug-23,approved
+satyasrinivas.matha@datafactz.com,Leave,7-Aug-23,7-Aug-23,approved
+ramakrishna.gurunadham@datafactz.com,Leave,7-Aug-23,7-Aug-23,approved
+saikiran.goud@datafactz.com,Leave,7-Aug-23,7-Aug-23,approved
+Swayang.Mohapatra@datafactz.com,Leave,7-Aug-23,7-Aug-23,approved
+deepthi.pabba@datafactz.com,Leave,8-Aug-23,8-Aug-23,approved
+Sahithi.Madduluri@datafactz.com,WFH,8-Aug-23,8-Aug-23,approved
+sharath.bhoomireddygari@datafactz.com,WFH,8-Aug-23,8-Aug-23,approved
+shashi.parvathaneni@datafactz.com,Half Day Leave,8-Aug-23,8-Aug-23,approved
+Swayang.Mohapatra@datafactz.com,WFH,8-Aug-23,8-Aug-23,approved
+deepthi.pabba@datafactz.com,Leave,9-Aug-23,9-Aug-23,approved
+Swayang.Mohapatra@datafactz.com,WFH,9-Aug-23,9-Aug-23,approved
 deepthi.pabba@datafactz.com,Leave,10-Aug-23,10-Aug-23,approved
 SaiVineel.Kolla@datafactz.com,WFH,10-Aug-23,10-Aug-23,approved
 saikiran.goud@datafactz.com,Leave,10-Aug-23,10-Aug-23,approved
@@ -1277,61 +1277,61 @@ SaiKrishna.Arram@datafactz.com,Leave,31-Aug-23,31-Aug-23,approved
 Santhoshkumar.Konduru@datafactz.com,Leave,31-Aug-23,31-Aug-23,approved
 swetha.dutpala@datafactz.com,WFH,31-Aug-23,31-Aug-23,approved
 VinayKumar.Gayini@datafactz.com,WFH,31-Aug-23,31-Aug-23,approved
-akash.galipelli@datafactz.com,Leave,01-Sep-23,01-Sep-23,approved
-anand.karnati@datafactz.com,WFH,01-Sep-23,01-Sep-23,approved
-Arunsai.sadu@datafactz.com,WFH,01-Sep-23,01-Sep-23,approved
-Ashok.Devalla@datafactz.com,Leave,01-Sep-23,01-Sep-23,approved
-baskar.darukumalli@datafactz.com,WFH,01-Sep-23,01-Sep-23,approved
-deepthi.pabba@datafactz.com,Leave,01-Sep-23,01-Sep-23,approved
-geeta.devabakthuni@datafactz.com,Leave,01-Sep-23,01-Sep-23,approved
-nagadurga.reddy@datafactz.com,Leave,01-Sep-23,01-Sep-23,approved
-satyasrinivas.matha@datafactz.com,WFH,01-Sep-23,01-Sep-23,approved
-prabhakar.konakala@datafactz.com,Leave,01-Sep-23,01-Sep-23,approved
-praveen.vadde@datafactz.com,Leave,01-Sep-23,01-Sep-23,approved
-raghava.raparthi@datafactz.com,Leave,01-Sep-23,01-Sep-23,approved
-RajeshKumar.Potharaju@datafactz.com,WFH,01-Sep-23,01-Sep-23,approved
-SaiKrishna.Arram@datafactz.com,Leave,01-Sep-23,01-Sep-23,approved
-Santhoshkumar.Konduru@datafactz.com,Leave,01-Sep-23,01-Sep-23,approved
-vaishali.kumari@datafactz.com,Leave,01-Sep-23,01-Sep-23,approved
-anantha.chintalapati@datafactz.com,Leave,05-Sep-23,05-Sep-23,approved
-deepthi.pabba@datafactz.com,Leave,05-Sep-23,05-Sep-23,approved
-nagadurga.reddy@datafactz.com,Leave,05-Sep-23,05-Sep-23,approved
-satyasrinivas.matha@datafactz.com,Leave,05-Sep-23,05-Sep-23,approved
-SaiKrishna.Arram@datafactz.com,Leave,05-Sep-23,05-Sep-23,approved
-saisreepath.garrepelli@datafactz.com,Leave,05-Sep-23,05-Sep-23,approved
-syed.tahir@datafactz.com,Leave,05-Sep-23,05-Sep-23,approved
-anand.karnati@datafactz.com,WFH,06-Sep-23,06-Sep-23,approved
-Arunsai.sadu@datafactz.com,WFH,06-Sep-23,06-Sep-23,approved
-deepthi.pabba@datafactz.com,Leave,06-Sep-23,06-Sep-23,approved
-raghava.raparthi@datafactz.com,WFH,06-Sep-23,06-Sep-23,approved
-SaiKrishna.Arram@datafactz.com,Leave,06-Sep-23,06-Sep-23,approved
-Santhoshkumar.Konduru@datafactz.com,Leave,06-Sep-23,06-Sep-23,approved
-Srilakshmi.Dhammalapati@datafactz.com,Leave,06-Sep-23,06-Sep-23,approved
-anand.karnati@datafactz.com,WFH,07-Sep-23,07-Sep-23,approved
-anvesh.chintakunta@datafactz.com,Leave,07-Sep-23,07-Sep-23,approved
-Arunsai.sadu@datafactz.com,WFH,07-Sep-23,07-Sep-23,approved
-baskar.darukumalli@datafactz.com,WFH,07-Sep-23,07-Sep-23,approved
-deepthi.pabba@datafactz.com,Leave,07-Sep-23,07-Sep-23,approved
-lakshmi.devarapalli@datafactz.com,Leave,07-Sep-23,07-Sep-23,approved
-Rayala.Nandini@datafactz.com,WFH,07-Sep-23,07-Sep-23,approved
-RajeshKumar.Potharaju@datafactz.com,Leave,07-Sep-23,07-Sep-23,approved
-Sahithi.Madduluri@datafactz.com,WFH,07-Sep-23,07-Sep-23,approved
-naveen.tatavarthy@datafactz.com,WFH,07-Sep-23,07-Sep-23,approved
-Santhoshkumar.Konduru@datafactz.com,Leave,07-Sep-23,07-Sep-23,approved
-shashi.parvathaneni@datafactz.com,Leave,07-Sep-23,07-Sep-23,approved
-Srilakshmi.Dhammalapati@datafactz.com,Leave,07-Sep-23,07-Sep-23,approved
-anand.karnati@datafactz.com,WFH,08-Sep-23,08-Sep-23,approved
-anvesh.chintakunta@datafactz.com,Leave,08-Sep-23,08-Sep-23,approved
-Arunsai.sadu@datafactz.com,WFH,08-Sep-23,08-Sep-23,approved
-baskar.darukumalli@datafactz.com,WFH,08-Sep-23,08-Sep-23,approved
-deepthi.pabba@datafactz.com,Leave,08-Sep-23,08-Sep-23,approved
-SaiVineel.Kolla@datafactz.com,Leave,08-Sep-23,08-Sep-23,approved
-Rayala.Nandini@datafactz.com,Leave,08-Sep-23,08-Sep-23,approved
-RajeshKumar.Potharaju@datafactz.com,Leave,08-Sep-23,08-Sep-23,approved
-Sahithi.Madduluri@datafactz.com,Leave,08-Sep-23,08-Sep-23,approved
-Santhoshkumar.Konduru@datafactz.com,Leave,08-Sep-23,08-Sep-23,approved
-sharath.bhoomireddygari@datafactz.com,Leave,08-Sep-23,08-Sep-23,approved
-Srilakshmi.Dhammalapati@datafactz.com,WFH,08-Sep-23,08-Sep-23,approved
+akash.galipelli@datafactz.com,Leave,1-Sep-23,1-Sep-23,approved
+anand.karnati@datafactz.com,WFH,1-Sep-23,1-Sep-23,approved
+Arunsai.sadu@datafactz.com,WFH,1-Sep-23,1-Sep-23,approved
+Ashok.Devalla@datafactz.com,Leave,1-Sep-23,1-Sep-23,approved
+baskar.darukumalli@datafactz.com,WFH,1-Sep-23,1-Sep-23,approved
+deepthi.pabba@datafactz.com,Leave,1-Sep-23,1-Sep-23,approved
+geeta.devabakthuni@datafactz.com,Leave,1-Sep-23,1-Sep-23,approved
+nagadurga.reddy@datafactz.com,Leave,1-Sep-23,1-Sep-23,approved
+satyasrinivas.matha@datafactz.com,WFH,1-Sep-23,1-Sep-23,approved
+prabhakar.konakala@datafactz.com,Leave,1-Sep-23,1-Sep-23,approved
+praveen.vadde@datafactz.com,Leave,1-Sep-23,1-Sep-23,approved
+raghava.raparthi@datafactz.com,Leave,1-Sep-23,1-Sep-23,approved
+RajeshKumar.Potharaju@datafactz.com,WFH,1-Sep-23,1-Sep-23,approved
+SaiKrishna.Arram@datafactz.com,Leave,1-Sep-23,1-Sep-23,approved
+Santhoshkumar.Konduru@datafactz.com,Leave,1-Sep-23,1-Sep-23,approved
+vaishali.kumari@datafactz.com,Leave,1-Sep-23,1-Sep-23,approved
+anantha.chintalapati@datafactz.com,Leave,5-Sep-23,5-Sep-23,approved
+deepthi.pabba@datafactz.com,Leave,5-Sep-23,5-Sep-23,approved
+nagadurga.reddy@datafactz.com,Leave,5-Sep-23,5-Sep-23,approved
+satyasrinivas.matha@datafactz.com,Leave,5-Sep-23,5-Sep-23,approved
+SaiKrishna.Arram@datafactz.com,Leave,5-Sep-23,5-Sep-23,approved
+saisreepath.garrepelli@datafactz.com,Leave,5-Sep-23,5-Sep-23,approved
+syed.tahir@datafactz.com,Leave,5-Sep-23,5-Sep-23,approved
+anand.karnati@datafactz.com,WFH,6-Sep-23,6-Sep-23,approved
+Arunsai.sadu@datafactz.com,WFH,6-Sep-23,6-Sep-23,approved
+deepthi.pabba@datafactz.com,Leave,6-Sep-23,6-Sep-23,approved
+raghava.raparthi@datafactz.com,WFH,6-Sep-23,6-Sep-23,approved
+SaiKrishna.Arram@datafactz.com,Leave,6-Sep-23,6-Sep-23,approved
+Santhoshkumar.Konduru@datafactz.com,Leave,6-Sep-23,6-Sep-23,approved
+Srilakshmi.Dhammalapati@datafactz.com,Leave,6-Sep-23,6-Sep-23,approved
+anand.karnati@datafactz.com,WFH,7-Sep-23,7-Sep-23,approved
+anvesh.chintakunta@datafactz.com,Leave,7-Sep-23,7-Sep-23,approved
+Arunsai.sadu@datafactz.com,WFH,7-Sep-23,7-Sep-23,approved
+baskar.darukumalli@datafactz.com,WFH,7-Sep-23,7-Sep-23,approved
+deepthi.pabba@datafactz.com,Leave,7-Sep-23,7-Sep-23,approved
+lakshmi.devarapalli@datafactz.com,Leave,7-Sep-23,7-Sep-23,approved
+Rayala.Nandini@datafactz.com,WFH,7-Sep-23,7-Sep-23,approved
+RajeshKumar.Potharaju@datafactz.com,Leave,7-Sep-23,7-Sep-23,approved
+Sahithi.Madduluri@datafactz.com,WFH,7-Sep-23,7-Sep-23,approved
+naveen.tatavarthy@datafactz.com,WFH,7-Sep-23,7-Sep-23,approved
+Santhoshkumar.Konduru@datafactz.com,Leave,7-Sep-23,7-Sep-23,approved
+shashi.parvathaneni@datafactz.com,Leave,7-Sep-23,7-Sep-23,approved
+Srilakshmi.Dhammalapati@datafactz.com,Leave,7-Sep-23,7-Sep-23,approved
+anand.karnati@datafactz.com,WFH,8-Sep-23,8-Sep-23,approved
+anvesh.chintakunta@datafactz.com,Leave,8-Sep-23,8-Sep-23,approved
+Arunsai.sadu@datafactz.com,WFH,8-Sep-23,8-Sep-23,approved
+baskar.darukumalli@datafactz.com,WFH,8-Sep-23,8-Sep-23,approved
+deepthi.pabba@datafactz.com,Leave,8-Sep-23,8-Sep-23,approved
+SaiVineel.Kolla@datafactz.com,Leave,8-Sep-23,8-Sep-23,approved
+Rayala.Nandini@datafactz.com,Leave,8-Sep-23,8-Sep-23,approved
+RajeshKumar.Potharaju@datafactz.com,Leave,8-Sep-23,8-Sep-23,approved
+Sahithi.Madduluri@datafactz.com,Leave,8-Sep-23,8-Sep-23,approved
+Santhoshkumar.Konduru@datafactz.com,Leave,8-Sep-23,8-Sep-23,approved
+sharath.bhoomireddygari@datafactz.com,Leave,8-Sep-23,8-Sep-23,approved
+Srilakshmi.Dhammalapati@datafactz.com,WFH,8-Sep-23,8-Sep-23,approved
 anand.karnati@datafactz.com,WFH,11-Sep-23,11-Sep-23,approved
 Arunsai.sadu@datafactz.com,WFH,11-Sep-23,11-Sep-23,approved
 deepthi.pabba@datafactz.com,Leave,11-Sep-23,11-Sep-23,approved
@@ -1426,53 +1426,53 @@ lakshmi.devarapalli@datafactz.com,WFH,29-Sep-23,29-Sep-23,approved
 praveen.vadde@datafactz.com,Leave,29-Sep-23,29-Sep-23,approved
 ramakrishna.gurunadham@datafactz.com,Leave,29-Sep-23,29-Sep-23,approved
 naveen.tatavarthy@datafactz.com,WFH,29-Sep-23,29-Sep-23,approved
-anand.karnati@datafactz.com,WFH,02-Oct-23,02-Oct-23,approved
-anvesh.chintakunta@datafactz.com,Leave,02-Oct-23,02-Oct-23,approved
-Ashok.Devalla@datafactz.com,Leave,02-Oct-23,02-Oct-23,approved
-deepthi.pabba@datafactz.com,Leave,02-Oct-23,02-Oct-23,approved
-kiran.aluru@datafactz.com,Leave,02-Oct-23,02-Oct-23,approved
-SaiVineel.Kolla@datafactz.com,Leave,02-Oct-23,02-Oct-23,approved
-lakshmi.devarapalli@datafactz.com,WFH,02-Oct-23,02-Oct-23,approved
-shashi.parvathaneni@datafactz.com,WFH,02-Oct-23,02-Oct-23,approved
-swetha.dutpala@datafactz.com,Leave,02-Oct-23,02-Oct-23,approved
-swetha.dutpala@datafactz.com,Leave,02-Oct-23,02-Oct-23,approved
-akash.galipelli@datafactz.com,Leave,03-Oct-23,03-Oct-23,approved
-anand.karnati@datafactz.com,WFH,03-Oct-23,03-Oct-23,approved
-deepthi.pabba@datafactz.com,Leave,03-Oct-23,03-Oct-23,approved
-lakshmi.devarapalli@datafactz.com,WFH,03-Oct-23,03-Oct-23,approved
-mamatha.battu@datafactz.com,Leave,03-Oct-23,03-Oct-23,approved
-raghava.raparthi@datafactz.com,WFH,03-Oct-23,03-Oct-23,approved
-anand.karnati@datafactz.com,WFH,04-Oct-23,04-Oct-23,approved
-deepthi.pabba@datafactz.com,Leave,04-Oct-23,04-Oct-23,approved
-karthik.kayala@datafactz.com,WFH,04-Oct-23,04-Oct-23,approved
-laya.nomula@datafactz.com,Leave,04-Oct-23,04-Oct-23,approved
-prabhakar.konakala@datafactz.com,Leave,04-Oct-23,04-Oct-23,approved
-raghava.raparthi@datafactz.com,WFH,04-Oct-23,04-Oct-23,approved
-naveen.tatavarthy@datafactz.com,WFH,04-Oct-23,04-Oct-23,approved
-anand.karnati@datafactz.com,WFH,05-Oct-23,05-Oct-23,approved
-deepthi.pabba@datafactz.com,Leave,05-Oct-23,05-Oct-23,approved
-karthik.kayala@datafactz.com,Leave,05-Oct-23,05-Oct-23,approved
-mamatha.battu@datafactz.com,Leave,05-Oct-23,05-Oct-23,approved
-narendra.gorijala@datafactz.com,Leave,05-Oct-23,05-Oct-23,approved
-prabhakar.konakala@datafactz.com,Leave,05-Oct-23,05-Oct-23,approved
-shashi.parvathaneni@datafactz.com,WFH,05-Oct-23,05-Oct-23,approved
-anand.karnati@datafactz.com,WFH,06-Oct-23,06-Oct-23,approved
-anurag.mishra@datafactz.com,Leave,06-Oct-23,06-Oct-23,approved
-anvesh.chintakunta@datafactz.com,Leave,06-Oct-23,06-Oct-23,approved
-deepthi.pabba@datafactz.com,Leave,06-Oct-23,06-Oct-23,approved
-Gayathri.Dasari@datafactz.com,Leave,06-Oct-23,06-Oct-23,approved
-karthik.kayala@datafactz.com,Leave,06-Oct-23,06-Oct-23,approved
-prabhakar.konakala@datafactz.com,WFH,06-Oct-23,06-Oct-23,approved
-SaiKrishna.Arram@datafactz.com,WFH,06-Oct-23,06-Oct-23,approved
-Santhoshkumar.Konduru@datafactz.com,WFH,06-Oct-23,06-Oct-23,approved
-VinayKumar.Gayini@datafactz.com,Leave,06-Oct-23,06-Oct-23,approved
-anand.karnati@datafactz.com,WFH,09-Oct-23,09-Oct-23,approved
-deepthi.pabba@datafactz.com,Leave,09-Oct-23,09-Oct-23,approved
-Gayathri.Dasari@datafactz.com,WFH,09-Oct-23,09-Oct-23,approved
-ramakrishna.gurunadham@datafactz.com,Leave,09-Oct-23,09-Oct-23,approved
-swetha.dutpala@datafactz.com,WFH,09-Oct-23,09-Oct-23,approved
-vaishali.kumari@datafactz.com,Leave,09-Oct-23,09-Oct-23,approved
-VinayKumar.Gayini@datafactz.com,Leave,09-Oct-23,09-Oct-23,approved
+anand.karnati@datafactz.com,WFH,2-Oct-23,2-Oct-23,approved
+anvesh.chintakunta@datafactz.com,Leave,2-Oct-23,2-Oct-23,approved
+Ashok.Devalla@datafactz.com,Leave,2-Oct-23,2-Oct-23,approved
+deepthi.pabba@datafactz.com,Leave,2-Oct-23,2-Oct-23,approved
+kiran.aluru@datafactz.com,Leave,2-Oct-23,2-Oct-23,approved
+SaiVineel.Kolla@datafactz.com,Leave,2-Oct-23,2-Oct-23,approved
+lakshmi.devarapalli@datafactz.com,WFH,2-Oct-23,2-Oct-23,approved
+shashi.parvathaneni@datafactz.com,WFH,2-Oct-23,2-Oct-23,approved
+swetha.dutpala@datafactz.com,Leave,2-Oct-23,2-Oct-23,approved
+swetha.dutpala@datafactz.com,Leave,2-Oct-23,2-Oct-23,approved
+akash.galipelli@datafactz.com,Leave,3-Oct-23,3-Oct-23,approved
+anand.karnati@datafactz.com,WFH,3-Oct-23,3-Oct-23,approved
+deepthi.pabba@datafactz.com,Leave,3-Oct-23,3-Oct-23,approved
+lakshmi.devarapalli@datafactz.com,WFH,3-Oct-23,3-Oct-23,approved
+mamatha.battu@datafactz.com,Leave,3-Oct-23,3-Oct-23,approved
+raghava.raparthi@datafactz.com,WFH,3-Oct-23,3-Oct-23,approved
+anand.karnati@datafactz.com,WFH,4-Oct-23,4-Oct-23,approved
+deepthi.pabba@datafactz.com,Leave,4-Oct-23,4-Oct-23,approved
+karthik.kayala@datafactz.com,WFH,4-Oct-23,4-Oct-23,approved
+laya.nomula@datafactz.com,Leave,4-Oct-23,4-Oct-23,approved
+prabhakar.konakala@datafactz.com,Leave,4-Oct-23,4-Oct-23,approved
+raghava.raparthi@datafactz.com,WFH,4-Oct-23,4-Oct-23,approved
+naveen.tatavarthy@datafactz.com,WFH,4-Oct-23,4-Oct-23,approved
+anand.karnati@datafactz.com,WFH,5-Oct-23,5-Oct-23,approved
+deepthi.pabba@datafactz.com,Leave,5-Oct-23,5-Oct-23,approved
+karthik.kayala@datafactz.com,Leave,5-Oct-23,5-Oct-23,approved
+mamatha.battu@datafactz.com,Leave,5-Oct-23,5-Oct-23,approved
+narendra.gorijala@datafactz.com,Leave,5-Oct-23,5-Oct-23,approved
+prabhakar.konakala@datafactz.com,Leave,5-Oct-23,5-Oct-23,approved
+shashi.parvathaneni@datafactz.com,WFH,5-Oct-23,5-Oct-23,approved
+anand.karnati@datafactz.com,WFH,6-Oct-23,6-Oct-23,approved
+anurag.mishra@datafactz.com,Leave,6-Oct-23,6-Oct-23,approved
+anvesh.chintakunta@datafactz.com,Leave,6-Oct-23,6-Oct-23,approved
+deepthi.pabba@datafactz.com,Leave,6-Oct-23,6-Oct-23,approved
+Gayathri.Dasari@datafactz.com,Leave,6-Oct-23,6-Oct-23,approved
+karthik.kayala@datafactz.com,Leave,6-Oct-23,6-Oct-23,approved
+prabhakar.konakala@datafactz.com,WFH,6-Oct-23,6-Oct-23,approved
+SaiKrishna.Arram@datafactz.com,WFH,6-Oct-23,6-Oct-23,approved
+Santhoshkumar.Konduru@datafactz.com,WFH,6-Oct-23,6-Oct-23,approved
+VinayKumar.Gayini@datafactz.com,Leave,6-Oct-23,6-Oct-23,approved
+anand.karnati@datafactz.com,WFH,9-Oct-23,9-Oct-23,approved
+deepthi.pabba@datafactz.com,Leave,9-Oct-23,9-Oct-23,approved
+Gayathri.Dasari@datafactz.com,WFH,9-Oct-23,9-Oct-23,approved
+ramakrishna.gurunadham@datafactz.com,Leave,9-Oct-23,9-Oct-23,approved
+swetha.dutpala@datafactz.com,WFH,9-Oct-23,9-Oct-23,approved
+vaishali.kumari@datafactz.com,Leave,9-Oct-23,9-Oct-23,approved
+VinayKumar.Gayini@datafactz.com,Leave,9-Oct-23,9-Oct-23,approved
 anand.karnati@datafactz.com,WFH,10-Oct-23,10-Oct-23,approved
 deepthi.pabba@datafactz.com,Leave,10-Oct-23,10-Oct-23,approved
 Gayathri.Dasari@datafactz.com,WFH,10-Oct-23,10-Oct-23,approved
@@ -1645,54 +1645,54 @@ mamatha.battu@datafactz.com,Leave,31-Oct-23,31-Oct-23,approved
 praveen.vadde@datafactz.com,WFH,31-Oct-23,31-Oct-23,approved
 RajeshKumar.Potharaju@datafactz.com,Leave,31-Oct-23,31-Oct-23,approved
 syed.tahir@datafactz.com,Leave,31-Oct-23,31-Oct-23,approved
-anand.karnati@datafactz.com,WFH,01-Nov-23,01-Nov-23,approved
-Ashok.Devalla@datafactz.com,Leave,01-Nov-23,01-Nov-23,approved
-deepthi.pabba@datafactz.com,Leave,01-Nov-23,01-Nov-23,approved
-Gayathri.Dasari@datafactz.com,Leave,01-Nov-23,01-Nov-23,approved
-karthik.kayala@datafactz.com,WFH,01-Nov-23,01-Nov-23,approved
-vignesh.kolla@datafactz.com,Leave,01-Nov-23,01-Nov-23,approved
-nikhilesh.narra@datafactz.com,WFH,01-Nov-23,01-Nov-23,approved
-anand.karnati@datafactz.com,WFH,02-Nov-23,02-Nov-23,approved
-anurag.mishra@datafactz.com,WFH,02-Nov-23,02-Nov-23,approved
-Ashok.Devalla@datafactz.com,Leave,02-Nov-23,02-Nov-23,approved
-deepthi.pabba@datafactz.com,Leave,02-Nov-23,02-Nov-23,approved
-Gayathri.Dasari@datafactz.com,Leave,02-Nov-23,02-Nov-23,approved
-sharath.bhoomireddygari@datafactz.com,Leave,02-Nov-23,02-Nov-23,approved
-anand.karnati@datafactz.com,WFH,03-Nov-23,03-Nov-23,approved
-anurag.mishra@datafactz.com,WFH,03-Nov-23,03-Nov-23,approved
-anvesh.chintakunta@datafactz.com,Leave,03-Nov-23,03-Nov-23,approved
-deepthi.pabba@datafactz.com,Leave,03-Nov-23,03-Nov-23,approved
-Gayathri.Dasari@datafactz.com,Leave,03-Nov-23,03-Nov-23,approved
-geeta.devabakthuni@datafactz.com,Leave,03-Nov-23,03-Nov-23,approved
-satyasrinivas.matha@datafactz.com,WFH,03-Nov-23,03-Nov-23,approved
-prabodh.moganti@datafactz.com,Leave,03-Nov-23,03-Nov-23,approved
-varaprasad.devarakonda@datafactz.com,Leave,03-Nov-23,03-Nov-23,approved
-anand.karnati@datafactz.com,WFH,06-Nov-23,06-Nov-23,approved
-anurag.mishra@datafactz.com,WFH,06-Nov-23,06-Nov-23,approved
-anvesh.chintakunta@datafactz.com,Leave,06-Nov-23,06-Nov-23,approved
-deepthi.pabba@datafactz.com,Leave,06-Nov-23,06-Nov-23,approved
-satyasrinivas.matha@datafactz.com,Leave,06-Nov-23,06-Nov-23,approved
-SaiKrishna.Arram@datafactz.com,Leave,06-Nov-23,06-Nov-23,approved
-anand.karnati@datafactz.com,WFH,07-Nov-23,07-Nov-23,approved
-anurag.mishra@datafactz.com,WFH,07-Nov-23,07-Nov-23,approved
-deepthi.pabba@datafactz.com,Leave,07-Nov-23,07-Nov-23,approved
-satyasrinivas.matha@datafactz.com,Leave,07-Nov-23,07-Nov-23,approved
-shashi.parvathaneni@datafactz.com,WFH,07-Nov-23,07-Nov-23,approved
-srinivas.potharam@datafactz.com,WFH,07-Nov-23,07-Nov-23,approved
-Swayang.Mohapatra@datafactz.com,Leave,07-Nov-23,07-Nov-23,approved
-anand.karnati@datafactz.com,WFH,08-Nov-23,08-Nov-23,approved
-anurag.mishra@datafactz.com,WFH,08-Nov-23,08-Nov-23,approved
-Ashok.Devalla@datafactz.com,WFH,08-Nov-23,08-Nov-23,approved
-deepthi.pabba@datafactz.com,Leave,08-Nov-23,08-Nov-23,approved
-nikhilesh.narra@datafactz.com,WFH,08-Nov-23,08-Nov-23,approved
-sharath.bhoomireddygari@datafactz.com,Leave,08-Nov-23,08-Nov-23,approved
-akash.galipelli@datafactz.com,Leave,09-Nov-23,09-Nov-23,approved
-anand.karnati@datafactz.com,WFH,09-Nov-23,09-Nov-23,approved
-anantha.chintalapati@datafactz.com,Leave,09-Nov-23,09-Nov-23,approved
-anurag.mishra@datafactz.com,WFH,09-Nov-23,09-Nov-23,approved
-deepthi.pabba@datafactz.com,Leave,09-Nov-23,09-Nov-23,approved
-nikhilesh.narra@datafactz.com,WFH,09-Nov-23,09-Nov-23,approved
-raghava.raparthi@datafactz.com,WFH,09-Nov-23,09-Nov-23,approved
+anand.karnati@datafactz.com,WFH,1-Nov-23,1-Nov-23,approved
+Ashok.Devalla@datafactz.com,Leave,1-Nov-23,1-Nov-23,approved
+deepthi.pabba@datafactz.com,Leave,1-Nov-23,1-Nov-23,approved
+Gayathri.Dasari@datafactz.com,Leave,1-Nov-23,1-Nov-23,approved
+karthik.kayala@datafactz.com,WFH,1-Nov-23,1-Nov-23,approved
+vignesh.kolla@datafactz.com,Leave,1-Nov-23,1-Nov-23,approved
+nikhilesh.narra@datafactz.com,WFH,1-Nov-23,1-Nov-23,approved
+anand.karnati@datafactz.com,WFH,2-Nov-23,2-Nov-23,approved
+anurag.mishra@datafactz.com,WFH,2-Nov-23,2-Nov-23,approved
+Ashok.Devalla@datafactz.com,Leave,2-Nov-23,2-Nov-23,approved
+deepthi.pabba@datafactz.com,Leave,2-Nov-23,2-Nov-23,approved
+Gayathri.Dasari@datafactz.com,Leave,2-Nov-23,2-Nov-23,approved
+sharath.bhoomireddygari@datafactz.com,Leave,2-Nov-23,2-Nov-23,approved
+anand.karnati@datafactz.com,WFH,3-Nov-23,3-Nov-23,approved
+anurag.mishra@datafactz.com,WFH,3-Nov-23,3-Nov-23,approved
+anvesh.chintakunta@datafactz.com,Leave,3-Nov-23,3-Nov-23,approved
+deepthi.pabba@datafactz.com,Leave,3-Nov-23,3-Nov-23,approved
+Gayathri.Dasari@datafactz.com,Leave,3-Nov-23,3-Nov-23,approved
+geeta.devabakthuni@datafactz.com,Leave,3-Nov-23,3-Nov-23,approved
+satyasrinivas.matha@datafactz.com,WFH,3-Nov-23,3-Nov-23,approved
+prabodh.moganti@datafactz.com,Leave,3-Nov-23,3-Nov-23,approved
+varaprasad.devarakonda@datafactz.com,Leave,3-Nov-23,3-Nov-23,approved
+anand.karnati@datafactz.com,WFH,6-Nov-23,6-Nov-23,approved
+anurag.mishra@datafactz.com,WFH,6-Nov-23,6-Nov-23,approved
+anvesh.chintakunta@datafactz.com,Leave,6-Nov-23,6-Nov-23,approved
+deepthi.pabba@datafactz.com,Leave,6-Nov-23,6-Nov-23,approved
+satyasrinivas.matha@datafactz.com,Leave,6-Nov-23,6-Nov-23,approved
+SaiKrishna.Arram@datafactz.com,Leave,6-Nov-23,6-Nov-23,approved
+anand.karnati@datafactz.com,WFH,7-Nov-23,7-Nov-23,approved
+anurag.mishra@datafactz.com,WFH,7-Nov-23,7-Nov-23,approved
+deepthi.pabba@datafactz.com,Leave,7-Nov-23,7-Nov-23,approved
+satyasrinivas.matha@datafactz.com,Leave,7-Nov-23,7-Nov-23,approved
+shashi.parvathaneni@datafactz.com,WFH,7-Nov-23,7-Nov-23,approved
+srinivas.potharam@datafactz.com,WFH,7-Nov-23,7-Nov-23,approved
+Swayang.Mohapatra@datafactz.com,Leave,7-Nov-23,7-Nov-23,approved
+anand.karnati@datafactz.com,WFH,8-Nov-23,8-Nov-23,approved
+anurag.mishra@datafactz.com,WFH,8-Nov-23,8-Nov-23,approved
+Ashok.Devalla@datafactz.com,WFH,8-Nov-23,8-Nov-23,approved
+deepthi.pabba@datafactz.com,Leave,8-Nov-23,8-Nov-23,approved
+nikhilesh.narra@datafactz.com,WFH,8-Nov-23,8-Nov-23,approved
+sharath.bhoomireddygari@datafactz.com,Leave,8-Nov-23,8-Nov-23,approved
+akash.galipelli@datafactz.com,Leave,9-Nov-23,9-Nov-23,approved
+anand.karnati@datafactz.com,WFH,9-Nov-23,9-Nov-23,approved
+anantha.chintalapati@datafactz.com,Leave,9-Nov-23,9-Nov-23,approved
+anurag.mishra@datafactz.com,WFH,9-Nov-23,9-Nov-23,approved
+deepthi.pabba@datafactz.com,Leave,9-Nov-23,9-Nov-23,approved
+nikhilesh.narra@datafactz.com,WFH,9-Nov-23,9-Nov-23,approved
+raghava.raparthi@datafactz.com,WFH,9-Nov-23,9-Nov-23,approved
 anand.karnati@datafactz.com,WFH,10-Nov-23,10-Nov-23,approved
 anantha.chintalapati@datafactz.com,Leave,10-Nov-23,10-Nov-23,approved
 anurag.mishra@datafactz.com,WFH,10-Nov-23,10-Nov-23,approved
@@ -1789,59 +1789,59 @@ anand.karnati@datafactz.com,WFH,29-Nov-23,29-Nov-23,approved
 anurag.mishra@datafactz.com,WFH,29-Nov-23,29-Nov-23,approved
 deepthi.pabba@datafactz.com,Leave,29-Nov-23,29-Nov-23,approved
 geeta.devabakthuni@datafactz.com,Leave,29-Nov-23,29-Nov-23,approved
-anand.karnati@datafactz.com,WFH,01-Dec-23,01-Dec-23,approved
-anurag.mishra@datafactz.com,WFH,01-Dec-23,01-Dec-23,approved
-anvesh.chintakunta@datafactz.com,WFH,01-Dec-23,01-Dec-23,approved
-Arunsai.sadu@datafactz.com,WFH,01-Dec-23,01-Dec-23,approved
-deepthi.pabba@datafactz.com,Leave,01-Dec-23,01-Dec-23,approved
-Karthik.Gundu@datafactz.com,WFH,01-Dec-23,01-Dec-23,approved
-SaiVineel.Kolla@datafactz.com,Leave,01-Dec-23,01-Dec-23,approved
-narendra.gorijala@datafactz.com,WFH,01-Dec-23,01-Dec-23,approved
-nikhilesh.narra@datafactz.com,Leave,01-Dec-23,01-Dec-23,approved
-sagar.rapolu@datafactz.com,WFH,01-Dec-23,01-Dec-23,approved
-SaiKrishna.Arram@datafactz.com,Leave,01-Dec-23,01-Dec-23,approved
-saisreepath.garrepelli@datafactz.com,Leave,01-Dec-23,01-Dec-23,approved
-srinivas.potharam@datafactz.com,WFH,01-Dec-23,01-Dec-23,approved
-vaishali.kumari@datafactz.com,WFH,01-Dec-23,01-Dec-23,approved
-anand.karnati@datafactz.com,Leave,04-Dec-23,04-Dec-23,approved
-anurag.mishra@datafactz.com,WFH,04-Dec-23,04-Dec-23,approved
-deepthi.pabba@datafactz.com,Leave,04-Dec-23,04-Dec-23,approved
-anand.karnati@datafactz.com,WFH,05-Dec-23,05-Dec-23,approved
-anurag.mishra@datafactz.com,WFH,05-Dec-23,05-Dec-23,approved
-deepthi.pabba@datafactz.com,Leave,05-Dec-23,05-Dec-23,approved
-kiran.aluru@datafactz.com,WFH,05-Dec-23,05-Dec-23,approved
-anand.karnati@datafactz.com,WFH,06-Dec-23,06-Dec-23,approved
-anurag.mishra@datafactz.com,WFH,06-Dec-23,06-Dec-23,approved
-Ashok.Devalla@datafactz.com,Leave,06-Dec-23,06-Dec-23,approved
-deepthi.pabba@datafactz.com,Leave,06-Dec-23,06-Dec-23,approved
-vignesh.kolla@datafactz.com,Leave,06-Dec-23,06-Dec-23,approved
-sharath.bhoomireddygari@datafactz.com,WFH,06-Dec-23,06-Dec-23,approved
-Swayang.Mohapatra@datafactz.com,WFH,06-Dec-23,06-Dec-23,approved
-anand.karnati@datafactz.com,WFH,07-Dec-23,07-Dec-23,approved
-anurag.mishra@datafactz.com,WFH,07-Dec-23,07-Dec-23,approved
-anvesh.chintakunta@datafactz.com,WFH,07-Dec-23,07-Dec-23,approved
-Arunsai.sadu@datafactz.com,Leave,07-Dec-23,07-Dec-23,approved
-deepthi.pabba@datafactz.com,Leave,07-Dec-23,07-Dec-23,approved
-nagadurga.reddy@datafactz.com,Leave,07-Dec-23,07-Dec-23,approved
-prabodh.moganti@datafactz.com,WFH,07-Dec-23,07-Dec-23,approved
-naveen.tatavarthy@datafactz.com,WFH,07-Dec-23,07-Dec-23,approved
-sireesha.medaramitla@datafactz.com,Leave,07-Dec-23,07-Dec-23,approved
-anand.karnati@datafactz.com,WFH,08-Dec-23,08-Dec-23,approved
-anvesh.chintakunta@datafactz.com,Leave,08-Dec-23,08-Dec-23,approved
-Arunsai.sadu@datafactz.com,Leave,08-Dec-23,08-Dec-23,approved
-baskar.darukumalli@datafactz.com,WFH,08-Dec-23,08-Dec-23,approved
-deepthi.pabba@datafactz.com,Leave,08-Dec-23,08-Dec-23,approved
-Gayathri.Dasari@datafactz.com,Leave,08-Dec-23,08-Dec-23,approved
-Madhuri.Vadde@datafactz.com,WFH,08-Dec-23,08-Dec-23,approved
-naren.nimmalabandari@datafactz.com,Leave,08-Dec-23,08-Dec-23,approved
-prabhakar.konakala@datafactz.com,Leave,08-Dec-23,08-Dec-23,approved
-praveen.vadde@datafactz.com,WFH,08-Dec-23,08-Dec-23,approved
-RajeshKumar.Potharaju@datafactz.com,WFH,08-Dec-23,08-Dec-23,approved
-naveen.tatavarthy@datafactz.com,Leave,08-Dec-23,08-Dec-23,approved
-saisreepath.garrepelli@datafactz.com,Leave,08-Dec-23,08-Dec-23,approved
-shashi.parvathaneni@datafactz.com,WFH,08-Dec-23,08-Dec-23,approved
-swetha.dutpala@datafactz.com,Leave,08-Dec-23,08-Dec-23,approved
-vaishali.kumari@datafactz.com,Leave,08-Dec-23,08-Dec-23,approved
+anand.karnati@datafactz.com,WFH,1-Dec-23,1-Dec-23,approved
+anurag.mishra@datafactz.com,WFH,1-Dec-23,1-Dec-23,approved
+anvesh.chintakunta@datafactz.com,WFH,1-Dec-23,1-Dec-23,approved
+Arunsai.sadu@datafactz.com,WFH,1-Dec-23,1-Dec-23,approved
+deepthi.pabba@datafactz.com,Leave,1-Dec-23,1-Dec-23,approved
+Karthik.Gundu@datafactz.com,WFH,1-Dec-23,1-Dec-23,approved
+SaiVineel.Kolla@datafactz.com,Leave,1-Dec-23,1-Dec-23,approved
+narendra.gorijala@datafactz.com,WFH,1-Dec-23,1-Dec-23,approved
+nikhilesh.narra@datafactz.com,Leave,1-Dec-23,1-Dec-23,approved
+sagar.rapolu@datafactz.com,WFH,1-Dec-23,1-Dec-23,approved
+SaiKrishna.Arram@datafactz.com,Leave,1-Dec-23,1-Dec-23,approved
+saisreepath.garrepelli@datafactz.com,Leave,1-Dec-23,1-Dec-23,approved
+srinivas.potharam@datafactz.com,WFH,1-Dec-23,1-Dec-23,approved
+vaishali.kumari@datafactz.com,WFH,1-Dec-23,1-Dec-23,approved
+anand.karnati@datafactz.com,Leave,4-Dec-23,4-Dec-23,approved
+anurag.mishra@datafactz.com,WFH,4-Dec-23,4-Dec-23,approved
+deepthi.pabba@datafactz.com,Leave,4-Dec-23,4-Dec-23,approved
+anand.karnati@datafactz.com,WFH,5-Dec-23,5-Dec-23,approved
+anurag.mishra@datafactz.com,WFH,5-Dec-23,5-Dec-23,approved
+deepthi.pabba@datafactz.com,Leave,5-Dec-23,5-Dec-23,approved
+kiran.aluru@datafactz.com,WFH,5-Dec-23,5-Dec-23,approved
+anand.karnati@datafactz.com,WFH,6-Dec-23,6-Dec-23,approved
+anurag.mishra@datafactz.com,WFH,6-Dec-23,6-Dec-23,approved
+Ashok.Devalla@datafactz.com,Leave,6-Dec-23,6-Dec-23,approved
+deepthi.pabba@datafactz.com,Leave,6-Dec-23,6-Dec-23,approved
+vignesh.kolla@datafactz.com,Leave,6-Dec-23,6-Dec-23,approved
+sharath.bhoomireddygari@datafactz.com,WFH,6-Dec-23,6-Dec-23,approved
+Swayang.Mohapatra@datafactz.com,WFH,6-Dec-23,6-Dec-23,approved
+anand.karnati@datafactz.com,WFH,7-Dec-23,7-Dec-23,approved
+anurag.mishra@datafactz.com,WFH,7-Dec-23,7-Dec-23,approved
+anvesh.chintakunta@datafactz.com,WFH,7-Dec-23,7-Dec-23,approved
+Arunsai.sadu@datafactz.com,Leave,7-Dec-23,7-Dec-23,approved
+deepthi.pabba@datafactz.com,Leave,7-Dec-23,7-Dec-23,approved
+nagadurga.reddy@datafactz.com,Leave,7-Dec-23,7-Dec-23,approved
+prabodh.moganti@datafactz.com,WFH,7-Dec-23,7-Dec-23,approved
+naveen.tatavarthy@datafactz.com,WFH,7-Dec-23,7-Dec-23,approved
+sireesha.medaramitla@datafactz.com,Leave,7-Dec-23,7-Dec-23,approved
+anand.karnati@datafactz.com,WFH,8-Dec-23,8-Dec-23,approved
+anvesh.chintakunta@datafactz.com,Leave,8-Dec-23,8-Dec-23,approved
+Arunsai.sadu@datafactz.com,Leave,8-Dec-23,8-Dec-23,approved
+baskar.darukumalli@datafactz.com,WFH,8-Dec-23,8-Dec-23,approved
+deepthi.pabba@datafactz.com,Leave,8-Dec-23,8-Dec-23,approved
+Gayathri.Dasari@datafactz.com,Leave,8-Dec-23,8-Dec-23,approved
+Madhuri.Vadde@datafactz.com,WFH,8-Dec-23,8-Dec-23,approved
+naren.nimmalabandari@datafactz.com,Leave,8-Dec-23,8-Dec-23,approved
+prabhakar.konakala@datafactz.com,Leave,8-Dec-23,8-Dec-23,approved
+praveen.vadde@datafactz.com,WFH,8-Dec-23,8-Dec-23,approved
+RajeshKumar.Potharaju@datafactz.com,WFH,8-Dec-23,8-Dec-23,approved
+naveen.tatavarthy@datafactz.com,Leave,8-Dec-23,8-Dec-23,approved
+saisreepath.garrepelli@datafactz.com,Leave,8-Dec-23,8-Dec-23,approved
+shashi.parvathaneni@datafactz.com,WFH,8-Dec-23,8-Dec-23,approved
+swetha.dutpala@datafactz.com,Leave,8-Dec-23,8-Dec-23,approved
+vaishali.kumari@datafactz.com,Leave,8-Dec-23,8-Dec-23,approved
 baskar.darukumalli@datafactz.com,Leave,11-Dec-23,11-Dec-23,approved
 deepthi.pabba@datafactz.com,Leave,11-Dec-23,11-Dec-23,approved
 vignesh.kolla@datafactz.com,Leave,11-Dec-23,11-Dec-23,approved
@@ -1964,46 +1964,46 @@ sireesha.medaramitla@datafactz.com,Client Requirement,29-Dec-23,29-Dec-23,approv
 swetha.dutpala@datafactz.com,Leave,29-Dec-23,29-Dec-23,approved
 syed.tahir@datafactz.com,WFH,29-Dec-23,29-Dec-23,approved
 varaprasad.devarakonda@datafactz.com,Leave,29-Dec-23,29-Dec-23,approved
-anvesh.chintakunta@datafactz.com,WFH,02-Jan-24,02-Jan-24,approved
-deepthi.pabba@datafactz.com,Leave,02-Jan-24,02-Jan-24,approved
-narendra.gorijala@datafactz.com,Leave,02-Jan-24,02-Jan-24,approved
-praveen.vadde@datafactz.com,Leave,02-Jan-24,02-Jan-24,approved
-RajeshKumar.Potharaju@datafactz.com,Leave,02-Jan-24,02-Jan-24,approved
-Srilakshmi.Dhammalapati@datafactz.com,Leave,02-Jan-24,02-Jan-24,approved
-syed.tahir@datafactz.com,WFH,02-Jan-24,02-Jan-24,approved
-varaprasad.devarakonda@datafactz.com,Leave,02-Jan-24,02-Jan-24,approved
-anvesh.chintakunta@datafactz.com,WFH,03-Jan-24,03-Jan-24,approved
-baskar.darukumalli@datafactz.com,Leave,03-Jan-24,03-Jan-24,approved
-deepthi.pabba@datafactz.com,Leave,03-Jan-24,03-Jan-24,approved
-narendra.gorijala@datafactz.com,Leave,03-Jan-24,03-Jan-24,approved
-sireesha.medaramitla@datafactz.com,Client Requirement,03-Jan-24,03-Jan-24,approved
-syed.tahir@datafactz.com,WFH,03-Jan-24,03-Jan-24,approved
-anand.karnati@datafactz.com,WFH,04-Jan-24,04-Jan-24,approved
-anvesh.chintakunta@datafactz.com,WFH,04-Jan-24,04-Jan-24,approved
-baskar.darukumalli@datafactz.com,WFH,04-Jan-24,04-Jan-24,approved
-deepthi.pabba@datafactz.com,Leave,04-Jan-24,04-Jan-24,approved
-laya.nomula@datafactz.com,Leave,04-Jan-24,04-Jan-24,approved
-Madhuri.Vadde@datafactz.com,Leave,04-Jan-24,04-Jan-24,approved
-naren.nimmalabandari@datafactz.com,Leave,04-Jan-24,04-Jan-24,approved
-anvesh.chintakunta@datafactz.com,WFH,05-Jan-24,05-Jan-24,approved
-deepthi.pabba@datafactz.com,Leave,05-Jan-24,05-Jan-24,approved
-laya.nomula@datafactz.com,Leave,05-Jan-24,05-Jan-24,approved
-Madhuri.Vadde@datafactz.com,Leave,05-Jan-24,05-Jan-24,approved
-naren.nimmalabandari@datafactz.com,Leave,05-Jan-24,05-Jan-24,approved
-sireesha.medaramitla@datafactz.com,Client Requirement,05-Jan-24,05-Jan-24,approved
-anvesh.chintakunta@datafactz.com,WFH,08-Jan-24,08-Jan-24,approved
-deepthi.pabba@datafactz.com,Leave,08-Jan-24,08-Jan-24,approved
-kiran.aluru@datafactz.com,Leave,08-Jan-24,08-Jan-24,approved
-ramakrishna.gurunadham@datafactz.com,Leave,08-Jan-24,08-Jan-24,approved
-saisreepath.garrepelli@datafactz.com,Leave,08-Jan-24,08-Jan-24,approved
-Santhoshkumar.Konduru@datafactz.com,Leave,08-Jan-24,08-Jan-24,approved
-sireesha.medaramitla@datafactz.com,Client Requirement,08-Jan-24,08-Jan-24,approved
-akash.galipelli@datafactz.com,Leave,09-Jan-24,09-Jan-24,approved
-anvesh.chintakunta@datafactz.com,WFH,09-Jan-24,09-Jan-24,approved
-deepthi.pabba@datafactz.com,Leave,09-Jan-24,09-Jan-24,approved
-vignesh.kolla@datafactz.com,Leave,09-Jan-24,09-Jan-24,approved
-mamatha.battu@datafactz.com,WFH,09-Jan-24,09-Jan-24,approved
-Sahithi.Madduluri@datafactz.com,Client Requirement,09-Jan-24,09-Jan-24,approved
+anvesh.chintakunta@datafactz.com,WFH,2-Jan-24,2-Jan-24,approved
+deepthi.pabba@datafactz.com,Leave,2-Jan-24,2-Jan-24,approved
+narendra.gorijala@datafactz.com,Leave,2-Jan-24,2-Jan-24,approved
+praveen.vadde@datafactz.com,Leave,2-Jan-24,2-Jan-24,approved
+RajeshKumar.Potharaju@datafactz.com,Leave,2-Jan-24,2-Jan-24,approved
+Srilakshmi.Dhammalapati@datafactz.com,Leave,2-Jan-24,2-Jan-24,approved
+syed.tahir@datafactz.com,WFH,2-Jan-24,2-Jan-24,approved
+varaprasad.devarakonda@datafactz.com,Leave,2-Jan-24,2-Jan-24,approved
+anvesh.chintakunta@datafactz.com,WFH,3-Jan-24,3-Jan-24,approved
+baskar.darukumalli@datafactz.com,Leave,3-Jan-24,3-Jan-24,approved
+deepthi.pabba@datafactz.com,Leave,3-Jan-24,3-Jan-24,approved
+narendra.gorijala@datafactz.com,Leave,3-Jan-24,3-Jan-24,approved
+sireesha.medaramitla@datafactz.com,Client Requirement,3-Jan-24,3-Jan-24,approved
+syed.tahir@datafactz.com,WFH,3-Jan-24,3-Jan-24,approved
+anand.karnati@datafactz.com,WFH,4-Jan-24,4-Jan-24,approved
+anvesh.chintakunta@datafactz.com,WFH,4-Jan-24,4-Jan-24,approved
+baskar.darukumalli@datafactz.com,WFH,4-Jan-24,4-Jan-24,approved
+deepthi.pabba@datafactz.com,Leave,4-Jan-24,4-Jan-24,approved
+laya.nomula@datafactz.com,Leave,4-Jan-24,4-Jan-24,approved
+Madhuri.Vadde@datafactz.com,Leave,4-Jan-24,4-Jan-24,approved
+naren.nimmalabandari@datafactz.com,Leave,4-Jan-24,4-Jan-24,approved
+anvesh.chintakunta@datafactz.com,WFH,5-Jan-24,5-Jan-24,approved
+deepthi.pabba@datafactz.com,Leave,5-Jan-24,5-Jan-24,approved
+laya.nomula@datafactz.com,Leave,5-Jan-24,5-Jan-24,approved
+Madhuri.Vadde@datafactz.com,Leave,5-Jan-24,5-Jan-24,approved
+naren.nimmalabandari@datafactz.com,Leave,5-Jan-24,5-Jan-24,approved
+sireesha.medaramitla@datafactz.com,Client Requirement,5-Jan-24,5-Jan-24,approved
+anvesh.chintakunta@datafactz.com,WFH,8-Jan-24,8-Jan-24,approved
+deepthi.pabba@datafactz.com,Leave,8-Jan-24,8-Jan-24,approved
+kiran.aluru@datafactz.com,Leave,8-Jan-24,8-Jan-24,approved
+ramakrishna.gurunadham@datafactz.com,Leave,8-Jan-24,8-Jan-24,approved
+saisreepath.garrepelli@datafactz.com,Leave,8-Jan-24,8-Jan-24,approved
+Santhoshkumar.Konduru@datafactz.com,Leave,8-Jan-24,8-Jan-24,approved
+sireesha.medaramitla@datafactz.com,Client Requirement,8-Jan-24,8-Jan-24,approved
+akash.galipelli@datafactz.com,Leave,9-Jan-24,9-Jan-24,approved
+anvesh.chintakunta@datafactz.com,WFH,9-Jan-24,9-Jan-24,approved
+deepthi.pabba@datafactz.com,Leave,9-Jan-24,9-Jan-24,approved
+vignesh.kolla@datafactz.com,Leave,9-Jan-24,9-Jan-24,approved
+mamatha.battu@datafactz.com,WFH,9-Jan-24,9-Jan-24,approved
+Sahithi.Madduluri@datafactz.com,Client Requirement,9-Jan-24,9-Jan-24,approved
 akash.galipelli@datafactz.com,Leave,10-Jan-24,10-Jan-24,approved
 AnkithaPadmaPriya.Thirakala@datafactz.com,WFH,10-Jan-24,10-Jan-24,approved
 anvesh.chintakunta@datafactz.com,WFH,10-Jan-24,10-Jan-24,approved
@@ -2167,56 +2167,56 @@ karthik.kayala@datafactz.com,Leave,31-Jan-24,31-Jan-24,approved
 laya.nomula@datafactz.com,WFH,31-Jan-24,31-Jan-24,approved
 Santhoshkumar.Konduru@datafactz.com,WFH,31-Jan-24,31-Jan-24,approved
 sireesha.medaramitla@datafactz.com,Client Requirement,31-Jan-24,31-Jan-24,approved
-deepthi.pabba@datafactz.com,Leave,01-Feb-24,01-Feb-24,approved
-narendra.gorijala@datafactz.com,Leave,01-Feb-24,01-Feb-24,approved
-priyanka.srungavrukshapu@datafactz.com,Leave,01-Feb-24,01-Feb-24,approved
-SaiKrishna.Arram@datafactz.com,WFH,01-Feb-24,01-Feb-24,approved
-sireesha.medaramitla@datafactz.com,Client Requirement,01-Feb-24,01-Feb-24,approved
-anand.karnati@datafactz.com,WFH,02-Feb-24,02-Feb-24,approved
-bharatraj.saya@datafactz.com,WFH,02-Feb-24,02-Feb-24,approved
-narendra.gorijala@datafactz.com,Leave,02-Feb-24,02-Feb-24,approved
-priyanka.srungavrukshapu@datafactz.com,Leave,02-Feb-24,02-Feb-24,approved
-sireesha.medaramitla@datafactz.com,Client Requirement,02-Feb-24,02-Feb-24,approved
-varaprasad.devarakonda@datafactz.com,WFH,02-Feb-24,02-Feb-24,approved
-akash.galipelli@datafactz.com,WFH,05-Feb-24,05-Feb-24,approved
-anvesh.chintakunta@datafactz.com,WFH,05-Feb-24,05-Feb-24,approved
-deepthi.pabba@datafactz.com,Leave,05-Feb-24,05-Feb-24,approved
-vignesh.kolla@datafactz.com,Client Requirement,05-Feb-24,05-Feb-24,approved
-laya.nomula@datafactz.com,Leave,05-Feb-24,05-Feb-24,approved
-prabodh.moganti@datafactz.com,Leave,05-Feb-24,05-Feb-24,approved
-priyanka.srungavrukshapu@datafactz.com,Leave,05-Feb-24,05-Feb-24,approved
-shashi.parvathaneni@datafactz.com,WFH,05-Feb-24,05-Feb-24,approved
-srikanth.rao@datafactz.com,Leave,05-Feb-24,05-Feb-24,approved
-akash.galipelli@datafactz.com,WFH,06-Feb-24,06-Feb-24,approved
-anvesh.chintakunta@datafactz.com,WFH,06-Feb-24,06-Feb-24,approved
-laya.nomula@datafactz.com,Leave,06-Feb-24,06-Feb-24,approved
-prabodh.moganti@datafactz.com,WFH,06-Feb-24,06-Feb-24,approved
-SaiKrishna.Arram@datafactz.com,Leave,06-Feb-24,06-Feb-24,approved
-sireesha.medaramitla@datafactz.com,Client Requirement,06-Feb-24,06-Feb-24,approved
-Srilakshmi.Dhammalapati@datafactz.com,Leave,06-Feb-24,06-Feb-24,approved
-swetha.dutpala@datafactz.com,WFH,06-Feb-24,06-Feb-24,approved
-anvesh.chintakunta@datafactz.com,WFH,07-Feb-24,07-Feb-24,approved
-deepthi.pabba@datafactz.com,Leave,07-Feb-24,07-Feb-24,approved
-geeta.devabakthuni@datafactz.com,Client Requirement,07-Feb-24,07-Feb-24,approved
-vignesh.kolla@datafactz.com,Client Requirement,07-Feb-24,07-Feb-24,approved
-SaiVineel.Kolla@datafactz.com,WFH,07-Feb-24,07-Feb-24,approved
-naveen.tatavarthy@datafactz.com,WFH,07-Feb-24,07-Feb-24,approved
-shashi.parvathaneni@datafactz.com,WFH,07-Feb-24,07-Feb-24,approved
-deepthi.pabba@datafactz.com,Leave,08-Feb-24,08-Feb-24,approved
-sireesha.medaramitla@datafactz.com,Client Requirement,08-Feb-24,08-Feb-24,approved
-deepthi.pabba@datafactz.com,Leave,09-Feb-24,09-Feb-24,approved
-vignesh.kolla@datafactz.com,WFH,09-Feb-24,09-Feb-24,approved
-SaiVineel.Kolla@datafactz.com,WFH,09-Feb-24,09-Feb-24,approved
-Madhuri.Vadde@datafactz.com,Leave,09-Feb-24,09-Feb-24,approved
-nagadurga.reddy@datafactz.com,Leave,09-Feb-24,09-Feb-24,approved
-Rayala.Nandini@datafactz.com,Leave,09-Feb-24,09-Feb-24,approved
-naren.nimmalabandari@datafactz.com,WFH,09-Feb-24,09-Feb-24,approved
-RajeshKumar.Potharaju@datafactz.com,Leave,09-Feb-24,09-Feb-24,approved
-sagar.rapolu@datafactz.com,WFH,09-Feb-24,09-Feb-24,approved
-naveen.tatavarthy@datafactz.com,WFH,09-Feb-24,09-Feb-24,approved
-Santhoshkumar.Konduru@datafactz.com,WFH,09-Feb-24,09-Feb-24,approved
-sireesha.medaramitla@datafactz.com,Client Requirement,09-Feb-24,09-Feb-24,approved
-vaishali.kumari@datafactz.com,WFH,09-Feb-24,09-Feb-24,approved
+deepthi.pabba@datafactz.com,Leave,1-Feb-24,1-Feb-24,approved
+narendra.gorijala@datafactz.com,Leave,1-Feb-24,1-Feb-24,approved
+priyanka.srungavrukshapu@datafactz.com,Leave,1-Feb-24,1-Feb-24,approved
+SaiKrishna.Arram@datafactz.com,WFH,1-Feb-24,1-Feb-24,approved
+sireesha.medaramitla@datafactz.com,Client Requirement,1-Feb-24,1-Feb-24,approved
+anand.karnati@datafactz.com,WFH,2-Feb-24,2-Feb-24,approved
+bharatraj.saya@datafactz.com,WFH,2-Feb-24,2-Feb-24,approved
+narendra.gorijala@datafactz.com,Leave,2-Feb-24,2-Feb-24,approved
+priyanka.srungavrukshapu@datafactz.com,Leave,2-Feb-24,2-Feb-24,approved
+sireesha.medaramitla@datafactz.com,Client Requirement,2-Feb-24,2-Feb-24,approved
+varaprasad.devarakonda@datafactz.com,WFH,2-Feb-24,2-Feb-24,approved
+akash.galipelli@datafactz.com,WFH,5-Feb-24,5-Feb-24,approved
+anvesh.chintakunta@datafactz.com,WFH,5-Feb-24,5-Feb-24,approved
+deepthi.pabba@datafactz.com,Leave,5-Feb-24,5-Feb-24,approved
+vignesh.kolla@datafactz.com,Client Requirement,5-Feb-24,5-Feb-24,approved
+laya.nomula@datafactz.com,Leave,5-Feb-24,5-Feb-24,approved
+prabodh.moganti@datafactz.com,Leave,5-Feb-24,5-Feb-24,approved
+priyanka.srungavrukshapu@datafactz.com,Leave,5-Feb-24,5-Feb-24,approved
+shashi.parvathaneni@datafactz.com,WFH,5-Feb-24,5-Feb-24,approved
+srikanth.rao@datafactz.com,Leave,5-Feb-24,5-Feb-24,approved
+akash.galipelli@datafactz.com,WFH,6-Feb-24,6-Feb-24,approved
+anvesh.chintakunta@datafactz.com,WFH,6-Feb-24,6-Feb-24,approved
+laya.nomula@datafactz.com,Leave,6-Feb-24,6-Feb-24,approved
+prabodh.moganti@datafactz.com,WFH,6-Feb-24,6-Feb-24,approved
+SaiKrishna.Arram@datafactz.com,Leave,6-Feb-24,6-Feb-24,approved
+sireesha.medaramitla@datafactz.com,Client Requirement,6-Feb-24,6-Feb-24,approved
+Srilakshmi.Dhammalapati@datafactz.com,Leave,6-Feb-24,6-Feb-24,approved
+swetha.dutpala@datafactz.com,WFH,6-Feb-24,6-Feb-24,approved
+anvesh.chintakunta@datafactz.com,WFH,7-Feb-24,7-Feb-24,approved
+deepthi.pabba@datafactz.com,Leave,7-Feb-24,7-Feb-24,approved
+geeta.devabakthuni@datafactz.com,Client Requirement,7-Feb-24,7-Feb-24,approved
+vignesh.kolla@datafactz.com,Client Requirement,7-Feb-24,7-Feb-24,approved
+SaiVineel.Kolla@datafactz.com,WFH,7-Feb-24,7-Feb-24,approved
+naveen.tatavarthy@datafactz.com,WFH,7-Feb-24,7-Feb-24,approved
+shashi.parvathaneni@datafactz.com,WFH,7-Feb-24,7-Feb-24,approved
+deepthi.pabba@datafactz.com,Leave,8-Feb-24,8-Feb-24,approved
+sireesha.medaramitla@datafactz.com,Client Requirement,8-Feb-24,8-Feb-24,approved
+deepthi.pabba@datafactz.com,Leave,9-Feb-24,9-Feb-24,approved
+vignesh.kolla@datafactz.com,WFH,9-Feb-24,9-Feb-24,approved
+SaiVineel.Kolla@datafactz.com,WFH,9-Feb-24,9-Feb-24,approved
+Madhuri.Vadde@datafactz.com,Leave,9-Feb-24,9-Feb-24,approved
+nagadurga.reddy@datafactz.com,Leave,9-Feb-24,9-Feb-24,approved
+Rayala.Nandini@datafactz.com,Leave,9-Feb-24,9-Feb-24,approved
+naren.nimmalabandari@datafactz.com,WFH,9-Feb-24,9-Feb-24,approved
+RajeshKumar.Potharaju@datafactz.com,Leave,9-Feb-24,9-Feb-24,approved
+sagar.rapolu@datafactz.com,WFH,9-Feb-24,9-Feb-24,approved
+naveen.tatavarthy@datafactz.com,WFH,9-Feb-24,9-Feb-24,approved
+Santhoshkumar.Konduru@datafactz.com,WFH,9-Feb-24,9-Feb-24,approved
+sireesha.medaramitla@datafactz.com,Client Requirement,9-Feb-24,9-Feb-24,approved
+vaishali.kumari@datafactz.com,WFH,9-Feb-24,9-Feb-24,approved
 anand.karnati@datafactz.com,WFH,12-Feb-24,12-Feb-24,approved
 deepthi.pabba@datafactz.com,Leave,12-Feb-24,12-Feb-24,approved
 vignesh.kolla@datafactz.com,Leave,12-Feb-24,12-Feb-24,approved
@@ -2341,55 +2341,55 @@ SaiKrishna.Arram@datafactz.com,WFH,29-Feb-24,29-Feb-24,approved
 naveen.tatavarthy@datafactz.com,WFH,29-Feb-24,29-Feb-24,approved
 sireesha.medaramitla@datafactz.com,Client Requirement,29-Feb-24,29-Feb-24,approved
 Srilakshmi.Dhammalapati@datafactz.com,Leave,29-Feb-24,29-Feb-24,approved
-anantha.chintalapati@datafactz.com,Leave,01-Mar-24,01-Mar-24,approved
-deepthi.pabba@datafactz.com,Leave,01-Mar-24,01-Mar-24,approved
-geeta.devabakthuni@datafactz.com,Leave,01-Mar-24,01-Mar-24,approved
-kiran.aluru@datafactz.com,Leave,01-Mar-24,01-Mar-24,approved
-shashi.parvathaneni@datafactz.com,WFH,01-Mar-24,01-Mar-24,approved
-sireesha.medaramitla@datafactz.com,Client Requirement,01-Mar-24,01-Mar-24,approved
-swetha.dutpala@datafactz.com,Half Day Leave,01-Mar-24,01-Mar-24,approved
-swetha.dutpala@datafactz.com,Half Day WFH,01-Mar-24,01-Mar-24,approved
-anand.karnati@datafactz.com,WFH,04-Mar-24,04-Mar-24,approved
-Arunsai.sadu@datafactz.com,WFH,04-Mar-24,04-Mar-24,approved
-bharatraj.saya@datafactz.com,WFH,04-Mar-24,04-Mar-24,approved
-deepthi.pabba@datafactz.com,Leave,04-Mar-24,04-Mar-24,approved
-geeta.devabakthuni@datafactz.com,WFH,04-Mar-24,04-Mar-24,approved
-karthik.kayala@datafactz.com,Leave,04-Mar-24,04-Mar-24,approved
-kiran.aluru@datafactz.com,Leave,04-Mar-24,04-Mar-24,approved
-vignesh.kolla@datafactz.com,Client Requirement,04-Mar-24,04-Mar-24,approved
-prabodh.moganti@datafactz.com,Half Day WFH,04-Mar-24,04-Mar-24,approved
-prabodh.moganti@datafactz.com,Half Day Leave,04-Mar-24,04-Mar-24,approved
-shashi.parvathaneni@datafactz.com,WFH,04-Mar-24,04-Mar-24,approved
-syed.tahir@datafactz.com,Leave,04-Mar-24,04-Mar-24,approved
-vaishali.kumari@datafactz.com,Leave,04-Mar-24,04-Mar-24,approved
-Arunsai.sadu@datafactz.com,WFH,05-Mar-24,05-Mar-24,approved
-deepthi.pabba@datafactz.com,Leave,05-Mar-24,05-Mar-24,approved
-kiran.aluru@datafactz.com,Leave,05-Mar-24,05-Mar-24,approved
-praveen.vadde@datafactz.com,WFH,05-Mar-24,05-Mar-24,approved
-RajeshKumar.Potharaju@datafactz.com,Leave,05-Mar-24,05-Mar-24,approved
-shashi.parvathaneni@datafactz.com,WFH,05-Mar-24,05-Mar-24,approved
-sireesha.medaramitla@datafactz.com,Client Requirement,05-Mar-24,05-Mar-24,approved
-swetha.dutpala@datafactz.com,WFH,05-Mar-24,05-Mar-24,approved
-Arunsai.sadu@datafactz.com,WFH,06-Mar-24,06-Mar-24,approved
-bharatraj.saya@datafactz.com,WFH,06-Mar-24,06-Mar-24,approved
-deepthi.pabba@datafactz.com,Leave,06-Mar-24,06-Mar-24,approved
-kiran.aluru@datafactz.com,Leave,06-Mar-24,06-Mar-24,approved
-Madhuri.Vadde@datafactz.com,WFH,06-Mar-24,06-Mar-24,approved
-naren.nimmalabandari@datafactz.com,Leave,06-Mar-24,06-Mar-24,approved
-saisreepath.garrepelli@datafactz.com,Leave,06-Mar-24,06-Mar-24,approved
-sireesha.medaramitla@datafactz.com,Client Requirement,06-Mar-24,06-Mar-24,approved
-deepthi.pabba@datafactz.com,Leave,07-Mar-24,07-Mar-24,approved
-vignesh.kolla@datafactz.com,Client Requirement,07-Mar-24,07-Mar-24,approved
-laya.nomula@datafactz.com,WFH,07-Mar-24,07-Mar-24,approved
-mamatha.battu@datafactz.com,Leave,07-Mar-24,07-Mar-24,approved
-narendra.gorijala@datafactz.com,Leave,07-Mar-24,07-Mar-24,approved
-akash.galipelli@datafactz.com,WFH,08-Mar-24,08-Mar-24,approved
-Ashok.Devalla@datafactz.com,WFH,08-Mar-24,08-Mar-24,approved
-bharatraj.saya@datafactz.com,WFH,08-Mar-24,08-Mar-24,approved
-deepthi.pabba@datafactz.com,Leave,08-Mar-24,08-Mar-24,approved
-mamatha.battu@datafactz.com,Leave,08-Mar-24,08-Mar-24,approved
-priyanka.srungavrukshapu@datafactz.com,WFH,08-Mar-24,08-Mar-24,approved
-sireesha.medaramitla@datafactz.com,Leave,08-Mar-24,08-Mar-24,approved
+anantha.chintalapati@datafactz.com,Leave,1-Mar-24,1-Mar-24,approved
+deepthi.pabba@datafactz.com,Leave,1-Mar-24,1-Mar-24,approved
+geeta.devabakthuni@datafactz.com,Leave,1-Mar-24,1-Mar-24,approved
+kiran.aluru@datafactz.com,Leave,1-Mar-24,1-Mar-24,approved
+shashi.parvathaneni@datafactz.com,WFH,1-Mar-24,1-Mar-24,approved
+sireesha.medaramitla@datafactz.com,Client Requirement,1-Mar-24,1-Mar-24,approved
+swetha.dutpala@datafactz.com,Half Day Leave,1-Mar-24,1-Mar-24,approved
+swetha.dutpala@datafactz.com,Half Day WFH,1-Mar-24,1-Mar-24,approved
+anand.karnati@datafactz.com,WFH,4-Mar-24,4-Mar-24,approved
+Arunsai.sadu@datafactz.com,WFH,4-Mar-24,4-Mar-24,approved
+bharatraj.saya@datafactz.com,WFH,4-Mar-24,4-Mar-24,approved
+deepthi.pabba@datafactz.com,Leave,4-Mar-24,4-Mar-24,approved
+geeta.devabakthuni@datafactz.com,WFH,4-Mar-24,4-Mar-24,approved
+karthik.kayala@datafactz.com,Leave,4-Mar-24,4-Mar-24,approved
+kiran.aluru@datafactz.com,Leave,4-Mar-24,4-Mar-24,approved
+vignesh.kolla@datafactz.com,Client Requirement,4-Mar-24,4-Mar-24,approved
+prabodh.moganti@datafactz.com,Half Day WFH,4-Mar-24,4-Mar-24,approved
+prabodh.moganti@datafactz.com,Half Day Leave,4-Mar-24,4-Mar-24,approved
+shashi.parvathaneni@datafactz.com,WFH,4-Mar-24,4-Mar-24,approved
+syed.tahir@datafactz.com,Leave,4-Mar-24,4-Mar-24,approved
+vaishali.kumari@datafactz.com,Leave,4-Mar-24,4-Mar-24,approved
+Arunsai.sadu@datafactz.com,WFH,5-Mar-24,5-Mar-24,approved
+deepthi.pabba@datafactz.com,Leave,5-Mar-24,5-Mar-24,approved
+kiran.aluru@datafactz.com,Leave,5-Mar-24,5-Mar-24,approved
+praveen.vadde@datafactz.com,WFH,5-Mar-24,5-Mar-24,approved
+RajeshKumar.Potharaju@datafactz.com,Leave,5-Mar-24,5-Mar-24,approved
+shashi.parvathaneni@datafactz.com,WFH,5-Mar-24,5-Mar-24,approved
+sireesha.medaramitla@datafactz.com,Client Requirement,5-Mar-24,5-Mar-24,approved
+swetha.dutpala@datafactz.com,WFH,5-Mar-24,5-Mar-24,approved
+Arunsai.sadu@datafactz.com,WFH,6-Mar-24,6-Mar-24,approved
+bharatraj.saya@datafactz.com,WFH,6-Mar-24,6-Mar-24,approved
+deepthi.pabba@datafactz.com,Leave,6-Mar-24,6-Mar-24,approved
+kiran.aluru@datafactz.com,Leave,6-Mar-24,6-Mar-24,approved
+Madhuri.Vadde@datafactz.com,WFH,6-Mar-24,6-Mar-24,approved
+naren.nimmalabandari@datafactz.com,Leave,6-Mar-24,6-Mar-24,approved
+saisreepath.garrepelli@datafactz.com,Leave,6-Mar-24,6-Mar-24,approved
+sireesha.medaramitla@datafactz.com,Client Requirement,6-Mar-24,6-Mar-24,approved
+deepthi.pabba@datafactz.com,Leave,7-Mar-24,7-Mar-24,approved
+vignesh.kolla@datafactz.com,Client Requirement,7-Mar-24,7-Mar-24,approved
+laya.nomula@datafactz.com,WFH,7-Mar-24,7-Mar-24,approved
+mamatha.battu@datafactz.com,Leave,7-Mar-24,7-Mar-24,approved
+narendra.gorijala@datafactz.com,Leave,7-Mar-24,7-Mar-24,approved
+akash.galipelli@datafactz.com,WFH,8-Mar-24,8-Mar-24,approved
+Ashok.Devalla@datafactz.com,WFH,8-Mar-24,8-Mar-24,approved
+bharatraj.saya@datafactz.com,WFH,8-Mar-24,8-Mar-24,approved
+deepthi.pabba@datafactz.com,Leave,8-Mar-24,8-Mar-24,approved
+mamatha.battu@datafactz.com,Leave,8-Mar-24,8-Mar-24,approved
+priyanka.srungavrukshapu@datafactz.com,WFH,8-Mar-24,8-Mar-24,approved
+sireesha.medaramitla@datafactz.com,Leave,8-Mar-24,8-Mar-24,approved
 deepthi.pabba@datafactz.com,Leave,11-Mar-24,11-Mar-24,approved
 Madhuri.Vadde@datafactz.com,Leave,11-Mar-24,11-Mar-24,approved
 naren.nimmalabandari@datafactz.com,WFH,11-Mar-24,11-Mar-24,approved
@@ -2506,52 +2506,52 @@ shashi.parvathaneni@datafactz.com,WFH,29-Mar-24,29-Mar-24,approved
 sireesha.medaramitla@datafactz.com,WFH,29-Mar-24,29-Mar-24,approved
 srinivas.potharam@datafactz.com,WFH,29-Mar-24,29-Mar-24,approved
 syed.tahir@datafactz.com,Client Requirement,29-Mar-24,29-Mar-24,approved
-bharatraj.saya@datafactz.com,Leave,01-Apr-24,01-Apr-24,approved
-deepthi.pabba@datafactz.com,Leave,01-Apr-24,01-Apr-24,approved
-karthik.kayala@datafactz.com,WFH,01-Apr-24,01-Apr-24,approved
-nagadurga.reddy@datafactz.com,Leave,01-Apr-24,01-Apr-24,approved
-prabhakar.konakala@datafactz.com,WFH,01-Apr-24,01-Apr-24,approved
-shashi.parvathaneni@datafactz.com,WFH,01-Apr-24,01-Apr-24,approved
-syed.tahir@datafactz.com,Client Requirement,01-Apr-24,01-Apr-24,approved
-bharatraj.saya@datafactz.com,Leave,02-Apr-24,02-Apr-24,approved
-deepthi.pabba@datafactz.com,Sabbatical Leave,02-Apr-24,02-Apr-24,approved
-karthik.kayala@datafactz.com,Leave,02-Apr-24,02-Apr-24,approved
-vignesh.kolla@datafactz.com,Leave,02-Apr-24,02-Apr-24,approved
-satyasrinivas.matha@datafactz.com,Leave,02-Apr-24,02-Apr-24,approved
-RajeshKumar.Potharaju@datafactz.com,Leave,02-Apr-24,02-Apr-24,approved
-syed.tahir@datafactz.com,Client Requirement,02-Apr-24,02-Apr-24,approved
-deepthi.pabba@datafactz.com,Sabbatical Leave,03-Apr-24,03-Apr-24,approved
-vignesh.kolla@datafactz.com,WFH,03-Apr-24,03-Apr-24,approved
-satyasrinivas.matha@datafactz.com,Leave,03-Apr-24,03-Apr-24,approved
-prabodh.moganti@datafactz.com,Leave,03-Apr-24,03-Apr-24,approved
-RajeshKumar.Potharaju@datafactz.com,Leave,03-Apr-24,03-Apr-24,approved
-syed.tahir@datafactz.com,Client Requirement,03-Apr-24,03-Apr-24,approved
-deepthi.pabba@datafactz.com,Sabbatical Leave,04-Apr-24,04-Apr-24,approved
-vignesh.kolla@datafactz.com,Leave,04-Apr-24,04-Apr-24,approved
-satyasrinivas.matha@datafactz.com,WFH,04-Apr-24,04-Apr-24,approved
-prabodh.moganti@datafactz.com,Leave,04-Apr-24,04-Apr-24,approved
-RajeshKumar.Potharaju@datafactz.com,Leave,04-Apr-24,04-Apr-24,approved
-syed.tahir@datafactz.com,Client Requirement,04-Apr-24,04-Apr-24,approved
-varaprasad.devarakonda@datafactz.com,Leave,04-Apr-24,04-Apr-24,approved
-deepthi.pabba@datafactz.com,Sabbatical Leave,05-Apr-24,05-Apr-24,approved
-narendra.gorijala@datafactz.com,Leave,05-Apr-24,05-Apr-24,approved
-satyasrinivas.matha@datafactz.com,WFH,05-Apr-24,05-Apr-24,approved
-prabodh.moganti@datafactz.com,WFH,05-Apr-24,05-Apr-24,approved
-RajeshKumar.Potharaju@datafactz.com,Leave,05-Apr-24,05-Apr-24,approved
-syed.tahir@datafactz.com,Client Requirement,05-Apr-24,05-Apr-24,approved
-varaprasad.devarakonda@datafactz.com,Leave,05-Apr-24,05-Apr-24,approved
-akash.galipelli@datafactz.com,Leave,08-Apr-24,08-Apr-24,approved
-anand.karnati@datafactz.com,WFH,08-Apr-24,08-Apr-24,approved
-Arun.nesse@datafactz.com,WFH,08-Apr-24,08-Apr-24,approved
-deepthi.pabba@datafactz.com,Sabbatical Leave,08-Apr-24,08-Apr-24,approved
-Rayala.Nandini@datafactz.com,Leave,08-Apr-24,08-Apr-24,approved
-narendra.gorijala@datafactz.com,WFH,08-Apr-24,08-Apr-24,approved
-sagar.rapolu@datafactz.com,Leave,08-Apr-24,08-Apr-24,approved
-Santhoshkumar.Konduru@datafactz.com,Leave,08-Apr-24,08-Apr-24,approved
-sireesha.medaramitla@datafactz.com,Client Requirement,08-Apr-24,08-Apr-24,approved
-Srilakshmi.Dhammalapati@datafactz.com,WFH,08-Apr-24,08-Apr-24,approved
-syed.tahir@datafactz.com,Client Requirement,08-Apr-24,08-Apr-24,approved
-vaishali.kumari@datafactz.com,Leave,08-Apr-24,08-Apr-24,approved
+bharatraj.saya@datafactz.com,Leave,1-Apr-24,1-Apr-24,approved
+deepthi.pabba@datafactz.com,Leave,1-Apr-24,1-Apr-24,approved
+karthik.kayala@datafactz.com,WFH,1-Apr-24,1-Apr-24,approved
+nagadurga.reddy@datafactz.com,Leave,1-Apr-24,1-Apr-24,approved
+prabhakar.konakala@datafactz.com,WFH,1-Apr-24,1-Apr-24,approved
+shashi.parvathaneni@datafactz.com,WFH,1-Apr-24,1-Apr-24,approved
+syed.tahir@datafactz.com,Client Requirement,1-Apr-24,1-Apr-24,approved
+bharatraj.saya@datafactz.com,Leave,2-Apr-24,2-Apr-24,approved
+deepthi.pabba@datafactz.com,Sabbatical Leave,2-Apr-24,2-Apr-24,approved
+karthik.kayala@datafactz.com,Leave,2-Apr-24,2-Apr-24,approved
+vignesh.kolla@datafactz.com,Leave,2-Apr-24,2-Apr-24,approved
+satyasrinivas.matha@datafactz.com,Leave,2-Apr-24,2-Apr-24,approved
+RajeshKumar.Potharaju@datafactz.com,Leave,2-Apr-24,2-Apr-24,approved
+syed.tahir@datafactz.com,Client Requirement,2-Apr-24,2-Apr-24,approved
+deepthi.pabba@datafactz.com,Sabbatical Leave,3-Apr-24,3-Apr-24,approved
+vignesh.kolla@datafactz.com,WFH,3-Apr-24,3-Apr-24,approved
+satyasrinivas.matha@datafactz.com,Leave,3-Apr-24,3-Apr-24,approved
+prabodh.moganti@datafactz.com,Leave,3-Apr-24,3-Apr-24,approved
+RajeshKumar.Potharaju@datafactz.com,Leave,3-Apr-24,3-Apr-24,approved
+syed.tahir@datafactz.com,Client Requirement,3-Apr-24,3-Apr-24,approved
+deepthi.pabba@datafactz.com,Sabbatical Leave,4-Apr-24,4-Apr-24,approved
+vignesh.kolla@datafactz.com,Leave,4-Apr-24,4-Apr-24,approved
+satyasrinivas.matha@datafactz.com,WFH,4-Apr-24,4-Apr-24,approved
+prabodh.moganti@datafactz.com,Leave,4-Apr-24,4-Apr-24,approved
+RajeshKumar.Potharaju@datafactz.com,Leave,4-Apr-24,4-Apr-24,approved
+syed.tahir@datafactz.com,Client Requirement,4-Apr-24,4-Apr-24,approved
+varaprasad.devarakonda@datafactz.com,Leave,4-Apr-24,4-Apr-24,approved
+deepthi.pabba@datafactz.com,Sabbatical Leave,5-Apr-24,5-Apr-24,approved
+narendra.gorijala@datafactz.com,Leave,5-Apr-24,5-Apr-24,approved
+satyasrinivas.matha@datafactz.com,WFH,5-Apr-24,5-Apr-24,approved
+prabodh.moganti@datafactz.com,WFH,5-Apr-24,5-Apr-24,approved
+RajeshKumar.Potharaju@datafactz.com,Leave,5-Apr-24,5-Apr-24,approved
+syed.tahir@datafactz.com,Client Requirement,5-Apr-24,5-Apr-24,approved
+varaprasad.devarakonda@datafactz.com,Leave,5-Apr-24,5-Apr-24,approved
+akash.galipelli@datafactz.com,Leave,8-Apr-24,8-Apr-24,approved
+anand.karnati@datafactz.com,WFH,8-Apr-24,8-Apr-24,approved
+Arun.nesse@datafactz.com,WFH,8-Apr-24,8-Apr-24,approved
+deepthi.pabba@datafactz.com,Sabbatical Leave,8-Apr-24,8-Apr-24,approved
+Rayala.Nandini@datafactz.com,Leave,8-Apr-24,8-Apr-24,approved
+narendra.gorijala@datafactz.com,WFH,8-Apr-24,8-Apr-24,approved
+sagar.rapolu@datafactz.com,Leave,8-Apr-24,8-Apr-24,approved
+Santhoshkumar.Konduru@datafactz.com,Leave,8-Apr-24,8-Apr-24,approved
+sireesha.medaramitla@datafactz.com,Client Requirement,8-Apr-24,8-Apr-24,approved
+Srilakshmi.Dhammalapati@datafactz.com,WFH,8-Apr-24,8-Apr-24,approved
+syed.tahir@datafactz.com,Client Requirement,8-Apr-24,8-Apr-24,approved
+vaishali.kumari@datafactz.com,Leave,8-Apr-24,8-Apr-24,approved
 akash.galipelli@datafactz.com,Leave,10-Apr-24,10-Apr-24,approved
 anand.karnati@datafactz.com,Leave,10-Apr-24,10-Apr-24,approved
 deepthi.pabba@datafactz.com,Sabbatical Leave,10-Apr-24,10-Apr-24,approved
@@ -2670,51 +2670,51 @@ Madhuri.Vadde@datafactz.com,Leave,30-Apr-24,30-Apr-24,approved
 prabhakar.konakala@datafactz.com,Leave,30-Apr-24,30-Apr-24,approved
 RajeshKumar.Potharaju@datafactz.com,Leave,30-Apr-24,30-Apr-24,approved
 syed.tahir@datafactz.com,Client Requirement,30-Apr-24,30-Apr-24,approved
-bharatraj.saya@datafactz.com,WFH,01-May-24,01-May-24,approved
-deepthi.pabba@datafactz.com,Sabbatical Leave,01-May-24,01-May-24,approved
-syed.tahir@datafactz.com,Client Requirement,01-May-24,01-May-24,approved
-hari.vemulapati@datafactz.com,Client Requirement,01-May-24,01-May-24,approved
-Arunsai.sadu@datafactz.com,Leave,02-May-24,02-May-24,approved
-bharatraj.saya@datafactz.com,WFH,02-May-24,02-May-24,approved
-deepthi.pabba@datafactz.com,Sabbatical Leave,02-May-24,02-May-24,approved
-ramakrishna.gurunadham@datafactz.com,WFH,02-May-24,02-May-24,approved
-srinivas.potharam@datafactz.com,WFH,02-May-24,02-May-24,approved
-syed.tahir@datafactz.com,Client Requirement,02-May-24,02-May-24,approved
-hari.vemulapati@datafactz.com,Client Requirement,02-May-24,02-May-24,approved
-deepthi.pabba@datafactz.com,Sabbatical Leave,03-May-24,03-May-24,approved
-praveen.vadde@datafactz.com,WFH,03-May-24,03-May-24,approved
-shashi.parvathaneni@datafactz.com,WFH,03-May-24,03-May-24,approved
-srinivas.potharam@datafactz.com,WFH,03-May-24,03-May-24,approved
-syed.tahir@datafactz.com,Client Requirement,03-May-24,03-May-24,approved
-karthik.kayala@datafactz.com,Compoff,04-May-24,04-May-24,approved
-bharatraj.saya@datafactz.com,WFH,06-May-24,06-May-24,approved
-deepthi.pabba@datafactz.com,Sabbatical Leave,06-May-24,06-May-24,approved
-pavani.sreedharamalle@datafactz.com,WFH,06-May-24,06-May-24,approved
-prabodh.moganti@datafactz.com,Leave,06-May-24,06-May-24,approved
-Srilakshmi.Dhammalapati@datafactz.com,WFH,06-May-24,06-May-24,approved
-srinivas.potharam@datafactz.com,WFH,06-May-24,06-May-24,approved
-vaishali.kumari@datafactz.com,WFH,06-May-24,06-May-24,approved
-hari.vemulapati@datafactz.com,WFH,06-May-24,06-May-24,approved
-deepthi.pabba@datafactz.com,Sabbatical Leave,07-May-24,07-May-24,approved
-pavani.sreedharamalle@datafactz.com,WFH,07-May-24,07-May-24,approved
-naveen.tatavarthy@datafactz.com,Leave,07-May-24,07-May-24,approved
-shashi.parvathaneni@datafactz.com,WFH,07-May-24,07-May-24,approved
-swetha.dutpala@datafactz.com,WFH,07-May-24,07-May-24,approved
-vaishali.kumari@datafactz.com,Leave,07-May-24,07-May-24,approved
-bharatraj.saya@datafactz.com,WFH,08-May-24,08-May-24,approved
-deepthi.pabba@datafactz.com,Sabbatical Leave,08-May-24,08-May-24,approved
-SaiVineel.Kolla@datafactz.com,WFH,08-May-24,08-May-24,approved
-pavani.sreedharamalle@datafactz.com,Leave,08-May-24,08-May-24,approved
-praveen.vadde@datafactz.com,Leave,08-May-24,08-May-24,approved
-syed.tahir@datafactz.com,Client Requirement,08-May-24,08-May-24,approved
-hari.vemulapati@datafactz.com,Client Requirement,08-May-24,08-May-24,approved
-VinayKumar.Gayini@datafactz.com,Leave,08-May-24,08-May-24,approved
-bharatraj.saya@datafactz.com,WFH,09-May-24,09-May-24,approved
-deepthi.pabba@datafactz.com,Sabbatical Leave,09-May-24,09-May-24,approved
-satyasrinivas.matha@datafactz.com,Leave,09-May-24,09-May-24,approved
-pavani.sreedharamalle@datafactz.com,Leave,09-May-24,09-May-24,approved
-syed.tahir@datafactz.com,Client Requirement,09-May-24,09-May-24,approved
-hari.vemulapati@datafactz.com,Client Requirement,09-May-24,09-May-24,approved
+bharatraj.saya@datafactz.com,WFH,1-May-24,1-May-24,approved
+deepthi.pabba@datafactz.com,Sabbatical Leave,1-May-24,1-May-24,approved
+syed.tahir@datafactz.com,Client Requirement,1-May-24,1-May-24,approved
+hari.vemulapati@datafactz.com,Client Requirement,1-May-24,1-May-24,approved
+Arunsai.sadu@datafactz.com,Leave,2-May-24,2-May-24,approved
+bharatraj.saya@datafactz.com,WFH,2-May-24,2-May-24,approved
+deepthi.pabba@datafactz.com,Sabbatical Leave,2-May-24,2-May-24,approved
+ramakrishna.gurunadham@datafactz.com,WFH,2-May-24,2-May-24,approved
+srinivas.potharam@datafactz.com,WFH,2-May-24,2-May-24,approved
+syed.tahir@datafactz.com,Client Requirement,2-May-24,2-May-24,approved
+hari.vemulapati@datafactz.com,Client Requirement,2-May-24,2-May-24,approved
+deepthi.pabba@datafactz.com,Sabbatical Leave,3-May-24,3-May-24,approved
+praveen.vadde@datafactz.com,WFH,3-May-24,3-May-24,approved
+shashi.parvathaneni@datafactz.com,WFH,3-May-24,3-May-24,approved
+srinivas.potharam@datafactz.com,WFH,3-May-24,3-May-24,approved
+syed.tahir@datafactz.com,Client Requirement,3-May-24,3-May-24,approved
+karthik.kayala@datafactz.com,Compoff,4-May-24,4-May-24,approved
+bharatraj.saya@datafactz.com,WFH,6-May-24,6-May-24,approved
+deepthi.pabba@datafactz.com,Sabbatical Leave,6-May-24,6-May-24,approved
+pavani.sreedharamalle@datafactz.com,WFH,6-May-24,6-May-24,approved
+prabodh.moganti@datafactz.com,Leave,6-May-24,6-May-24,approved
+Srilakshmi.Dhammalapati@datafactz.com,WFH,6-May-24,6-May-24,approved
+srinivas.potharam@datafactz.com,WFH,6-May-24,6-May-24,approved
+vaishali.kumari@datafactz.com,WFH,6-May-24,6-May-24,approved
+hari.vemulapati@datafactz.com,WFH,6-May-24,6-May-24,approved
+deepthi.pabba@datafactz.com,Sabbatical Leave,7-May-24,7-May-24,approved
+pavani.sreedharamalle@datafactz.com,WFH,7-May-24,7-May-24,approved
+naveen.tatavarthy@datafactz.com,Leave,7-May-24,7-May-24,approved
+shashi.parvathaneni@datafactz.com,WFH,7-May-24,7-May-24,approved
+swetha.dutpala@datafactz.com,WFH,7-May-24,7-May-24,approved
+vaishali.kumari@datafactz.com,Leave,7-May-24,7-May-24,approved
+bharatraj.saya@datafactz.com,WFH,8-May-24,8-May-24,approved
+deepthi.pabba@datafactz.com,Sabbatical Leave,8-May-24,8-May-24,approved
+SaiVineel.Kolla@datafactz.com,WFH,8-May-24,8-May-24,approved
+pavani.sreedharamalle@datafactz.com,Leave,8-May-24,8-May-24,approved
+praveen.vadde@datafactz.com,Leave,8-May-24,8-May-24,approved
+syed.tahir@datafactz.com,Client Requirement,8-May-24,8-May-24,approved
+hari.vemulapati@datafactz.com,Client Requirement,8-May-24,8-May-24,approved
+VinayKumar.Gayini@datafactz.com,Leave,8-May-24,8-May-24,approved
+bharatraj.saya@datafactz.com,WFH,9-May-24,9-May-24,approved
+deepthi.pabba@datafactz.com,Sabbatical Leave,9-May-24,9-May-24,approved
+satyasrinivas.matha@datafactz.com,Leave,9-May-24,9-May-24,approved
+pavani.sreedharamalle@datafactz.com,Leave,9-May-24,9-May-24,approved
+syed.tahir@datafactz.com,Client Requirement,9-May-24,9-May-24,approved
+hari.vemulapati@datafactz.com,Client Requirement,9-May-24,9-May-24,approved
 Arun.nesse@datafactz.com,Leave,10-May-24,10-May-24,approved
 baskar.darukumalli@datafactz.com,WFH,10-May-24,10-May-24,approved
 deepthi.pabba@datafactz.com,Sabbatical Leave,10-May-24,10-May-24,approved
@@ -2869,50 +2869,50 @@ srinivas.potharam@datafactz.com,Leave,31-May-24,31-May-24,approved
 syed.tahir@datafactz.com,WFH,31-May-24,31-May-24,approved
 varaprasad.devarakonda@datafactz.com,Leave,31-May-24,31-May-24,approved
 hari.vemulapati@datafactz.com,WFH,31-May-24,31-May-24,approved
-anand.karnati@datafactz.com,WFH,03-Jun-24,03-Jun-24,approved
-deepthi.pabba@datafactz.com,Sabbatical Leave,03-Jun-24,03-Jun-24,approved
-karthik.kayala@datafactz.com,Leave,03-Jun-24,03-Jun-24,approved
-vignesh.kolla@datafactz.com,WFH,03-Jun-24,03-Jun-24,approved
-nagadurga.reddy@datafactz.com,WFH,03-Jun-24,03-Jun-24,approved
-praveen.vadde@datafactz.com,WFH,03-Jun-24,03-Jun-24,approved
-RajeshKumar.Potharaju@datafactz.com,Leave,03-Jun-24,03-Jun-24,approved
-Santhoshkumar.Konduru@datafactz.com,Leave,03-Jun-24,03-Jun-24,approved
-syed.tahir@datafactz.com,Client Requirement,03-Jun-24,03-Jun-24,approved
-varaprasad.devarakonda@datafactz.com,Leave,03-Jun-24,03-Jun-24,approved
-hari.vemulapati@datafactz.com,WFH,03-Jun-24,03-Jun-24,approved
-deepthi.pabba@datafactz.com,Sabbatical Leave,04-Jun-24,04-Jun-24,approved
-RajeshKumar.Potharaju@datafactz.com,Leave,04-Jun-24,04-Jun-24,approved
-sireesha.medaramitla@datafactz.com,Client Requirement,04-Jun-24,04-Jun-24,approved
-varaprasad.devarakonda@datafactz.com,Leave,04-Jun-24,04-Jun-24,approved
-hari.vemulapati@datafactz.com,WFH,04-Jun-24,04-Jun-24,approved
-deepthi.pabba@datafactz.com,Sabbatical Leave,05-Jun-24,05-Jun-24,approved
-vignesh.kolla@datafactz.com,Leave,05-Jun-24,05-Jun-24,approved
-praveen.vadde@datafactz.com,WFH,05-Jun-24,05-Jun-24,approved
-shashi.parvathaneni@datafactz.com,Half Day Leave,05-Jun-24,05-Jun-24,approved
-shashi.parvathaneni@datafactz.com,Half Day WFH,05-Jun-24,05-Jun-24,approved
-syed.tahir@datafactz.com,Client Requirement,05-Jun-24,05-Jun-24,approved
-hari.vemulapati@datafactz.com,WFH,05-Jun-24,05-Jun-24,approved
-baskar.darukumalli@datafactz.com,WFH,06-Jun-24,06-Jun-24,approved
-bharatraj.saya@datafactz.com,WFH,06-Jun-24,06-Jun-24,approved
-deepthi.pabba@datafactz.com,Sabbatical Leave,06-Jun-24,06-Jun-24,approved
-naveen.tatavarthy@datafactz.com,WFH,06-Jun-24,06-Jun-24,approved
-sireesha.medaramitla@datafactz.com,Client Requirement,06-Jun-24,06-Jun-24,approved
-hari.vemulapati@datafactz.com,WFH,06-Jun-24,06-Jun-24,approved
-bharatraj.saya@datafactz.com,WFH,07-Jun-24,07-Jun-24,approved
-deepthi.pabba@datafactz.com,Sabbatical Leave,07-Jun-24,07-Jun-24,approved
-naveen.tatavarthy@datafactz.com,Leave,07-Jun-24,07-Jun-24,approved
-syed.tahir@datafactz.com,Client Requirement,07-Jun-24,07-Jun-24,approved
-hari.vemulapati@datafactz.com,WFH,07-Jun-24,07-Jun-24,approved
-SaiVineel.Kolla@datafactz.com,Compoff,08-Jun-24,08-Jun-24,approved
-Rayala.Nandini@datafactz.com,Compoff,08-Jun-24,08-Jun-24,approved
-praveen.vadde@datafactz.com,Compoff,08-Jun-24,08-Jun-24,approved
-sagar.rapolu@datafactz.com,Compoff,08-Jun-24,08-Jun-24,approved
-Santhoshkumar.Konduru@datafactz.com,Compoff,08-Jun-24,08-Jun-24,approved
-SaiVineel.Kolla@datafactz.com,Compoff,09-Jun-24,09-Jun-24,approved
-Rayala.Nandini@datafactz.com,Compoff,09-Jun-24,09-Jun-24,approved
-praveen.vadde@datafactz.com,Compoff,09-Jun-24,09-Jun-24,approved
-sagar.rapolu@datafactz.com,Compoff,09-Jun-24,09-Jun-24,approved
-Santhoshkumar.Konduru@datafactz.com,Compoff,09-Jun-24,09-Jun-24,approved
+anand.karnati@datafactz.com,WFH,3-Jun-24,3-Jun-24,approved
+deepthi.pabba@datafactz.com,Sabbatical Leave,3-Jun-24,3-Jun-24,approved
+karthik.kayala@datafactz.com,Leave,3-Jun-24,3-Jun-24,approved
+vignesh.kolla@datafactz.com,WFH,3-Jun-24,3-Jun-24,approved
+nagadurga.reddy@datafactz.com,WFH,3-Jun-24,3-Jun-24,approved
+praveen.vadde@datafactz.com,WFH,3-Jun-24,3-Jun-24,approved
+RajeshKumar.Potharaju@datafactz.com,Leave,3-Jun-24,3-Jun-24,approved
+Santhoshkumar.Konduru@datafactz.com,Leave,3-Jun-24,3-Jun-24,approved
+syed.tahir@datafactz.com,Client Requirement,3-Jun-24,3-Jun-24,approved
+varaprasad.devarakonda@datafactz.com,Leave,3-Jun-24,3-Jun-24,approved
+hari.vemulapati@datafactz.com,WFH,3-Jun-24,3-Jun-24,approved
+deepthi.pabba@datafactz.com,Sabbatical Leave,4-Jun-24,4-Jun-24,approved
+RajeshKumar.Potharaju@datafactz.com,Leave,4-Jun-24,4-Jun-24,approved
+sireesha.medaramitla@datafactz.com,Client Requirement,4-Jun-24,4-Jun-24,approved
+varaprasad.devarakonda@datafactz.com,Leave,4-Jun-24,4-Jun-24,approved
+hari.vemulapati@datafactz.com,WFH,4-Jun-24,4-Jun-24,approved
+deepthi.pabba@datafactz.com,Sabbatical Leave,5-Jun-24,5-Jun-24,approved
+vignesh.kolla@datafactz.com,Leave,5-Jun-24,5-Jun-24,approved
+praveen.vadde@datafactz.com,WFH,5-Jun-24,5-Jun-24,approved
+shashi.parvathaneni@datafactz.com,Half Day Leave,5-Jun-24,5-Jun-24,approved
+shashi.parvathaneni@datafactz.com,Half Day WFH,5-Jun-24,5-Jun-24,approved
+syed.tahir@datafactz.com,Client Requirement,5-Jun-24,5-Jun-24,approved
+hari.vemulapati@datafactz.com,WFH,5-Jun-24,5-Jun-24,approved
+baskar.darukumalli@datafactz.com,WFH,6-Jun-24,6-Jun-24,approved
+bharatraj.saya@datafactz.com,WFH,6-Jun-24,6-Jun-24,approved
+deepthi.pabba@datafactz.com,Sabbatical Leave,6-Jun-24,6-Jun-24,approved
+naveen.tatavarthy@datafactz.com,WFH,6-Jun-24,6-Jun-24,approved
+sireesha.medaramitla@datafactz.com,Client Requirement,6-Jun-24,6-Jun-24,approved
+hari.vemulapati@datafactz.com,WFH,6-Jun-24,6-Jun-24,approved
+bharatraj.saya@datafactz.com,WFH,7-Jun-24,7-Jun-24,approved
+deepthi.pabba@datafactz.com,Sabbatical Leave,7-Jun-24,7-Jun-24,approved
+naveen.tatavarthy@datafactz.com,Leave,7-Jun-24,7-Jun-24,approved
+syed.tahir@datafactz.com,Client Requirement,7-Jun-24,7-Jun-24,approved
+hari.vemulapati@datafactz.com,WFH,7-Jun-24,7-Jun-24,approved
+SaiVineel.Kolla@datafactz.com,Compoff,8-Jun-24,8-Jun-24,approved
+Rayala.Nandini@datafactz.com,Compoff,8-Jun-24,8-Jun-24,approved
+praveen.vadde@datafactz.com,Compoff,8-Jun-24,8-Jun-24,approved
+sagar.rapolu@datafactz.com,Compoff,8-Jun-24,8-Jun-24,approved
+Santhoshkumar.Konduru@datafactz.com,Compoff,8-Jun-24,8-Jun-24,approved
+SaiVineel.Kolla@datafactz.com,Compoff,9-Jun-24,9-Jun-24,approved
+Rayala.Nandini@datafactz.com,Compoff,9-Jun-24,9-Jun-24,approved
+praveen.vadde@datafactz.com,Compoff,9-Jun-24,9-Jun-24,approved
+sagar.rapolu@datafactz.com,Compoff,9-Jun-24,9-Jun-24,approved
+Santhoshkumar.Konduru@datafactz.com,Compoff,9-Jun-24,9-Jun-24,approved
 akhil.kota@datafactz.com,Leave,10-Jun-24,10-Jun-24,approved
 anand.karnati@datafactz.com,WFH,10-Jun-24,10-Jun-24,approved
 anantha.chintalapati@datafactz.com,Half Day Leave,10-Jun-24,10-Jun-24,approved
@@ -3108,69 +3108,69 @@ ramakrishna.gurunadham@datafactz.com,Leave,28-Jun-24,28-Jun-24,approved
 Sahithi.Madduluri@datafactz.com,WFH,28-Jun-24,28-Jun-24,approved
 syed.tahir@datafactz.com,Client Requirement,28-Jun-24,28-Jun-24,approved
 hari.vemulapati@datafactz.com,WFH,28-Jun-24,28-Jun-24,approved
-anantha.chintalapati@datafactz.com,WFH,01-Jul-24,01-Jul-24,approved
-bharatraj.saya@datafactz.com,Client Requirement,01-Jul-24,01-Jul-24,approved
-deepthi.pabba@datafactz.com,Sabbatical Leave,01-Jul-24,01-Jul-24,approved
-RajeshKumar.Potharaju@datafactz.com,WFH,01-Jul-24,01-Jul-24,approved
-SaiKrishna.Arram@datafactz.com,Leave,01-Jul-24,01-Jul-24,approved
-saisreepath.garrepelli@datafactz.com,Leave,01-Jul-24,01-Jul-24,approved
-sireesha.medaramitla@datafactz.com,Client Requirement,01-Jul-24,01-Jul-24,approved
-swetha.dutpala@datafactz.com,Leave,01-Jul-24,01-Jul-24,approved
-varaprasad.devarakonda@datafactz.com,Leave,01-Jul-24,01-Jul-24,approved
-hari.vemulapati@datafactz.com,WFH,01-Jul-24,01-Jul-24,approved
-anand.karnati@datafactz.com,WFH,02-Jul-24,02-Jul-24,approved
-bharatraj.saya@datafactz.com,Client Requirement,02-Jul-24,02-Jul-24,approved
-deepthi.pabba@datafactz.com,Sabbatical Leave,02-Jul-24,02-Jul-24,approved
-prabodh.moganti@datafactz.com,WFH,02-Jul-24,02-Jul-24,approved
-SaiKrishna.Arram@datafactz.com,WFH,02-Jul-24,02-Jul-24,approved
-saisreepath.garrepelli@datafactz.com,WFH,02-Jul-24,02-Jul-24,approved
-shashi.parvathaneni@datafactz.com,WFH,02-Jul-24,02-Jul-24,approved
-Srilakshmi.Dhammalapati@datafactz.com,Leave,02-Jul-24,02-Jul-24,approved
-hari.vemulapati@datafactz.com,WFH,02-Jul-24,02-Jul-24,approved
-bharatraj.saya@datafactz.com,WFH,03-Jul-24,03-Jul-24,approved
-bindu.konidina@datafactz.com,WFH,03-Jul-24,03-Jul-24,approved
-deepthi.pabba@datafactz.com,Sabbatical Leave,03-Jul-24,03-Jul-24,approved
-SaiKrishna.Arram@datafactz.com,WFH,03-Jul-24,03-Jul-24,approved
-saisreepath.garrepelli@datafactz.com,WFH,03-Jul-24,03-Jul-24,approved
-hari.vemulapati@datafactz.com,WFH,03-Jul-24,03-Jul-24,approved
-bharatraj.saya@datafactz.com,WFH,04-Jul-24,04-Jul-24,approved
-deepthi.pabba@datafactz.com,Sabbatical Leave,04-Jul-24,04-Jul-24,approved
-ramakrishna.gurunadham@datafactz.com,WFH,04-Jul-24,04-Jul-24,approved
-sagar.rapolu@datafactz.com,WFH,04-Jul-24,04-Jul-24,approved
-Sahithi.Madduluri@datafactz.com,WFH,04-Jul-24,04-Jul-24,approved
-SaiKrishna.Arram@datafactz.com,WFH,04-Jul-24,04-Jul-24,approved
-hari.vemulapati@datafactz.com,WFH,04-Jul-24,04-Jul-24,approved
-bharatraj.saya@datafactz.com,WFH,05-Jul-24,05-Jul-24,approved
-deepthi.pabba@datafactz.com,Sabbatical Leave,05-Jul-24,05-Jul-24,approved
-geeta.devabakthuni@datafactz.com,Client Requirement,05-Jul-24,05-Jul-24,approved
-vignesh.kolla@datafactz.com,Client Requirement,05-Jul-24,05-Jul-24,approved
-SaiVineel.Kolla@datafactz.com,Client Requirement,05-Jul-24,05-Jul-24,approved
-nagadurga.reddy@datafactz.com,WFH,05-Jul-24,05-Jul-24,approved
-Rayala.Nandini@datafactz.com,Client Requirement,05-Jul-24,05-Jul-24,approved
-pavani.sreedharamalle@datafactz.com,Client Requirement,05-Jul-24,05-Jul-24,approved
-prabodh.moganti@datafactz.com,Leave,05-Jul-24,05-Jul-24,approved
-praveen.vadde@datafactz.com,Client Requirement,05-Jul-24,05-Jul-24,approved
-sagar.rapolu@datafactz.com,Client Requirement,05-Jul-24,05-Jul-24,approved
-SaiKrishna.Arram@datafactz.com,Leave,05-Jul-24,05-Jul-24,approved
-naveen.tatavarthy@datafactz.com,Client Requirement,05-Jul-24,05-Jul-24,approved
-Santhoshkumar.Konduru@datafactz.com,Client Requirement,05-Jul-24,05-Jul-24,approved
-hari.vemulapati@datafactz.com,WFH,05-Jul-24,05-Jul-24,approved
-deepthi.pabba@datafactz.com,Sabbatical Leave,08-Jul-24,08-Jul-24,approved
-kiran.aluru@datafactz.com,WFH,08-Jul-24,08-Jul-24,approved
-naren.nimmalabandari@datafactz.com,Leave,08-Jul-24,08-Jul-24,approved
-narendra.gorijala@datafactz.com,Leave,08-Jul-24,08-Jul-24,approved
-nikhilesh.narra@datafactz.com,Leave,08-Jul-24,08-Jul-24,approved
-prabodh.moganti@datafactz.com,WFH,08-Jul-24,08-Jul-24,approved
-Santhoshkumar.Konduru@datafactz.com,Leave,08-Jul-24,08-Jul-24,approved
-syed.tahir@datafactz.com,Leave,08-Jul-24,08-Jul-24,approved
-hari.vemulapati@datafactz.com,WFH,08-Jul-24,08-Jul-24,approved
-akhil.kota@datafactz.com,WFH,09-Jul-24,09-Jul-24,approved
-Arunsai.sadu@datafactz.com,WFH,09-Jul-24,09-Jul-24,approved
-bindu.konidina@datafactz.com,WFH,09-Jul-24,09-Jul-24,approved
-deepthi.pabba@datafactz.com,Sabbatical Leave,09-Jul-24,09-Jul-24,approved
-kiran.aluru@datafactz.com,WFH,09-Jul-24,09-Jul-24,approved
-shashi.parvathaneni@datafactz.com,WFH,09-Jul-24,09-Jul-24,approved
-Srilakshmi.Dhammalapati@datafactz.com,WFH,09-Jul-24,09-Jul-24,approved
+anantha.chintalapati@datafactz.com,WFH,1-Jul-24,1-Jul-24,approved
+bharatraj.saya@datafactz.com,Client Requirement,1-Jul-24,1-Jul-24,approved
+deepthi.pabba@datafactz.com,Sabbatical Leave,1-Jul-24,1-Jul-24,approved
+RajeshKumar.Potharaju@datafactz.com,WFH,1-Jul-24,1-Jul-24,approved
+SaiKrishna.Arram@datafactz.com,Leave,1-Jul-24,1-Jul-24,approved
+saisreepath.garrepelli@datafactz.com,Leave,1-Jul-24,1-Jul-24,approved
+sireesha.medaramitla@datafactz.com,Client Requirement,1-Jul-24,1-Jul-24,approved
+swetha.dutpala@datafactz.com,Leave,1-Jul-24,1-Jul-24,approved
+varaprasad.devarakonda@datafactz.com,Leave,1-Jul-24,1-Jul-24,approved
+hari.vemulapati@datafactz.com,WFH,1-Jul-24,1-Jul-24,approved
+anand.karnati@datafactz.com,WFH,2-Jul-24,2-Jul-24,approved
+bharatraj.saya@datafactz.com,Client Requirement,2-Jul-24,2-Jul-24,approved
+deepthi.pabba@datafactz.com,Sabbatical Leave,2-Jul-24,2-Jul-24,approved
+prabodh.moganti@datafactz.com,WFH,2-Jul-24,2-Jul-24,approved
+SaiKrishna.Arram@datafactz.com,WFH,2-Jul-24,2-Jul-24,approved
+saisreepath.garrepelli@datafactz.com,WFH,2-Jul-24,2-Jul-24,approved
+shashi.parvathaneni@datafactz.com,WFH,2-Jul-24,2-Jul-24,approved
+Srilakshmi.Dhammalapati@datafactz.com,Leave,2-Jul-24,2-Jul-24,approved
+hari.vemulapati@datafactz.com,WFH,2-Jul-24,2-Jul-24,approved
+bharatraj.saya@datafactz.com,WFH,3-Jul-24,3-Jul-24,approved
+bindu.konidina@datafactz.com,WFH,3-Jul-24,3-Jul-24,approved
+deepthi.pabba@datafactz.com,Sabbatical Leave,3-Jul-24,3-Jul-24,approved
+SaiKrishna.Arram@datafactz.com,WFH,3-Jul-24,3-Jul-24,approved
+saisreepath.garrepelli@datafactz.com,WFH,3-Jul-24,3-Jul-24,approved
+hari.vemulapati@datafactz.com,WFH,3-Jul-24,3-Jul-24,approved
+bharatraj.saya@datafactz.com,WFH,4-Jul-24,4-Jul-24,approved
+deepthi.pabba@datafactz.com,Sabbatical Leave,4-Jul-24,4-Jul-24,approved
+ramakrishna.gurunadham@datafactz.com,WFH,4-Jul-24,4-Jul-24,approved
+sagar.rapolu@datafactz.com,WFH,4-Jul-24,4-Jul-24,approved
+Sahithi.Madduluri@datafactz.com,WFH,4-Jul-24,4-Jul-24,approved
+SaiKrishna.Arram@datafactz.com,WFH,4-Jul-24,4-Jul-24,approved
+hari.vemulapati@datafactz.com,WFH,4-Jul-24,4-Jul-24,approved
+bharatraj.saya@datafactz.com,WFH,5-Jul-24,5-Jul-24,approved
+deepthi.pabba@datafactz.com,Sabbatical Leave,5-Jul-24,5-Jul-24,approved
+geeta.devabakthuni@datafactz.com,Client Requirement,5-Jul-24,5-Jul-24,approved
+vignesh.kolla@datafactz.com,Client Requirement,5-Jul-24,5-Jul-24,approved
+SaiVineel.Kolla@datafactz.com,Client Requirement,5-Jul-24,5-Jul-24,approved
+nagadurga.reddy@datafactz.com,WFH,5-Jul-24,5-Jul-24,approved
+Rayala.Nandini@datafactz.com,Client Requirement,5-Jul-24,5-Jul-24,approved
+pavani.sreedharamalle@datafactz.com,Client Requirement,5-Jul-24,5-Jul-24,approved
+prabodh.moganti@datafactz.com,Leave,5-Jul-24,5-Jul-24,approved
+praveen.vadde@datafactz.com,Client Requirement,5-Jul-24,5-Jul-24,approved
+sagar.rapolu@datafactz.com,Client Requirement,5-Jul-24,5-Jul-24,approved
+SaiKrishna.Arram@datafactz.com,Leave,5-Jul-24,5-Jul-24,approved
+naveen.tatavarthy@datafactz.com,Client Requirement,5-Jul-24,5-Jul-24,approved
+Santhoshkumar.Konduru@datafactz.com,Client Requirement,5-Jul-24,5-Jul-24,approved
+hari.vemulapati@datafactz.com,WFH,5-Jul-24,5-Jul-24,approved
+deepthi.pabba@datafactz.com,Sabbatical Leave,8-Jul-24,8-Jul-24,approved
+kiran.aluru@datafactz.com,WFH,8-Jul-24,8-Jul-24,approved
+naren.nimmalabandari@datafactz.com,Leave,8-Jul-24,8-Jul-24,approved
+narendra.gorijala@datafactz.com,Leave,8-Jul-24,8-Jul-24,approved
+nikhilesh.narra@datafactz.com,Leave,8-Jul-24,8-Jul-24,approved
+prabodh.moganti@datafactz.com,WFH,8-Jul-24,8-Jul-24,approved
+Santhoshkumar.Konduru@datafactz.com,Leave,8-Jul-24,8-Jul-24,approved
+syed.tahir@datafactz.com,Leave,8-Jul-24,8-Jul-24,approved
+hari.vemulapati@datafactz.com,WFH,8-Jul-24,8-Jul-24,approved
+akhil.kota@datafactz.com,WFH,9-Jul-24,9-Jul-24,approved
+Arunsai.sadu@datafactz.com,WFH,9-Jul-24,9-Jul-24,approved
+bindu.konidina@datafactz.com,WFH,9-Jul-24,9-Jul-24,approved
+deepthi.pabba@datafactz.com,Sabbatical Leave,9-Jul-24,9-Jul-24,approved
+kiran.aluru@datafactz.com,WFH,9-Jul-24,9-Jul-24,approved
+shashi.parvathaneni@datafactz.com,WFH,9-Jul-24,9-Jul-24,approved
+Srilakshmi.Dhammalapati@datafactz.com,WFH,9-Jul-24,9-Jul-24,approved
 Arunsai.sadu@datafactz.com,WFH,10-Jul-24,10-Jul-24,approved
 bharatraj.saya@datafactz.com,WFH,10-Jul-24,10-Jul-24,approved
 deepthi.pabba@datafactz.com,Sabbatical Leave,10-Jul-24,10-Jul-24,approved
@@ -3324,66 +3324,66 @@ praveen.vadde@datafactz.com,Leave,31-Jul-24,31-Jul-24,approved
 Sahithi.Madduluri@datafactz.com,WFH,31-Jul-24,31-Jul-24,approved
 sireesha.medaramitla@datafactz.com,Leave,31-Jul-24,31-Jul-24,approved
 hari.vemulapati@datafactz.com,Leave,31-Jul-24,31-Jul-24,approved
-akhil.kota@datafactz.com,WFH,01-Aug-24,01-Aug-24,approved
-AnkithaPadmaPriya.Thirakala@datafactz.com,Leave,01-Aug-24,01-Aug-24,approved
-bharatraj.saya@datafactz.com,WFH,01-Aug-24,01-Aug-24,approved
-deepthi.pabba@datafactz.com,Sabbatical Leave,01-Aug-24,01-Aug-24,approved
-Madhuri.Vadde@datafactz.com,Leave,01-Aug-24,01-Aug-24,approved
-mamatha.battu@datafactz.com,WFH,01-Aug-24,01-Aug-24,approved
-Sahithi.Madduluri@datafactz.com,WFH,01-Aug-24,01-Aug-24,approved
-shashi.parvathaneni@datafactz.com,WFH,01-Aug-24,01-Aug-24,approved
-sireesha.medaramitla@datafactz.com,Leave,01-Aug-24,01-Aug-24,approved
-bharatraj.saya@datafactz.com,WFH,02-Aug-24,02-Aug-24,approved
-deepthi.pabba@datafactz.com,Sabbatical Leave,02-Aug-24,02-Aug-24,approved
-vignesh.kolla@datafactz.com,WFH,02-Aug-24,02-Aug-24,approved
-SaiVineel.Kolla@datafactz.com,Leave,02-Aug-24,02-Aug-24,approved
-laya.nomula@datafactz.com,Leave,02-Aug-24,02-Aug-24,approved
-Madhuri.Vadde@datafactz.com,Leave,02-Aug-24,02-Aug-24,approved
-Sahithi.Madduluri@datafactz.com,WFH,02-Aug-24,02-Aug-24,approved
-sireesha.medaramitla@datafactz.com,Leave,02-Aug-24,02-Aug-24,approved
-syed.tahir@datafactz.com,Client Requirement,02-Aug-24,02-Aug-24,approved
-satyasrinivas.matha@datafactz.com,Half Day Compoff,04-Aug-24,04-Aug-24,approved
-akash.galipelli@datafactz.com,WFH,05-Aug-24,05-Aug-24,approved
-anand.karnati@datafactz.com,Leave,05-Aug-24,05-Aug-24,approved
-bharatraj.saya@datafactz.com,WFH,05-Aug-24,05-Aug-24,approved
-deepthi.pabba@datafactz.com,Sabbatical Leave,05-Aug-24,05-Aug-24,approved
-vignesh.kolla@datafactz.com,WFH,05-Aug-24,05-Aug-24,approved
-SaiVineel.Kolla@datafactz.com,Leave,05-Aug-24,05-Aug-24,approved
-prabodh.moganti@datafactz.com,WFH,05-Aug-24,05-Aug-24,approved
-priyanka.kosuru@datafactz.com,Leave,05-Aug-24,05-Aug-24,approved
-Santhoshkumar.Konduru@datafactz.com,Client Requirement,05-Aug-24,05-Aug-24,approved
-syed.tahir@datafactz.com,Leave,05-Aug-24,05-Aug-24,approved
-anand.karnati@datafactz.com,Leave,06-Aug-24,06-Aug-24,approved
-bharatraj.saya@datafactz.com,WFH,06-Aug-24,06-Aug-24,approved
-deepthi.pabba@datafactz.com,Sabbatical Leave,06-Aug-24,06-Aug-24,approved
-vignesh.kolla@datafactz.com,WFH,06-Aug-24,06-Aug-24,approved
-SaiVineel.Kolla@datafactz.com,WFH,06-Aug-24,06-Aug-24,approved
-RajeshKumar.Potharaju@datafactz.com,WFH,06-Aug-24,06-Aug-24,approved
-sagar.rapolu@datafactz.com,WFH,06-Aug-24,06-Aug-24,approved
-Sahithi.Madduluri@datafactz.com,Leave,06-Aug-24,06-Aug-24,approved
-syed.tahir@datafactz.com,Client Requirement,06-Aug-24,06-Aug-24,approved
-bharatraj.saya@datafactz.com,WFH,07-Aug-24,07-Aug-24,approved
-deepthi.pabba@datafactz.com,Sabbatical Leave,07-Aug-24,07-Aug-24,approved
-pavani.sreedharamalle@datafactz.com,WFH,07-Aug-24,07-Aug-24,approved
-srinivas.potharam@datafactz.com,WFH,07-Aug-24,07-Aug-24,approved
-bharatraj.saya@datafactz.com,WFH,08-Aug-24,08-Aug-24,approved
-deepthi.pabba@datafactz.com,Sabbatical Leave,08-Aug-24,08-Aug-24,approved
-vignesh.kolla@datafactz.com,Client Requirement,08-Aug-24,08-Aug-24,approved
-naren.nimmalabandari@datafactz.com,Leave,08-Aug-24,08-Aug-24,approved
-satyasrinivas.matha@datafactz.com,WFH,08-Aug-24,08-Aug-24,approved
-pavani.sreedharamalle@datafactz.com,WFH,08-Aug-24,08-Aug-24,approved
-RajeshKumar.Potharaju@datafactz.com,Leave,08-Aug-24,08-Aug-24,approved
-swetha.dutpala@datafactz.com,WFH,08-Aug-24,08-Aug-24,approved
-bharatraj.saya@datafactz.com,WFH,09-Aug-24,09-Aug-24,approved
-bindu.konidina@datafactz.com,Leave,09-Aug-24,09-Aug-24,approved
-deepthi.pabba@datafactz.com,Sabbatical Leave,09-Aug-24,09-Aug-24,approved
-kiran.aluru@datafactz.com,Leave,09-Aug-24,09-Aug-24,approved
-laya.nomula@datafactz.com,WFH,09-Aug-24,09-Aug-24,approved
-satyasrinivas.matha@datafactz.com,Leave,09-Aug-24,09-Aug-24,approved
-pavani.sreedharamalle@datafactz.com,Leave,09-Aug-24,09-Aug-24,approved
-ramakrishna.gurunadham@datafactz.com,WFH,09-Aug-24,09-Aug-24,approved
-Sahithi.Madduluri@datafactz.com,WFH,09-Aug-24,09-Aug-24,approved
-shashi.parvathaneni@datafactz.com,WFH,09-Aug-24,09-Aug-24,approved
+akhil.kota@datafactz.com,WFH,1-Aug-24,1-Aug-24,approved
+AnkithaPadmaPriya.Thirakala@datafactz.com,Leave,1-Aug-24,1-Aug-24,approved
+bharatraj.saya@datafactz.com,WFH,1-Aug-24,1-Aug-24,approved
+deepthi.pabba@datafactz.com,Sabbatical Leave,1-Aug-24,1-Aug-24,approved
+Madhuri.Vadde@datafactz.com,Leave,1-Aug-24,1-Aug-24,approved
+mamatha.battu@datafactz.com,WFH,1-Aug-24,1-Aug-24,approved
+Sahithi.Madduluri@datafactz.com,WFH,1-Aug-24,1-Aug-24,approved
+shashi.parvathaneni@datafactz.com,WFH,1-Aug-24,1-Aug-24,approved
+sireesha.medaramitla@datafactz.com,Leave,1-Aug-24,1-Aug-24,approved
+bharatraj.saya@datafactz.com,WFH,2-Aug-24,2-Aug-24,approved
+deepthi.pabba@datafactz.com,Sabbatical Leave,2-Aug-24,2-Aug-24,approved
+vignesh.kolla@datafactz.com,WFH,2-Aug-24,2-Aug-24,approved
+SaiVineel.Kolla@datafactz.com,Leave,2-Aug-24,2-Aug-24,approved
+laya.nomula@datafactz.com,Leave,2-Aug-24,2-Aug-24,approved
+Madhuri.Vadde@datafactz.com,Leave,2-Aug-24,2-Aug-24,approved
+Sahithi.Madduluri@datafactz.com,WFH,2-Aug-24,2-Aug-24,approved
+sireesha.medaramitla@datafactz.com,Leave,2-Aug-24,2-Aug-24,approved
+syed.tahir@datafactz.com,Client Requirement,2-Aug-24,2-Aug-24,approved
+satyasrinivas.matha@datafactz.com,Half Day Compoff,4-Aug-24,4-Aug-24,approved
+akash.galipelli@datafactz.com,WFH,5-Aug-24,5-Aug-24,approved
+anand.karnati@datafactz.com,Leave,5-Aug-24,5-Aug-24,approved
+bharatraj.saya@datafactz.com,WFH,5-Aug-24,5-Aug-24,approved
+deepthi.pabba@datafactz.com,Sabbatical Leave,5-Aug-24,5-Aug-24,approved
+vignesh.kolla@datafactz.com,WFH,5-Aug-24,5-Aug-24,approved
+SaiVineel.Kolla@datafactz.com,Leave,5-Aug-24,5-Aug-24,approved
+prabodh.moganti@datafactz.com,WFH,5-Aug-24,5-Aug-24,approved
+priyanka.kosuru@datafactz.com,Leave,5-Aug-24,5-Aug-24,approved
+Santhoshkumar.Konduru@datafactz.com,Client Requirement,5-Aug-24,5-Aug-24,approved
+syed.tahir@datafactz.com,Leave,5-Aug-24,5-Aug-24,approved
+anand.karnati@datafactz.com,Leave,6-Aug-24,6-Aug-24,approved
+bharatraj.saya@datafactz.com,WFH,6-Aug-24,6-Aug-24,approved
+deepthi.pabba@datafactz.com,Sabbatical Leave,6-Aug-24,6-Aug-24,approved
+vignesh.kolla@datafactz.com,WFH,6-Aug-24,6-Aug-24,approved
+SaiVineel.Kolla@datafactz.com,WFH,6-Aug-24,6-Aug-24,approved
+RajeshKumar.Potharaju@datafactz.com,WFH,6-Aug-24,6-Aug-24,approved
+sagar.rapolu@datafactz.com,WFH,6-Aug-24,6-Aug-24,approved
+Sahithi.Madduluri@datafactz.com,Leave,6-Aug-24,6-Aug-24,approved
+syed.tahir@datafactz.com,Client Requirement,6-Aug-24,6-Aug-24,approved
+bharatraj.saya@datafactz.com,WFH,7-Aug-24,7-Aug-24,approved
+deepthi.pabba@datafactz.com,Sabbatical Leave,7-Aug-24,7-Aug-24,approved
+pavani.sreedharamalle@datafactz.com,WFH,7-Aug-24,7-Aug-24,approved
+srinivas.potharam@datafactz.com,WFH,7-Aug-24,7-Aug-24,approved
+bharatraj.saya@datafactz.com,WFH,8-Aug-24,8-Aug-24,approved
+deepthi.pabba@datafactz.com,Sabbatical Leave,8-Aug-24,8-Aug-24,approved
+vignesh.kolla@datafactz.com,Client Requirement,8-Aug-24,8-Aug-24,approved
+naren.nimmalabandari@datafactz.com,Leave,8-Aug-24,8-Aug-24,approved
+satyasrinivas.matha@datafactz.com,WFH,8-Aug-24,8-Aug-24,approved
+pavani.sreedharamalle@datafactz.com,WFH,8-Aug-24,8-Aug-24,approved
+RajeshKumar.Potharaju@datafactz.com,Leave,8-Aug-24,8-Aug-24,approved
+swetha.dutpala@datafactz.com,WFH,8-Aug-24,8-Aug-24,approved
+bharatraj.saya@datafactz.com,WFH,9-Aug-24,9-Aug-24,approved
+bindu.konidina@datafactz.com,Leave,9-Aug-24,9-Aug-24,approved
+deepthi.pabba@datafactz.com,Sabbatical Leave,9-Aug-24,9-Aug-24,approved
+kiran.aluru@datafactz.com,Leave,9-Aug-24,9-Aug-24,approved
+laya.nomula@datafactz.com,WFH,9-Aug-24,9-Aug-24,approved
+satyasrinivas.matha@datafactz.com,Leave,9-Aug-24,9-Aug-24,approved
+pavani.sreedharamalle@datafactz.com,Leave,9-Aug-24,9-Aug-24,approved
+ramakrishna.gurunadham@datafactz.com,WFH,9-Aug-24,9-Aug-24,approved
+Sahithi.Madduluri@datafactz.com,WFH,9-Aug-24,9-Aug-24,approved
+shashi.parvathaneni@datafactz.com,WFH,9-Aug-24,9-Aug-24,approved
 anantha.chintalapati@datafactz.com,WFH,12-Aug-24,12-Aug-24,approved
 bharatraj.saya@datafactz.com,WFH,12-Aug-24,12-Aug-24,approved
 deepthi.pabba@datafactz.com,Sabbatical Leave,12-Aug-24,12-Aug-24,approved
@@ -3589,94 +3589,94 @@ Santhoshkumar.Konduru@datafactz.com,Client Requirement,30-Aug-24,30-Aug-24,appro
 siva.tadepalli@datafactz.com,WFH,30-Aug-24,30-Aug-24,approved
 hari.vemulapati@datafactz.com,Client Requirement,30-Aug-24,30-Aug-24,approved
 hari.vemulapati@datafactz.com,Compoff,31-Aug-24,31-Aug-24,approved
-naren.nimmalabandari@datafactz.com,Compoff,01-Sep-24,01-Sep-24,approved
-bharatraj.saya@datafactz.com,WFH,02-Sep-24,02-Sep-24,approved
-deepthi.pabba@datafactz.com,Sabbatical Leave,02-Sep-24,02-Sep-24,approved
-prabhakar.konakala@datafactz.com,Leave,02-Sep-24,02-Sep-24,approved
-SaiKrishna.Arram@datafactz.com,Leave,02-Sep-24,02-Sep-24,approved
-Santhoshkumar.Konduru@datafactz.com,Leave,02-Sep-24,02-Sep-24,approved
-siva.tadepalli@datafactz.com,WFH,02-Sep-24,02-Sep-24,approved
-VinayKumar.Gayini@datafactz.com,Leave,02-Sep-24,02-Sep-24,approved
-akhil.kota@datafactz.com,WFH,03-Sep-24,03-Sep-24,approved
-anantha.chintalapati@datafactz.com,Leave,03-Sep-24,03-Sep-24,approved
-AnkithaPadmaPriya.Thirakala@datafactz.com,WFH,03-Sep-24,03-Sep-24,approved
-Ashok.Devalla@datafactz.com,WFH,03-Sep-24,03-Sep-24,approved
-bharatraj.saya@datafactz.com,WFH,03-Sep-24,03-Sep-24,approved
-bindu.konidina@datafactz.com,WFH,03-Sep-24,03-Sep-24,approved
-deepthi.pabba@datafactz.com,Sabbatical Leave,03-Sep-24,03-Sep-24,approved
-Gayathri.Dasari@datafactz.com,WFH,03-Sep-24,03-Sep-24,approved
-geeta.devabakthuni@datafactz.com,WFH,03-Sep-24,03-Sep-24,approved
-karthik.kayala@datafactz.com,Leave,03-Sep-24,03-Sep-24,approved
-kiran.aluru@datafactz.com,WFH,03-Sep-24,03-Sep-24,approved
-Rayala.Nandini@datafactz.com,Leave,03-Sep-24,03-Sep-24,approved
-narendra.gorijala@datafactz.com,Leave,03-Sep-24,03-Sep-24,approved
-naveen.battula@datafactz.com,WFH,03-Sep-24,03-Sep-24,approved
-nikhilesh.narra@datafactz.com,Leave,03-Sep-24,03-Sep-24,approved
-prabhakar.konakala@datafactz.com,Leave,03-Sep-24,03-Sep-24,approved
-praveen.vadde@datafactz.com,Client Requirement,03-Sep-24,03-Sep-24,approved
-ramakrishna.gurunadham@datafactz.com,WFH,03-Sep-24,03-Sep-24,approved
-SaiKrishna.Arram@datafactz.com,WFH,03-Sep-24,03-Sep-24,approved
-saisreepath.garrepelli@datafactz.com,WFH,03-Sep-24,03-Sep-24,approved
-shashi.parvathaneni@datafactz.com,WFH,03-Sep-24,03-Sep-24,approved
-sireesha.medaramitla@datafactz.com,Client Requirement,03-Sep-24,03-Sep-24,approved
-siva.tadepalli@datafactz.com,WFH,03-Sep-24,03-Sep-24,approved
-srinivas.potharam@datafactz.com,WFH,03-Sep-24,03-Sep-24,approved
-vaishali.kumari@datafactz.com,WFH,03-Sep-24,03-Sep-24,approved
-hari.vemulapati@datafactz.com,Client Requirement,03-Sep-24,03-Sep-24,approved
-anantha.chintalapati@datafactz.com,WFH,04-Sep-24,04-Sep-24,approved
-AnkithaPadmaPriya.Thirakala@datafactz.com,Leave,04-Sep-24,04-Sep-24,approved
-bharatraj.saya@datafactz.com,WFH,04-Sep-24,04-Sep-24,approved
-bindu.konidina@datafactz.com,Leave,04-Sep-24,04-Sep-24,approved
-deepthi.pabba@datafactz.com,Sabbatical Leave,04-Sep-24,04-Sep-24,approved
-narendra.gorijala@datafactz.com,Leave,04-Sep-24,04-Sep-24,approved
-prabhakar.konakala@datafactz.com,Leave,04-Sep-24,04-Sep-24,approved
-praveen.vadde@datafactz.com,Client Requirement,04-Sep-24,04-Sep-24,approved
-SaiKrishna.Arram@datafactz.com,WFH,04-Sep-24,04-Sep-24,approved
-saisreepath.garrepelli@datafactz.com,WFH,04-Sep-24,04-Sep-24,approved
-siva.tadepalli@datafactz.com,WFH,04-Sep-24,04-Sep-24,approved
-srinivas.potharam@datafactz.com,WFH,04-Sep-24,04-Sep-24,approved
-hari.vemulapati@datafactz.com,Client Requirement,04-Sep-24,04-Sep-24,approved
-anantha.chintalapati@datafactz.com,WFH,05-Sep-24,05-Sep-24,approved
-AnkithaPadmaPriya.Thirakala@datafactz.com,WFH,05-Sep-24,05-Sep-24,approved
-bharatraj.saya@datafactz.com,WFH,05-Sep-24,05-Sep-24,approved
-bindu.konidina@datafactz.com,Leave,05-Sep-24,05-Sep-24,approved
-deepthi.pabba@datafactz.com,Sabbatical Leave,05-Sep-24,05-Sep-24,approved
-narendra.gorijala@datafactz.com,WFH,05-Sep-24,05-Sep-24,approved
-pavani.sreedharamalle@datafactz.com,Leave,05-Sep-24,05-Sep-24,approved
-praveen.vadde@datafactz.com,Client Requirement,05-Sep-24,05-Sep-24,approved
-SaiKrishna.Arram@datafactz.com,WFH,05-Sep-24,05-Sep-24,approved
-saisreepath.garrepelli@datafactz.com,WFH,05-Sep-24,05-Sep-24,approved
-siva.tadepalli@datafactz.com,WFH,05-Sep-24,05-Sep-24,approved
-srinivas.potharam@datafactz.com,WFH,05-Sep-24,05-Sep-24,approved
-syed.tahir@datafactz.com,Client Requirement,05-Sep-24,05-Sep-24,approved
-hari.vemulapati@datafactz.com,Client Requirement,05-Sep-24,05-Sep-24,approved
-VinayKumar.Gayini@datafactz.com,Leave,05-Sep-24,05-Sep-24,approved
-bindu.konidina@datafactz.com,Compoff,06-Sep-24,06-Sep-24,approved
-naren.nimmalabandari@datafactz.com,Compoff,06-Sep-24,06-Sep-24,approved
-naveen.tatavarthy@datafactz.com,Compoff,06-Sep-24,06-Sep-24,approved
-hari.vemulapati@datafactz.com,Compoff,06-Sep-24,06-Sep-24,approved
-naren.nimmalabandari@datafactz.com,Compoff,07-Sep-24,07-Sep-24,approved
-naveen.tatavarthy@datafactz.com,Compoff,07-Sep-24,07-Sep-24,approved
-hari.vemulapati@datafactz.com,Compoff,08-Sep-24,08-Sep-24,approved
-akash.galipelli@datafactz.com,Leave,09-Sep-24,09-Sep-24,approved
-bharatraj.saya@datafactz.com,WFH,09-Sep-24,09-Sep-24,approved
-deepthi.pabba@datafactz.com,Sabbatical Leave,09-Sep-24,09-Sep-24,approved
-kiran.aluru@datafactz.com,WFH,09-Sep-24,09-Sep-24,approved
-laya.nomula@datafactz.com,WFH,09-Sep-24,09-Sep-24,approved
-Madhuri.Vadde@datafactz.com,WFH,09-Sep-24,09-Sep-24,approved
-mamatha.battu@datafactz.com,WFH,09-Sep-24,09-Sep-24,approved
-nagadurga.reddy@datafactz.com,WFH,09-Sep-24,09-Sep-24,approved
-naren.nimmalabandari@datafactz.com,Client Requirement,09-Sep-24,09-Sep-24,approved
-satyasrinivas.matha@datafactz.com,WFH,09-Sep-24,09-Sep-24,approved
-prabodh.moganti@datafactz.com,WFH,09-Sep-24,09-Sep-24,approved
-praveen.vadde@datafactz.com,Client Requirement,09-Sep-24,09-Sep-24,approved
-Sahithi.Madduluri@datafactz.com,Leave,09-Sep-24,09-Sep-24,approved
-sireesha.medaramitla@datafactz.com,Client Requirement,09-Sep-24,09-Sep-24,approved
-siva.tadepalli@datafactz.com,WFH,09-Sep-24,09-Sep-24,approved
-surya.pidugu@datafactz.com,WFH,09-Sep-24,09-Sep-24,approved
-swetha.dutpala@datafactz.com,WFH,09-Sep-24,09-Sep-24,approved
-syed.tahir@datafactz.com,WFH,09-Sep-24,09-Sep-24,approved
-hari.vemulapati@datafactz.com,Client Requirement,09-Sep-24,09-Sep-24,approved
+naren.nimmalabandari@datafactz.com,Compoff,1-Sep-24,1-Sep-24,approved
+bharatraj.saya@datafactz.com,WFH,2-Sep-24,2-Sep-24,approved
+deepthi.pabba@datafactz.com,Sabbatical Leave,2-Sep-24,2-Sep-24,approved
+prabhakar.konakala@datafactz.com,Leave,2-Sep-24,2-Sep-24,approved
+SaiKrishna.Arram@datafactz.com,Leave,2-Sep-24,2-Sep-24,approved
+Santhoshkumar.Konduru@datafactz.com,Leave,2-Sep-24,2-Sep-24,approved
+siva.tadepalli@datafactz.com,WFH,2-Sep-24,2-Sep-24,approved
+VinayKumar.Gayini@datafactz.com,Leave,2-Sep-24,2-Sep-24,approved
+akhil.kota@datafactz.com,WFH,3-Sep-24,3-Sep-24,approved
+anantha.chintalapati@datafactz.com,Leave,3-Sep-24,3-Sep-24,approved
+AnkithaPadmaPriya.Thirakala@datafactz.com,WFH,3-Sep-24,3-Sep-24,approved
+Ashok.Devalla@datafactz.com,WFH,3-Sep-24,3-Sep-24,approved
+bharatraj.saya@datafactz.com,WFH,3-Sep-24,3-Sep-24,approved
+bindu.konidina@datafactz.com,WFH,3-Sep-24,3-Sep-24,approved
+deepthi.pabba@datafactz.com,Sabbatical Leave,3-Sep-24,3-Sep-24,approved
+Gayathri.Dasari@datafactz.com,WFH,3-Sep-24,3-Sep-24,approved
+geeta.devabakthuni@datafactz.com,WFH,3-Sep-24,3-Sep-24,approved
+karthik.kayala@datafactz.com,Leave,3-Sep-24,3-Sep-24,approved
+kiran.aluru@datafactz.com,WFH,3-Sep-24,3-Sep-24,approved
+Rayala.Nandini@datafactz.com,Leave,3-Sep-24,3-Sep-24,approved
+narendra.gorijala@datafactz.com,Leave,3-Sep-24,3-Sep-24,approved
+naveen.battula@datafactz.com,WFH,3-Sep-24,3-Sep-24,approved
+nikhilesh.narra@datafactz.com,Leave,3-Sep-24,3-Sep-24,approved
+prabhakar.konakala@datafactz.com,Leave,3-Sep-24,3-Sep-24,approved
+praveen.vadde@datafactz.com,Client Requirement,3-Sep-24,3-Sep-24,approved
+ramakrishna.gurunadham@datafactz.com,WFH,3-Sep-24,3-Sep-24,approved
+SaiKrishna.Arram@datafactz.com,WFH,3-Sep-24,3-Sep-24,approved
+saisreepath.garrepelli@datafactz.com,WFH,3-Sep-24,3-Sep-24,approved
+shashi.parvathaneni@datafactz.com,WFH,3-Sep-24,3-Sep-24,approved
+sireesha.medaramitla@datafactz.com,Client Requirement,3-Sep-24,3-Sep-24,approved
+siva.tadepalli@datafactz.com,WFH,3-Sep-24,3-Sep-24,approved
+srinivas.potharam@datafactz.com,WFH,3-Sep-24,3-Sep-24,approved
+vaishali.kumari@datafactz.com,WFH,3-Sep-24,3-Sep-24,approved
+hari.vemulapati@datafactz.com,Client Requirement,3-Sep-24,3-Sep-24,approved
+anantha.chintalapati@datafactz.com,WFH,4-Sep-24,4-Sep-24,approved
+AnkithaPadmaPriya.Thirakala@datafactz.com,Leave,4-Sep-24,4-Sep-24,approved
+bharatraj.saya@datafactz.com,WFH,4-Sep-24,4-Sep-24,approved
+bindu.konidina@datafactz.com,Leave,4-Sep-24,4-Sep-24,approved
+deepthi.pabba@datafactz.com,Sabbatical Leave,4-Sep-24,4-Sep-24,approved
+narendra.gorijala@datafactz.com,Leave,4-Sep-24,4-Sep-24,approved
+prabhakar.konakala@datafactz.com,Leave,4-Sep-24,4-Sep-24,approved
+praveen.vadde@datafactz.com,Client Requirement,4-Sep-24,4-Sep-24,approved
+SaiKrishna.Arram@datafactz.com,WFH,4-Sep-24,4-Sep-24,approved
+saisreepath.garrepelli@datafactz.com,WFH,4-Sep-24,4-Sep-24,approved
+siva.tadepalli@datafactz.com,WFH,4-Sep-24,4-Sep-24,approved
+srinivas.potharam@datafactz.com,WFH,4-Sep-24,4-Sep-24,approved
+hari.vemulapati@datafactz.com,Client Requirement,4-Sep-24,4-Sep-24,approved
+anantha.chintalapati@datafactz.com,WFH,5-Sep-24,5-Sep-24,approved
+AnkithaPadmaPriya.Thirakala@datafactz.com,WFH,5-Sep-24,5-Sep-24,approved
+bharatraj.saya@datafactz.com,WFH,5-Sep-24,5-Sep-24,approved
+bindu.konidina@datafactz.com,Leave,5-Sep-24,5-Sep-24,approved
+deepthi.pabba@datafactz.com,Sabbatical Leave,5-Sep-24,5-Sep-24,approved
+narendra.gorijala@datafactz.com,WFH,5-Sep-24,5-Sep-24,approved
+pavani.sreedharamalle@datafactz.com,Leave,5-Sep-24,5-Sep-24,approved
+praveen.vadde@datafactz.com,Client Requirement,5-Sep-24,5-Sep-24,approved
+SaiKrishna.Arram@datafactz.com,WFH,5-Sep-24,5-Sep-24,approved
+saisreepath.garrepelli@datafactz.com,WFH,5-Sep-24,5-Sep-24,approved
+siva.tadepalli@datafactz.com,WFH,5-Sep-24,5-Sep-24,approved
+srinivas.potharam@datafactz.com,WFH,5-Sep-24,5-Sep-24,approved
+syed.tahir@datafactz.com,Client Requirement,5-Sep-24,5-Sep-24,approved
+hari.vemulapati@datafactz.com,Client Requirement,5-Sep-24,5-Sep-24,approved
+VinayKumar.Gayini@datafactz.com,Leave,5-Sep-24,5-Sep-24,approved
+bindu.konidina@datafactz.com,Compoff,6-Sep-24,6-Sep-24,approved
+naren.nimmalabandari@datafactz.com,Compoff,6-Sep-24,6-Sep-24,approved
+naveen.tatavarthy@datafactz.com,Compoff,6-Sep-24,6-Sep-24,approved
+hari.vemulapati@datafactz.com,Compoff,6-Sep-24,6-Sep-24,approved
+naren.nimmalabandari@datafactz.com,Compoff,7-Sep-24,7-Sep-24,approved
+naveen.tatavarthy@datafactz.com,Compoff,7-Sep-24,7-Sep-24,approved
+hari.vemulapati@datafactz.com,Compoff,8-Sep-24,8-Sep-24,approved
+akash.galipelli@datafactz.com,Leave,9-Sep-24,9-Sep-24,approved
+bharatraj.saya@datafactz.com,WFH,9-Sep-24,9-Sep-24,approved
+deepthi.pabba@datafactz.com,Sabbatical Leave,9-Sep-24,9-Sep-24,approved
+kiran.aluru@datafactz.com,WFH,9-Sep-24,9-Sep-24,approved
+laya.nomula@datafactz.com,WFH,9-Sep-24,9-Sep-24,approved
+Madhuri.Vadde@datafactz.com,WFH,9-Sep-24,9-Sep-24,approved
+mamatha.battu@datafactz.com,WFH,9-Sep-24,9-Sep-24,approved
+nagadurga.reddy@datafactz.com,WFH,9-Sep-24,9-Sep-24,approved
+naren.nimmalabandari@datafactz.com,Client Requirement,9-Sep-24,9-Sep-24,approved
+satyasrinivas.matha@datafactz.com,WFH,9-Sep-24,9-Sep-24,approved
+prabodh.moganti@datafactz.com,WFH,9-Sep-24,9-Sep-24,approved
+praveen.vadde@datafactz.com,Client Requirement,9-Sep-24,9-Sep-24,approved
+Sahithi.Madduluri@datafactz.com,Leave,9-Sep-24,9-Sep-24,approved
+sireesha.medaramitla@datafactz.com,Client Requirement,9-Sep-24,9-Sep-24,approved
+siva.tadepalli@datafactz.com,WFH,9-Sep-24,9-Sep-24,approved
+surya.pidugu@datafactz.com,WFH,9-Sep-24,9-Sep-24,approved
+swetha.dutpala@datafactz.com,WFH,9-Sep-24,9-Sep-24,approved
+syed.tahir@datafactz.com,WFH,9-Sep-24,9-Sep-24,approved
+hari.vemulapati@datafactz.com,Client Requirement,9-Sep-24,9-Sep-24,approved
 akash.galipelli@datafactz.com,Leave,10-Sep-24,10-Sep-24,approved
 akhil.kota@datafactz.com,WFH,10-Sep-24,10-Sep-24,approved
 Ashok.Devalla@datafactz.com,Leave,10-Sep-24,10-Sep-24,approved
@@ -3875,93 +3875,93 @@ sireesha.medaramitla@datafactz.com,Client Requirement,30-Sep-24,30-Sep-24,approv
 siva.tadepalli@datafactz.com,WFH,30-Sep-24,30-Sep-24,approved
 Srilakshmi.Dhammalapati@datafactz.com,Leave,30-Sep-24,30-Sep-24,approved
 hari.vemulapati@datafactz.com,Client Requirement,30-Sep-24,30-Sep-24,approved
-akhil.kota@datafactz.com,WFH,01-Oct-24,01-Oct-24,approved
-Arunsai.sadu@datafactz.com,WFH,01-Oct-24,01-Oct-24,approved
-baskar.darukumalli@datafactz.com,Leave,01-Oct-24,01-Oct-24,approved
-bharatraj.saya@datafactz.com,WFH,01-Oct-24,01-Oct-24,approved
-deepthi.pabba@datafactz.com,Sabbatical Leave,01-Oct-24,01-Oct-24,approved
-geeta.devabakthuni@datafactz.com,WFH,01-Oct-24,01-Oct-24,approved
-satyasrinivas.matha@datafactz.com,WFH,01-Oct-24,01-Oct-24,approved
-nikhilesh.narra@datafactz.com,Client Requirement,01-Oct-24,01-Oct-24,approved
-praveen.vadde@datafactz.com,Client Requirement,01-Oct-24,01-Oct-24,approved
-sagar.rapolu@datafactz.com,WFH,01-Oct-24,01-Oct-24,approved
-Sahithi.Madduluri@datafactz.com,WFH,01-Oct-24,01-Oct-24,approved
-naveen.tatavarthy@datafactz.com,WFH,01-Oct-24,01-Oct-24,approved
-saisreepath.garrepelli@datafactz.com,WFH,01-Oct-24,01-Oct-24,approved
-sireesha.medaramitla@datafactz.com,Client Requirement,01-Oct-24,01-Oct-24,approved
-siva.tadepalli@datafactz.com,WFH,01-Oct-24,01-Oct-24,approved
-hari.vemulapati@datafactz.com,Client Requirement,01-Oct-24,01-Oct-24,approved
-VinayKumar.Gayini@datafactz.com,Leave,01-Oct-24,01-Oct-24,approved
-bindu.konidina@datafactz.com,Compoff,02-Oct-24,02-Oct-24,approved
-hari.vemulapati@datafactz.com,Compoff,02-Oct-24,02-Oct-24,approved
-bharatraj.saya@datafactz.com,WFH,03-Oct-24,03-Oct-24,approved
-deepthi.pabba@datafactz.com,Sabbatical Leave,03-Oct-24,03-Oct-24,approved
-narendra.gorijala@datafactz.com,WFH,03-Oct-24,03-Oct-24,approved
-satyasrinivas.matha@datafactz.com,Leave,03-Oct-24,03-Oct-24,approved
-nikhilesh.narra@datafactz.com,Client Requirement,03-Oct-24,03-Oct-24,approved
-pavani.sreedharamalle@datafactz.com,WFH,03-Oct-24,03-Oct-24,approved
-praveen.vadde@datafactz.com,Client Requirement,03-Oct-24,03-Oct-24,approved
-siva.tadepalli@datafactz.com,WFH,03-Oct-24,03-Oct-24,approved
-syed.tahir@datafactz.com,WFH,03-Oct-24,03-Oct-24,approved
-hari.vemulapati@datafactz.com,Client Requirement,03-Oct-24,03-Oct-24,approved
-bharatraj.saya@datafactz.com,WFH,04-Oct-24,04-Oct-24,approved
-bindu.konidina@datafactz.com,WFH,04-Oct-24,04-Oct-24,approved
-deepthi.pabba@datafactz.com,Sabbatical Leave,04-Oct-24,04-Oct-24,approved
-narendra.gorijala@datafactz.com,WFH,04-Oct-24,04-Oct-24,approved
-satyasrinivas.matha@datafactz.com,WFH,04-Oct-24,04-Oct-24,approved
-pavani.sreedharamalle@datafactz.com,Leave,04-Oct-24,04-Oct-24,approved
-praveen.vadde@datafactz.com,Client Requirement,04-Oct-24,04-Oct-24,approved
-Sahithi.Madduluri@datafactz.com,Leave,04-Oct-24,04-Oct-24,approved
-naveen.tatavarthy@datafactz.com,WFH,04-Oct-24,04-Oct-24,approved
-siva.tadepalli@datafactz.com,WFH,04-Oct-24,04-Oct-24,approved
-srinivas.potharam@datafactz.com,Leave,04-Oct-24,04-Oct-24,approved
-syed.tahir@datafactz.com,WFH,04-Oct-24,04-Oct-24,approved
-hari.vemulapati@datafactz.com,Client Requirement,04-Oct-24,04-Oct-24,approved
-hari.vemulapati@datafactz.com,Compoff,05-Oct-24,05-Oct-24,approved
-naren.nimmalabandari@datafactz.com,Compoff,06-Oct-24,06-Oct-24,approved
-baskar.darukumalli@datafactz.com,Leave,07-Oct-24,07-Oct-24,approved
-bharatraj.saya@datafactz.com,WFH,07-Oct-24,07-Oct-24,approved
-deepthi.pabba@datafactz.com,Sabbatical Leave,07-Oct-24,07-Oct-24,approved
-SaiVineel.Kolla@datafactz.com,WFH,07-Oct-24,07-Oct-24,approved
-Rayala.Nandini@datafactz.com,Leave,07-Oct-24,07-Oct-24,approved
-narendra.gorijala@datafactz.com,WFH,07-Oct-24,07-Oct-24,approved
-praveen.vadde@datafactz.com,Client Requirement,07-Oct-24,07-Oct-24,approved
-sagar.rapolu@datafactz.com,WFH,07-Oct-24,07-Oct-24,approved
-shashi.parvathaneni@datafactz.com,WFH,07-Oct-24,07-Oct-24,approved
-siva.tadepalli@datafactz.com,WFH,07-Oct-24,07-Oct-24,approved
-srinivas.potharam@datafactz.com,WFH,07-Oct-24,07-Oct-24,approved
-swetha.dutpala@datafactz.com,WFH,07-Oct-24,07-Oct-24,approved
-hari.vemulapati@datafactz.com,Client Requirement,07-Oct-24,07-Oct-24,approved
-baskar.darukumalli@datafactz.com,Leave,08-Oct-24,08-Oct-24,approved
-bharatraj.saya@datafactz.com,WFH,08-Oct-24,08-Oct-24,approved
-deepthi.pabba@datafactz.com,Sabbatical Leave,08-Oct-24,08-Oct-24,approved
-Rayala.Nandini@datafactz.com,WFH,08-Oct-24,08-Oct-24,approved
-narendra.gorijala@datafactz.com,WFH,08-Oct-24,08-Oct-24,approved
-prabodh.moganti@datafactz.com,WFH,08-Oct-24,08-Oct-24,approved
-praveen.vadde@datafactz.com,Client Requirement,08-Oct-24,08-Oct-24,approved
-sagar.rapolu@datafactz.com,WFH,08-Oct-24,08-Oct-24,approved
-shashi.parvathaneni@datafactz.com,Leave,08-Oct-24,08-Oct-24,approved
-sireesha.medaramitla@datafactz.com,Client Requirement,08-Oct-24,08-Oct-24,approved
-siva.tadepalli@datafactz.com,WFH,08-Oct-24,08-Oct-24,approved
-srinivas.potharam@datafactz.com,WFH,08-Oct-24,08-Oct-24,approved
-hari.vemulapati@datafactz.com,Client Requirement,08-Oct-24,08-Oct-24,approved
-akhil.kota@datafactz.com,WFH,09-Oct-24,09-Oct-24,approved
-baskar.darukumalli@datafactz.com,WFH,09-Oct-24,09-Oct-24,approved
-bharatraj.saya@datafactz.com,WFH,09-Oct-24,09-Oct-24,approved
-deepthi.pabba@datafactz.com,Sabbatical Leave,09-Oct-24,09-Oct-24,approved
-kiran.aluru@datafactz.com,WFH,09-Oct-24,09-Oct-24,approved
-mamatha.battu@datafactz.com,WFH,09-Oct-24,09-Oct-24,approved
-Rayala.Nandini@datafactz.com,WFH,09-Oct-24,09-Oct-24,approved
-narendra.gorijala@datafactz.com,WFH,09-Oct-24,09-Oct-24,approved
-praveen.vadde@datafactz.com,Client Requirement,09-Oct-24,09-Oct-24,approved
-ramakrishna.gurunadham@datafactz.com,Leave,09-Oct-24,09-Oct-24,approved
-sagar.rapolu@datafactz.com,Leave,09-Oct-24,09-Oct-24,approved
-SaiKrishna.Arram@datafactz.com,Leave,09-Oct-24,09-Oct-24,approved
-shashi.parvathaneni@datafactz.com,Leave,09-Oct-24,09-Oct-24,approved
-sireesha.medaramitla@datafactz.com,WFH,09-Oct-24,09-Oct-24,approved
-siva.tadepalli@datafactz.com,WFH,09-Oct-24,09-Oct-24,approved
-srinivas.potharam@datafactz.com,WFH,09-Oct-24,09-Oct-24,approved
-hari.vemulapati@datafactz.com,Client Requirement,09-Oct-24,09-Oct-24,approved
+akhil.kota@datafactz.com,WFH,1-Oct-24,1-Oct-24,approved
+Arunsai.sadu@datafactz.com,WFH,1-Oct-24,1-Oct-24,approved
+baskar.darukumalli@datafactz.com,Leave,1-Oct-24,1-Oct-24,approved
+bharatraj.saya@datafactz.com,WFH,1-Oct-24,1-Oct-24,approved
+deepthi.pabba@datafactz.com,Sabbatical Leave,1-Oct-24,1-Oct-24,approved
+geeta.devabakthuni@datafactz.com,WFH,1-Oct-24,1-Oct-24,approved
+satyasrinivas.matha@datafactz.com,WFH,1-Oct-24,1-Oct-24,approved
+nikhilesh.narra@datafactz.com,Client Requirement,1-Oct-24,1-Oct-24,approved
+praveen.vadde@datafactz.com,Client Requirement,1-Oct-24,1-Oct-24,approved
+sagar.rapolu@datafactz.com,WFH,1-Oct-24,1-Oct-24,approved
+Sahithi.Madduluri@datafactz.com,WFH,1-Oct-24,1-Oct-24,approved
+naveen.tatavarthy@datafactz.com,WFH,1-Oct-24,1-Oct-24,approved
+saisreepath.garrepelli@datafactz.com,WFH,1-Oct-24,1-Oct-24,approved
+sireesha.medaramitla@datafactz.com,Client Requirement,1-Oct-24,1-Oct-24,approved
+siva.tadepalli@datafactz.com,WFH,1-Oct-24,1-Oct-24,approved
+hari.vemulapati@datafactz.com,Client Requirement,1-Oct-24,1-Oct-24,approved
+VinayKumar.Gayini@datafactz.com,Leave,1-Oct-24,1-Oct-24,approved
+bindu.konidina@datafactz.com,Compoff,2-Oct-24,2-Oct-24,approved
+hari.vemulapati@datafactz.com,Compoff,2-Oct-24,2-Oct-24,approved
+bharatraj.saya@datafactz.com,WFH,3-Oct-24,3-Oct-24,approved
+deepthi.pabba@datafactz.com,Sabbatical Leave,3-Oct-24,3-Oct-24,approved
+narendra.gorijala@datafactz.com,WFH,3-Oct-24,3-Oct-24,approved
+satyasrinivas.matha@datafactz.com,Leave,3-Oct-24,3-Oct-24,approved
+nikhilesh.narra@datafactz.com,Client Requirement,3-Oct-24,3-Oct-24,approved
+pavani.sreedharamalle@datafactz.com,WFH,3-Oct-24,3-Oct-24,approved
+praveen.vadde@datafactz.com,Client Requirement,3-Oct-24,3-Oct-24,approved
+siva.tadepalli@datafactz.com,WFH,3-Oct-24,3-Oct-24,approved
+syed.tahir@datafactz.com,WFH,3-Oct-24,3-Oct-24,approved
+hari.vemulapati@datafactz.com,Client Requirement,3-Oct-24,3-Oct-24,approved
+bharatraj.saya@datafactz.com,WFH,4-Oct-24,4-Oct-24,approved
+bindu.konidina@datafactz.com,WFH,4-Oct-24,4-Oct-24,approved
+deepthi.pabba@datafactz.com,Sabbatical Leave,4-Oct-24,4-Oct-24,approved
+narendra.gorijala@datafactz.com,WFH,4-Oct-24,4-Oct-24,approved
+satyasrinivas.matha@datafactz.com,WFH,4-Oct-24,4-Oct-24,approved
+pavani.sreedharamalle@datafactz.com,Leave,4-Oct-24,4-Oct-24,approved
+praveen.vadde@datafactz.com,Client Requirement,4-Oct-24,4-Oct-24,approved
+Sahithi.Madduluri@datafactz.com,Leave,4-Oct-24,4-Oct-24,approved
+naveen.tatavarthy@datafactz.com,WFH,4-Oct-24,4-Oct-24,approved
+siva.tadepalli@datafactz.com,WFH,4-Oct-24,4-Oct-24,approved
+srinivas.potharam@datafactz.com,Leave,4-Oct-24,4-Oct-24,approved
+syed.tahir@datafactz.com,WFH,4-Oct-24,4-Oct-24,approved
+hari.vemulapati@datafactz.com,Client Requirement,4-Oct-24,4-Oct-24,approved
+hari.vemulapati@datafactz.com,Compoff,5-Oct-24,5-Oct-24,approved
+naren.nimmalabandari@datafactz.com,Compoff,6-Oct-24,6-Oct-24,approved
+baskar.darukumalli@datafactz.com,Leave,7-Oct-24,7-Oct-24,approved
+bharatraj.saya@datafactz.com,WFH,7-Oct-24,7-Oct-24,approved
+deepthi.pabba@datafactz.com,Sabbatical Leave,7-Oct-24,7-Oct-24,approved
+SaiVineel.Kolla@datafactz.com,WFH,7-Oct-24,7-Oct-24,approved
+Rayala.Nandini@datafactz.com,Leave,7-Oct-24,7-Oct-24,approved
+narendra.gorijala@datafactz.com,WFH,7-Oct-24,7-Oct-24,approved
+praveen.vadde@datafactz.com,Client Requirement,7-Oct-24,7-Oct-24,approved
+sagar.rapolu@datafactz.com,WFH,7-Oct-24,7-Oct-24,approved
+shashi.parvathaneni@datafactz.com,WFH,7-Oct-24,7-Oct-24,approved
+siva.tadepalli@datafactz.com,WFH,7-Oct-24,7-Oct-24,approved
+srinivas.potharam@datafactz.com,WFH,7-Oct-24,7-Oct-24,approved
+swetha.dutpala@datafactz.com,WFH,7-Oct-24,7-Oct-24,approved
+hari.vemulapati@datafactz.com,Client Requirement,7-Oct-24,7-Oct-24,approved
+baskar.darukumalli@datafactz.com,Leave,8-Oct-24,8-Oct-24,approved
+bharatraj.saya@datafactz.com,WFH,8-Oct-24,8-Oct-24,approved
+deepthi.pabba@datafactz.com,Sabbatical Leave,8-Oct-24,8-Oct-24,approved
+Rayala.Nandini@datafactz.com,WFH,8-Oct-24,8-Oct-24,approved
+narendra.gorijala@datafactz.com,WFH,8-Oct-24,8-Oct-24,approved
+prabodh.moganti@datafactz.com,WFH,8-Oct-24,8-Oct-24,approved
+praveen.vadde@datafactz.com,Client Requirement,8-Oct-24,8-Oct-24,approved
+sagar.rapolu@datafactz.com,WFH,8-Oct-24,8-Oct-24,approved
+shashi.parvathaneni@datafactz.com,Leave,8-Oct-24,8-Oct-24,approved
+sireesha.medaramitla@datafactz.com,Client Requirement,8-Oct-24,8-Oct-24,approved
+siva.tadepalli@datafactz.com,WFH,8-Oct-24,8-Oct-24,approved
+srinivas.potharam@datafactz.com,WFH,8-Oct-24,8-Oct-24,approved
+hari.vemulapati@datafactz.com,Client Requirement,8-Oct-24,8-Oct-24,approved
+akhil.kota@datafactz.com,WFH,9-Oct-24,9-Oct-24,approved
+baskar.darukumalli@datafactz.com,WFH,9-Oct-24,9-Oct-24,approved
+bharatraj.saya@datafactz.com,WFH,9-Oct-24,9-Oct-24,approved
+deepthi.pabba@datafactz.com,Sabbatical Leave,9-Oct-24,9-Oct-24,approved
+kiran.aluru@datafactz.com,WFH,9-Oct-24,9-Oct-24,approved
+mamatha.battu@datafactz.com,WFH,9-Oct-24,9-Oct-24,approved
+Rayala.Nandini@datafactz.com,WFH,9-Oct-24,9-Oct-24,approved
+narendra.gorijala@datafactz.com,WFH,9-Oct-24,9-Oct-24,approved
+praveen.vadde@datafactz.com,Client Requirement,9-Oct-24,9-Oct-24,approved
+ramakrishna.gurunadham@datafactz.com,Leave,9-Oct-24,9-Oct-24,approved
+sagar.rapolu@datafactz.com,Leave,9-Oct-24,9-Oct-24,approved
+SaiKrishna.Arram@datafactz.com,Leave,9-Oct-24,9-Oct-24,approved
+shashi.parvathaneni@datafactz.com,Leave,9-Oct-24,9-Oct-24,approved
+sireesha.medaramitla@datafactz.com,WFH,9-Oct-24,9-Oct-24,approved
+siva.tadepalli@datafactz.com,WFH,9-Oct-24,9-Oct-24,approved
+srinivas.potharam@datafactz.com,WFH,9-Oct-24,9-Oct-24,approved
+hari.vemulapati@datafactz.com,Client Requirement,9-Oct-24,9-Oct-24,approved
 anand.karnati@datafactz.com,WFH,10-Oct-24,10-Oct-24,approved
 anantha.chintalapati@datafactz.com,WFH,10-Oct-24,10-Oct-24,approved
 Ashok.Devalla@datafactz.com,WFH,10-Oct-24,10-Oct-24,approved
@@ -4150,127 +4150,127 @@ siva.tadepalli@datafactz.com,WFH,30-Oct-24,30-Oct-24,approved
 syed.tahir@datafactz.com,WFH,30-Oct-24,30-Oct-24,approved
 vaishali.kumari@datafactz.com,WFH,30-Oct-24,30-Oct-24,approved
 hari.vemulapati@datafactz.com,Client Requirement,30-Oct-24,30-Oct-24,approved
-anantha.chintalapati@datafactz.com,Leave,01-Nov-24,01-Nov-24,approved
-AnkithaPadmaPriya.Thirakala@datafactz.com,Leave,01-Nov-24,01-Nov-24,approved
-satyasrinivas.matha@datafactz.com,Leave,01-Nov-24,01-Nov-24,approved
-naveen.battula@datafactz.com,Leave,01-Nov-24,01-Nov-24,approved
-ramakrishna.gurunadham@datafactz.com,Leave,01-Nov-24,01-Nov-24,approved
-naveen.tatavarthy@datafactz.com,Leave,01-Nov-24,01-Nov-24,approved
-saisreepath.garrepelli@datafactz.com,Leave,01-Nov-24,01-Nov-24,approved
-syed.tahir@datafactz.com,Leave,01-Nov-24,01-Nov-24,approved
-naren.nimmalabandari@datafactz.com,Compoff,02-Nov-24,02-Nov-24,approved
-hari.vemulapati@datafactz.com,Compoff,03-Nov-24,03-Nov-24,approved
-akash.galipelli@datafactz.com,Leave,04-Nov-24,04-Nov-24,approved
-anand.karnati@datafactz.com,WFH,04-Nov-24,04-Nov-24,approved
-anantha.chintalapati@datafactz.com,WFH,04-Nov-24,04-Nov-24,approved
-AnkithaPadmaPriya.Thirakala@datafactz.com,WFH,04-Nov-24,04-Nov-24,approved
-Arunsai.sadu@datafactz.com,Leave,04-Nov-24,04-Nov-24,approved
-bharatraj.saya@datafactz.com,WFH,04-Nov-24,04-Nov-24,approved
-bindu.konidina@datafactz.com,Leave,04-Nov-24,04-Nov-24,approved
-deepthi.pabba@datafactz.com,Sabbatical Leave,04-Nov-24,04-Nov-24,approved
-Gayathri.Dasari@datafactz.com,Leave,04-Nov-24,04-Nov-24,approved
-karthik.thanneeru@datafactz.com,Leave,04-Nov-24,04-Nov-24,approved
-kiran.aluru@datafactz.com,Leave,04-Nov-24,04-Nov-24,approved
-laya.nomula@datafactz.com,Leave,04-Nov-24,04-Nov-24,approved
-Madhuri.Vadde@datafactz.com,Leave,04-Nov-24,04-Nov-24,approved
-narendra.gorijala@datafactz.com,Leave,04-Nov-24,04-Nov-24,approved
-naveen.battula@datafactz.com,WFH,04-Nov-24,04-Nov-24,approved
-nikhilesh.narra@datafactz.com,Client Requirement,04-Nov-24,04-Nov-24,approved
-praveen.vadde@datafactz.com,Client Requirement,04-Nov-24,04-Nov-24,approved
-RajeshKumar.Potharaju@datafactz.com,Leave,04-Nov-24,04-Nov-24,approved
-raman.gupta@datafactz.com,WFH,04-Nov-24,04-Nov-24,approved
-Santhoshkumar.Konduru@datafactz.com,WFH,04-Nov-24,04-Nov-24,approved
-sireesha.medaramitla@datafactz.com,Leave,04-Nov-24,04-Nov-24,approved
-siva.tadepalli@datafactz.com,WFH,04-Nov-24,04-Nov-24,approved
-Srilakshmi.Dhammalapati@datafactz.com,WFH,04-Nov-24,04-Nov-24,approved
-srinivas.potharam@datafactz.com,WFH,04-Nov-24,04-Nov-24,approved
-swetha.dutpala@datafactz.com,WFH,04-Nov-24,04-Nov-24,approved
-syed.tahir@datafactz.com,Leave,04-Nov-24,04-Nov-24,approved
-hari.vemulapati@datafactz.com,Client Requirement,04-Nov-24,04-Nov-24,approved
-akash.galipelli@datafactz.com,Leave,05-Nov-24,05-Nov-24,approved
-anantha.chintalapati@datafactz.com,WFH,05-Nov-24,05-Nov-24,approved
-AnkithaPadmaPriya.Thirakala@datafactz.com,WFH,05-Nov-24,05-Nov-24,approved
-Arunsai.sadu@datafactz.com,Leave,05-Nov-24,05-Nov-24,approved
-bharatraj.saya@datafactz.com,WFH,05-Nov-24,05-Nov-24,approved
-bindu.konidina@datafactz.com,Leave,05-Nov-24,05-Nov-24,approved
-deepthi.pabba@datafactz.com,Sabbatical Leave,05-Nov-24,05-Nov-24,approved
-Gayathri.Dasari@datafactz.com,Leave,05-Nov-24,05-Nov-24,approved
-geeta.devabakthuni@datafactz.com,WFH,05-Nov-24,05-Nov-24,approved
-karthik.thanneeru@datafactz.com,Leave,05-Nov-24,05-Nov-24,approved
-kiran.aluru@datafactz.com,Leave,05-Nov-24,05-Nov-24,approved
-prasad.injeti@datafactz.com,Leave,05-Nov-24,05-Nov-24,approved
-prabodh.moganti@datafactz.com,WFH,05-Nov-24,05-Nov-24,approved
-praveen.vadde@datafactz.com,Client Requirement,05-Nov-24,05-Nov-24,approved
-priyanka.kosuru@datafactz.com,WFH,05-Nov-24,05-Nov-24,approved
-raman.gupta@datafactz.com,WFH,05-Nov-24,05-Nov-24,approved
-sireesha.medaramitla@datafactz.com,Client Requirement,05-Nov-24,05-Nov-24,approved
-siva.tadepalli@datafactz.com,WFH,05-Nov-24,05-Nov-24,approved
-Srilakshmi.Dhammalapati@datafactz.com,WFH,05-Nov-24,05-Nov-24,approved
-srinivas.potharam@datafactz.com,WFH,05-Nov-24,05-Nov-24,approved
-surya.pidugu@datafactz.com,WFH,05-Nov-24,05-Nov-24,approved
-vaishali.kumari@datafactz.com,Leave,05-Nov-24,05-Nov-24,approved
-hari.vemulapati@datafactz.com,Client Requirement,05-Nov-24,05-Nov-24,approved
-akash.galipelli@datafactz.com,Leave,06-Nov-24,06-Nov-24,approved
-anantha.chintalapati@datafactz.com,WFH,06-Nov-24,06-Nov-24,approved
-AnkithaPadmaPriya.Thirakala@datafactz.com,WFH,06-Nov-24,06-Nov-24,approved
-bharatraj.saya@datafactz.com,WFH,06-Nov-24,06-Nov-24,approved
-bindu.konidina@datafactz.com,WFH,06-Nov-24,06-Nov-24,approved
-deepthi.pabba@datafactz.com,Sabbatical Leave,06-Nov-24,06-Nov-24,approved
-karthik.thanneeru@datafactz.com,Leave,06-Nov-24,06-Nov-24,approved
-kiran.aluru@datafactz.com,Leave,06-Nov-24,06-Nov-24,approved
-prasad.injeti@datafactz.com,Leave,06-Nov-24,06-Nov-24,approved
-nikhilesh.narra@datafactz.com,Client Requirement,06-Nov-24,06-Nov-24,approved
-praveen.vadde@datafactz.com,Client Requirement,06-Nov-24,06-Nov-24,approved
-raman.gupta@datafactz.com,Leave,06-Nov-24,06-Nov-24,approved
-SaiKrishna.Arram@datafactz.com,WFH,06-Nov-24,06-Nov-24,approved
-saisreepath.garrepelli@datafactz.com,Leave,06-Nov-24,06-Nov-24,approved
-Santhoshkumar.Konduru@datafactz.com,Leave,06-Nov-24,06-Nov-24,approved
-shashi.parvathaneni@datafactz.com,WFH,06-Nov-24,06-Nov-24,approved
-siva.tadepalli@datafactz.com,WFH,06-Nov-24,06-Nov-24,approved
-Srilakshmi.Dhammalapati@datafactz.com,Leave,06-Nov-24,06-Nov-24,approved
-surya.pidugu@datafactz.com,WFH,06-Nov-24,06-Nov-24,approved
-hari.vemulapati@datafactz.com,Client Requirement,06-Nov-24,06-Nov-24,approved
-akash.galipelli@datafactz.com,Leave,07-Nov-24,07-Nov-24,approved
-anantha.chintalapati@datafactz.com,WFH,07-Nov-24,07-Nov-24,approved
-AnkithaPadmaPriya.Thirakala@datafactz.com,WFH,07-Nov-24,07-Nov-24,approved
-bharatraj.saya@datafactz.com,WFH,07-Nov-24,07-Nov-24,approved
-bindu.konidina@datafactz.com,WFH,07-Nov-24,07-Nov-24,approved
-deepthi.pabba@datafactz.com,Sabbatical Leave,07-Nov-24,07-Nov-24,approved
-karthik.thanneeru@datafactz.com,Leave,07-Nov-24,07-Nov-24,approved
-kiran.aluru@datafactz.com,Leave,07-Nov-24,07-Nov-24,approved
-nagadurga.reddy@datafactz.com,WFH,07-Nov-24,07-Nov-24,approved
-prabodh.moganti@datafactz.com,WFH,07-Nov-24,07-Nov-24,approved
-pranav.alle@datafactz.com,WFH,07-Nov-24,07-Nov-24,approved
-praveen.vadde@datafactz.com,Client Requirement,07-Nov-24,07-Nov-24,approved
-raman.gupta@datafactz.com,Leave,07-Nov-24,07-Nov-24,approved
-SaiKrishna.Arram@datafactz.com,WFH,07-Nov-24,07-Nov-24,approved
-saisreepath.garrepelli@datafactz.com,Leave,07-Nov-24,07-Nov-24,approved
-sireesha.medaramitla@datafactz.com,Client Requirement,07-Nov-24,07-Nov-24,approved
-Srilakshmi.Dhammalapati@datafactz.com,WFH,07-Nov-24,07-Nov-24,approved
-hari.vemulapati@datafactz.com,Client Requirement,07-Nov-24,07-Nov-24,approved
-akash.galipelli@datafactz.com,Leave,08-Nov-24,08-Nov-24,approved
-anantha.chintalapati@datafactz.com,WFH,08-Nov-24,08-Nov-24,approved
-AnkithaPadmaPriya.Thirakala@datafactz.com,Leave,08-Nov-24,08-Nov-24,approved
-Ashok.Devalla@datafactz.com,WFH,08-Nov-24,08-Nov-24,approved
-bharatraj.saya@datafactz.com,Leave,08-Nov-24,08-Nov-24,approved
-bharatraj.saya@datafactz.com,Leave,08-Nov-24,08-Nov-24,approved
-bindu.konidina@datafactz.com,WFH,08-Nov-24,08-Nov-24,approved
-deepthi.pabba@datafactz.com,Sabbatical Leave,08-Nov-24,08-Nov-24,approved
-geeta.devabakthuni@datafactz.com,WFH,08-Nov-24,08-Nov-24,approved
-karthik.thanneeru@datafactz.com,Leave,08-Nov-24,08-Nov-24,approved
-kiran.aluru@datafactz.com,Leave,08-Nov-24,08-Nov-24,approved
-mamatha.battu@datafactz.com,WFH,08-Nov-24,08-Nov-24,approved
-nikhilesh.narra@datafactz.com,Client Requirement,08-Nov-24,08-Nov-24,approved
-prabodh.moganti@datafactz.com,WFH,08-Nov-24,08-Nov-24,approved
-pranav.alle@datafactz.com,WFH,08-Nov-24,08-Nov-24,approved
-praveen.vadde@datafactz.com,Client Requirement,08-Nov-24,08-Nov-24,approved
-raman.gupta@datafactz.com,Leave,08-Nov-24,08-Nov-24,approved
-SaiKrishna.Arram@datafactz.com,Leave,08-Nov-24,08-Nov-24,approved
-saisreepath.garrepelli@datafactz.com,WFH,08-Nov-24,08-Nov-24,approved
-Srilakshmi.Dhammalapati@datafactz.com,Leave,08-Nov-24,08-Nov-24,approved
-vaishali.kumari@datafactz.com,Leave,08-Nov-24,08-Nov-24,approved
-hari.vemulapati@datafactz.com,Client Requirement,08-Nov-24,08-Nov-24,approved
-naren.nimmalabandari@datafactz.com,Compoff,09-Nov-24,09-Nov-24,approved
+anantha.chintalapati@datafactz.com,Leave,1-Nov-24,1-Nov-24,approved
+AnkithaPadmaPriya.Thirakala@datafactz.com,Leave,1-Nov-24,1-Nov-24,approved
+satyasrinivas.matha@datafactz.com,Leave,1-Nov-24,1-Nov-24,approved
+naveen.battula@datafactz.com,Leave,1-Nov-24,1-Nov-24,approved
+ramakrishna.gurunadham@datafactz.com,Leave,1-Nov-24,1-Nov-24,approved
+naveen.tatavarthy@datafactz.com,Leave,1-Nov-24,1-Nov-24,approved
+saisreepath.garrepelli@datafactz.com,Leave,1-Nov-24,1-Nov-24,approved
+syed.tahir@datafactz.com,Leave,1-Nov-24,1-Nov-24,approved
+naren.nimmalabandari@datafactz.com,Compoff,2-Nov-24,2-Nov-24,approved
+hari.vemulapati@datafactz.com,Compoff,3-Nov-24,3-Nov-24,approved
+akash.galipelli@datafactz.com,Leave,4-Nov-24,4-Nov-24,approved
+anand.karnati@datafactz.com,WFH,4-Nov-24,4-Nov-24,approved
+anantha.chintalapati@datafactz.com,WFH,4-Nov-24,4-Nov-24,approved
+AnkithaPadmaPriya.Thirakala@datafactz.com,WFH,4-Nov-24,4-Nov-24,approved
+Arunsai.sadu@datafactz.com,Leave,4-Nov-24,4-Nov-24,approved
+bharatraj.saya@datafactz.com,WFH,4-Nov-24,4-Nov-24,approved
+bindu.konidina@datafactz.com,Leave,4-Nov-24,4-Nov-24,approved
+deepthi.pabba@datafactz.com,Sabbatical Leave,4-Nov-24,4-Nov-24,approved
+Gayathri.Dasari@datafactz.com,Leave,4-Nov-24,4-Nov-24,approved
+karthik.thanneeru@datafactz.com,Leave,4-Nov-24,4-Nov-24,approved
+kiran.aluru@datafactz.com,Leave,4-Nov-24,4-Nov-24,approved
+laya.nomula@datafactz.com,Leave,4-Nov-24,4-Nov-24,approved
+Madhuri.Vadde@datafactz.com,Leave,4-Nov-24,4-Nov-24,approved
+narendra.gorijala@datafactz.com,Leave,4-Nov-24,4-Nov-24,approved
+naveen.battula@datafactz.com,WFH,4-Nov-24,4-Nov-24,approved
+nikhilesh.narra@datafactz.com,Client Requirement,4-Nov-24,4-Nov-24,approved
+praveen.vadde@datafactz.com,Client Requirement,4-Nov-24,4-Nov-24,approved
+RajeshKumar.Potharaju@datafactz.com,Leave,4-Nov-24,4-Nov-24,approved
+raman.gupta@datafactz.com,WFH,4-Nov-24,4-Nov-24,approved
+Santhoshkumar.Konduru@datafactz.com,WFH,4-Nov-24,4-Nov-24,approved
+sireesha.medaramitla@datafactz.com,Leave,4-Nov-24,4-Nov-24,approved
+siva.tadepalli@datafactz.com,WFH,4-Nov-24,4-Nov-24,approved
+Srilakshmi.Dhammalapati@datafactz.com,WFH,4-Nov-24,4-Nov-24,approved
+srinivas.potharam@datafactz.com,WFH,4-Nov-24,4-Nov-24,approved
+swetha.dutpala@datafactz.com,WFH,4-Nov-24,4-Nov-24,approved
+syed.tahir@datafactz.com,Leave,4-Nov-24,4-Nov-24,approved
+hari.vemulapati@datafactz.com,Client Requirement,4-Nov-24,4-Nov-24,approved
+akash.galipelli@datafactz.com,Leave,5-Nov-24,5-Nov-24,approved
+anantha.chintalapati@datafactz.com,WFH,5-Nov-24,5-Nov-24,approved
+AnkithaPadmaPriya.Thirakala@datafactz.com,WFH,5-Nov-24,5-Nov-24,approved
+Arunsai.sadu@datafactz.com,Leave,5-Nov-24,5-Nov-24,approved
+bharatraj.saya@datafactz.com,WFH,5-Nov-24,5-Nov-24,approved
+bindu.konidina@datafactz.com,Leave,5-Nov-24,5-Nov-24,approved
+deepthi.pabba@datafactz.com,Sabbatical Leave,5-Nov-24,5-Nov-24,approved
+Gayathri.Dasari@datafactz.com,Leave,5-Nov-24,5-Nov-24,approved
+geeta.devabakthuni@datafactz.com,WFH,5-Nov-24,5-Nov-24,approved
+karthik.thanneeru@datafactz.com,Leave,5-Nov-24,5-Nov-24,approved
+kiran.aluru@datafactz.com,Leave,5-Nov-24,5-Nov-24,approved
+prasad.injeti@datafactz.com,Leave,5-Nov-24,5-Nov-24,approved
+prabodh.moganti@datafactz.com,WFH,5-Nov-24,5-Nov-24,approved
+praveen.vadde@datafactz.com,Client Requirement,5-Nov-24,5-Nov-24,approved
+priyanka.kosuru@datafactz.com,WFH,5-Nov-24,5-Nov-24,approved
+raman.gupta@datafactz.com,WFH,5-Nov-24,5-Nov-24,approved
+sireesha.medaramitla@datafactz.com,Client Requirement,5-Nov-24,5-Nov-24,approved
+siva.tadepalli@datafactz.com,WFH,5-Nov-24,5-Nov-24,approved
+Srilakshmi.Dhammalapati@datafactz.com,WFH,5-Nov-24,5-Nov-24,approved
+srinivas.potharam@datafactz.com,WFH,5-Nov-24,5-Nov-24,approved
+surya.pidugu@datafactz.com,WFH,5-Nov-24,5-Nov-24,approved
+vaishali.kumari@datafactz.com,Leave,5-Nov-24,5-Nov-24,approved
+hari.vemulapati@datafactz.com,Client Requirement,5-Nov-24,5-Nov-24,approved
+akash.galipelli@datafactz.com,Leave,6-Nov-24,6-Nov-24,approved
+anantha.chintalapati@datafactz.com,WFH,6-Nov-24,6-Nov-24,approved
+AnkithaPadmaPriya.Thirakala@datafactz.com,WFH,6-Nov-24,6-Nov-24,approved
+bharatraj.saya@datafactz.com,WFH,6-Nov-24,6-Nov-24,approved
+bindu.konidina@datafactz.com,WFH,6-Nov-24,6-Nov-24,approved
+deepthi.pabba@datafactz.com,Sabbatical Leave,6-Nov-24,6-Nov-24,approved
+karthik.thanneeru@datafactz.com,Leave,6-Nov-24,6-Nov-24,approved
+kiran.aluru@datafactz.com,Leave,6-Nov-24,6-Nov-24,approved
+prasad.injeti@datafactz.com,Leave,6-Nov-24,6-Nov-24,approved
+nikhilesh.narra@datafactz.com,Client Requirement,6-Nov-24,6-Nov-24,approved
+praveen.vadde@datafactz.com,Client Requirement,6-Nov-24,6-Nov-24,approved
+raman.gupta@datafactz.com,Leave,6-Nov-24,6-Nov-24,approved
+SaiKrishna.Arram@datafactz.com,WFH,6-Nov-24,6-Nov-24,approved
+saisreepath.garrepelli@datafactz.com,Leave,6-Nov-24,6-Nov-24,approved
+Santhoshkumar.Konduru@datafactz.com,Leave,6-Nov-24,6-Nov-24,approved
+shashi.parvathaneni@datafactz.com,WFH,6-Nov-24,6-Nov-24,approved
+siva.tadepalli@datafactz.com,WFH,6-Nov-24,6-Nov-24,approved
+Srilakshmi.Dhammalapati@datafactz.com,Leave,6-Nov-24,6-Nov-24,approved
+surya.pidugu@datafactz.com,WFH,6-Nov-24,6-Nov-24,approved
+hari.vemulapati@datafactz.com,Client Requirement,6-Nov-24,6-Nov-24,approved
+akash.galipelli@datafactz.com,Leave,7-Nov-24,7-Nov-24,approved
+anantha.chintalapati@datafactz.com,WFH,7-Nov-24,7-Nov-24,approved
+AnkithaPadmaPriya.Thirakala@datafactz.com,WFH,7-Nov-24,7-Nov-24,approved
+bharatraj.saya@datafactz.com,WFH,7-Nov-24,7-Nov-24,approved
+bindu.konidina@datafactz.com,WFH,7-Nov-24,7-Nov-24,approved
+deepthi.pabba@datafactz.com,Sabbatical Leave,7-Nov-24,7-Nov-24,approved
+karthik.thanneeru@datafactz.com,Leave,7-Nov-24,7-Nov-24,approved
+kiran.aluru@datafactz.com,Leave,7-Nov-24,7-Nov-24,approved
+nagadurga.reddy@datafactz.com,WFH,7-Nov-24,7-Nov-24,approved
+prabodh.moganti@datafactz.com,WFH,7-Nov-24,7-Nov-24,approved
+pranav.alle@datafactz.com,WFH,7-Nov-24,7-Nov-24,approved
+praveen.vadde@datafactz.com,Client Requirement,7-Nov-24,7-Nov-24,approved
+raman.gupta@datafactz.com,Leave,7-Nov-24,7-Nov-24,approved
+SaiKrishna.Arram@datafactz.com,WFH,7-Nov-24,7-Nov-24,approved
+saisreepath.garrepelli@datafactz.com,Leave,7-Nov-24,7-Nov-24,approved
+sireesha.medaramitla@datafactz.com,Client Requirement,7-Nov-24,7-Nov-24,approved
+Srilakshmi.Dhammalapati@datafactz.com,WFH,7-Nov-24,7-Nov-24,approved
+hari.vemulapati@datafactz.com,Client Requirement,7-Nov-24,7-Nov-24,approved
+akash.galipelli@datafactz.com,Leave,8-Nov-24,8-Nov-24,approved
+anantha.chintalapati@datafactz.com,WFH,8-Nov-24,8-Nov-24,approved
+AnkithaPadmaPriya.Thirakala@datafactz.com,Leave,8-Nov-24,8-Nov-24,approved
+Ashok.Devalla@datafactz.com,WFH,8-Nov-24,8-Nov-24,approved
+bharatraj.saya@datafactz.com,Leave,8-Nov-24,8-Nov-24,approved
+bharatraj.saya@datafactz.com,Leave,8-Nov-24,8-Nov-24,approved
+bindu.konidina@datafactz.com,WFH,8-Nov-24,8-Nov-24,approved
+deepthi.pabba@datafactz.com,Sabbatical Leave,8-Nov-24,8-Nov-24,approved
+geeta.devabakthuni@datafactz.com,WFH,8-Nov-24,8-Nov-24,approved
+karthik.thanneeru@datafactz.com,Leave,8-Nov-24,8-Nov-24,approved
+kiran.aluru@datafactz.com,Leave,8-Nov-24,8-Nov-24,approved
+mamatha.battu@datafactz.com,WFH,8-Nov-24,8-Nov-24,approved
+nikhilesh.narra@datafactz.com,Client Requirement,8-Nov-24,8-Nov-24,approved
+prabodh.moganti@datafactz.com,WFH,8-Nov-24,8-Nov-24,approved
+pranav.alle@datafactz.com,WFH,8-Nov-24,8-Nov-24,approved
+praveen.vadde@datafactz.com,Client Requirement,8-Nov-24,8-Nov-24,approved
+raman.gupta@datafactz.com,Leave,8-Nov-24,8-Nov-24,approved
+SaiKrishna.Arram@datafactz.com,Leave,8-Nov-24,8-Nov-24,approved
+saisreepath.garrepelli@datafactz.com,WFH,8-Nov-24,8-Nov-24,approved
+Srilakshmi.Dhammalapati@datafactz.com,Leave,8-Nov-24,8-Nov-24,approved
+vaishali.kumari@datafactz.com,Leave,8-Nov-24,8-Nov-24,approved
+hari.vemulapati@datafactz.com,Client Requirement,8-Nov-24,8-Nov-24,approved
+naren.nimmalabandari@datafactz.com,Compoff,9-Nov-24,9-Nov-24,approved
 hari.vemulapati@datafactz.com,Compoff,10-Nov-24,10-Nov-24,approved
 akhil.kota@datafactz.com,WFH,11-Nov-24,11-Nov-24,approved
 anand.karnati@datafactz.com,WFH,11-Nov-24,11-Nov-24,approved
@@ -4487,90 +4487,90 @@ karthik.thanneeru@datafactz.com,LOP,30-Nov-24,30-Nov-24,approved
 naren.nimmalabandari@datafactz.com,Compoff,30-Nov-24,30-Nov-24,approved
 hari.vemulapati@datafactz.com,Compoff,30-Nov-24,30-Nov-24,approved
 hari.vemulapati@datafactz.com,Compoff,30-Nov-24,30-Nov-24,approved
-akhil.kota@datafactz.com,WFH,02-Dec-24,02-Dec-24,approved
-bharatraj.saya@datafactz.com,WFH,02-Dec-24,02-Dec-24,approved
-deepthi.pabba@datafactz.com,Sabbatical Leave,02-Dec-24,02-Dec-24,approved
-nagadurga.reddy@datafactz.com,WFH,02-Dec-24,02-Dec-24,approved
-Rayala.Nandini@datafactz.com,WFH,02-Dec-24,02-Dec-24,approved
-naveen.battula@datafactz.com,Leave,02-Dec-24,02-Dec-24,approved
-nikhilesh.narra@datafactz.com,Client Requirement,02-Dec-24,02-Dec-24,approved
-praveen.vadde@datafactz.com,Client Requirement,02-Dec-24,02-Dec-24,approved
-priyanka.kosuru@datafactz.com,Leave,02-Dec-24,02-Dec-24,approved
-Sahithi.Madduluri@datafactz.com,Maternity Leave,02-Dec-24,02-Dec-24,approved
-Santhoshkumar.Konduru@datafactz.com,Leave,02-Dec-24,02-Dec-24,approved
-srinivas.potharam@datafactz.com,WFH,02-Dec-24,02-Dec-24,approved
-varaprasad.devarakonda@datafactz.com,WFH,02-Dec-24,02-Dec-24,approved
-hari.vemulapati@datafactz.com,Client Requirement,02-Dec-24,02-Dec-24,approved
-bharatraj.saya@datafactz.com,WFH,03-Dec-24,03-Dec-24,approved
-deepthi.pabba@datafactz.com,Sabbatical Leave,03-Dec-24,03-Dec-24,approved
-nagadurga.reddy@datafactz.com,Leave,03-Dec-24,03-Dec-24,approved
-Rayala.Nandini@datafactz.com,Leave,03-Dec-24,03-Dec-24,approved
-praveen.vadde@datafactz.com,Client Requirement,03-Dec-24,03-Dec-24,approved
-priyanka.kosuru@datafactz.com,Leave,03-Dec-24,03-Dec-24,approved
-sagar.rapolu@datafactz.com,WFH,03-Dec-24,03-Dec-24,approved
-Sahithi.Madduluri@datafactz.com,Maternity Leave,03-Dec-24,03-Dec-24,approved
-Santhoshkumar.Konduru@datafactz.com,Leave,03-Dec-24,03-Dec-24,approved
-sireesha.medaramitla@datafactz.com,Client Requirement,03-Dec-24,03-Dec-24,approved
-srinivas.potharam@datafactz.com,WFH,03-Dec-24,03-Dec-24,approved
-varaprasad.devarakonda@datafactz.com,WFH,03-Dec-24,03-Dec-24,approved
-hari.vemulapati@datafactz.com,Client Requirement,03-Dec-24,03-Dec-24,approved
-bharatraj.saya@datafactz.com,WFH,04-Dec-24,04-Dec-24,approved
-deepthi.pabba@datafactz.com,Sabbatical Leave,04-Dec-24,04-Dec-24,approved
-SaiVineel.Kolla@datafactz.com,Leave,04-Dec-24,04-Dec-24,approved
-Rayala.Nandini@datafactz.com,Leave,04-Dec-24,04-Dec-24,approved
-nikhilesh.narra@datafactz.com,Client Requirement,04-Dec-24,04-Dec-24,approved
-prabhakar.konakala@datafactz.com,Leave,04-Dec-24,04-Dec-24,approved
-prabodh.moganti@datafactz.com,Leave,04-Dec-24,04-Dec-24,approved
-praveen.vadde@datafactz.com,Client Requirement,04-Dec-24,04-Dec-24,approved
-priyanka.kosuru@datafactz.com,Leave,04-Dec-24,04-Dec-24,approved
-Sahithi.Madduluri@datafactz.com,Maternity Leave,04-Dec-24,04-Dec-24,approved
-shashi.parvathaneni@datafactz.com,WFH,04-Dec-24,04-Dec-24,approved
-srinivas.potharam@datafactz.com,WFH,04-Dec-24,04-Dec-24,approved
-varaprasad.devarakonda@datafactz.com,WFH,04-Dec-24,04-Dec-24,approved
-hari.vemulapati@datafactz.com,Client Requirement,04-Dec-24,04-Dec-24,approved
-anand.karnati@datafactz.com,WFH,05-Dec-24,05-Dec-24,approved
-AnkithaPadmaPriya.Thirakala@datafactz.com,WFH,05-Dec-24,05-Dec-24,approved
-bharatraj.saya@datafactz.com,WFH,05-Dec-24,05-Dec-24,approved
-deepthi.pabba@datafactz.com,Sabbatical Leave,05-Dec-24,05-Dec-24,approved
-Rayala.Nandini@datafactz.com,Leave,05-Dec-24,05-Dec-24,approved
-prabodh.moganti@datafactz.com,Leave,05-Dec-24,05-Dec-24,approved
-praveen.vadde@datafactz.com,Client Requirement,05-Dec-24,05-Dec-24,approved
-priyanka.kosuru@datafactz.com,Leave,05-Dec-24,05-Dec-24,approved
-Sahithi.Madduluri@datafactz.com,Maternity Leave,05-Dec-24,05-Dec-24,approved
-sireesha.medaramitla@datafactz.com,Client Requirement,05-Dec-24,05-Dec-24,approved
-hari.vemulapati@datafactz.com,Client Requirement,05-Dec-24,05-Dec-24,approved
-anand.karnati@datafactz.com,Leave,06-Dec-24,06-Dec-24,approved
-AnkithaPadmaPriya.Thirakala@datafactz.com,WFH,06-Dec-24,06-Dec-24,approved
-bharatraj.saya@datafactz.com,WFH,06-Dec-24,06-Dec-24,approved
-bindu.konidina@datafactz.com,Leave,06-Dec-24,06-Dec-24,approved
-deepthi.pabba@datafactz.com,Sabbatical Leave,06-Dec-24,06-Dec-24,approved
-geeta.devabakthuni@datafactz.com,Leave,06-Dec-24,06-Dec-24,approved
-Rayala.Nandini@datafactz.com,WFH,06-Dec-24,06-Dec-24,approved
-naren.nimmalabandari@datafactz.com,Client Requirement,06-Dec-24,06-Dec-24,approved
-prabhakar.konakala@datafactz.com,Leave,06-Dec-24,06-Dec-24,approved
-praveen.vadde@datafactz.com,Client Requirement,06-Dec-24,06-Dec-24,approved
-priyanka.kosuru@datafactz.com,Leave,06-Dec-24,06-Dec-24,approved
-Sahithi.Madduluri@datafactz.com,Maternity Leave,06-Dec-24,06-Dec-24,approved
-SaiKrishna.Arram@datafactz.com,Leave,06-Dec-24,06-Dec-24,approved
-saisreepath.garrepelli@datafactz.com,WFH,06-Dec-24,06-Dec-24,approved
-Santhoshkumar.Konduru@datafactz.com,Client Requirement,06-Dec-24,06-Dec-24,approved
-sireesha.medaramitla@datafactz.com,Leave,06-Dec-24,06-Dec-24,approved
-hari.vemulapati@datafactz.com,Client Requirement,06-Dec-24,06-Dec-24,approved
-akhil.kota@datafactz.com,Leave,09-Dec-24,09-Dec-24,approved
-anand.karnati@datafactz.com,Leave,09-Dec-24,09-Dec-24,approved
-AnkithaPadmaPriya.Thirakala@datafactz.com,WFH,09-Dec-24,09-Dec-24,approved
-bharatraj.saya@datafactz.com,WFH,09-Dec-24,09-Dec-24,approved
-deepthi.pabba@datafactz.com,Sabbatical Leave,09-Dec-24,09-Dec-24,approved
-SaiVineel.Kolla@datafactz.com,Leave,09-Dec-24,09-Dec-24,approved
-laya.nomula@datafactz.com,Leave,09-Dec-24,09-Dec-24,approved
-pavani.sreedharamalle@datafactz.com,Leave,09-Dec-24,09-Dec-24,approved
-praveen.vadde@datafactz.com,Client Requirement,09-Dec-24,09-Dec-24,approved
-RajeshKumar.Potharaju@datafactz.com,Leave,09-Dec-24,09-Dec-24,approved
-Sahithi.Madduluri@datafactz.com,Maternity Leave,09-Dec-24,09-Dec-24,approved
-naveen.tatavarthy@datafactz.com,WFH,09-Dec-24,09-Dec-24,approved
-Santhoshkumar.Konduru@datafactz.com,Client Requirement,09-Dec-24,09-Dec-24,approved
-sireesha.medaramitla@datafactz.com,Leave,09-Dec-24,09-Dec-24,approved
-hari.vemulapati@datafactz.com,Client Requirement,09-Dec-24,09-Dec-24,approved
+akhil.kota@datafactz.com,WFH,2-Dec-24,2-Dec-24,approved
+bharatraj.saya@datafactz.com,WFH,2-Dec-24,2-Dec-24,approved
+deepthi.pabba@datafactz.com,Sabbatical Leave,2-Dec-24,2-Dec-24,approved
+nagadurga.reddy@datafactz.com,WFH,2-Dec-24,2-Dec-24,approved
+Rayala.Nandini@datafactz.com,WFH,2-Dec-24,2-Dec-24,approved
+naveen.battula@datafactz.com,Leave,2-Dec-24,2-Dec-24,approved
+nikhilesh.narra@datafactz.com,Client Requirement,2-Dec-24,2-Dec-24,approved
+praveen.vadde@datafactz.com,Client Requirement,2-Dec-24,2-Dec-24,approved
+priyanka.kosuru@datafactz.com,Leave,2-Dec-24,2-Dec-24,approved
+Sahithi.Madduluri@datafactz.com,Maternity Leave,2-Dec-24,2-Dec-24,approved
+Santhoshkumar.Konduru@datafactz.com,Leave,2-Dec-24,2-Dec-24,approved
+srinivas.potharam@datafactz.com,WFH,2-Dec-24,2-Dec-24,approved
+varaprasad.devarakonda@datafactz.com,WFH,2-Dec-24,2-Dec-24,approved
+hari.vemulapati@datafactz.com,Client Requirement,2-Dec-24,2-Dec-24,approved
+bharatraj.saya@datafactz.com,WFH,3-Dec-24,3-Dec-24,approved
+deepthi.pabba@datafactz.com,Sabbatical Leave,3-Dec-24,3-Dec-24,approved
+nagadurga.reddy@datafactz.com,Leave,3-Dec-24,3-Dec-24,approved
+Rayala.Nandini@datafactz.com,Leave,3-Dec-24,3-Dec-24,approved
+praveen.vadde@datafactz.com,Client Requirement,3-Dec-24,3-Dec-24,approved
+priyanka.kosuru@datafactz.com,Leave,3-Dec-24,3-Dec-24,approved
+sagar.rapolu@datafactz.com,WFH,3-Dec-24,3-Dec-24,approved
+Sahithi.Madduluri@datafactz.com,Maternity Leave,3-Dec-24,3-Dec-24,approved
+Santhoshkumar.Konduru@datafactz.com,Leave,3-Dec-24,3-Dec-24,approved
+sireesha.medaramitla@datafactz.com,Client Requirement,3-Dec-24,3-Dec-24,approved
+srinivas.potharam@datafactz.com,WFH,3-Dec-24,3-Dec-24,approved
+varaprasad.devarakonda@datafactz.com,WFH,3-Dec-24,3-Dec-24,approved
+hari.vemulapati@datafactz.com,Client Requirement,3-Dec-24,3-Dec-24,approved
+bharatraj.saya@datafactz.com,WFH,4-Dec-24,4-Dec-24,approved
+deepthi.pabba@datafactz.com,Sabbatical Leave,4-Dec-24,4-Dec-24,approved
+SaiVineel.Kolla@datafactz.com,Leave,4-Dec-24,4-Dec-24,approved
+Rayala.Nandini@datafactz.com,Leave,4-Dec-24,4-Dec-24,approved
+nikhilesh.narra@datafactz.com,Client Requirement,4-Dec-24,4-Dec-24,approved
+prabhakar.konakala@datafactz.com,Leave,4-Dec-24,4-Dec-24,approved
+prabodh.moganti@datafactz.com,Leave,4-Dec-24,4-Dec-24,approved
+praveen.vadde@datafactz.com,Client Requirement,4-Dec-24,4-Dec-24,approved
+priyanka.kosuru@datafactz.com,Leave,4-Dec-24,4-Dec-24,approved
+Sahithi.Madduluri@datafactz.com,Maternity Leave,4-Dec-24,4-Dec-24,approved
+shashi.parvathaneni@datafactz.com,WFH,4-Dec-24,4-Dec-24,approved
+srinivas.potharam@datafactz.com,WFH,4-Dec-24,4-Dec-24,approved
+varaprasad.devarakonda@datafactz.com,WFH,4-Dec-24,4-Dec-24,approved
+hari.vemulapati@datafactz.com,Client Requirement,4-Dec-24,4-Dec-24,approved
+anand.karnati@datafactz.com,WFH,5-Dec-24,5-Dec-24,approved
+AnkithaPadmaPriya.Thirakala@datafactz.com,WFH,5-Dec-24,5-Dec-24,approved
+bharatraj.saya@datafactz.com,WFH,5-Dec-24,5-Dec-24,approved
+deepthi.pabba@datafactz.com,Sabbatical Leave,5-Dec-24,5-Dec-24,approved
+Rayala.Nandini@datafactz.com,Leave,5-Dec-24,5-Dec-24,approved
+prabodh.moganti@datafactz.com,Leave,5-Dec-24,5-Dec-24,approved
+praveen.vadde@datafactz.com,Client Requirement,5-Dec-24,5-Dec-24,approved
+priyanka.kosuru@datafactz.com,Leave,5-Dec-24,5-Dec-24,approved
+Sahithi.Madduluri@datafactz.com,Maternity Leave,5-Dec-24,5-Dec-24,approved
+sireesha.medaramitla@datafactz.com,Client Requirement,5-Dec-24,5-Dec-24,approved
+hari.vemulapati@datafactz.com,Client Requirement,5-Dec-24,5-Dec-24,approved
+anand.karnati@datafactz.com,Leave,6-Dec-24,6-Dec-24,approved
+AnkithaPadmaPriya.Thirakala@datafactz.com,WFH,6-Dec-24,6-Dec-24,approved
+bharatraj.saya@datafactz.com,WFH,6-Dec-24,6-Dec-24,approved
+bindu.konidina@datafactz.com,Leave,6-Dec-24,6-Dec-24,approved
+deepthi.pabba@datafactz.com,Sabbatical Leave,6-Dec-24,6-Dec-24,approved
+geeta.devabakthuni@datafactz.com,Leave,6-Dec-24,6-Dec-24,approved
+Rayala.Nandini@datafactz.com,WFH,6-Dec-24,6-Dec-24,approved
+naren.nimmalabandari@datafactz.com,Client Requirement,6-Dec-24,6-Dec-24,approved
+prabhakar.konakala@datafactz.com,Leave,6-Dec-24,6-Dec-24,approved
+praveen.vadde@datafactz.com,Client Requirement,6-Dec-24,6-Dec-24,approved
+priyanka.kosuru@datafactz.com,Leave,6-Dec-24,6-Dec-24,approved
+Sahithi.Madduluri@datafactz.com,Maternity Leave,6-Dec-24,6-Dec-24,approved
+SaiKrishna.Arram@datafactz.com,Leave,6-Dec-24,6-Dec-24,approved
+saisreepath.garrepelli@datafactz.com,WFH,6-Dec-24,6-Dec-24,approved
+Santhoshkumar.Konduru@datafactz.com,Client Requirement,6-Dec-24,6-Dec-24,approved
+sireesha.medaramitla@datafactz.com,Leave,6-Dec-24,6-Dec-24,approved
+hari.vemulapati@datafactz.com,Client Requirement,6-Dec-24,6-Dec-24,approved
+akhil.kota@datafactz.com,Leave,9-Dec-24,9-Dec-24,approved
+anand.karnati@datafactz.com,Leave,9-Dec-24,9-Dec-24,approved
+AnkithaPadmaPriya.Thirakala@datafactz.com,WFH,9-Dec-24,9-Dec-24,approved
+bharatraj.saya@datafactz.com,WFH,9-Dec-24,9-Dec-24,approved
+deepthi.pabba@datafactz.com,Sabbatical Leave,9-Dec-24,9-Dec-24,approved
+SaiVineel.Kolla@datafactz.com,Leave,9-Dec-24,9-Dec-24,approved
+laya.nomula@datafactz.com,Leave,9-Dec-24,9-Dec-24,approved
+pavani.sreedharamalle@datafactz.com,Leave,9-Dec-24,9-Dec-24,approved
+praveen.vadde@datafactz.com,Client Requirement,9-Dec-24,9-Dec-24,approved
+RajeshKumar.Potharaju@datafactz.com,Leave,9-Dec-24,9-Dec-24,approved
+Sahithi.Madduluri@datafactz.com,Maternity Leave,9-Dec-24,9-Dec-24,approved
+naveen.tatavarthy@datafactz.com,WFH,9-Dec-24,9-Dec-24,approved
+Santhoshkumar.Konduru@datafactz.com,Client Requirement,9-Dec-24,9-Dec-24,approved
+sireesha.medaramitla@datafactz.com,Leave,9-Dec-24,9-Dec-24,approved
+hari.vemulapati@datafactz.com,Client Requirement,9-Dec-24,9-Dec-24,approved
 akhil.kota@datafactz.com,Leave,10-Dec-24,10-Dec-24,approved
 anand.karnati@datafactz.com,Leave,10-Dec-24,10-Dec-24,approved
 bharatraj.saya@datafactz.com,WFH,10-Dec-24,10-Dec-24,approved
