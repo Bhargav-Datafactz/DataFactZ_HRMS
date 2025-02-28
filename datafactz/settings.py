@@ -31,7 +31,7 @@ env = environ.Env(
         "django-insecure-j8op9)1q8$1&0^s&p*_0%d#pr@w9qj@1o=3#@d=a(^@9@zd@%j",
     ),
     ALLOWED_HOSTS=(list, ["*"]),
-    CSRF_TRUSTED_ORIGINS=(list, ["http://localhost:8000"]),
+    CSRF_TRUSTED_ORIGINS=(list, ["http://localhost:8000"],),
 )
 
 env.read_env(os.path.join(BASE_DIR, ".env"), overwrite=True)
@@ -42,7 +42,11 @@ SECRET_KEY = env("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = env("DEBUG")
 
-ALLOWED_HOSTS = env("ALLOWED_HOSTS")
+#ALLOWED_HOSTS = env("ALLOWED_HOSTS") + ['10.1.51.67', '10.1.51.67:8001']
+ALLOWED_HOSTS = ['*']
+
+
+# CSRF settings
 
 # Application definition
 
@@ -83,11 +87,11 @@ MIDDLEWARE = [
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
     "corsheaders.middleware.CorsMiddleware",
-
+    "django.middleware.csrf.CsrfViewMiddleware",  # Ensure this is included
     
     "simple_history.middleware.HistoryRequestMiddleware",
     "django.middleware.locale.LocaleMiddleware",
-    "django.middleware.csrf.CsrfViewMiddleware",
+    #"django.middleware.csrf.CsrfViewMiddleware",
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
@@ -192,7 +196,7 @@ MESSAGE_TAGS = {
 
 
 CSRF_TRUSTED_ORIGINS = env("CSRF_TRUSTED_ORIGINS")
-
+#CSRF_TRUSTED_ORIGINS = [ "https://dfzhrms-byetabeqbwaxazhx.eastus2-01.azurewebsites.net"]
 LOGIN_URL = "/login"
 
 
@@ -248,11 +252,25 @@ if not DEBUG:
     SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-
+'''
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.getenv('DATABASE_PATH', os.path.join(BASE_DIR, 'db.sqlite4')),
     }
+} '''
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'mydb',           # Name of the database you created
+        'USER': 'bhargav',         # Your PostgreSQL user
+        'PASSWORD': 'admin123', # The password you set
+        'HOST': '10.1.51.67',      # Or the IP address of your Ubuntu VM if accessing remotely
+        'PORT': '5432',           # Default PostgreSQL port
+    }
 }
+
+
+
 

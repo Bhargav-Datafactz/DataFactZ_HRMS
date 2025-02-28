@@ -76,6 +76,7 @@ from datafactz.methods import get_datafactz_model_class
 from datafactz_audit.models import AuditTag
 from datafactz_widgets.widgets.datafactz_multi_select_field import DatafactzMultiSelectField
 from datafactz_widgets.widgets.select_widgets import DatafactzMultiSelectWidget
+from leave.models import LeaveRequest
 
 # your form here
 
@@ -2168,6 +2169,7 @@ class MailTemplateForm(ModelForm):
             "Candidate|Job position": "instance.get_job_position",
             "Candidate|Email": "instance.get_email",
             "Candidate|Interview Table": "instance.get_interview|safe",
+            "Leave Request Dates":"self.get_leave_request_dates()"
         }
         return mail_data
 

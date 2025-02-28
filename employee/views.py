@@ -2275,7 +2275,16 @@ def employee_work_information_delete(request, obj_id):
         messages.error(request, _("You cannot delete this Employee work information"))
 
     return redirect("/employee/employee-work-information-view")
-
+def normalize_email(email):
+    """Cleans and normalizes emails to prevent encoding mismatches."""
+    if not email:
+        return None
+    email = email.strip().lower()
+    email = unicodedata.normalize("NFKC", email)  # Normalize Unicode characters
+    email = re.sub(r'\s+', '', email)  # Remove spaces within
+    email = email.replace("\xa0", "")  # Remove non-breaking spaces
+    email = email.replace("\r", "").replace("\n", "")  # Remove newlines
+    return email
 
 @login_required
 @permission_required("employee.add_employee")
@@ -2296,6 +2305,7 @@ def employee_import(request):
                 phone = employee_dict["phone"]
                 email = employee_dict["email"]
                 employee_full_name = employee_dict["employee_full_name"]
+                email = normalize_email(email)
                 existing_user = User.objects.filter(username=email).first()
                 if existing_user is None:
                     employee_first_name = employee_full_name
@@ -2387,6 +2397,8 @@ def parse_date(date_str):
             continue
     return None
 
+
+
 @login_required
 @permission_required("employee.add_employee")
 def work_info_import(request):
@@ -2450,7 +2462,6 @@ def work_info_import(request):
         "Bank City":[], 
         "Bank Address":[],
     }
-
     # Export the DataFrame to an Excel file
     response = HttpResponse(content_type="application/ms-excel")
     response["Content-Disposition"] = 'attachment; filename="work_info_template.xlsx"'
@@ -2467,7 +2478,12 @@ def work_info_import(request):
         file = request.FILES["file"]
         file_extension = file.name.split(".")[-1].lower()
         data_frame = pd.read_csv(file, encoding="utf-8") if file_extension == "csv" else pd.read_excel(file,dtype=str)
+
+
         data_frame["Email"] = data_frame["Email"].astype(str).apply(normalize_email)
+        data_frame["Work Email"] = data_frame["Work Email"].astype(str).apply(normalize_email)  # Normalize Work Email
+        
+
         work_info_dicts = data_frame.to_dict("records")
         existing_badge_ids = set(Employee.objects.values_list("badge_id", flat=True))
         existing_usernames = set(User.objects.values_list("username", flat=True))
@@ -3581,13 +3597,5 @@ def employee_tag_update(request, tag_id):
     )
 
 
-def normalize_email(email):
-    """Cleans and normalizes emails to remove encoding issues."""
-    email = email.strip().lower()  # Trim spaces & lowercase
-    email = unicodedata.normalize("NFKC", email)  # Normalize Unicode
-    email = re.sub(r'\s+', '', email)  # Remove extra spaces within
-    email = email.replace("\xa0", "")  # Remove non-breaking spaces
-    email = email.replace("\r", "").replace("\n", "")  # Remove newlines
-    return email
 
 # Apply when reading from CSV/Excel

@@ -8,7 +8,7 @@ from datafactz_automations.views import cbvs, views
 
 urlpatterns = [
     path(
-        "configuration/mail-automations",
+        "configuration/mail-automations/",
         cbvs.AutomationSectionView.as_view(),
         name="mail-automations",
     ),

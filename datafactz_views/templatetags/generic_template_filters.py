@@ -12,9 +12,8 @@ import types
 from django import template
 from django.conf import settings
 from django.contrib.auth.context_processors import PermWrapper
-from django.db.models import Model
+from django.db.models.utils import AltersData
 from django.template.defaultfilters import register
-
 from datafactz.config import import_method
 from datafactz.datafactz_middlewares import _thread_locals
 
