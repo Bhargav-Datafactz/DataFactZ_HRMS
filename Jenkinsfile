@@ -17,6 +17,12 @@ pipeline {
                 sh "ls -la"  // Check if files are present
             }
         }
+        stage('Verify Repository Content') {
+            steps {
+                sh "ls -la"
+            }
+        }
+
 
         stage('Generate Docker Image Tag') {
             steps {
