@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         REPO_URL = "https://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@github.com/Bhargav-Datafactz/DataFactZ_HRMS.git"
-        BRANCH = "main"
+        BRANCH = "bhargav"
         DOCKER_IMAGE = "your-dockerhub-username/django-app"
         DOCKER_HUB_CREDENTIALS = "docker-hub-credentials"
         CONTAINER_NAME = "django-app"
