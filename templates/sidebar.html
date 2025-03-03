@@ -51,17 +51,20 @@ function initializeSummernote(candId,searchWords,) {
   class="oh-sidebar"
   style="position: -webkit-sticky; position: sticky; top: 0;height:100vh; overflow-x:hidden;"
 >
-<div class="oh-sidebar__company" style="padding: 0; display: flex; justify-content: center; align-items: center; height: 100px;">
-    {% if request.session.selected_company_instance %}
-        <img src="{{ request.session.selected_company_instance.icon }}" 
-             style="width: 90%; height: auto; border-radius: 3px; object-fit: cover;" 
-             alt="Company Logo" />
-    {% else %}
-        <img src="https://ui-avatars.com/api/?name=C&background=random" 
-             style="width: 90%; height: auto; border-radius: 3px; object-fit: cover;" 
-             alt="Default Avatar" />
-    {% endif %}
+<div class="oh-sidebar__company" style="display: flex; justify-content: center; align-items: center; height: 100px; padding: 5px;">
+  {% if request.session.selected_company_instance %}
+      <img id="company-logo" 
+           src="{{ request.session.selected_company_instance.icon }}" 
+           style="max-width: 90%; max-height: 90px; border-radius: 3px; object-fit: contain;" 
+           alt="Company Logo" />
+  {% else %}
+      <img id="company-logo" 
+           src="https://ui-avatars.com/api/?name=AC&background=random" 
+           style="max-width: 90%; max-height: 90px; border-radius: 3px; object-fit: contain;" 
+           alt="All Companies" />
+  {% endif %}
 </div>
+
   <div class="oh-sidebar__menu">
     <ul class="oh-sidebar__menu-items">
       <li
