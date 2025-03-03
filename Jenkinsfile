@@ -66,7 +66,8 @@ pipeline {
                 docker pull $IMAGE_TAG
 
                 # Run the Django app using Gunicorn
-                docker run -d --name $CONTAINER_NAME -p $PORT_MAPPING $IMAGE_TAG gunicorn --bind 0.0.0.0:8000 your_project.wsgi:application
+                docker run -d --name $CONTAINER_NAME -p $PORT_MAPPING $IMAGE_TAG gunicorn --bind 0.0.0.0:8000 datafactz.wsgi:application
+                
 
                 # Remove unused images to save space
                 docker image prune -f

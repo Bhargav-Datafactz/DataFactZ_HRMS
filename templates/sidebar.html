@@ -51,53 +51,17 @@ function initializeSummernote(candId,searchWords,) {
   class="oh-sidebar"
   style="position: -webkit-sticky; position: sticky; top: 0;height:100vh; overflow-x:hidden;"
 >
-<div class="oh-sidebar__company" style="padding: 14px">
+<div class="oh-sidebar__company" style="padding: 0; display: flex; justify-content: center; align-items: center; height: 100px;">
     {% if request.session.selected_company_instance %}
-    <span class="mr-3">
-      {% if not request.session.selected_company_instance %}
-      <img
-      src="https://ui-avatars.com/api/?name=C&background=random"
-      style="width: 34px; border-radius: 3px"
-      />
-      {% else %}
-      <img
-      src="{{request.session.selected_company_instance.icon}}"
-      style="width: 34px; border-radius: 3px"
-      />
-      {% endif %}
-    </span>
-    <div class="oh-sidebar__company-details">
-      <span class="oh-sidebar__company-title" style="font-size: 13px"
-      >{{request.session.selected_company_instance.company}}.</span
-      >
-      <a href="#" class="oh-sidebar__company-link" style="font-size: 10px"
-      >{% trans request.session.selected_company_instance.text %}</a
-      >
-    </div>
+        <img src="{{ request.session.selected_company_instance.icon }}" 
+             style="width: 90%; height: auto; border-radius: 3px; object-fit: cover;" 
+             alt="Company Logo" />
     {% else %}
-    <span class="mr-3">
-      {% if request.user.employee_get.employee_work_info.company_id.icon == None %}
-      <img
-      src="https://ui-avatars.com/api/?name=C&background=random"
-      style="width: 34px; border-radius: 3px"
-      />
-      {% else %}
-      <img
-      src="{{request.user.employee_get.employee_work_info.company_id.icon.url}}"
-      style="width: 34px; border-radius: 3px"
-      />
-      {% endif %}
-    </span>
-    <div class="oh-sidebar__company-details">
-      <span class="oh-sidebar__company-title" style="font-size: 13px"
-      >{{request.user.employee_get.employee_work_info.company_id}}.</span
-      >
-      <a href="#" class="oh-sidebar__company-link" style="font-size: 10px"
-      >{% trans "My Company" %}</a
-      >
-    </div>
+        <img src="https://ui-avatars.com/api/?name=C&background=random" 
+             style="width: 90%; height: auto; border-radius: 3px; object-fit: cover;" 
+             alt="Default Avatar" />
     {% endif %}
-  </div>
+</div>
   <div class="oh-sidebar__menu">
     <ul class="oh-sidebar__menu-items">
       <li

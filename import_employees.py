@@ -299,5 +299,5 @@ if __name__ == "__main__":
     leave_file = sys.argv[1]
     #import_employees(employee_file)
     
-    #import_leave_history(leave_file)
-    import_leave_allocation(leave_file)
+    import_leave_history(leave_file)
+    #import_leave_allocation(leave_file)
