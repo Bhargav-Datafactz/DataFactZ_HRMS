@@ -39,11 +39,18 @@ pipeline {
             }
         }
 
+        }
+        stage('collect static files'){
+            steps{
+                sh"docker run --rm $IMAGE_TAG python manage.py collectstatic --noinput"
+            }
+        }
+        
         stage('Run Django Migrations') {
             steps {
                 sh "docker run --rm $IMAGE_TAG python manage.py migrate"
             }
-        }
+
 
         stage('Push Docker Image to Docker Hub') {
             steps {
