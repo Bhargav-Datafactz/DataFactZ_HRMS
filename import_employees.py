@@ -70,13 +70,13 @@ def import_employees(employee_file):
             if "employee_full_name" in row and row["employee_full_name"]:
                 names = row["employee_full_name"].strip().split(" ", 1)
           
-                first_name = names[0]
-                last_name = names[1] if len(names) > 1 else ""
+                employee_first_name = names[0]
+                employee_last_name = names[1] if len(names) > 1 else ""
             else:
-                first_name = row.get("first name", "").strip()
-                last_name = row.get("last name", "").strip()
+                employee_first_name = row.get("employee_first_name", "").strip()
+                employee_last_name = row.get("employee_last_name", "").strip()
 
-            if not first_name:
+            if not employee_first_name:
                 raise ValueError(f"Missing employee first name for email {row['email']}")
               
             employee, created = Employee.objects.update_or_create(
@@ -93,8 +93,8 @@ def import_employees(employee_file):
                     "state": row.get("state"),
                     "city": row.get("city"),
                     "zip": row.get("zip"),
-                    "first_name":row.get("first_name"),
-                    "last_name":row.get("last_name"),
+                    "employee_first_name":row.get("employee_first_name"),
+                    "employee_last_name":row.get("employee_last_name"),
                 },
             )
               
@@ -119,7 +119,7 @@ def import_leave_history(csv_file_path):
     from django.db import transaction
 
     try:
-        data = pd.read_excel(csv_file_path, dtype=str).fillna("")
+        data = pd.read_csv(csv_file_path, dtype=str).fillna("")
      
 
     except Exception as e:
@@ -177,6 +177,13 @@ def import_leave_history(csv_file_path):
         status = row.get("status", "").strip().lower() or "pending"
         start_date_breakdown = row.get("start_date_breakdown", "full_day").strip().lower().replace(" ", "_")[:30]
         end_date_breakdown = row.get("end_date_breakdown", "full_day").strip().lower().replace(" ", "_")[:30]
+                # ✅ Extract `requested_days` directly from the file
+        try:
+            requested_days = float(row.get("requested_days", 0) or 0)
+        except ValueError:
+            print(f"Skipping row {index+1}: Invalid requested_days value '{row.get('requested_days')}'.")
+            continue
+
 
         # Create a composite key based on email and leave type (as a name), plus dates.
         key = f"{email}-{leave_type_name}-{start_date}-{end_date}"
@@ -189,6 +196,7 @@ def import_leave_history(csv_file_path):
             "status": status,
             "start_breakdown": start_date_breakdown,
             "end_breakdown": end_date_breakdown,
+            "requested_days": requested_days,
             "row_index": index + 1,  # For logging
         })
 
@@ -213,7 +221,8 @@ def import_leave_history(csv_file_path):
             lr.status = row["status"]
             #lr.start_date_breakdown = row["start_date_breakdown"]
             #lr.end_date_breakdown = row["end_date_breakdown"]
-            update_leave_requests.append(lr)
+            #lr.requested_days = row["requested_days"]
+            
         else:
             lr = LeaveRequest(
                 employee_id=row["employee"],
@@ -224,7 +233,7 @@ def import_leave_history(csv_file_path):
             
                 start_date_breakdown = row.get("start_date_breakdown", "full_day").strip().lower().replace(" ", "_")[:30],
                 end_date_breakdown = row.get("end_date_breakdown", "full_day").strip().lower().replace(" ", "_")[:30],
-
+                requested_days=row["requested_days"],
 
             )
             new_leave_requests.append(lr)
@@ -236,8 +245,8 @@ def import_leave_history(csv_file_path):
         if update_leave_requests:
             LeaveRequest.objects.bulk_update(
                 update_leave_requests,
-                ["status", "start_date_breakdown", "end_date_breakdown"],
-                batch_size=1000
+                ["status", "start_date_breakdown", "end_date_breakdown","requested_days"],
+                batch_size=5400
             )
     
     total_processed = len(new_leave_requests) + len(update_leave_requests)
@@ -299,5 +308,5 @@ if __name__ == "__main__":
     leave_file = sys.argv[1]
     #import_employees(employee_file)
     
-    import_leave_history(leave_file)
-    #import_leave_allocation(leave_file)
+    #import_leave_history(leave_file)
+    import_leave_allocation(leave_file)

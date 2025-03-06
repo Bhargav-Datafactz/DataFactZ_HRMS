@@ -2575,8 +2575,8 @@ def work_info_import(request):
                 emergency_contact = work_info.get("Emergency Contact", "")
                 emergency_contact_name = work_info.get("Emergency Contact Name", "")
                 emergency_contact_relation = work_info.get("Emergency Contact Relation", "")
-                employee_first_name = work_info.get("first name","")
-                employee_last_name = work_info.get("last name","")
+                employee_first_name = work_info.get("employee_first_name","")
+                employee_last_name = work_info.get("employee_last_name","")
                 '''
                 dob = work_info["dob"]
                 try:

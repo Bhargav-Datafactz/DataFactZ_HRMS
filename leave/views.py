@@ -487,11 +487,13 @@ def leave_request_creation(request, type_id=None, emp_id=None):
                     )
                 form = LeaveRequestCreationForm()
                 if referer_parts[-2] == "employee-view":
-                    return HttpResponse("<script>window.location.reload();</script>")
+                    return JsonResponse({'success': True, 'message': _("Leave request created successfully.")})
+                    #return HttpResponse("<script>window.location.reload();</script>")
 
             leave_requests = LeaveRequest.objects.all()
             if len(leave_requests) == 1:
-                return HttpResponse("<script>window.location.reload()</script>")
+                return JsonResponse({'success': True, 'message': _("Leave request created successfully.")})
+                #return HttpResponse("<script>window.location.reload()</script>")
     referrer = request.META.get("HTTP_REFERER", "")
     referrer = "/" + "/".join(referrer.split("/")[3:])
     if referrer == "/":

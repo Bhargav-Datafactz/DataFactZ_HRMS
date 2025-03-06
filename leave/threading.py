@@ -46,6 +46,7 @@ class LeaveMailSendThread(Thread):
                         "protocol": protocol,
                         "subject": subject,
                         "content": content,
+                        "leave_request": self.leave_request,
                     },
                 )
 

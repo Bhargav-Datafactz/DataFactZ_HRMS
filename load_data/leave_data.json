@@ -56,7 +56,7 @@
       "reset_day": "1",
       "reset_weekend": null,
       "carryforward_type": "carryforward",
-      "carryforward_max": Infinity,
+      "carryforward_max": null,
       "carryforward_expire_in": null,
       "carryforward_expire_period": null,
       "require_approval": "yes",
