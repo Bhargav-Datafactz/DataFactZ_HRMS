@@ -164,7 +164,8 @@ def leave_type_view(request):
     if not queryset.exists():
         template_name = "leave/leave_type/leave_type_empty_view.html"
     else:
-        template_name = "leave/leave_type/leave_type_view.html"
+        template_name =  "leave/leave_type/leave_type_view.html"
+        #emplate_name = "leave/leave_request/leave_request_form.html",
     return render(
         request,
         template_name,
@@ -486,14 +487,14 @@ def leave_request_creation(request, type_id=None, emp_id=None):
                         redirect=reverse("request-view") + f"?id={leave_request.id}",
                     )
                 form = LeaveRequestCreationForm()
+                
                 if referer_parts[-2] == "employee-view":
-                    return JsonResponse({'success': True, 'message': _("Leave request created successfully.")})
-                    #return HttpResponse("<script>window.location.reload();</script>")
-
+                    return HttpResponse("<script>window.location.reload();</script>")
+             
             leave_requests = LeaveRequest.objects.all()
             if len(leave_requests) == 1:
-                return JsonResponse({'success': True, 'message': _("Leave request created successfully.")})
-                #return HttpResponse("<script>window.location.reload()</script>")
+                return HttpResponse("<script>window.location.reload()</script>")
+            
     referrer = request.META.get("HTTP_REFERER", "")
     referrer = "/" + "/".join(referrer.split("/")[3:])
     if referrer == "/":
@@ -1325,7 +1326,6 @@ def leave_assign_view(request):
             "available_leave_ids": available_leave_ids,
         },
     )
-
 
 @login_required
 @hx_request_required

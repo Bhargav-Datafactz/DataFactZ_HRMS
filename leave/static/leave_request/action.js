@@ -609,9 +609,10 @@ $("#userrequestbulkDelete").click(function (e) {
             },
             success: function (response, textStatus, jqXHR) {
               if (jqXHR.status === 200) {
-                location.reload();
+                window.location.href = "/leave/request-view";
               } else {
               }
+              
             },
           });
         }

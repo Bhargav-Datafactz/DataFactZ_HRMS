@@ -6,7 +6,11 @@ from django.core.mail import EmailMessage
 from django.db.models import Q
 from django.template.loader import render_to_string
 from django.utils.translation import gettext as _
+from employee.models import Employee
 
+import os
+from email.mime.image import MIMEImage
+from django.conf import settings
 from base.backends import ConfiguredEmailBackend
 
 logger = logging.getLogger(__name__)
@@ -27,10 +31,10 @@ class LeaveMailSendThread(Thread):
         display_email_name = email_backend.dynamic_from_email_with_display_name
         if self.request:
             try:
-                display_email_name = f"{self.request.user.employee_get.get_full_name()} <{self.request.user.employee_get.email}>"
+                display_email_name = f"{self.request.get_employee_full_name()} <{self.request.user.employee_get.email}>"
             except:
                 logger.error(Exception)
-
+        
         host = self.host
         protocol = self.protocol
         if leave_request_id != "#":
@@ -47,6 +51,8 @@ class LeaveMailSendThread(Thread):
                         "subject": subject,
                         "content": content,
                         "leave_request": self.leave_request,
+                        "company_icon": self.request.user.employee_get.get_company().icon,
+                        "leave_type_icon": self.leave_request.leave_type_id.icon,
                     },
                 )
 
@@ -58,6 +64,13 @@ class LeaveMailSendThread(Thread):
                     reply_to=[display_email_name],
                 )
                 email.content_subtype = "html"
+                 # Attach the image
+                image_path = os.path.join(settings.STATIC_ROOT, "images/ui/auth-logo.png")
+                with open(image_path, "rb") as img:
+                    msg_img = MIMEImage(img.read())
+                    msg_img.add_header("Content-ID", "<unique_image_id>")
+                    email.attach(msg_img)
+
                 try:
                     email.send()
                 except:
@@ -73,6 +86,8 @@ class LeaveMailSendThread(Thread):
 
             content_manager = f"This is to inform you that a leave request has been requested by {owner}. Take the necessary actions for the leave request. Should you have any additional information or updates, please feel free to communicate directly with the {owner}."
             subject_manager = f"Leave request has been requested by {owner}"
+            #image_url = f"{self.protocol}://{self.host}/{self.leave_request.employee_id.get_company.icon}"
+            #print(f"Image URL: {image_url}")  # Log the image URL
 
             self.send_email(
                 subject_manager,
