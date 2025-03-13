@@ -13,6 +13,7 @@
       <th scope="col">{% trans "Days" %}</th>
       <th scope="col">{% trans "Extra Days" %}</th>
       <th scope="col">{% trans "Status" %}</th>
+      <th scope="col">{% trans "Leaves Taken From Jan to Till Date" %}</th>
     </tr>
   </thead>
   <tbody>
@@ -22,6 +23,7 @@
       <td>{{leave_req.leave_type_id}}</td>
       <td>{{leave_req.leave_start_date|date:'d/m/Y'}}</td>
       <td>{{leave_req.leave_end_date|date:'d/m/Y'}}</td>
+      <td>{{ leave_assign.period_leaves_taken }}</td>
       <td>{{leave_req.leave_available_days}}</td>
       <td>{{leave_req.leave_extra_days}}</td>
       {% for choice in choices %} {% if choice.0 == leave_req.leave_status%}

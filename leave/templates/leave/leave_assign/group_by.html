@@ -59,16 +59,19 @@
                     {% trans "Leave Type" %}
                   </div>
                   <div class="oh-sticky-table__th">
-                    {% trans "Available Days" %}
+                    {% trans "Earned Leave Days" %}
                   </div>
                   <div class="oh-sticky-table__th">
                     {% trans "Carryforward Days" %}
+                  </div>                 
+                  <div class="oh-sticky-table__th">
+                    {% trans "Total Avail Leave Days" %}
                   </div>
                   <div class="oh-sticky-table__th">
-                    {% trans "Total Leave Days" %}
-                  </div>
+                    {% trans "Leaves Taken from Jan to till date" %}
+                  </div> 
                   <div class="oh-sticky-table__th">
-                    {% trans "Used Leave Days" %}
+                    {% trans "Total Used Leave Days" %}
                   </div>
                   <div class="oh-sticky-table__th">
                     {% trans "Assigned Date" %}
@@ -133,6 +136,9 @@
                       {% trans "No Limit" %}
                     {% endif %}
                   </div>
+                  <div class="oh-sticky-table__td">
+                    {{available_leave.period_leaves_taken}}
+                  </div>                  
                   <div class="oh-sticky-table__td">
                     {{available_leave.leave_taken}}
                   </div>

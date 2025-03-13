@@ -113,6 +113,11 @@
                 >{% trans "Carryforward Leave Days" %} :
                 {{user_leave.carryforward_days}}</span
               ><br />
+              <span class="oh-kanban-card__subtitle">
+                {% trans "Leaves Taken This Period" %} :
+                {{ user_leave.period_leaves_taken }}
+              </span>
+              ><br />
               <span class="oh-kanban-card__subtitle"
                 >{% trans "Total Leave Days" %} :
                 {% if user_leave.leave_type_id.limit_leave %}{{user_leave.total_leave_days}}{% else %}{% trans "No Limit" %}{% endif %}</span
@@ -168,6 +173,10 @@
               <span class="oh-kanban-card__subtitle"
                 >{% trans "Carryforward Leave Days" %} :
                 {{employee_leave.carryforward_days}}</span
+              ><br />
+              <span class="oh-kanban-card__subtitle">
+                {% trans "Leaves Taken From Jan to Till Date" %} :
+                {{ user_leave.period_leaves_taken }}</span>
               ><br />
               <span class="oh-kanban-card__subtitle"
                 >{% trans "Total Leave Days" %} :

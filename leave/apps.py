@@ -9,6 +9,7 @@ class LeaveConfig(AppConfig):
         from django.urls import include, path
 
         from datafactz.urls import urlpatterns
+        from leave import scheduler
 
         urlpatterns.append(
             path("leave/", include("leave.urls")),

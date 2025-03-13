@@ -37,7 +37,6 @@ from datafactz_audit.methods import get_diff
 from datafactz_audit.models import DatafactzAuditInfo, DatafactzAuditLog
 from leave.methods import calculate_requested_days
 from leave.threading import LeaveClashThread
-
 logger = logging.getLogger(__name__)
 
 operator_mapping = {
@@ -167,7 +166,7 @@ class LeaveType(DatafactzModel):
     count = models.FloatField(null=True, default=1)
     period_in = models.CharField(max_length=30, choices=TIME_PERIOD, default="day")
     limit_leave = models.BooleanField(default=True)
-    total_days = models.FloatField(null=True, default=1)
+    total_days = models.FloatField(null=True, default=5.5)
     reset = models.BooleanField(default=False)
     is_encashable = models.BooleanField(default=False, verbose_name=_("Is encashable"))
     reset_based = models.CharField(
@@ -338,11 +337,12 @@ class AvailableLeave(DatafactzModel):
         null=True,
         verbose_name=_("Leave type"),
     )
-    available_days = models.FloatField(default=0, verbose_name=_("Available Days"))
+    available_days = models.FloatField(default=5.5, verbose_name=_("Available Days"))
     carryforward_days = models.FloatField(
         default=0, verbose_name=_("Carryforward Days")
     )
     total_leave_days = models.FloatField(default=0, verbose_name=_("Total Leave Days"))
+    period_leaves_taken = models.FloatField(default=0, verbose_name=_("Leaves Taken in Current Period"))
     assigned_date = models.DateField(
         default=timezone.now, verbose_name=_("Assigned Date")
     )
