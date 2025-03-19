@@ -10,8 +10,8 @@ today = datetime.now()
 
 def leave_reset():
     from leave.models import LeaveType
-    print(f"leave_reset() function executed at {datetime.now()}") 
-    today_date = today.date()
+    print(f"leave_reset() function executed at {datetime.now()}")
+    today_date = datetime.now().date()
     leave_types = LeaveType.objects.filter(reset=True)
 
     # Looping through filtered leave types with reset is true

@@ -166,7 +166,7 @@ class LeaveType(DatafactzModel):
     count = models.FloatField(null=True, default=1)
     period_in = models.CharField(max_length=30, choices=TIME_PERIOD, default="day")
     limit_leave = models.BooleanField(default=True)
-    total_days = models.FloatField(null=True, default=5.5)
+    total_days = models.FloatField(null=True, default=1)
     reset = models.BooleanField(default=False)
     is_encashable = models.BooleanField(default=False, verbose_name=_("Is encashable"))
     reset_based = models.CharField(
@@ -337,7 +337,11 @@ class AvailableLeave(DatafactzModel):
         null=True,
         verbose_name=_("Leave type"),
     )
-    available_days = models.FloatField(default=5.5, verbose_name=_("Available Days"))
+    allotted_leaves = models.FloatField(
+        default=0,
+        verbose_name=_("Allotted Leaves (non-deductible)")
+    )
+    available_days = models.FloatField(default=0, verbose_name=_("Available Days"))
     carryforward_days = models.FloatField(
         default=0, verbose_name=_("Carryforward Days")
     )
@@ -484,6 +488,11 @@ class AvailableLeave(DatafactzModel):
                     assigned_date=self.assigned_date, available_leave=self
                 )
                 self.expired_date = expired_date
+        self.allotted_leaves = self.leave_type_id.total_days
+        #self.available_days = float(self.allotted_leaves or 0)
+
+        base_available = float(self.allotted_leaves or 0)
+        self.available_days = max(base_available - self.period_leaves_taken, 0)
 
         self.total_leave_days = max(self.available_days + self.carryforward_days, 0)
         self.carryforward_days = max(self.carryforward_days, 0)
